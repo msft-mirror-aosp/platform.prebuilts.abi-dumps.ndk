@@ -1,5 +1,3 @@
-<<<<<<< HEAD   (7fba72 [automerger skipped] DO NOT MERGE - Empty merge qt-qpr1-dev-)
-=======
 {
  "array_types" :
  [
@@ -2617,4 +2615,3 @@
  ],
  "rvalue_reference_types" : []
 }
->>>>>>> CHANGE (60596c Updating platform SDK version for R)

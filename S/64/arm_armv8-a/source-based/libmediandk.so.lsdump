@@ -27795,7 +27795,7 @@
    "referenced_type" : "_ZTIKN7android2ui4SizeE",
    "self_type" : "_ZTIRKN7android2ui4SizeE",
    "size" : 4,
-   "source_file" : "frameworks/native/libs/ui/include/ui/Size.h"
+   "source_file" : "frameworks/native/libs/ui/include/ui/Rect.h"
   },
   {
    "alignment" : 4,
@@ -38309,6 +38309,15 @@
    "self_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPNSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
+   "name" : "std::basic_ostream<char, std::char_traits<char>> *",
+   "referenced_type" : "_ZTINSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
+   "self_type" : "_ZTIPNSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include/ui/Size.h"
   },
   {
    "alignment" : 4,
@@ -50681,6 +50690,10 @@
     {
      "is_pure" : true,
      "mangled_component_name" : "_ZN7android15IMediaExtractor13setEntryPointENS0_10EntryPointE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IMediaExtractor13setPlaybackIdERKNS_7String8E"
     },
     {
      "mangled_component_name" : "_ZN7android11BnInterfaceINS_15IMediaExtractorEE19queryLocalInterfaceERKNS_8String16E"
@@ -70860,15 +70873,6 @@
    "self_type" : "_ZTION7android9FenceTime8SnapshotE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/ui/include/ui/FenceTime.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIOi",
-   "name" : "int &&",
-   "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIOi",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/ui/include/ui/Size.h"
   }
  ]
 }

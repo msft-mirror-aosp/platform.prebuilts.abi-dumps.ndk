@@ -1,0 +1,190 @@
+<abi-corpus version='2.1' architecture='elf-arm' soname='libOpenSLES.so'>
+  <elf-needed>
+    <dependency name='libwilhelm.so'/>
+    <dependency name='liblog.so'/>
+    <dependency name='libnativewindow.so'/>
+    <dependency name='libc++.so'/>
+    <dependency name='libc.so'/>
+    <dependency name='libm.so'/>
+    <dependency name='libdl.so'/>
+  </elf-needed>
+  <elf-function-symbols>
+    <elf-symbol name='slCreateEngine' version='LIBOPENSLES' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='slQueryNumSupportedEngineInterfaces' version='LIBOPENSLES' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='slQuerySupportedEngineInterfaces' version='LIBOPENSLES' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+  </elf-function-symbols>
+  <elf-variable-symbols>
+    <elf-symbol name='SL_IID_3DCOMMIT' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_3DDOPPLER' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_3DGROUPING' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_3DLOCATION' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_3DMACROSCOPIC' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_3DSOURCE' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_ANDROIDBUFFERQUEUESOURCE' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_ANDROIDCONFIGURATION' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_ANDROIDEFFECT' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_ANDROIDEFFECTCAPABILITIES' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_ANDROIDEFFECTSEND' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_ANDROIDSIMPLEBUFFERQUEUE' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_AUDIODECODERCAPABILITIES' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_AUDIOENCODER' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_AUDIOENCODERCAPABILITIES' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_AUDIOIODEVICECAPABILITIES' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_BASSBOOST' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_BUFFERQUEUE' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_DEVICEVOLUME' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_DYNAMICINTERFACEMANAGEMENT' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_DYNAMICSOURCE' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_EFFECTSEND' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_ENGINE' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_ENGINECAPABILITIES' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_ENVIRONMENTALREVERB' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_EQUALIZER' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_LED' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_METADATAEXTRACTION' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_METADATATRAVERSAL' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_MIDIMESSAGE' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_MIDIMUTESOLO' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_MIDITEMPO' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_MIDITIME' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_MUTESOLO' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_NULL' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_OBJECT' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_OUTPUTMIX' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_PITCH' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_PLAY' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_PLAYBACKRATE' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_PREFETCHSTATUS' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_PRESETREVERB' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_RATEPITCH' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_RECORD' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_SEEK' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_THREADSYNC' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_VIBRA' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_VIRTUALIZER' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_VISUALIZATION' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='SL_IID_VOLUME' size='4' version='LIBOPENSLES' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+  </elf-variable-symbols>
+  <abi-instr address-size='32' language='LANG_C_plus_plus_14' path='various'>
+    <type-decl name='unsigned char' size-in-bits='8' id='002ac4a6'/>
+    <typedef-decl name='SLObjectItf' type-id='d51a2b73' id='0a028e19'/>
+    <qualified-type-def type-id='b26c12b9' const='yes' id='0e602000'/>
+    <typedef-decl name='SLboolean' type-id='977c976e' id='16edf951'/>
+    <typedef-decl name='SLuint16' type-id='6ac13ba0' id='1b81e468'/>
+    <class-decl name='SLObjectItf_' is-struct='yes' visibility='default' is-declaration-only='yes' id='3a53ea33'/>
+    <pointer-type-def type-id='0a028e19' size-in-bits='32' id='4048d584'/>
+    <qualified-type-def type-id='d0db61f8' const='yes' id='4376da8b'/>
+    <qualified-type-def type-id='c722ca1c' const='yes' id='481d984c'/>
+    <typedef-decl name='SLInterfaceID' type-id='cb52a21e' id='4a9015cf'/>
+    <array-type-def dimensions='1' type-id='d8b0dfc9' size-in-bits='48' id='59f19a96'>
+      <subrange length='6' type-id='7ff19f0f' id='52fa524b'/>
+    </array-type-def>
+    <typedef-decl name='sl_uint16_t' type-id='8efea9e5' id='6ac13ba0'/>
+    <type-decl name='__ARRAY_SIZE_TYPE__' size-in-bits='64' id='7ff19f0f'/>
+    <pointer-type-def type-id='bcb3605f' size-in-bits='32' id='8360d82f'/>
+    <typedef-decl name='sl_uint32_t' type-id='f0981eeb' id='83ca31e6'/>
+    <type-decl name='unsigned short int' size-in-bits='16' id='8efea9e5'/>
+    <typedef-decl name='SLuint32' type-id='83ca31e6' id='977c976e'/>
+    <pointer-type-def type-id='ee6cdf61' size-in-bits='32' id='a0638311'/>
+    <pointer-type-def type-id='977c976e' size-in-bits='32' id='abb568e7'/>
+    <class-decl name='SLInterfaceID_' size-in-bits='128' is-struct='yes' visibility='default' id='b26c12b9'>
+      <data-member access='public' layout-offset-in-bits='0'>
+        <var-decl name='time_low' type-id='977c976e' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='32'>
+        <var-decl name='time_mid' type-id='1b81e468' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='48'>
+        <var-decl name='time_hi_and_version' type-id='1b81e468' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='64'>
+        <var-decl name='clock_seq' type-id='1b81e468' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='80'>
+        <var-decl name='node' type-id='59f19a96' visibility='default'/>
+      </data-member>
+    </class-decl>
+    <qualified-type-def type-id='4a9015cf' const='yes' id='bcb3605f'/>
+    <typedef-decl name='sl_uint8_t' type-id='002ac4a6' id='be940417'/>
+    <typedef-decl name='SLresult' type-id='977c976e' id='c3dfaefa'/>
+    <qualified-type-def type-id='3a53ea33' const='yes' id='c5fa3102'/>
+    <typedef-decl name='SLEngineOption' type-id='e461208a' id='c722ca1c'/>
+    <pointer-type-def type-id='0e602000' size-in-bits='32' id='cb52a21e'/>
+    <pointer-type-def type-id='c5fa3102' size-in-bits='32' id='d0db61f8'/>
+    <pointer-type-def type-id='4376da8b' size-in-bits='32' id='d51a2b73'/>
+    <typedef-decl name='SLuint8' type-id='be940417' id='d8b0dfc9'/>
+    <class-decl name='SLEngineOption_' is-struct='yes' visibility='default' is-declaration-only='yes' id='e461208a'/>
+    <pointer-type-def type-id='481d984c' size-in-bits='32' id='ec96e892'/>
+    <qualified-type-def type-id='16edf951' const='yes' id='ee6cdf61'/>
+    <type-decl name='unsigned int' size-in-bits='32' id='f0981eeb'/>
+    <pointer-type-def type-id='4a9015cf' size-in-bits='32' id='faf8c18a'/>
+    <var-decl name='SL_IID_3DCOMMIT' type-id='bcb3605f' mangled-name='SL_IID_3DCOMMIT' visibility='default' elf-symbol-id='SL_IID_3DCOMMIT@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_3DDOPPLER' type-id='bcb3605f' mangled-name='SL_IID_3DDOPPLER' visibility='default' elf-symbol-id='SL_IID_3DDOPPLER@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_3DGROUPING' type-id='bcb3605f' mangled-name='SL_IID_3DGROUPING' visibility='default' elf-symbol-id='SL_IID_3DGROUPING@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_3DLOCATION' type-id='bcb3605f' mangled-name='SL_IID_3DLOCATION' visibility='default' elf-symbol-id='SL_IID_3DLOCATION@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_3DMACROSCOPIC' type-id='bcb3605f' mangled-name='SL_IID_3DMACROSCOPIC' visibility='default' elf-symbol-id='SL_IID_3DMACROSCOPIC@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_3DSOURCE' type-id='bcb3605f' mangled-name='SL_IID_3DSOURCE' visibility='default' elf-symbol-id='SL_IID_3DSOURCE@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_ANDROIDBUFFERQUEUESOURCE' type-id='bcb3605f' mangled-name='SL_IID_ANDROIDBUFFERQUEUESOURCE' visibility='default' elf-symbol-id='SL_IID_ANDROIDBUFFERQUEUESOURCE@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_ANDROIDCONFIGURATION' type-id='bcb3605f' mangled-name='SL_IID_ANDROIDCONFIGURATION' visibility='default' elf-symbol-id='SL_IID_ANDROIDCONFIGURATION@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_ANDROIDEFFECT' type-id='bcb3605f' mangled-name='SL_IID_ANDROIDEFFECT' visibility='default' elf-symbol-id='SL_IID_ANDROIDEFFECT@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_ANDROIDEFFECTCAPABILITIES' type-id='bcb3605f' mangled-name='SL_IID_ANDROIDEFFECTCAPABILITIES' visibility='default' elf-symbol-id='SL_IID_ANDROIDEFFECTCAPABILITIES@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_ANDROIDEFFECTSEND' type-id='bcb3605f' mangled-name='SL_IID_ANDROIDEFFECTSEND' visibility='default' elf-symbol-id='SL_IID_ANDROIDEFFECTSEND@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_ANDROIDSIMPLEBUFFERQUEUE' type-id='bcb3605f' mangled-name='SL_IID_ANDROIDSIMPLEBUFFERQUEUE' visibility='default' elf-symbol-id='SL_IID_ANDROIDSIMPLEBUFFERQUEUE@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_AUDIODECODERCAPABILITIES' type-id='bcb3605f' mangled-name='SL_IID_AUDIODECODERCAPABILITIES' visibility='default' elf-symbol-id='SL_IID_AUDIODECODERCAPABILITIES@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_AUDIOENCODER' type-id='bcb3605f' mangled-name='SL_IID_AUDIOENCODER' visibility='default' elf-symbol-id='SL_IID_AUDIOENCODER@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_AUDIOENCODERCAPABILITIES' type-id='bcb3605f' mangled-name='SL_IID_AUDIOENCODERCAPABILITIES' visibility='default' elf-symbol-id='SL_IID_AUDIOENCODERCAPABILITIES@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_AUDIOIODEVICECAPABILITIES' type-id='bcb3605f' mangled-name='SL_IID_AUDIOIODEVICECAPABILITIES' visibility='default' elf-symbol-id='SL_IID_AUDIOIODEVICECAPABILITIES@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_BASSBOOST' type-id='bcb3605f' mangled-name='SL_IID_BASSBOOST' visibility='default' elf-symbol-id='SL_IID_BASSBOOST@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_BUFFERQUEUE' type-id='bcb3605f' mangled-name='SL_IID_BUFFERQUEUE' visibility='default' elf-symbol-id='SL_IID_BUFFERQUEUE@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_DEVICEVOLUME' type-id='bcb3605f' mangled-name='SL_IID_DEVICEVOLUME' visibility='default' elf-symbol-id='SL_IID_DEVICEVOLUME@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_DYNAMICINTERFACEMANAGEMENT' type-id='bcb3605f' mangled-name='SL_IID_DYNAMICINTERFACEMANAGEMENT' visibility='default' elf-symbol-id='SL_IID_DYNAMICINTERFACEMANAGEMENT@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_DYNAMICSOURCE' type-id='bcb3605f' mangled-name='SL_IID_DYNAMICSOURCE' visibility='default' elf-symbol-id='SL_IID_DYNAMICSOURCE@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_EFFECTSEND' type-id='bcb3605f' mangled-name='SL_IID_EFFECTSEND' visibility='default' elf-symbol-id='SL_IID_EFFECTSEND@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_ENGINE' type-id='bcb3605f' mangled-name='SL_IID_ENGINE' visibility='default' elf-symbol-id='SL_IID_ENGINE@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_ENGINECAPABILITIES' type-id='bcb3605f' mangled-name='SL_IID_ENGINECAPABILITIES' visibility='default' elf-symbol-id='SL_IID_ENGINECAPABILITIES@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_ENVIRONMENTALREVERB' type-id='bcb3605f' mangled-name='SL_IID_ENVIRONMENTALREVERB' visibility='default' elf-symbol-id='SL_IID_ENVIRONMENTALREVERB@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_EQUALIZER' type-id='bcb3605f' mangled-name='SL_IID_EQUALIZER' visibility='default' elf-symbol-id='SL_IID_EQUALIZER@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_LED' type-id='bcb3605f' mangled-name='SL_IID_LED' visibility='default' elf-symbol-id='SL_IID_LED@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_METADATAEXTRACTION' type-id='bcb3605f' mangled-name='SL_IID_METADATAEXTRACTION' visibility='default' elf-symbol-id='SL_IID_METADATAEXTRACTION@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_METADATATRAVERSAL' type-id='bcb3605f' mangled-name='SL_IID_METADATATRAVERSAL' visibility='default' elf-symbol-id='SL_IID_METADATATRAVERSAL@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_MIDIMESSAGE' type-id='bcb3605f' mangled-name='SL_IID_MIDIMESSAGE' visibility='default' elf-symbol-id='SL_IID_MIDIMESSAGE@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_MIDIMUTESOLO' type-id='bcb3605f' mangled-name='SL_IID_MIDIMUTESOLO' visibility='default' elf-symbol-id='SL_IID_MIDIMUTESOLO@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_MIDITEMPO' type-id='bcb3605f' mangled-name='SL_IID_MIDITEMPO' visibility='default' elf-symbol-id='SL_IID_MIDITEMPO@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_MIDITIME' type-id='bcb3605f' mangled-name='SL_IID_MIDITIME' visibility='default' elf-symbol-id='SL_IID_MIDITIME@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_MUTESOLO' type-id='bcb3605f' mangled-name='SL_IID_MUTESOLO' visibility='default' elf-symbol-id='SL_IID_MUTESOLO@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_NULL' type-id='bcb3605f' mangled-name='SL_IID_NULL' visibility='default' elf-symbol-id='SL_IID_NULL@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_OBJECT' type-id='bcb3605f' mangled-name='SL_IID_OBJECT' visibility='default' elf-symbol-id='SL_IID_OBJECT@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_OUTPUTMIX' type-id='bcb3605f' mangled-name='SL_IID_OUTPUTMIX' visibility='default' elf-symbol-id='SL_IID_OUTPUTMIX@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_PITCH' type-id='bcb3605f' mangled-name='SL_IID_PITCH' visibility='default' elf-symbol-id='SL_IID_PITCH@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_PLAY' type-id='bcb3605f' mangled-name='SL_IID_PLAY' visibility='default' elf-symbol-id='SL_IID_PLAY@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_PLAYBACKRATE' type-id='bcb3605f' mangled-name='SL_IID_PLAYBACKRATE' visibility='default' elf-symbol-id='SL_IID_PLAYBACKRATE@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_PREFETCHSTATUS' type-id='bcb3605f' mangled-name='SL_IID_PREFETCHSTATUS' visibility='default' elf-symbol-id='SL_IID_PREFETCHSTATUS@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_PRESETREVERB' type-id='bcb3605f' mangled-name='SL_IID_PRESETREVERB' visibility='default' elf-symbol-id='SL_IID_PRESETREVERB@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_RATEPITCH' type-id='bcb3605f' mangled-name='SL_IID_RATEPITCH' visibility='default' elf-symbol-id='SL_IID_RATEPITCH@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_RECORD' type-id='bcb3605f' mangled-name='SL_IID_RECORD' visibility='default' elf-symbol-id='SL_IID_RECORD@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_SEEK' type-id='bcb3605f' mangled-name='SL_IID_SEEK' visibility='default' elf-symbol-id='SL_IID_SEEK@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_THREADSYNC' type-id='bcb3605f' mangled-name='SL_IID_THREADSYNC' visibility='default' elf-symbol-id='SL_IID_THREADSYNC@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_VIBRA' type-id='bcb3605f' mangled-name='SL_IID_VIBRA' visibility='default' elf-symbol-id='SL_IID_VIBRA@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_VIRTUALIZER' type-id='bcb3605f' mangled-name='SL_IID_VIRTUALIZER' visibility='default' elf-symbol-id='SL_IID_VIRTUALIZER@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_VISUALIZATION' type-id='bcb3605f' mangled-name='SL_IID_VISUALIZATION' visibility='default' elf-symbol-id='SL_IID_VISUALIZATION@@LIBOPENSLES'/>
+    <var-decl name='SL_IID_VOLUME' type-id='bcb3605f' mangled-name='SL_IID_VOLUME' visibility='default' elf-symbol-id='SL_IID_VOLUME@@LIBOPENSLES'/>
+    <function-decl name='slCreateEngine' mangled-name='slCreateEngine' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='slCreateEngine@@LIBOPENSLES'>
+      <parameter type-id='4048d584' name='pEngine'/>
+      <parameter type-id='977c976e' name='numOptions'/>
+      <parameter type-id='ec96e892' name='pEngineOptions'/>
+      <parameter type-id='977c976e' name='numInterfaces'/>
+      <parameter type-id='8360d82f' name='pInterfaceIds'/>
+      <parameter type-id='a0638311' name='pInterfaceRequired'/>
+      <return type-id='c3dfaefa'/>
+    </function-decl>
+    <function-decl name='slQueryNumSupportedEngineInterfaces' mangled-name='slQueryNumSupportedEngineInterfaces' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='slQueryNumSupportedEngineInterfaces@@LIBOPENSLES'>
+      <parameter type-id='abb568e7' name='pNumSupportedInterfaces'/>
+      <return type-id='c3dfaefa'/>
+    </function-decl>
+    <function-decl name='slQuerySupportedEngineInterfaces' mangled-name='slQuerySupportedEngineInterfaces' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='slQuerySupportedEngineInterfaces@@LIBOPENSLES'>
+      <parameter type-id='977c976e' name='index'/>
+      <parameter type-id='faf8c18a' name='pInterfaceId'/>
+      <return type-id='c3dfaefa'/>
+    </function-decl>
+  </abi-instr>
+</abi-corpus>

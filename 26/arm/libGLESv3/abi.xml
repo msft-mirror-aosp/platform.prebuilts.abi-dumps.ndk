@@ -1,0 +1,1698 @@
+<abi-corpus version='2.1' architecture='elf-arm' soname='libGLESv3.so'>
+  <elf-needed>
+    <dependency name='libcutils.so'/>
+    <dependency name='liblog.so'/>
+    <dependency name='libEGL.so'/>
+    <dependency name='libc++.so'/>
+    <dependency name='libc.so'/>
+    <dependency name='libm.so'/>
+    <dependency name='libdl.so'/>
+  </elf-needed>
+  <elf-function-symbols>
+    <elf-symbol name='glActiveShaderProgram' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glActiveTexture' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glAttachShader' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBeginQuery' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBeginTransformFeedback' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBindAttribLocation' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBindBuffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBindBufferBase' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBindBufferRange' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBindFramebuffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBindImageTexture' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBindProgramPipeline' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBindRenderbuffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBindSampler' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBindTexture' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBindTransformFeedback' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBindVertexArray' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBindVertexArrayOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBindVertexBuffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendBarrier' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendBarrierKHR' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendColor' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendEquation' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendEquationSeparate' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendEquationSeparatei' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendEquationSeparateiEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendEquationi' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendEquationiEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendFunc' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendFuncSeparate' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendFuncSeparatei' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendFuncSeparateiEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendFunci' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlendFunciEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBlitFramebuffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBufferData' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glBufferSubData' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCheckFramebufferStatus' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glClear' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glClearBufferfi' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glClearBufferfv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glClearBufferiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glClearBufferuiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glClearColor' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glClearDepthf' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glClearStencil' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glClientWaitSync' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glColorMask' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glColorMaski' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glColorMaskiEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCompileShader' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCompressedTexImage2D' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCompressedTexImage3D' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCompressedTexImage3DOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCompressedTexSubImage2D' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCompressedTexSubImage3D' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCompressedTexSubImage3DOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCopyBufferSubData' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCopyImageSubData' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCopyImageSubDataEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCopyTexImage2D' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCopyTexSubImage2D' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCopyTexSubImage3D' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCopyTexSubImage3DOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCreateProgram' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCreateShader' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCreateShaderProgramv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glCullFace' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDebugMessageCallback' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDebugMessageCallbackKHR' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDebugMessageControl' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDebugMessageControlKHR' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDebugMessageInsert' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDebugMessageInsertKHR' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDeleteBuffers' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDeleteFramebuffers' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDeleteProgram' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDeleteProgramPipelines' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDeleteQueries' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDeleteRenderbuffers' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDeleteSamplers' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDeleteShader' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDeleteSync' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDeleteTextures' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDeleteTransformFeedbacks' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDeleteVertexArrays' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDeleteVertexArraysOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDepthFunc' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDepthMask' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDepthRangef' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDetachShader' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDisable' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDisableVertexAttribArray' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDisablei' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDisableiEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDispatchCompute' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDispatchComputeIndirect' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDrawArrays' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDrawArraysIndirect' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDrawArraysInstanced' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDrawBuffers' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDrawElements' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDrawElementsBaseVertex' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDrawElementsIndirect' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDrawElementsInstanced' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDrawElementsInstancedBaseVertex' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDrawRangeElements' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glDrawRangeElementsBaseVertex' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glEGLImageTargetRenderbufferStorageOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glEGLImageTargetTexture2DOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glEnable' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glEnableVertexAttribArray' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glEnablei' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glEnableiEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glEndQuery' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glEndTransformFeedback' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glFenceSync' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glFinish' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glFlush' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glFlushMappedBufferRange' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glFramebufferParameteri' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glFramebufferRenderbuffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glFramebufferTexture' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glFramebufferTexture2D' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glFramebufferTexture3DOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glFramebufferTextureEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glFramebufferTextureLayer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glFrontFace' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGenBuffers' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGenFramebuffers' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGenProgramPipelines' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGenQueries' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGenRenderbuffers' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGenSamplers' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGenTextures' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGenTransformFeedbacks' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGenVertexArrays' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGenVertexArraysOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGenerateMipmap' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetActiveAttrib' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetActiveUniform' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetActiveUniformBlockName' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetActiveUniformBlockiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetActiveUniformsiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetAttachedShaders' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetAttribLocation' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetBooleani_v' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetBooleanv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetBufferParameteri64v' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetBufferParameteriv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetBufferPointerv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetBufferPointervOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetDebugMessageLog' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetDebugMessageLogKHR' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetError' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetFloatv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetFragDataLocation' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetFramebufferAttachmentParameteriv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetFramebufferParameteriv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetGraphicsResetStatus' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetInteger64i_v' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetInteger64v' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetIntegeri_v' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetIntegerv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetInternalformativ' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetMultisamplefv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetObjectLabel' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetObjectLabelKHR' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetObjectPtrLabel' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetObjectPtrLabelKHR' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetPointerv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetPointervKHR' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetProgramBinary' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetProgramBinaryOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetProgramInfoLog' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetProgramInterfaceiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetProgramPipelineInfoLog' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetProgramPipelineiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetProgramResourceIndex' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetProgramResourceLocation' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetProgramResourceName' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetProgramResourceiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetProgramiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetQueryObjectuiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetQueryiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetRenderbufferParameteriv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetSamplerParameterIiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetSamplerParameterIivEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetSamplerParameterIuiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetSamplerParameterIuivEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetSamplerParameterfv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetSamplerParameteriv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetShaderInfoLog' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetShaderPrecisionFormat' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetShaderSource' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetShaderiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetString' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetStringi' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetSynciv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetTexLevelParameterfv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetTexLevelParameteriv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetTexParameterIiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetTexParameterIivEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetTexParameterIuiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetTexParameterIuivEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetTexParameterfv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetTexParameteriv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetTransformFeedbackVarying' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetUniformBlockIndex' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetUniformIndices' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetUniformLocation' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetUniformfv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetUniformiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetUniformuiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetVertexAttribIiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetVertexAttribIuiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetVertexAttribPointerv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetVertexAttribfv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetVertexAttribiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetnUniformfv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetnUniformiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glGetnUniformuiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glHint' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glInvalidateFramebuffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glInvalidateSubFramebuffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsBuffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsEnabled' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsEnabledi' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsEnablediEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsFramebuffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsProgram' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsProgramPipeline' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsQuery' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsRenderbuffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsSampler' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsShader' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsSync' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsTexture' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsTransformFeedback' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsVertexArray' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glIsVertexArrayOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glLineWidth' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glLinkProgram' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glMapBufferOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glMapBufferRange' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glMemoryBarrier' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glMemoryBarrierByRegion' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glMinSampleShading' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glMinSampleShadingOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glObjectLabel' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glObjectLabelKHR' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glObjectPtrLabel' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glObjectPtrLabelKHR' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glPatchParameteri' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glPatchParameteriEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glPauseTransformFeedback' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glPixelStorei' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glPolygonOffset' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glPopDebugGroup' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glPopDebugGroupKHR' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glPrimitiveBoundingBox' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glPrimitiveBoundingBoxEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramBinary' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramBinaryOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramParameteri' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform1f' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform1fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform1i' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform1iv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform1ui' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform1uiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform2f' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform2fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform2i' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform2iv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform2ui' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform2uiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform3f' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform3fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform3i' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform3iv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform3ui' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform3uiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform4f' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform4fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform4i' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform4iv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform4ui' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniform4uiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniformMatrix2fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniformMatrix2x3fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniformMatrix2x4fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniformMatrix3fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniformMatrix3x2fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniformMatrix3x4fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniformMatrix4fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniformMatrix4x2fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glProgramUniformMatrix4x3fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glPushDebugGroup' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glPushDebugGroupKHR' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glReadBuffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glReadPixels' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glReadnPixels' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glReleaseShaderCompiler' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glRenderbufferStorage' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glRenderbufferStorageMultisample' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glResumeTransformFeedback' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glSampleCoverage' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glSampleMaski' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glSamplerParameterIiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glSamplerParameterIivEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glSamplerParameterIuiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glSamplerParameterIuivEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glSamplerParameterf' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glSamplerParameterfv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glSamplerParameteri' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glSamplerParameteriv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glScissor' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glShaderBinary' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glShaderSource' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glStencilFunc' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glStencilFuncSeparate' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glStencilMask' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glStencilMaskSeparate' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glStencilOp' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glStencilOpSeparate' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexBuffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexBufferEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexBufferRange' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexBufferRangeEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexImage2D' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexImage3D' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexImage3DOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexParameterIiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexParameterIivEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexParameterIuiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexParameterIuivEXT' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexParameterf' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexParameterfv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexParameteri' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexParameteriv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexStorage2D' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexStorage2DMultisample' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexStorage3D' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexStorage3DMultisample' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexStorage3DMultisampleOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexSubImage2D' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexSubImage3D' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTexSubImage3DOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glTransformFeedbackVaryings' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform1f' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform1fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform1i' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform1iv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform1ui' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform1uiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform2f' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform2fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform2i' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform2iv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform2ui' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform2uiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform3f' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform3fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform3i' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform3iv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform3ui' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform3uiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform4f' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform4fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform4i' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform4iv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform4ui' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniform4uiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniformBlockBinding' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniformMatrix2fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniformMatrix2x3fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniformMatrix2x4fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniformMatrix3fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniformMatrix3x2fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniformMatrix3x4fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniformMatrix4fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniformMatrix4x2fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUniformMatrix4x3fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUnmapBuffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUnmapBufferOES' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUseProgram' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glUseProgramStages' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glValidateProgram' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glValidateProgramPipeline' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttrib1f' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttrib1fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttrib2f' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttrib2fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttrib3f' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttrib3fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttrib4f' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttrib4fv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttribBinding' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttribDivisor' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttribFormat' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttribI4i' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttribI4iv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttribI4ui' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttribI4uiv' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttribIFormat' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttribIPointer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexAttribPointer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glVertexBindingDivisor' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glViewport' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='glWaitSync' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+  </elf-function-symbols>
+  <abi-instr address-size='32' language='LANG_C_plus_plus_14' path='frameworks/native/opengl/libs/GLES2/gl2.cpp'>
+    <class-decl name='__GLsync' is-struct='yes' visibility='default' is-declaration-only='yes' id='20097df3'/>
+    <function-decl name='glActiveShaderProgram' mangled-name='glActiveShaderProgram' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glActiveShaderProgram'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glActiveTexture' mangled-name='glActiveTexture' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glActiveTexture'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glAttachShader' mangled-name='glAttachShader' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glAttachShader'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBeginQuery' mangled-name='glBeginQuery' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBeginQuery'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBeginTransformFeedback' mangled-name='glBeginTransformFeedback' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBeginTransformFeedback'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBindAttribLocation' mangled-name='glBindAttribLocation' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBindAttribLocation'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBindBuffer' mangled-name='glBindBuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBindBuffer'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBindBufferBase' mangled-name='glBindBufferBase' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBindBufferBase'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBindBufferRange' mangled-name='glBindBufferRange' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBindBufferRange'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBindFramebuffer' mangled-name='glBindFramebuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBindFramebuffer'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBindImageTexture' mangled-name='glBindImageTexture' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBindImageTexture'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBindProgramPipeline' mangled-name='glBindProgramPipeline' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBindProgramPipeline'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBindRenderbuffer' mangled-name='glBindRenderbuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBindRenderbuffer'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBindSampler' mangled-name='glBindSampler' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBindSampler'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBindTexture' mangled-name='glBindTexture' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBindTexture'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBindTransformFeedback' mangled-name='glBindTransformFeedback' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBindTransformFeedback'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBindVertexArray' mangled-name='glBindVertexArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBindVertexArray'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBindVertexArrayOES' mangled-name='glBindVertexArrayOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBindVertexArrayOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBindVertexBuffer' mangled-name='glBindVertexBuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBindVertexBuffer'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendBarrier' mangled-name='glBlendBarrier' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendBarrier'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendBarrierKHR' mangled-name='glBlendBarrierKHR' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendBarrierKHR'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendColor' mangled-name='glBlendColor' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendColor'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendEquation' mangled-name='glBlendEquation' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendEquation'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendEquationSeparate' mangled-name='glBlendEquationSeparate' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendEquationSeparate'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendEquationSeparatei' mangled-name='glBlendEquationSeparatei' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendEquationSeparatei'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendEquationSeparateiEXT' mangled-name='glBlendEquationSeparateiEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendEquationSeparateiEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendEquationi' mangled-name='glBlendEquationi' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendEquationi'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendEquationiEXT' mangled-name='glBlendEquationiEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendEquationiEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendFunc' mangled-name='glBlendFunc' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendFunc'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendFuncSeparate' mangled-name='glBlendFuncSeparate' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendFuncSeparate'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendFuncSeparatei' mangled-name='glBlendFuncSeparatei' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendFuncSeparatei'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendFuncSeparateiEXT' mangled-name='glBlendFuncSeparateiEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendFuncSeparateiEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendFunci' mangled-name='glBlendFunci' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendFunci'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlendFunciEXT' mangled-name='glBlendFunciEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlendFunciEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBlitFramebuffer' mangled-name='glBlitFramebuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBlitFramebuffer'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBufferData' mangled-name='glBufferData' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBufferData'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glBufferSubData' mangled-name='glBufferSubData' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glBufferSubData'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCheckFramebufferStatus' mangled-name='glCheckFramebufferStatus' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCheckFramebufferStatus'>
+      <return type-id='055aa60e'/>
+    </function-decl>
+    <function-decl name='glClear' mangled-name='glClear' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glClear'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glClearBufferfi' mangled-name='glClearBufferfi' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glClearBufferfi'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glClearBufferfv' mangled-name='glClearBufferfv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glClearBufferfv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glClearBufferiv' mangled-name='glClearBufferiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glClearBufferiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glClearBufferuiv' mangled-name='glClearBufferuiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glClearBufferuiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glClearColor' mangled-name='glClearColor' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glClearColor'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glClearDepthf' mangled-name='glClearDepthf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glClearDepthf'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glClearStencil' mangled-name='glClearStencil' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glClearStencil'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glClientWaitSync' mangled-name='glClientWaitSync' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glClientWaitSync'>
+      <return type-id='055aa60e'/>
+    </function-decl>
+    <function-decl name='glColorMask' mangled-name='glColorMask' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glColorMask'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glColorMaski' mangled-name='glColorMaski' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glColorMaski'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glColorMaskiEXT' mangled-name='glColorMaskiEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glColorMaskiEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCompileShader' mangled-name='glCompileShader' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCompileShader'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCompressedTexImage2D' mangled-name='glCompressedTexImage2D' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCompressedTexImage2D'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCompressedTexImage3D' mangled-name='glCompressedTexImage3D' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCompressedTexImage3D'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCompressedTexImage3DOES' mangled-name='glCompressedTexImage3DOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCompressedTexImage3DOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCompressedTexSubImage2D' mangled-name='glCompressedTexSubImage2D' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCompressedTexSubImage2D'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCompressedTexSubImage3D' mangled-name='glCompressedTexSubImage3D' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCompressedTexSubImage3D'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCompressedTexSubImage3DOES' mangled-name='glCompressedTexSubImage3DOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCompressedTexSubImage3DOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCopyBufferSubData' mangled-name='glCopyBufferSubData' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCopyBufferSubData'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCopyImageSubData' mangled-name='glCopyImageSubData' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCopyImageSubData'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCopyImageSubDataEXT' mangled-name='glCopyImageSubDataEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCopyImageSubDataEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCopyTexImage2D' mangled-name='glCopyTexImage2D' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCopyTexImage2D'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCopyTexSubImage2D' mangled-name='glCopyTexSubImage2D' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCopyTexSubImage2D'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCopyTexSubImage3D' mangled-name='glCopyTexSubImage3D' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCopyTexSubImage3D'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCopyTexSubImage3DOES' mangled-name='glCopyTexSubImage3DOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCopyTexSubImage3DOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glCreateProgram' mangled-name='glCreateProgram' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCreateProgram'>
+      <return type-id='429a25b7'/>
+    </function-decl>
+    <function-decl name='glCreateShader' mangled-name='glCreateShader' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCreateShader'>
+      <return type-id='429a25b7'/>
+    </function-decl>
+    <function-decl name='glCreateShaderProgramv' mangled-name='glCreateShaderProgramv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCreateShaderProgramv'>
+      <return type-id='429a25b7'/>
+    </function-decl>
+    <function-decl name='glCullFace' mangled-name='glCullFace' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glCullFace'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDebugMessageCallback' mangled-name='glDebugMessageCallback' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDebugMessageCallback'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDebugMessageCallbackKHR' mangled-name='glDebugMessageCallbackKHR' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDebugMessageCallbackKHR'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDebugMessageControl' mangled-name='glDebugMessageControl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDebugMessageControl'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDebugMessageControlKHR' mangled-name='glDebugMessageControlKHR' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDebugMessageControlKHR'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDebugMessageInsert' mangled-name='glDebugMessageInsert' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDebugMessageInsert'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDebugMessageInsertKHR' mangled-name='glDebugMessageInsertKHR' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDebugMessageInsertKHR'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDeleteBuffers' mangled-name='glDeleteBuffers' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDeleteBuffers'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDeleteFramebuffers' mangled-name='glDeleteFramebuffers' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDeleteFramebuffers'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDeleteProgram' mangled-name='glDeleteProgram' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDeleteProgram'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDeleteProgramPipelines' mangled-name='glDeleteProgramPipelines' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDeleteProgramPipelines'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDeleteQueries' mangled-name='glDeleteQueries' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDeleteQueries'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDeleteRenderbuffers' mangled-name='glDeleteRenderbuffers' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDeleteRenderbuffers'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDeleteSamplers' mangled-name='glDeleteSamplers' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDeleteSamplers'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDeleteShader' mangled-name='glDeleteShader' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDeleteShader'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDeleteSync' mangled-name='glDeleteSync' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDeleteSync'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDeleteTextures' mangled-name='glDeleteTextures' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDeleteTextures'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDeleteTransformFeedbacks' mangled-name='glDeleteTransformFeedbacks' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDeleteTransformFeedbacks'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDeleteVertexArrays' mangled-name='glDeleteVertexArrays' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDeleteVertexArrays'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDeleteVertexArraysOES' mangled-name='glDeleteVertexArraysOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDeleteVertexArraysOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDepthFunc' mangled-name='glDepthFunc' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDepthFunc'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDepthMask' mangled-name='glDepthMask' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDepthMask'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDepthRangef' mangled-name='glDepthRangef' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDepthRangef'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDetachShader' mangled-name='glDetachShader' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDetachShader'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDisable' mangled-name='glDisable' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDisable'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDisableVertexAttribArray' mangled-name='glDisableVertexAttribArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDisableVertexAttribArray'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDisablei' mangled-name='glDisablei' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDisablei'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDisableiEXT' mangled-name='glDisableiEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDisableiEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDispatchCompute' mangled-name='glDispatchCompute' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDispatchCompute'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDispatchComputeIndirect' mangled-name='glDispatchComputeIndirect' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDispatchComputeIndirect'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDrawArrays' mangled-name='glDrawArrays' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDrawArrays'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDrawArraysIndirect' mangled-name='glDrawArraysIndirect' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDrawArraysIndirect'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDrawArraysInstanced' mangled-name='glDrawArraysInstanced' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDrawArraysInstanced'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDrawBuffers' mangled-name='glDrawBuffers' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDrawBuffers'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDrawElements' mangled-name='glDrawElements' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDrawElements'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDrawElementsBaseVertex' mangled-name='glDrawElementsBaseVertex' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDrawElementsBaseVertex'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDrawElementsIndirect' mangled-name='glDrawElementsIndirect' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDrawElementsIndirect'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDrawElementsInstanced' mangled-name='glDrawElementsInstanced' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDrawElementsInstanced'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDrawElementsInstancedBaseVertex' mangled-name='glDrawElementsInstancedBaseVertex' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDrawElementsInstancedBaseVertex'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDrawRangeElements' mangled-name='glDrawRangeElements' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDrawRangeElements'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glDrawRangeElementsBaseVertex' mangled-name='glDrawRangeElementsBaseVertex' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glDrawRangeElementsBaseVertex'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glEGLImageTargetRenderbufferStorageOES' mangled-name='glEGLImageTargetRenderbufferStorageOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glEGLImageTargetRenderbufferStorageOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glEGLImageTargetTexture2DOES' mangled-name='glEGLImageTargetTexture2DOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glEGLImageTargetTexture2DOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glEnable' mangled-name='glEnable' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glEnable'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glEnableVertexAttribArray' mangled-name='glEnableVertexAttribArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glEnableVertexAttribArray'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glEnablei' mangled-name='glEnablei' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glEnablei'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glEnableiEXT' mangled-name='glEnableiEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glEnableiEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glEndQuery' mangled-name='glEndQuery' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glEndQuery'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glEndTransformFeedback' mangled-name='glEndTransformFeedback' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glEndTransformFeedback'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glFenceSync' mangled-name='glFenceSync' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glFenceSync'>
+      <return type-id='bf409180'/>
+    </function-decl>
+    <function-decl name='glFinish' mangled-name='glFinish' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glFinish'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glFlush' mangled-name='glFlush' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glFlush'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glFlushMappedBufferRange' mangled-name='glFlushMappedBufferRange' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glFlushMappedBufferRange'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glFramebufferParameteri' mangled-name='glFramebufferParameteri' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glFramebufferParameteri'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glFramebufferRenderbuffer' mangled-name='glFramebufferRenderbuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glFramebufferRenderbuffer'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glFramebufferTexture' mangled-name='glFramebufferTexture' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glFramebufferTexture'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glFramebufferTexture2D' mangled-name='glFramebufferTexture2D' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glFramebufferTexture2D'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glFramebufferTexture3DOES' mangled-name='glFramebufferTexture3DOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glFramebufferTexture3DOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glFramebufferTextureEXT' mangled-name='glFramebufferTextureEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glFramebufferTextureEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glFramebufferTextureLayer' mangled-name='glFramebufferTextureLayer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glFramebufferTextureLayer'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glFrontFace' mangled-name='glFrontFace' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glFrontFace'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGenBuffers' mangled-name='glGenBuffers' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGenBuffers'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGenFramebuffers' mangled-name='glGenFramebuffers' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGenFramebuffers'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGenProgramPipelines' mangled-name='glGenProgramPipelines' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGenProgramPipelines'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGenQueries' mangled-name='glGenQueries' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGenQueries'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGenRenderbuffers' mangled-name='glGenRenderbuffers' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGenRenderbuffers'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGenSamplers' mangled-name='glGenSamplers' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGenSamplers'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGenTextures' mangled-name='glGenTextures' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGenTextures'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGenTransformFeedbacks' mangled-name='glGenTransformFeedbacks' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGenTransformFeedbacks'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGenVertexArrays' mangled-name='glGenVertexArrays' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGenVertexArrays'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGenVertexArraysOES' mangled-name='glGenVertexArraysOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGenVertexArraysOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGenerateMipmap' mangled-name='glGenerateMipmap' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGenerateMipmap'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetActiveAttrib' mangled-name='glGetActiveAttrib' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetActiveAttrib'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetActiveUniform' mangled-name='glGetActiveUniform' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetActiveUniform'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetActiveUniformBlockName' mangled-name='glGetActiveUniformBlockName' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetActiveUniformBlockName'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetActiveUniformBlockiv' mangled-name='glGetActiveUniformBlockiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetActiveUniformBlockiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetActiveUniformsiv' mangled-name='glGetActiveUniformsiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetActiveUniformsiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetAttachedShaders' mangled-name='glGetAttachedShaders' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetAttachedShaders'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetAttribLocation' mangled-name='glGetAttribLocation' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetAttribLocation'>
+      <return type-id='82e13008'/>
+    </function-decl>
+    <function-decl name='glGetBooleani_v' mangled-name='glGetBooleani_v' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetBooleani_v'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetBooleanv' mangled-name='glGetBooleanv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetBooleanv'>
+      <parameter type-id='055aa60e' name='pname'/>
+      <parameter type-id='a8573a34' name='data'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetBufferParameteri64v' mangled-name='glGetBufferParameteri64v' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetBufferParameteri64v'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetBufferParameteriv' mangled-name='glGetBufferParameteriv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetBufferParameteriv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetBufferPointerv' mangled-name='glGetBufferPointerv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetBufferPointerv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetBufferPointervOES' mangled-name='glGetBufferPointervOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetBufferPointervOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetDebugMessageLog' mangled-name='glGetDebugMessageLog' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetDebugMessageLog'>
+      <return type-id='429a25b7'/>
+    </function-decl>
+    <function-decl name='glGetDebugMessageLogKHR' mangled-name='glGetDebugMessageLogKHR' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetDebugMessageLogKHR'>
+      <return type-id='429a25b7'/>
+    </function-decl>
+    <function-decl name='glGetError' mangled-name='glGetError' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetError'>
+      <return type-id='055aa60e'/>
+    </function-decl>
+    <function-decl name='glGetFloatv' mangled-name='glGetFloatv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetFloatv'>
+      <parameter type-id='055aa60e' name='pname'/>
+      <parameter type-id='5d68ba5a' name='data'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetFragDataLocation' mangled-name='glGetFragDataLocation' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetFragDataLocation'>
+      <return type-id='82e13008'/>
+    </function-decl>
+    <function-decl name='glGetFramebufferAttachmentParameteriv' mangled-name='glGetFramebufferAttachmentParameteriv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetFramebufferAttachmentParameteriv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetFramebufferParameteriv' mangled-name='glGetFramebufferParameteriv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetFramebufferParameteriv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetGraphicsResetStatus' mangled-name='glGetGraphicsResetStatus' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetGraphicsResetStatus'>
+      <return type-id='055aa60e'/>
+    </function-decl>
+    <function-decl name='glGetInteger64i_v' mangled-name='glGetInteger64i_v' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetInteger64i_v'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetInteger64v' mangled-name='glGetInteger64v' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetInteger64v'>
+      <parameter type-id='055aa60e' name='pname'/>
+      <parameter type-id='f40967d5' name='data'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetIntegeri_v' mangled-name='glGetIntegeri_v' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetIntegeri_v'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetIntegerv' mangled-name='glGetIntegerv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetIntegerv'>
+      <parameter type-id='055aa60e' name='pname'/>
+      <parameter type-id='e115857f' name='data'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetInternalformativ' mangled-name='glGetInternalformativ' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetInternalformativ'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetMultisamplefv' mangled-name='glGetMultisamplefv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetMultisamplefv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetObjectLabel' mangled-name='glGetObjectLabel' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetObjectLabel'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetObjectLabelKHR' mangled-name='glGetObjectLabelKHR' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetObjectLabelKHR'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetObjectPtrLabel' mangled-name='glGetObjectPtrLabel' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetObjectPtrLabel'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetObjectPtrLabelKHR' mangled-name='glGetObjectPtrLabelKHR' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetObjectPtrLabelKHR'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetPointerv' mangled-name='glGetPointerv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetPointerv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetPointervKHR' mangled-name='glGetPointervKHR' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetPointervKHR'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetProgramBinary' mangled-name='glGetProgramBinary' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetProgramBinary'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetProgramBinaryOES' mangled-name='glGetProgramBinaryOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetProgramBinaryOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetProgramInfoLog' mangled-name='glGetProgramInfoLog' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetProgramInfoLog'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetProgramInterfaceiv' mangled-name='glGetProgramInterfaceiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetProgramInterfaceiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetProgramPipelineInfoLog' mangled-name='glGetProgramPipelineInfoLog' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetProgramPipelineInfoLog'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetProgramPipelineiv' mangled-name='glGetProgramPipelineiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetProgramPipelineiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetProgramResourceIndex' mangled-name='glGetProgramResourceIndex' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetProgramResourceIndex'>
+      <return type-id='429a25b7'/>
+    </function-decl>
+    <function-decl name='glGetProgramResourceLocation' mangled-name='glGetProgramResourceLocation' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetProgramResourceLocation'>
+      <return type-id='82e13008'/>
+    </function-decl>
+    <function-decl name='glGetProgramResourceName' mangled-name='glGetProgramResourceName' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetProgramResourceName'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetProgramResourceiv' mangled-name='glGetProgramResourceiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetProgramResourceiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetProgramiv' mangled-name='glGetProgramiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetProgramiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetQueryObjectuiv' mangled-name='glGetQueryObjectuiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetQueryObjectuiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetQueryiv' mangled-name='glGetQueryiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetQueryiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetRenderbufferParameteriv' mangled-name='glGetRenderbufferParameteriv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetRenderbufferParameteriv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetSamplerParameterIiv' mangled-name='glGetSamplerParameterIiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetSamplerParameterIiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetSamplerParameterIivEXT' mangled-name='glGetSamplerParameterIivEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetSamplerParameterIivEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetSamplerParameterIuiv' mangled-name='glGetSamplerParameterIuiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetSamplerParameterIuiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetSamplerParameterIuivEXT' mangled-name='glGetSamplerParameterIuivEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetSamplerParameterIuivEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetSamplerParameterfv' mangled-name='glGetSamplerParameterfv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetSamplerParameterfv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetSamplerParameteriv' mangled-name='glGetSamplerParameteriv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetSamplerParameteriv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetShaderInfoLog' mangled-name='glGetShaderInfoLog' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetShaderInfoLog'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetShaderPrecisionFormat' mangled-name='glGetShaderPrecisionFormat' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetShaderPrecisionFormat'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetShaderSource' mangled-name='glGetShaderSource' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetShaderSource'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetShaderiv' mangled-name='glGetShaderiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetShaderiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetString' mangled-name='glGetString' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetString'>
+      <parameter type-id='055aa60e' name='name'/>
+      <return type-id='074f79f2'/>
+    </function-decl>
+    <function-decl name='glGetStringi' mangled-name='glGetStringi' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetStringi'>
+      <parameter type-id='055aa60e' name='name'/>
+      <parameter type-id='429a25b7' name='index'/>
+      <return type-id='074f79f2'/>
+    </function-decl>
+    <function-decl name='glGetSynciv' mangled-name='glGetSynciv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetSynciv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetTexLevelParameterfv' mangled-name='glGetTexLevelParameterfv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetTexLevelParameterfv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetTexLevelParameteriv' mangled-name='glGetTexLevelParameteriv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetTexLevelParameteriv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetTexParameterIiv' mangled-name='glGetTexParameterIiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetTexParameterIiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetTexParameterIivEXT' mangled-name='glGetTexParameterIivEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetTexParameterIivEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetTexParameterIuiv' mangled-name='glGetTexParameterIuiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetTexParameterIuiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetTexParameterIuivEXT' mangled-name='glGetTexParameterIuivEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetTexParameterIuivEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetTexParameterfv' mangled-name='glGetTexParameterfv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetTexParameterfv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetTexParameteriv' mangled-name='glGetTexParameteriv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetTexParameteriv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetTransformFeedbackVarying' mangled-name='glGetTransformFeedbackVarying' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetTransformFeedbackVarying'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetUniformBlockIndex' mangled-name='glGetUniformBlockIndex' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetUniformBlockIndex'>
+      <return type-id='429a25b7'/>
+    </function-decl>
+    <function-decl name='glGetUniformIndices' mangled-name='glGetUniformIndices' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetUniformIndices'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetUniformLocation' mangled-name='glGetUniformLocation' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetUniformLocation'>
+      <return type-id='82e13008'/>
+    </function-decl>
+    <function-decl name='glGetUniformfv' mangled-name='glGetUniformfv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetUniformfv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetUniformiv' mangled-name='glGetUniformiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetUniformiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetUniformuiv' mangled-name='glGetUniformuiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetUniformuiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetVertexAttribIiv' mangled-name='glGetVertexAttribIiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetVertexAttribIiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetVertexAttribIuiv' mangled-name='glGetVertexAttribIuiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetVertexAttribIuiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetVertexAttribPointerv' mangled-name='glGetVertexAttribPointerv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetVertexAttribPointerv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetVertexAttribfv' mangled-name='glGetVertexAttribfv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetVertexAttribfv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetVertexAttribiv' mangled-name='glGetVertexAttribiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetVertexAttribiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetnUniformfv' mangled-name='glGetnUniformfv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetnUniformfv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetnUniformiv' mangled-name='glGetnUniformiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetnUniformiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glGetnUniformuiv' mangled-name='glGetnUniformuiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glGetnUniformuiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glHint' mangled-name='glHint' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glHint'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glInvalidateFramebuffer' mangled-name='glInvalidateFramebuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glInvalidateFramebuffer'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glInvalidateSubFramebuffer' mangled-name='glInvalidateSubFramebuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glInvalidateSubFramebuffer'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glIsBuffer' mangled-name='glIsBuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsBuffer'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsEnabled' mangled-name='glIsEnabled' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsEnabled'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsEnabledi' mangled-name='glIsEnabledi' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsEnabledi'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsEnablediEXT' mangled-name='glIsEnablediEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsEnablediEXT'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsFramebuffer' mangled-name='glIsFramebuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsFramebuffer'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsProgram' mangled-name='glIsProgram' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsProgram'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsProgramPipeline' mangled-name='glIsProgramPipeline' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsProgramPipeline'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsQuery' mangled-name='glIsQuery' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsQuery'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsRenderbuffer' mangled-name='glIsRenderbuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsRenderbuffer'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsSampler' mangled-name='glIsSampler' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsSampler'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsShader' mangled-name='glIsShader' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsShader'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsSync' mangled-name='glIsSync' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsSync'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsTexture' mangled-name='glIsTexture' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsTexture'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsTransformFeedback' mangled-name='glIsTransformFeedback' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsTransformFeedback'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsVertexArray' mangled-name='glIsVertexArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsVertexArray'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glIsVertexArrayOES' mangled-name='glIsVertexArrayOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glIsVertexArrayOES'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glLineWidth' mangled-name='glLineWidth' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glLineWidth'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glLinkProgram' mangled-name='glLinkProgram' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glLinkProgram'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glMapBufferOES' mangled-name='glMapBufferOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glMapBufferOES'>
+      <return type-id='eaa32e2f'/>
+    </function-decl>
+    <function-decl name='glMapBufferRange' mangled-name='glMapBufferRange' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glMapBufferRange'>
+      <return type-id='eaa32e2f'/>
+    </function-decl>
+    <function-decl name='glMemoryBarrier' mangled-name='glMemoryBarrier' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glMemoryBarrier'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glMemoryBarrierByRegion' mangled-name='glMemoryBarrierByRegion' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glMemoryBarrierByRegion'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glMinSampleShading' mangled-name='glMinSampleShading' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glMinSampleShading'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glMinSampleShadingOES' mangled-name='glMinSampleShadingOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glMinSampleShadingOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glObjectLabel' mangled-name='glObjectLabel' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glObjectLabel'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glObjectLabelKHR' mangled-name='glObjectLabelKHR' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glObjectLabelKHR'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glObjectPtrLabel' mangled-name='glObjectPtrLabel' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glObjectPtrLabel'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glObjectPtrLabelKHR' mangled-name='glObjectPtrLabelKHR' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glObjectPtrLabelKHR'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glPatchParameteri' mangled-name='glPatchParameteri' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glPatchParameteri'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glPatchParameteriEXT' mangled-name='glPatchParameteriEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glPatchParameteriEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glPauseTransformFeedback' mangled-name='glPauseTransformFeedback' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glPauseTransformFeedback'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glPixelStorei' mangled-name='glPixelStorei' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glPixelStorei'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glPolygonOffset' mangled-name='glPolygonOffset' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glPolygonOffset'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glPopDebugGroup' mangled-name='glPopDebugGroup' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glPopDebugGroup'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glPopDebugGroupKHR' mangled-name='glPopDebugGroupKHR' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glPopDebugGroupKHR'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glPrimitiveBoundingBox' mangled-name='glPrimitiveBoundingBox' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glPrimitiveBoundingBox'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glPrimitiveBoundingBoxEXT' mangled-name='glPrimitiveBoundingBoxEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glPrimitiveBoundingBoxEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramBinary' mangled-name='glProgramBinary' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramBinary'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramBinaryOES' mangled-name='glProgramBinaryOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramBinaryOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramParameteri' mangled-name='glProgramParameteri' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramParameteri'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform1f' mangled-name='glProgramUniform1f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform1f'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform1fv' mangled-name='glProgramUniform1fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform1fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform1i' mangled-name='glProgramUniform1i' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform1i'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform1iv' mangled-name='glProgramUniform1iv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform1iv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform1ui' mangled-name='glProgramUniform1ui' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform1ui'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform1uiv' mangled-name='glProgramUniform1uiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform1uiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform2f' mangled-name='glProgramUniform2f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform2f'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform2fv' mangled-name='glProgramUniform2fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform2fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform2i' mangled-name='glProgramUniform2i' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform2i'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform2iv' mangled-name='glProgramUniform2iv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform2iv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform2ui' mangled-name='glProgramUniform2ui' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform2ui'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform2uiv' mangled-name='glProgramUniform2uiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform2uiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform3f' mangled-name='glProgramUniform3f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform3f'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform3fv' mangled-name='glProgramUniform3fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform3fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform3i' mangled-name='glProgramUniform3i' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform3i'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform3iv' mangled-name='glProgramUniform3iv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform3iv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform3ui' mangled-name='glProgramUniform3ui' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform3ui'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform3uiv' mangled-name='glProgramUniform3uiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform3uiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform4f' mangled-name='glProgramUniform4f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform4f'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform4fv' mangled-name='glProgramUniform4fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform4fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform4i' mangled-name='glProgramUniform4i' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform4i'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform4iv' mangled-name='glProgramUniform4iv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform4iv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform4ui' mangled-name='glProgramUniform4ui' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform4ui'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniform4uiv' mangled-name='glProgramUniform4uiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniform4uiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniformMatrix2fv' mangled-name='glProgramUniformMatrix2fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniformMatrix2fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniformMatrix2x3fv' mangled-name='glProgramUniformMatrix2x3fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniformMatrix2x3fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniformMatrix2x4fv' mangled-name='glProgramUniformMatrix2x4fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniformMatrix2x4fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniformMatrix3fv' mangled-name='glProgramUniformMatrix3fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniformMatrix3fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniformMatrix3x2fv' mangled-name='glProgramUniformMatrix3x2fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniformMatrix3x2fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniformMatrix3x4fv' mangled-name='glProgramUniformMatrix3x4fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniformMatrix3x4fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniformMatrix4fv' mangled-name='glProgramUniformMatrix4fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniformMatrix4fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniformMatrix4x2fv' mangled-name='glProgramUniformMatrix4x2fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniformMatrix4x2fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glProgramUniformMatrix4x3fv' mangled-name='glProgramUniformMatrix4x3fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glProgramUniformMatrix4x3fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glPushDebugGroup' mangled-name='glPushDebugGroup' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glPushDebugGroup'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glPushDebugGroupKHR' mangled-name='glPushDebugGroupKHR' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glPushDebugGroupKHR'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glReadBuffer' mangled-name='glReadBuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glReadBuffer'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glReadPixels' mangled-name='glReadPixels' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glReadPixels'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glReadnPixels' mangled-name='glReadnPixels' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glReadnPixels'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glReleaseShaderCompiler' mangled-name='glReleaseShaderCompiler' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glReleaseShaderCompiler'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glRenderbufferStorage' mangled-name='glRenderbufferStorage' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glRenderbufferStorage'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glRenderbufferStorageMultisample' mangled-name='glRenderbufferStorageMultisample' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glRenderbufferStorageMultisample'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glResumeTransformFeedback' mangled-name='glResumeTransformFeedback' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glResumeTransformFeedback'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glSampleCoverage' mangled-name='glSampleCoverage' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glSampleCoverage'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glSampleMaski' mangled-name='glSampleMaski' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glSampleMaski'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glSamplerParameterIiv' mangled-name='glSamplerParameterIiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glSamplerParameterIiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glSamplerParameterIivEXT' mangled-name='glSamplerParameterIivEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glSamplerParameterIivEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glSamplerParameterIuiv' mangled-name='glSamplerParameterIuiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glSamplerParameterIuiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glSamplerParameterIuivEXT' mangled-name='glSamplerParameterIuivEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glSamplerParameterIuivEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glSamplerParameterf' mangled-name='glSamplerParameterf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glSamplerParameterf'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glSamplerParameterfv' mangled-name='glSamplerParameterfv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glSamplerParameterfv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glSamplerParameteri' mangled-name='glSamplerParameteri' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glSamplerParameteri'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glSamplerParameteriv' mangled-name='glSamplerParameteriv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glSamplerParameteriv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glScissor' mangled-name='glScissor' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glScissor'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glShaderBinary' mangled-name='glShaderBinary' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glShaderBinary'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glShaderSource' mangled-name='glShaderSource' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glShaderSource'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glStencilFunc' mangled-name='glStencilFunc' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glStencilFunc'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glStencilFuncSeparate' mangled-name='glStencilFuncSeparate' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glStencilFuncSeparate'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glStencilMask' mangled-name='glStencilMask' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glStencilMask'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glStencilMaskSeparate' mangled-name='glStencilMaskSeparate' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glStencilMaskSeparate'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glStencilOp' mangled-name='glStencilOp' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glStencilOp'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glStencilOpSeparate' mangled-name='glStencilOpSeparate' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glStencilOpSeparate'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexBuffer' mangled-name='glTexBuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexBuffer'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexBufferEXT' mangled-name='glTexBufferEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexBufferEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexBufferRange' mangled-name='glTexBufferRange' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexBufferRange'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexBufferRangeEXT' mangled-name='glTexBufferRangeEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexBufferRangeEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexImage2D' mangled-name='glTexImage2D' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexImage2D'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexImage3D' mangled-name='glTexImage3D' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexImage3D'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexImage3DOES' mangled-name='glTexImage3DOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexImage3DOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexParameterIiv' mangled-name='glTexParameterIiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexParameterIiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexParameterIivEXT' mangled-name='glTexParameterIivEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexParameterIivEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexParameterIuiv' mangled-name='glTexParameterIuiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexParameterIuiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexParameterIuivEXT' mangled-name='glTexParameterIuivEXT' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexParameterIuivEXT'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexParameterf' mangled-name='glTexParameterf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexParameterf'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexParameterfv' mangled-name='glTexParameterfv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexParameterfv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexParameteri' mangled-name='glTexParameteri' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexParameteri'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexParameteriv' mangled-name='glTexParameteriv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexParameteriv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexStorage2D' mangled-name='glTexStorage2D' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexStorage2D'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexStorage2DMultisample' mangled-name='glTexStorage2DMultisample' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexStorage2DMultisample'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexStorage3D' mangled-name='glTexStorage3D' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexStorage3D'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexStorage3DMultisample' mangled-name='glTexStorage3DMultisample' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexStorage3DMultisample'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexStorage3DMultisampleOES' mangled-name='glTexStorage3DMultisampleOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexStorage3DMultisampleOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexSubImage2D' mangled-name='glTexSubImage2D' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexSubImage2D'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexSubImage3D' mangled-name='glTexSubImage3D' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexSubImage3D'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTexSubImage3DOES' mangled-name='glTexSubImage3DOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTexSubImage3DOES'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glTransformFeedbackVaryings' mangled-name='glTransformFeedbackVaryings' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glTransformFeedbackVaryings'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform1f' mangled-name='glUniform1f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform1f'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform1fv' mangled-name='glUniform1fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform1fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform1i' mangled-name='glUniform1i' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform1i'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform1iv' mangled-name='glUniform1iv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform1iv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform1ui' mangled-name='glUniform1ui' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform1ui'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform1uiv' mangled-name='glUniform1uiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform1uiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform2f' mangled-name='glUniform2f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform2f'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform2fv' mangled-name='glUniform2fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform2fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform2i' mangled-name='glUniform2i' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform2i'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform2iv' mangled-name='glUniform2iv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform2iv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform2ui' mangled-name='glUniform2ui' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform2ui'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform2uiv' mangled-name='glUniform2uiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform2uiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform3f' mangled-name='glUniform3f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform3f'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform3fv' mangled-name='glUniform3fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform3fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform3i' mangled-name='glUniform3i' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform3i'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform3iv' mangled-name='glUniform3iv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform3iv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform3ui' mangled-name='glUniform3ui' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform3ui'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform3uiv' mangled-name='glUniform3uiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform3uiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform4f' mangled-name='glUniform4f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform4f'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform4fv' mangled-name='glUniform4fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform4fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform4i' mangled-name='glUniform4i' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform4i'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform4iv' mangled-name='glUniform4iv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform4iv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform4ui' mangled-name='glUniform4ui' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform4ui'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniform4uiv' mangled-name='glUniform4uiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniform4uiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniformBlockBinding' mangled-name='glUniformBlockBinding' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniformBlockBinding'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniformMatrix2fv' mangled-name='glUniformMatrix2fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniformMatrix2fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniformMatrix2x3fv' mangled-name='glUniformMatrix2x3fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniformMatrix2x3fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniformMatrix2x4fv' mangled-name='glUniformMatrix2x4fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniformMatrix2x4fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniformMatrix3fv' mangled-name='glUniformMatrix3fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniformMatrix3fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniformMatrix3x2fv' mangled-name='glUniformMatrix3x2fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniformMatrix3x2fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniformMatrix3x4fv' mangled-name='glUniformMatrix3x4fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniformMatrix3x4fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniformMatrix4fv' mangled-name='glUniformMatrix4fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniformMatrix4fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniformMatrix4x2fv' mangled-name='glUniformMatrix4x2fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniformMatrix4x2fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUniformMatrix4x3fv' mangled-name='glUniformMatrix4x3fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUniformMatrix4x3fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUnmapBuffer' mangled-name='glUnmapBuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUnmapBuffer'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glUnmapBufferOES' mangled-name='glUnmapBufferOES' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUnmapBufferOES'>
+      <return type-id='e482d915'/>
+    </function-decl>
+    <function-decl name='glUseProgram' mangled-name='glUseProgram' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUseProgram'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glUseProgramStages' mangled-name='glUseProgramStages' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glUseProgramStages'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glValidateProgram' mangled-name='glValidateProgram' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glValidateProgram'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glValidateProgramPipeline' mangled-name='glValidateProgramPipeline' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glValidateProgramPipeline'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttrib1f' mangled-name='glVertexAttrib1f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttrib1f'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttrib1fv' mangled-name='glVertexAttrib1fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttrib1fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttrib2f' mangled-name='glVertexAttrib2f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttrib2f'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttrib2fv' mangled-name='glVertexAttrib2fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttrib2fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttrib3f' mangled-name='glVertexAttrib3f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttrib3f'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttrib3fv' mangled-name='glVertexAttrib3fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttrib3fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttrib4f' mangled-name='glVertexAttrib4f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttrib4f'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttrib4fv' mangled-name='glVertexAttrib4fv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttrib4fv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttribBinding' mangled-name='glVertexAttribBinding' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttribBinding'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttribDivisor' mangled-name='glVertexAttribDivisor' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttribDivisor'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttribFormat' mangled-name='glVertexAttribFormat' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttribFormat'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttribI4i' mangled-name='glVertexAttribI4i' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttribI4i'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttribI4iv' mangled-name='glVertexAttribI4iv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttribI4iv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttribI4ui' mangled-name='glVertexAttribI4ui' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttribI4ui'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttribI4uiv' mangled-name='glVertexAttribI4uiv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttribI4uiv'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttribIFormat' mangled-name='glVertexAttribIFormat' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttribIFormat'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttribIPointer' mangled-name='glVertexAttribIPointer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttribIPointer'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexAttribPointer' mangled-name='glVertexAttribPointer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexAttribPointer'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glVertexBindingDivisor' mangled-name='glVertexBindingDivisor' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glVertexBindingDivisor'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glViewport' mangled-name='glViewport' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glViewport'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='glWaitSync' mangled-name='glWaitSync' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='glWaitSync'>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <pointer-type-def type-id='f2fb1dac' size-in-bits='32' id='074f79f2'/>
+    <pointer-type-def type-id='20097df3' size-in-bits='32' id='2e71e1e3'/>
+    <pointer-type-def type-id='46496ee3' size-in-bits='32' id='5d68ba5a'/>
+    <pointer-type-def type-id='e482d915' size-in-bits='32' id='a8573a34'/>
+    <pointer-type-def type-id='82e13008' size-in-bits='32' id='e115857f'/>
+    <pointer-type-def type-id='48b5725f' size-in-bits='32' id='eaa32e2f'/>
+    <pointer-type-def type-id='a7d674ea' size-in-bits='32' id='f40967d5'/>
+    <qualified-type-def type-id='cac0d15c' const='yes' id='f2fb1dac'/>
+    <type-decl name='float' size-in-bits='32' id='a6c45d85'/>
+    <type-decl name='int' size-in-bits='32' id='95e97e5e'/>
+    <type-decl name='long long int' size-in-bits='64' id='1eb56b1e'/>
+    <type-decl name='unsigned char' size-in-bits='8' id='002ac4a6'/>
+    <type-decl name='unsigned int' size-in-bits='32' id='f0981eeb'/>
+    <type-decl name='void' id='48b5725f'/>
+    <typedef-decl name='GLboolean' type-id='002ac4a6' id='e482d915'/>
+    <typedef-decl name='GLenum' type-id='f0981eeb' id='055aa60e'/>
+    <typedef-decl name='GLfloat' type-id='9bdf67c2' id='46496ee3'/>
+    <typedef-decl name='GLint' type-id='95e97e5e' id='82e13008'/>
+    <typedef-decl name='GLint64' type-id='76bdfe73' id='a7d674ea'/>
+    <typedef-decl name='GLsync' type-id='2e71e1e3' id='bf409180'/>
+    <typedef-decl name='GLubyte' type-id='6fdbad24' id='cac0d15c'/>
+    <typedef-decl name='GLuint' type-id='f0981eeb' id='429a25b7'/>
+    <typedef-decl name='__int64_t' type-id='1eb56b1e' id='0c9942d2'/>
+    <typedef-decl name='int64_t' type-id='0c9942d2' id='9da381c4'/>
+    <typedef-decl name='khronos_float_t' type-id='a6c45d85' id='9bdf67c2'/>
+    <typedef-decl name='khronos_int64_t' type-id='9da381c4' id='76bdfe73'/>
+    <typedef-decl name='khronos_uint8_t' type-id='002ac4a6' id='6fdbad24'/>
+  </abi-instr>
+</abi-corpus>

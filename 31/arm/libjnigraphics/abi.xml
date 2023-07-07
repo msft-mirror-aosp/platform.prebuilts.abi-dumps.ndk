@@ -1,0 +1,331 @@
+<abi-corpus version='2.1' architecture='elf-arm' soname='libjnigraphics.so'>
+  <elf-needed>
+    <dependency name='libhwui.so'/>
+    <dependency name='liblog.so'/>
+    <dependency name='libandroid.so'/>
+    <dependency name='libc++.so'/>
+    <dependency name='libc.so'/>
+    <dependency name='libm.so'/>
+    <dependency name='libdl.so'/>
+  </elf-needed>
+  <elf-function-symbols>
+    <elf-symbol name='AImageDecoderFrameInfo_create' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoderFrameInfo_delete' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoderFrameInfo_getBlendOp' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoderFrameInfo_getDisposeOp' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoderFrameInfo_getDuration' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoderFrameInfo_getFrameRect' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoderFrameInfo_hasAlphaWithinBounds' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoderHeaderInfo_getAlphaFlags' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoderHeaderInfo_getAndroidBitmapFormat' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoderHeaderInfo_getDataSpace' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoderHeaderInfo_getHeight' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoderHeaderInfo_getMimeType' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoderHeaderInfo_getWidth' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_advanceFrame' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_computeSampledSize' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_createFromAAsset' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_createFromBuffer' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_createFromFd' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_decodeImage' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_delete' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_getFrameInfo' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_getHeaderInfo' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_getMinimumStride' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_getRepeatCount' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_isAnimated' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_resultToString' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_rewind' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_setAndroidBitmapFormat' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_setCrop' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_setDataSpace' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_setInternallyHandleDisposePrevious' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_setTargetSize' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AImageDecoder_setUnpremultipliedRequired' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AndroidBitmap_compress' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AndroidBitmap_getDataSpace' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AndroidBitmap_getHardwareBuffer' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AndroidBitmap_getInfo' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AndroidBitmap_lockPixels' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AndroidBitmap_unlockPixels' version='LIBJNIGRAPHICS' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+  </elf-function-symbols>
+  <abi-instr address-size='32' language='LANG_C_plus_plus_14' path='various'>
+    <class-decl name='AAsset' is-struct='yes' visibility='default' is-declaration-only='yes' id='1fc4034c'/>
+    <class-decl name='AHardwareBuffer' is-struct='yes' visibility='default' is-declaration-only='yes' id='4d45f31e'/>
+    <class-decl name='AImageDecoder' is-struct='yes' visibility='default' is-declaration-only='yes' id='cdce5fc3'/>
+    <class-decl name='AImageDecoderFrameInfo' is-struct='yes' visibility='default' is-declaration-only='yes' id='050fecd4'/>
+    <class-decl name='AImageDecoderHeaderInfo' is-struct='yes' visibility='default' is-declaration-only='yes' id='0430a6ca'/>
+    <class-decl name='ARect' size-in-bits='128' is-struct='yes' visibility='default' id='c9ee9172'>
+      <data-member access='public' layout-offset-in-bits='0'>
+        <var-decl name='left' type-id='3ff5601b' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='32'>
+        <var-decl name='top' type-id='3ff5601b' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='64'>
+        <var-decl name='right' type-id='3ff5601b' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='96'>
+        <var-decl name='bottom' type-id='3ff5601b' visibility='default'/>
+      </data-member>
+    </class-decl>
+    <class-decl name='_JNIEnv' is-struct='yes' visibility='default' is-declaration-only='yes' id='c9459134'/>
+    <class-decl name='_jobject' size-in-bits='8' visibility='default' id='baffb083'/>
+    <class-decl name='__anonymous_struct__' size-in-bits='160' is-struct='yes' visibility='default' id='7f4b0f2b' is-anonymous='yes'>
+      <data-member access='public' layout-offset-in-bits='0'>
+        <var-decl name='width' type-id='8f92235e' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='32'>
+        <var-decl name='height' type-id='8f92235e' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='64'>
+        <var-decl name='stride' type-id='8f92235e' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='96'>
+        <var-decl name='format' type-id='3ff5601b' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='128'>
+        <var-decl name='flags' type-id='8f92235e' visibility='default'/>
+      </data-member>
+    </class-decl>
+    <function-decl name='AImageDecoderFrameInfo_create' mangled-name='AImageDecoderFrameInfo_create' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoderFrameInfo_create@@LIBJNIGRAPHICS'>
+      <return type-id='3a5f0bc2'/>
+    </function-decl>
+    <function-decl name='AImageDecoderFrameInfo_delete' mangled-name='AImageDecoderFrameInfo_delete' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoderFrameInfo_delete@@LIBJNIGRAPHICS'>
+      <parameter type-id='3a5f0bc2' name='info'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='AImageDecoderFrameInfo_getBlendOp' mangled-name='AImageDecoderFrameInfo_getBlendOp' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoderFrameInfo_getBlendOp@@LIBJNIGRAPHICS'>
+      <parameter type-id='e324d581' name='info'/>
+      <return type-id='3ff5601b'/>
+    </function-decl>
+    <function-decl name='AImageDecoderFrameInfo_getDisposeOp' mangled-name='AImageDecoderFrameInfo_getDisposeOp' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoderFrameInfo_getDisposeOp@@LIBJNIGRAPHICS'>
+      <parameter type-id='e324d581' name='info'/>
+      <return type-id='3ff5601b'/>
+    </function-decl>
+    <function-decl name='AImageDecoderFrameInfo_getDuration' mangled-name='AImageDecoderFrameInfo_getDuration' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoderFrameInfo_getDuration@@LIBJNIGRAPHICS'>
+      <parameter type-id='e324d581' name='info'/>
+      <return type-id='9da381c4'/>
+    </function-decl>
+    <function-decl name='AImageDecoderFrameInfo_getFrameRect' mangled-name='AImageDecoderFrameInfo_getFrameRect' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoderFrameInfo_getFrameRect@@LIBJNIGRAPHICS'>
+      <parameter type-id='e324d581' name='info'/>
+      <return type-id='d6dabff9'/>
+    </function-decl>
+    <function-decl name='AImageDecoderFrameInfo_hasAlphaWithinBounds' mangled-name='AImageDecoderFrameInfo_hasAlphaWithinBounds' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoderFrameInfo_hasAlphaWithinBounds@@LIBJNIGRAPHICS'>
+      <parameter type-id='e324d581' name='info'/>
+      <return type-id='c894953d'/>
+    </function-decl>
+    <function-decl name='AImageDecoderHeaderInfo_getAlphaFlags' mangled-name='AImageDecoderHeaderInfo_getAlphaFlags' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoderHeaderInfo_getAlphaFlags@@LIBJNIGRAPHICS'>
+      <parameter type-id='6ba69c71' name='info'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AImageDecoderHeaderInfo_getAndroidBitmapFormat' mangled-name='AImageDecoderHeaderInfo_getAndroidBitmapFormat' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoderHeaderInfo_getAndroidBitmapFormat@@LIBJNIGRAPHICS'>
+      <parameter type-id='6ba69c71' name='info'/>
+      <return type-id='3ff5601b'/>
+    </function-decl>
+    <function-decl name='AImageDecoderHeaderInfo_getDataSpace' mangled-name='AImageDecoderHeaderInfo_getDataSpace' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoderHeaderInfo_getDataSpace@@LIBJNIGRAPHICS'>
+      <parameter type-id='6ba69c71' name='info'/>
+      <return type-id='3ff5601b'/>
+    </function-decl>
+    <function-decl name='AImageDecoderHeaderInfo_getHeight' mangled-name='AImageDecoderHeaderInfo_getHeight' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoderHeaderInfo_getHeight@@LIBJNIGRAPHICS'>
+      <parameter type-id='6ba69c71' name='info'/>
+      <return type-id='3ff5601b'/>
+    </function-decl>
+    <function-decl name='AImageDecoderHeaderInfo_getMimeType' mangled-name='AImageDecoderHeaderInfo_getMimeType' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoderHeaderInfo_getMimeType@@LIBJNIGRAPHICS'>
+      <parameter type-id='6ba69c71' name='info'/>
+      <return type-id='80f4b756'/>
+    </function-decl>
+    <function-decl name='AImageDecoderHeaderInfo_getWidth' mangled-name='AImageDecoderHeaderInfo_getWidth' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoderHeaderInfo_getWidth@@LIBJNIGRAPHICS'>
+      <parameter type-id='6ba69c71' name='info'/>
+      <return type-id='3ff5601b'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_advanceFrame' mangled-name='AImageDecoder_advanceFrame' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_advanceFrame@@LIBJNIGRAPHICS'>
+      <parameter type-id='f34b0223' name='decoder'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_computeSampledSize' mangled-name='AImageDecoder_computeSampledSize' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_computeSampledSize@@LIBJNIGRAPHICS'>
+      <parameter type-id='beffcdd2' name='decoder'/>
+      <parameter type-id='95e97e5e' name='sampleSize'/>
+      <parameter type-id='4aafb922' name='width'/>
+      <parameter type-id='4aafb922' name='height'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_createFromAAsset' mangled-name='AImageDecoder_createFromAAsset' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_createFromAAsset@@LIBJNIGRAPHICS'>
+      <parameter type-id='57d98aaa' name='asset'/>
+      <parameter type-id='0814342b' name='outDecoder'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_createFromBuffer' mangled-name='AImageDecoder_createFromBuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_createFromBuffer@@LIBJNIGRAPHICS'>
+      <parameter type-id='eaa32e2f' name='buffer'/>
+      <parameter type-id='b59d7dce' name='length'/>
+      <parameter type-id='0814342b' name='outDecoder'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_createFromFd' mangled-name='AImageDecoder_createFromFd' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_createFromFd@@LIBJNIGRAPHICS'>
+      <parameter type-id='95e97e5e' name='fd'/>
+      <parameter type-id='0814342b' name='outDecoder'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_decodeImage' mangled-name='AImageDecoder_decodeImage' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_decodeImage@@LIBJNIGRAPHICS'>
+      <parameter type-id='f34b0223' name='decoder'/>
+      <parameter type-id='eaa32e2f' name='pixels'/>
+      <parameter type-id='b59d7dce' name='stride'/>
+      <parameter type-id='b59d7dce' name='size'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_delete' mangled-name='AImageDecoder_delete' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_delete@@LIBJNIGRAPHICS'>
+      <parameter type-id='f34b0223' name='decoder'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_getFrameInfo' mangled-name='AImageDecoder_getFrameInfo' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_getFrameInfo@@LIBJNIGRAPHICS'>
+      <parameter type-id='f34b0223' name='decoder'/>
+      <parameter type-id='3a5f0bc2' name='info'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_getHeaderInfo' mangled-name='AImageDecoder_getHeaderInfo' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_getHeaderInfo@@LIBJNIGRAPHICS'>
+      <parameter type-id='beffcdd2' name='decoder'/>
+      <return type-id='6ba69c71'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_getMinimumStride' mangled-name='AImageDecoder_getMinimumStride' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_getMinimumStride@@LIBJNIGRAPHICS'>
+      <parameter type-id='f34b0223' name='decoder'/>
+      <return type-id='b59d7dce'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_getRepeatCount' mangled-name='AImageDecoder_getRepeatCount' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_getRepeatCount@@LIBJNIGRAPHICS'>
+      <parameter type-id='f34b0223' name='decoder'/>
+      <return type-id='3ff5601b'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_isAnimated' mangled-name='AImageDecoder_isAnimated' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_isAnimated@@LIBJNIGRAPHICS'>
+      <parameter type-id='f34b0223' name='decoder'/>
+      <return type-id='c894953d'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_resultToString' mangled-name='AImageDecoder_resultToString' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_resultToString@@LIBJNIGRAPHICS'>
+      <parameter type-id='95e97e5e' name='result'/>
+      <return type-id='80f4b756'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_rewind' mangled-name='AImageDecoder_rewind' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_rewind@@LIBJNIGRAPHICS'>
+      <parameter type-id='f34b0223' name='decoder'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_setAndroidBitmapFormat' mangled-name='AImageDecoder_setAndroidBitmapFormat' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_setAndroidBitmapFormat@@LIBJNIGRAPHICS'>
+      <parameter type-id='f34b0223' name='decoder'/>
+      <parameter type-id='3ff5601b' name='format'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_setCrop' mangled-name='AImageDecoder_setCrop' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_setCrop@@LIBJNIGRAPHICS'>
+      <parameter type-id='f34b0223' name='decoder'/>
+      <parameter type-id='d6dabff9' name='crop'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_setDataSpace' mangled-name='AImageDecoder_setDataSpace' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_setDataSpace@@LIBJNIGRAPHICS'>
+      <parameter type-id='f34b0223' name='decoder'/>
+      <parameter type-id='3ff5601b' name='format'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_setInternallyHandleDisposePrevious' mangled-name='AImageDecoder_setInternallyHandleDisposePrevious' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_setInternallyHandleDisposePrevious@@LIBJNIGRAPHICS'>
+      <parameter type-id='f34b0223' name='decoder'/>
+      <parameter type-id='c894953d' name='handle'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_setTargetSize' mangled-name='AImageDecoder_setTargetSize' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_setTargetSize@@LIBJNIGRAPHICS'>
+      <parameter type-id='f34b0223' name='decoder'/>
+      <parameter type-id='3ff5601b' name='width'/>
+      <parameter type-id='3ff5601b' name='height'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AImageDecoder_setUnpremultipliedRequired' mangled-name='AImageDecoder_setUnpremultipliedRequired' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AImageDecoder_setUnpremultipliedRequired@@LIBJNIGRAPHICS'>
+      <parameter type-id='f34b0223' name='decoder'/>
+      <parameter type-id='c894953d' name='required'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AndroidBitmap_compress' mangled-name='AndroidBitmap_compress' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AndroidBitmap_compress@@LIBJNIGRAPHICS'>
+      <parameter type-id='0c0e86f2' name='info'/>
+      <parameter type-id='3ff5601b' name='dataSpace'/>
+      <parameter type-id='eaa32e2f' name='pixels'/>
+      <parameter type-id='3ff5601b' name='format'/>
+      <parameter type-id='3ff5601b' name='quality'/>
+      <parameter type-id='eaa32e2f' name='userContext'/>
+      <parameter type-id='db81d6aa' name='fn'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AndroidBitmap_getDataSpace' mangled-name='AndroidBitmap_getDataSpace' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AndroidBitmap_getDataSpace@@LIBJNIGRAPHICS'>
+      <parameter type-id='fae49a1f' name='env'/>
+      <parameter type-id='96f3d089' name='jbitmap'/>
+      <return type-id='3ff5601b'/>
+    </function-decl>
+    <function-decl name='AndroidBitmap_getHardwareBuffer' mangled-name='AndroidBitmap_getHardwareBuffer' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AndroidBitmap_getHardwareBuffer@@LIBJNIGRAPHICS'>
+      <parameter type-id='fae49a1f' name='env'/>
+      <parameter type-id='96f3d089' name='jbitmap'/>
+      <parameter type-id='2cb5879a' name='outBuffer'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AndroidBitmap_getInfo' mangled-name='AndroidBitmap_getInfo' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AndroidBitmap_getInfo@@LIBJNIGRAPHICS'>
+      <parameter type-id='fae49a1f' name='env'/>
+      <parameter type-id='96f3d089' name='jbitmap'/>
+      <parameter type-id='f2910bdb' name='info'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AndroidBitmap_lockPixels' mangled-name='AndroidBitmap_lockPixels' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AndroidBitmap_lockPixels@@LIBJNIGRAPHICS'>
+      <parameter type-id='fae49a1f' name='env'/>
+      <parameter type-id='96f3d089' name='jbitmap'/>
+      <parameter type-id='63e171df' name='addrPtr'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='AndroidBitmap_unlockPixels' mangled-name='AndroidBitmap_unlockPixels' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AndroidBitmap_unlockPixels@@LIBJNIGRAPHICS'>
+      <parameter type-id='fae49a1f' name='env'/>
+      <parameter type-id='96f3d089' name='jbitmap'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-type size-in-bits='32' id='7d2bd0bd'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='b59d7dce'/>
+      <return type-id='c894953d'/>
+    </function-type>
+    <pointer-type-def type-id='f34b0223' size-in-bits='32' id='0814342b'/>
+    <pointer-type-def type-id='7e1bfcac' size-in-bits='32' id='0c0e86f2'/>
+    <pointer-type-def type-id='cdc60214' size-in-bits='32' id='2cb5879a'/>
+    <pointer-type-def type-id='fe0dede1' size-in-bits='32' id='3a5f0bc2'/>
+    <pointer-type-def type-id='baffb083' size-in-bits='32' id='478e3663'/>
+    <pointer-type-def type-id='3ff5601b' size-in-bits='32' id='4aafb922'/>
+    <pointer-type-def type-id='d27ea7e1' size-in-bits='32' id='57d98aaa'/>
+    <pointer-type-def type-id='eaa32e2f' size-in-bits='32' id='63e171df'/>
+    <pointer-type-def type-id='294abc41' size-in-bits='32' id='6ba69c71'/>
+    <pointer-type-def type-id='9b45d938' size-in-bits='32' id='80f4b756'/>
+    <pointer-type-def type-id='7d2bd0bd' size-in-bits='32' id='bd53ed89'/>
+    <pointer-type-def type-id='7d85660c' size-in-bits='32' id='beffcdd2'/>
+    <pointer-type-def type-id='7a58eebd' size-in-bits='32' id='cdc60214'/>
+    <pointer-type-def type-id='1f9f8931' size-in-bits='32' id='e324d581'/>
+    <pointer-type-def type-id='48b5725f' size-in-bits='32' id='eaa32e2f'/>
+    <pointer-type-def type-id='0913ea1c' size-in-bits='32' id='f2910bdb'/>
+    <pointer-type-def type-id='93b8437c' size-in-bits='32' id='f34b0223'/>
+    <pointer-type-def type-id='d357872a' size-in-bits='32' id='fae49a1f'/>
+    <qualified-type-def type-id='fe0dede1' const='yes' id='1f9f8931'/>
+    <qualified-type-def type-id='fbb56051' const='yes' id='294abc41'/>
+    <qualified-type-def type-id='93b8437c' const='yes' id='7d85660c'/>
+    <qualified-type-def type-id='0913ea1c' const='yes' id='7e1bfcac'/>
+    <qualified-type-def type-id='a84c031d' const='yes' id='9b45d938'/>
+    <type-decl name='bool' size-in-bits='8' id='c894953d'/>
+    <type-decl name='char' size-in-bits='8' id='a84c031d'/>
+    <type-decl name='int' size-in-bits='32' id='95e97e5e'/>
+    <type-decl name='long long int' size-in-bits='64' id='1eb56b1e'/>
+    <type-decl name='unsigned int' size-in-bits='32' id='f0981eeb'/>
+    <type-decl name='void' id='48b5725f'/>
+    <typedef-decl name='AAsset' type-id='1fc4034c' id='d27ea7e1'/>
+    <typedef-decl name='AHardwareBuffer' type-id='4d45f31e' id='7a58eebd'/>
+    <typedef-decl name='AImageDecoder' type-id='cdce5fc3' id='93b8437c'/>
+    <typedef-decl name='AImageDecoderFrameInfo' type-id='050fecd4' id='fe0dede1'/>
+    <typedef-decl name='AImageDecoderHeaderInfo' type-id='0430a6ca' id='fbb56051'/>
+    <typedef-decl name='ARect' type-id='c9ee9172' id='d6dabff9'/>
+    <typedef-decl name='AndroidBitmapInfo' type-id='7f4b0f2b' id='0913ea1c'/>
+    <typedef-decl name='AndroidBitmap_CompressWriteFunc' type-id='bd53ed89' id='db81d6aa'/>
+    <typedef-decl name='JNIEnv' type-id='c9459134' id='d357872a'/>
+    <typedef-decl name='__int32_t' type-id='95e97e5e' id='33f57a65'/>
+    <typedef-decl name='__int64_t' type-id='1eb56b1e' id='0c9942d2'/>
+    <typedef-decl name='__uint32_t' type-id='f0981eeb' id='62f1140c'/>
+    <typedef-decl name='int32_t' type-id='33f57a65' id='3ff5601b'/>
+    <typedef-decl name='int64_t' type-id='0c9942d2' id='9da381c4'/>
+    <typedef-decl name='jobject' type-id='478e3663' id='96f3d089'/>
+    <typedef-decl name='size_t' type-id='f0981eeb' id='b59d7dce'/>
+    <typedef-decl name='uint32_t' type-id='62f1140c' id='8f92235e'/>
+  </abi-instr>
+</abi-corpus>

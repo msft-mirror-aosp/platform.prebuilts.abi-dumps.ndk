@@ -1,0 +1,1256 @@
+<abi-corpus version='2.1' architecture='elf-arm' soname='libm.so'>
+  <elf-needed>
+    <dependency name='libc.so'/>
+  </elf-needed>
+  <elf-function-symbols>
+    <elf-symbol name='__signbit' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='__signbitf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='__signbitl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='acos' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='acosl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='acosf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='acosh' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='acoshl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='acoshf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='acoshl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='acosl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='asin' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='asinl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='asinf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='asinh' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='asinhl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='asinhf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='asinhl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='asinl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='atan2' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='atan2l@@LIBC' is-defined='yes'/>
+    <elf-symbol name='atan2f' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='atan2l' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='atan' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='atanl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='atanf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='atanh' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='atanhl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='atanhf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='atanhl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='atanl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cabs' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cabsf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cabsl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cacos' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cacosf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cacosh' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cacoshf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='carg' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cargf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cargl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='casin' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='casinf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='casinh' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='casinhf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='catan' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='catanf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='catanh' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='catanhf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cbrt' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='cbrtl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='cbrtf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cbrtl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ccos' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ccosf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ccosh' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ccoshf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ceil' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='ceill@@LIBC' is-defined='yes'/>
+    <elf-symbol name='ceilf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ceill' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cexp' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cexpf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cimag' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cimagf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cimagl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='conj' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='conjf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='conjl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='copysign' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='copysignf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='copysignl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cos' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='cosl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='cosf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cosh' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='coshl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='coshf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='coshl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cosl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cproj' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cprojf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='cprojl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='creal' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='crealf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='creall' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='csin' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='csinf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='csinh' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='csinhf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='csqrt' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='csqrtl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='csqrtf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='csqrtl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ctan' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ctanf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ctanh' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ctanhf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='drem' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='dremf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='erf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='erfl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='erfc' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='erfcl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='erfcf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='erfcl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='erff' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='erfl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='exp2' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='exp2f' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='exp2l' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='exp' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='expf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='expl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='expm1' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='expm1l@@LIBC' is-defined='yes'/>
+    <elf-symbol name='expm1f' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='expm1l' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fabs' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fabsf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fabsl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fdim' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fdimf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fdiml' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='feclearexcept' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fedisableexcept' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='feenableexcept' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fegetenv' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fegetexcept' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fegetexceptflag' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fegetround' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='feholdexcept' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='feraiseexcept' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fesetenv' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fesetexceptflag' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fesetround' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fetestexcept' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='feupdateenv' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='finite' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='finitef' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='floor' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='floorf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='floorl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='floor@@LIBC' is-defined='yes'/>
+    <elf-symbol name='fma' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='fmal@@LIBC' is-defined='yes'/>
+    <elf-symbol name='fmaf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fmal' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fmax' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fmaxf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fmaxl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fmin' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fminf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fminl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fmod' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fmodf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='fmodl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='frexp' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='frexpl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='frexpf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='frexpl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='gamma' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='gamma_r' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='gammaf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='gammaf_r' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='hypot' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='hypotl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='hypotf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='hypotl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ilogb' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ilogbf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ilogbl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='j0' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='j0f' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='j1' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='j1f' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='jn' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='jnf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ldexpf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ldexpl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='lgamma' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='lgammal@@LIBC' is-defined='yes'/>
+    <elf-symbol name='lgamma_r' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='lgammal_r@@LIBC' is-defined='yes'/>
+    <elf-symbol name='lgammaf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='lgammaf_r' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='lgammal' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='lgammal_r' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='llrint' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='llrintf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='llrintl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='llround' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='llroundf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='llroundl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='log10' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='log10l@@LIBC' is-defined='yes'/>
+    <elf-symbol name='log10f' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='log10l' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='log1p' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='log1pl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='log1pf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='log1pl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='log2' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='log2f' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='log2l' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='log' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='logb' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='logbl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='logbf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='logbl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='logf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='logl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='lrint' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='lrintf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='lrintl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='lround' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='lroundf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='lroundl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='modf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='modff' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='modfl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='nan' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='nanl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='nanf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='nanl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='nearbyint' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='nearbyintf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='nearbyintl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='nextafter' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='nexttoward@@LIBC,nexttowardl@@LIBC,nextafterl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='nextafterf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='nextafterl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='nexttoward' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='nexttowardf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='nexttowardl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='pow' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='powf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='powl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='remainder' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='remainderl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='remainderf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='remainderl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='remquo' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='remquol@@LIBC' is-defined='yes'/>
+    <elf-symbol name='remquof' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='remquol' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='rint' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='rintl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='rintf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='rintl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='round' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='roundf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='roundl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='scalb' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='scalbf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='scalbln' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='scalblnf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='scalblnl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='scalbn' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='ldexpl@@LIBC,scalbnl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='scalbnf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='ldexpf@@LIBC' is-defined='yes'/>
+    <elf-symbol name='scalbnl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='significand' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='significandf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='significandl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='sin' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='sinl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='sincos' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='sincosf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='sincosl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='sinf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='sinh' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='sinhl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='sinhf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='sinhl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='sinl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='sqrt' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='sqrtl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='sqrtf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='sqrtl' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='tan' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='tanl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='tanf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='tanh' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='tanhl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='tanhf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='tanhl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='tanl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='tgamma' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='tgammaf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='tgammal' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='trunc' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' alias='truncl@@LIBC' is-defined='yes'/>
+    <elf-symbol name='truncf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='truncl' version='LIBC' is-default-version='yes' type='func-type' binding='weak-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='y0' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='y0f' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='y1' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='y1f' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='yn' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='ynf' version='LIBC' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+  </elf-function-symbols>
+  <elf-variable-symbols>
+    <elf-symbol name='__fe_dfl_env' size='4' version='LIBC' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='signgam' size='4' version='LIBC' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+  </elf-variable-symbols>
+  <abi-instr address-size='32' language='various' path='various'>
+    <function-decl name='__signbit' mangled-name='__signbit' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='__signbit@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='__signbitf' mangled-name='__signbitf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='__signbitf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='__signbitl' mangled-name='__signbitl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='__signbitl@@LIBC'>
+      <parameter type-id='e095c704'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='acos' mangled-name='acos' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='acos@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='acosf' mangled-name='acosf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='acosf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='acosh' mangled-name='acosh' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='acosh@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='acoshf' mangled-name='acoshf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='acoshf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='asin' mangled-name='asin' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='asin@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='asinf' mangled-name='asinf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='asinf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='asinh' mangled-name='asinh' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='asinh@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='asinhf' mangled-name='asinhf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='asinhf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='atan' mangled-name='atan' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='atan@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='atan2' mangled-name='atan2' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='atan2@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='atan2f' mangled-name='atan2f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='atan2f@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='atanf' mangled-name='atanf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='atanf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='atanh' mangled-name='atanh' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='atanh@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='atanhf' mangled-name='atanhf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='atanhf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='cabs' mangled-name='cabs' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cabs@@LIBC'>
+      <parameter type-id='8a2c68b7'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='cabsf' mangled-name='cabsf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cabsf@@LIBC'>
+      <parameter type-id='8a2c68b7'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='cabsl' mangled-name='cabsl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cabsl@@LIBC'>
+      <parameter type-id='8a2c68b7'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='cacos' mangled-name='cacos' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cacos@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='cacosf' mangled-name='cacosf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cacosf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='cacosh' mangled-name='cacosh' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cacosh@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='cacoshf' mangled-name='cacoshf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cacoshf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='carg' mangled-name='carg' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='carg@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='cargf' mangled-name='cargf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cargf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='cargl' mangled-name='cargl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cargl@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='casin' mangled-name='casin' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='casin@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='casinf' mangled-name='casinf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='casinf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='casinh' mangled-name='casinh' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='casinh@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='casinhf' mangled-name='casinhf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='casinhf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='catan' mangled-name='catan' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='catan@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='catanf' mangled-name='catanf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='catanf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='catanh' mangled-name='catanh' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='catanh@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='catanhf' mangled-name='catanhf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='catanhf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='cbrt' mangled-name='cbrt' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cbrt@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='cbrtf' mangled-name='cbrtf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cbrtf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='ccos' mangled-name='ccos' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='ccos@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='ccosf' mangled-name='ccosf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='ccosf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='ccosh' mangled-name='ccosh' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='ccosh@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='ccoshf' mangled-name='ccoshf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='ccoshf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='ceil' mangled-name='ceil' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='ceil@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='ceilf' mangled-name='ceilf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='ceilf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='cexp' mangled-name='cexp' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cexp@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='cexpf' mangled-name='cexpf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cexpf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='cimag' mangled-name='cimag' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cimag@@LIBC'>
+      <parameter type-id='8a2c68b7'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='cimagf' mangled-name='cimagf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cimagf@@LIBC'>
+      <parameter type-id='8a2c68b7'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='cimagl' mangled-name='cimagl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cimagl@@LIBC'>
+      <parameter type-id='8a2c68b7'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='conj' mangled-name='conj' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='conj@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='conjf' mangled-name='conjf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='conjf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='conjl' mangled-name='conjl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='conjl@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='copysign' mangled-name='copysign' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='copysign@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='copysignf' mangled-name='copysignf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='copysignf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='copysignl' mangled-name='copysignl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='copysignl@@LIBC'>
+      <parameter type-id='e095c704'/>
+      <parameter type-id='e095c704'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='cos' mangled-name='cos' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cos@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='cosf' mangled-name='cosf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cosf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='cosh' mangled-name='cosh' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cosh@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='coshf' mangled-name='coshf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='coshf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='cproj' mangled-name='cproj' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cproj@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='cprojf' mangled-name='cprojf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cprojf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='cprojl' mangled-name='cprojl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='cprojl@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='creal' mangled-name='creal' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='creal@@LIBC'>
+      <parameter type-id='8a2c68b7'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='crealf' mangled-name='crealf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='crealf@@LIBC'>
+      <parameter type-id='8a2c68b7'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='creall' mangled-name='creall' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='creall@@LIBC'>
+      <parameter type-id='8a2c68b7'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='csin' mangled-name='csin' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='csin@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='csinf' mangled-name='csinf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='csinf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='csinh' mangled-name='csinh' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='csinh@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='csinhf' mangled-name='csinhf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='csinhf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='csqrt' mangled-name='csqrt' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='csqrt@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='csqrtf' mangled-name='csqrtf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='csqrtf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='ctan' mangled-name='ctan' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='ctan@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='ctanf' mangled-name='ctanf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='ctanf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='ctanh' mangled-name='ctanh' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='ctanh@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='ctanhf' mangled-name='ctanhf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='ctanhf@@LIBC'>
+      <parameter type-id='8a2c68b7' name='z'/>
+      <return type-id='8a2c68b7'/>
+    </function-decl>
+    <function-decl name='drem' mangled-name='drem' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='drem@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <parameter type-id='a0eb0f08' name='y'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='dremf' mangled-name='dremf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='dremf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <parameter type-id='a6c45d85' name='y'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='erf' mangled-name='erf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='erf@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='erfc' mangled-name='erfc' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='erfc@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='erfcf' mangled-name='erfcf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='erfcf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='erff' mangled-name='erff' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='erff@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='exp' mangled-name='exp' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='exp@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='exp2' mangled-name='exp2' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='exp2@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='exp2f' mangled-name='exp2f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='exp2f@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='exp2l' mangled-name='exp2l' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='exp2l@@LIBC'>
+      <parameter type-id='e095c704' name='x'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='expf' mangled-name='expf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='expf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='expl' mangled-name='expl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='expl@@LIBC'>
+      <parameter type-id='e095c704'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='expm1' mangled-name='expm1' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='expm1@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='expm1f' mangled-name='expm1f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='expm1f@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='fabs' mangled-name='fabs' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fabs@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='fabsf' mangled-name='fabsf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fabsf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='fabsl' mangled-name='fabsl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fabsl@@LIBC'>
+      <parameter type-id='e095c704'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='fdim' mangled-name='fdim' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fdim@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <parameter type-id='a0eb0f08' name='y'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='fdimf' mangled-name='fdimf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fdimf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <parameter type-id='a6c45d85' name='y'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='fdiml' mangled-name='fdiml' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fdiml@@LIBC'>
+      <parameter type-id='e095c704' name='x'/>
+      <parameter type-id='e095c704' name='y'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='feclearexcept' mangled-name='feclearexcept' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='feclearexcept@@LIBC'>
+      <parameter type-id='95e97e5e'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='fedisableexcept' mangled-name='fedisableexcept' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fedisableexcept@@LIBC'>
+      <parameter type-id='95e97e5e' name='__mask'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='feenableexcept' mangled-name='feenableexcept' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='feenableexcept@@LIBC'>
+      <parameter type-id='95e97e5e' name='__mask'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='fegetenv' mangled-name='fegetenv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fegetenv@@LIBC'>
+      <parameter type-id='e23c203b'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='fegetexcept' mangled-name='fegetexcept' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fegetexcept@@LIBC'>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='fegetexceptflag' mangled-name='fegetexceptflag' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fegetexceptflag@@LIBC'>
+      <parameter type-id='0d71ad37' name='__flagp'/>
+      <parameter type-id='95e97e5e' name='__excepts'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='fegetround' mangled-name='fegetround' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fegetround@@LIBC'>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='feholdexcept' mangled-name='feholdexcept' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='feholdexcept@@LIBC'>
+      <parameter type-id='e23c203b'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='feraiseexcept' mangled-name='feraiseexcept' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='feraiseexcept@@LIBC'>
+      <parameter type-id='95e97e5e'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='fesetenv' mangled-name='fesetenv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fesetenv@@LIBC'>
+      <parameter type-id='53cecf80'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='fesetexceptflag' mangled-name='fesetexceptflag' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fesetexceptflag@@LIBC'>
+      <parameter type-id='660f4a4e' name='__flagp'/>
+      <parameter type-id='95e97e5e' name='__excepts'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='fesetround' mangled-name='fesetround' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fesetround@@LIBC'>
+      <parameter type-id='95e97e5e'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='fetestexcept' mangled-name='fetestexcept' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fetestexcept@@LIBC'>
+      <parameter type-id='95e97e5e'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='feupdateenv' mangled-name='feupdateenv' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='feupdateenv@@LIBC'>
+      <parameter type-id='53cecf80'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='finite' mangled-name='finite' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='finite@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='finitef' mangled-name='finitef' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='finitef@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='floorf' mangled-name='floorf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='floorf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='fma' mangled-name='fma' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fma@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <parameter type-id='a0eb0f08' name='y'/>
+      <parameter type-id='a0eb0f08' name='z'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='fmaf' mangled-name='fmaf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fmaf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <parameter type-id='a6c45d85' name='y'/>
+      <parameter type-id='a6c45d85' name='z'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='fmax' mangled-name='fmax' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fmax@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <parameter type-id='a0eb0f08' name='y'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='fmaxf' mangled-name='fmaxf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fmaxf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <parameter type-id='a6c45d85' name='y'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='fmaxl' mangled-name='fmaxl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fmaxl@@LIBC'>
+      <parameter type-id='e095c704' name='a1'/>
+      <parameter type-id='e095c704' name='a2'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='fmin' mangled-name='fmin' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fmin@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <parameter type-id='a0eb0f08' name='y'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='fminf' mangled-name='fminf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fminf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <parameter type-id='a6c45d85' name='y'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='fminl' mangled-name='fminl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fminl@@LIBC'>
+      <parameter type-id='e095c704' name='a1'/>
+      <parameter type-id='e095c704' name='a2'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='fmod' mangled-name='fmod' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fmod@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <parameter type-id='a0eb0f08' name='y'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='fmodf' mangled-name='fmodf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fmodf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <parameter type-id='a6c45d85' name='y'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='fmodl' mangled-name='fmodl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='fmodl@@LIBC'>
+      <parameter type-id='e095c704' name='a1'/>
+      <parameter type-id='e095c704' name='a2'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='frexp' mangled-name='frexp' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='frexp@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <parameter type-id='7292109c'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='frexpf' mangled-name='frexpf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='frexpf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <parameter type-id='7292109c' name='eptr'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='gamma' mangled-name='gamma' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='gamma@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='gamma_r' mangled-name='gamma_r' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='gamma_r@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <parameter type-id='7292109c'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='gammaf' mangled-name='gammaf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='gammaf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='gammaf_r' mangled-name='gammaf_r' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='gammaf_r@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <parameter type-id='7292109c'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='hypot' mangled-name='hypot' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='hypot@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='hypotf' mangled-name='hypotf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='hypotf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='ilogb' mangled-name='ilogb' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='ilogb@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='ilogbf' mangled-name='ilogbf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='ilogbf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='ilogbl' mangled-name='ilogbl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='ilogbl@@LIBC'>
+      <parameter type-id='e095c704'/>
+      <return type-id='95e97e5e'/>
+    </function-decl>
+    <function-decl name='j0' mangled-name='j0' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='j0@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='j0f' mangled-name='j0f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='j0f@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='j1' mangled-name='j1' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='j1@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='j1f' mangled-name='j1f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='j1f@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='jn' mangled-name='jn' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='jn@@LIBC'>
+      <parameter type-id='95e97e5e' name='n'/>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='jnf' mangled-name='jnf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='jnf@@LIBC'>
+      <parameter type-id='95e97e5e' name='n'/>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='lgamma' mangled-name='lgamma' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='lgamma@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='lgamma_r' mangled-name='lgamma_r' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='lgamma_r@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <parameter type-id='7292109c'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='lgammaf' mangled-name='lgammaf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='lgammaf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='lgammaf_r' mangled-name='lgammaf_r' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='lgammaf_r@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <parameter type-id='7292109c'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='llrint' mangled-name='llrint' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='llrint@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='1eb56b1e'/>
+    </function-decl>
+    <function-decl name='llrintf' mangled-name='llrintf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='llrintf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='1eb56b1e'/>
+    </function-decl>
+    <function-decl name='llrintl' mangled-name='llrintl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='llrintl@@LIBC'>
+      <parameter type-id='e095c704' name='a1'/>
+      <return type-id='1eb56b1e'/>
+    </function-decl>
+    <function-decl name='llround' mangled-name='llround' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='llround@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='1eb56b1e'/>
+    </function-decl>
+    <function-decl name='llroundf' mangled-name='llroundf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='llroundf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='1eb56b1e'/>
+    </function-decl>
+    <function-decl name='llroundl' mangled-name='llroundl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='llroundl@@LIBC'>
+      <parameter type-id='e095c704' name='a1'/>
+      <return type-id='1eb56b1e'/>
+    </function-decl>
+    <function-decl name='log' mangled-name='log' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='log@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='log10' mangled-name='log10' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='log10@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='log10f' mangled-name='log10f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='log10f@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='log1p' mangled-name='log1p' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='log1p@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='log1pf' mangled-name='log1pf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='log1pf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='log2' mangled-name='log2' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='log2@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='log2f' mangled-name='log2f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='log2f@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='log2l' mangled-name='log2l' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='log2l@@LIBC'>
+      <parameter type-id='e095c704' name='x'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='logb' mangled-name='logb' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='logb@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='logbf' mangled-name='logbf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='logbf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='logf' mangled-name='logf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='logf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='logl' mangled-name='logl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='logl@@LIBC'>
+      <parameter type-id='e095c704'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='lrint' mangled-name='lrint' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='lrint@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='bd54fe1a'/>
+    </function-decl>
+    <function-decl name='lrintf' mangled-name='lrintf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='lrintf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='bd54fe1a'/>
+    </function-decl>
+    <function-decl name='lrintl' mangled-name='lrintl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='lrintl@@LIBC'>
+      <parameter type-id='e095c704' name='a1'/>
+      <return type-id='bd54fe1a'/>
+    </function-decl>
+    <function-decl name='lround' mangled-name='lround' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='lround@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='bd54fe1a'/>
+    </function-decl>
+    <function-decl name='lroundf' mangled-name='lroundf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='lroundf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='bd54fe1a'/>
+    </function-decl>
+    <function-decl name='lroundl' mangled-name='lroundl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='lroundl@@LIBC'>
+      <parameter type-id='e095c704' name='a1'/>
+      <return type-id='bd54fe1a'/>
+    </function-decl>
+    <function-decl name='modf' mangled-name='modf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='modf@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <parameter type-id='7408d286' name='iptr'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='modff' mangled-name='modff' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='modff@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <parameter type-id='361f7a7d' name='iptr'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='modfl' mangled-name='modfl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='modfl@@LIBC'>
+      <parameter type-id='e095c704' name='a1'/>
+      <parameter type-id='b9c88d6a' name='a2'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='nan' mangled-name='nan' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='nan@@LIBC'>
+      <parameter type-id='80f4b756' name='s'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='nanf' mangled-name='nanf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='nanf@@LIBC'>
+      <parameter type-id='80f4b756' name='s'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='nearbyint' mangled-name='nearbyint' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='nearbyint@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='nearbyintf' mangled-name='nearbyintf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='nearbyintf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='nearbyintl' mangled-name='nearbyintl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='nearbyintl@@LIBC'>
+      <parameter type-id='e095c704' name='x'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='nextafter' mangled-name='nextafter' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='nextafter@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='nextafterf' mangled-name='nextafterf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='nextafterf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <parameter type-id='a6c45d85' name='y'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='nexttowardf' mangled-name='nexttowardf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='nexttowardf@@LIBC'>
+      <parameter type-id='a6c45d85' name='a1'/>
+      <parameter type-id='e095c704' name='a2'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='pow' mangled-name='pow' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='pow@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='powf' mangled-name='powf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='powf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='powl' mangled-name='powl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='powl@@LIBC'>
+      <parameter type-id='e095c704'/>
+      <parameter type-id='e095c704'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='remainder' mangled-name='remainder' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='remainder@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <parameter type-id='a0eb0f08' name='p'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='remainderf' mangled-name='remainderf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='remainderf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <parameter type-id='a6c45d85' name='p'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='remquo' mangled-name='remquo' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='remquo@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <parameter type-id='a0eb0f08' name='y'/>
+      <parameter type-id='7292109c' name='quo'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='remquof' mangled-name='remquof' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='remquof@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <parameter type-id='a6c45d85' name='y'/>
+      <parameter type-id='7292109c' name='quo'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='rint' mangled-name='rint' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='rint@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='rintf' mangled-name='rintf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='rintf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='round' mangled-name='round' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='round@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='roundf' mangled-name='roundf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='roundf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='roundl' mangled-name='roundl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='roundl@@LIBC'>
+      <parameter type-id='e095c704' name='a1'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='scalb' mangled-name='scalb' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='scalb@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <parameter type-id='a0eb0f08' name='fn'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='scalbf' mangled-name='scalbf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='scalbf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <parameter type-id='a6c45d85' name='fn'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='scalbln' mangled-name='scalbln' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='scalbln@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <parameter type-id='bd54fe1a' name='n'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='scalblnf' mangled-name='scalblnf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='scalblnf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <parameter type-id='bd54fe1a' name='n'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='scalblnl' mangled-name='scalblnl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='scalblnl@@LIBC'>
+      <parameter type-id='e095c704' name='x'/>
+      <parameter type-id='bd54fe1a' name='n'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='scalbn' mangled-name='scalbn' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='scalbn@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <parameter type-id='95e97e5e'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='scalbnf' mangled-name='scalbnf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='scalbnf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <parameter type-id='95e97e5e'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='significand' mangled-name='significand' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='significand@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='significandf' mangled-name='significandf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='significandf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='significandl' mangled-name='significandl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='significandl@@LIBC'>
+      <parameter type-id='e095c704' name='x'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='sin' mangled-name='sin' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='sin@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='sincos' mangled-name='sincos' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='sincos@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <parameter type-id='7408d286'/>
+      <parameter type-id='7408d286'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='sincosf' mangled-name='sincosf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='sincosf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <parameter type-id='361f7a7d'/>
+      <parameter type-id='361f7a7d'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='sincosl' mangled-name='sincosl' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='sincosl@@LIBC'>
+      <parameter type-id='e095c704' name='x'/>
+      <parameter type-id='b9c88d6a' name='s'/>
+      <parameter type-id='b9c88d6a' name='c'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='sinf' mangled-name='sinf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='sinf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='sinh' mangled-name='sinh' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='sinh@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='sinhf' mangled-name='sinhf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='sinhf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='tan' mangled-name='tan' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='tan@@LIBC'>
+      <parameter type-id='a0eb0f08'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='tanf' mangled-name='tanf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='tanf@@LIBC'>
+      <parameter type-id='a6c45d85'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='tanh' mangled-name='tanh' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='tanh@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='tanhf' mangled-name='tanhf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='tanhf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='tgamma' mangled-name='tgamma' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='tgamma@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='tgammaf' mangled-name='tgammaf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='tgammaf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='tgammal' mangled-name='tgammal' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='tgammal@@LIBC'>
+      <parameter type-id='e095c704' name='x'/>
+      <return type-id='e095c704'/>
+    </function-decl>
+    <function-decl name='trunc' mangled-name='trunc' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='trunc@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='truncf' mangled-name='truncf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='truncf@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='y0' mangled-name='y0' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='y0@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='y0f' mangled-name='y0f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='y0f@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='y1' mangled-name='y1' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='y1@@LIBC'>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='y1f' mangled-name='y1f' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='y1f@@LIBC'>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <function-decl name='yn' mangled-name='yn' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='yn@@LIBC'>
+      <parameter type-id='95e97e5e' name='n'/>
+      <parameter type-id='a0eb0f08' name='x'/>
+      <return type-id='a0eb0f08'/>
+    </function-decl>
+    <function-decl name='ynf' mangled-name='ynf' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='ynf@@LIBC'>
+      <parameter type-id='95e97e5e' name='n'/>
+      <parameter type-id='a6c45d85' name='x'/>
+      <return type-id='a6c45d85'/>
+    </function-decl>
+    <pointer-type-def type-id='58255080' size-in-bits='32' id='0d71ad37'/>
+    <pointer-type-def type-id='a6c45d85' size-in-bits='32' id='361f7a7d'/>
+    <pointer-type-def type-id='9f55a2aa' size-in-bits='32' id='53cecf80'/>
+    <pointer-type-def type-id='4886b510' size-in-bits='32' id='660f4a4e'/>
+    <pointer-type-def type-id='95e97e5e' size-in-bits='32' id='7292109c'/>
+    <pointer-type-def type-id='a0eb0f08' size-in-bits='32' id='7408d286'/>
+    <pointer-type-def type-id='9b45d938' size-in-bits='32' id='80f4b756'/>
+    <pointer-type-def type-id='e095c704' size-in-bits='32' id='b9c88d6a'/>
+    <pointer-type-def type-id='9c370dfa' size-in-bits='32' id='e23c203b'/>
+    <qualified-type-def type-id='58255080' const='yes' id='4886b510'/>
+    <qualified-type-def type-id='a84c031d' const='yes' id='9b45d938'/>
+    <qualified-type-def type-id='9c370dfa' const='yes' id='9f55a2aa'/>
+    <type-decl name='char' size-in-bits='8' id='a84c031d'/>
+    <type-decl name='complex' size-in-bits='128' id='8a2c68b7'/>
+    <type-decl name='double' size-in-bits='64' id='a0eb0f08'/>
+    <type-decl name='float' size-in-bits='32' id='a6c45d85'/>
+    <type-decl name='int' size-in-bits='32' id='95e97e5e'/>
+    <type-decl name='long double' size-in-bits='64' id='e095c704'/>
+    <type-decl name='long int' size-in-bits='32' id='bd54fe1a'/>
+    <type-decl name='long long int' size-in-bits='64' id='1eb56b1e'/>
+    <type-decl name='unsigned int' size-in-bits='32' id='f0981eeb'/>
+    <type-decl name='void' id='48b5725f'/>
+    <typedef-decl name='__uint32_t' type-id='f0981eeb' id='62f1140c'/>
+    <typedef-decl name='fenv_t' type-id='62f1140c' id='9c370dfa'/>
+    <typedef-decl name='fexcept_t' type-id='62f1140c' id='58255080'/>
+    <var-decl name='__fe_dfl_env' type-id='9f55a2aa' mangled-name='__fe_dfl_env' visibility='default' elf-symbol-id='__fe_dfl_env@@LIBC'/>
+    <var-decl name='signgam' type-id='95e97e5e' mangled-name='signgam' visibility='default' elf-symbol-id='signgam@@LIBC'/>
+  </abi-instr>
+</abi-corpus>

@@ -1,0 +1,2784 @@
+<abi-corpus version='2.1' architecture='elf-arm' soname='libbinder_ndk.so'>
+  <elf-needed>
+    <dependency name='libandroid_runtime_lazy.so'/>
+    <dependency name='libbase.so'/>
+    <dependency name='libbinder.so'/>
+    <dependency name='libutils.so'/>
+    <dependency name='libc++.so'/>
+    <dependency name='libc.so'/>
+    <dependency name='libm.so'/>
+    <dependency name='libdl.so'/>
+  </elf-needed>
+  <elf-function-symbols>
+    <elf-symbol name='AIBinder_Class_define' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_Class_disableInterfaceTokenHeader' version='LIBBINDER_NDK33' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_Class_getDescriptor' version='LIBBINDER_NDK31' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_Class_setOnDump' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_DeathRecipient_delete' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_DeathRecipient_new' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_DeathRecipient_setOnUnlinked' version='LIBBINDER_NDK33' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_Weak_clone' version='LIBBINDER_NDK31' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_Weak_delete' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_Weak_lt' version='LIBBINDER_NDK31' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_Weak_new' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_Weak_promote' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_associateClass' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_debugGetRefCount' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_decStrong' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_dump' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_fromJavaBinder' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_getCallingPid' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_getCallingUid' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_getClass' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_getExtension' version='LIBBINDER_NDK30' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_getUserData' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_incStrong' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_isAlive' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_isHandlingTransaction' version='LIBBINDER_NDK33' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_isRemote' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_linkToDeath' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_lt' version='LIBBINDER_NDK31' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_new' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_ping' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_prepareTransaction' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_setExtension' version='LIBBINDER_NDK30' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_toJavaBinder' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_transact' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AIBinder_unlinkToDeath' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_appendFrom' version='LIBBINDER_NDK31' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_create' version='LIBBINDER_NDK31' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_delete' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_fromJavaParcel' version='LIBBINDER_NDK30' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_getDataPosition' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_getDataSize' version='LIBBINDER_NDK31' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_marshal' version='LIBBINDER_NDK33' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readBool' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readBoolArray' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readByte' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readByteArray' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readChar' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readCharArray' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readDouble' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readDoubleArray' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readFloat' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readFloatArray' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readInt32' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readInt32Array' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readInt64' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readInt64Array' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readParcelFileDescriptor' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readParcelableArray' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readStatusHeader' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readString' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readStringArray' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readStrongBinder' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readUint32' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readUint32Array' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readUint64' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_readUint64Array' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_reset' version='LIBBINDER_NDK31' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_setDataPosition' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_unmarshal' version='LIBBINDER_NDK33' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeBool' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeBoolArray' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeByte' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeByteArray' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeChar' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeCharArray' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeDouble' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeDoubleArray' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeFloat' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeFloatArray' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeInt32' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeInt32Array' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeInt64' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeInt64Array' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeParcelFileDescriptor' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeParcelableArray' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeStatusHeader' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeString' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeStringArray' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeStrongBinder' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeUint32' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeUint32Array' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeUint64' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AParcel_writeUint64Array' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AStatus_delete' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AStatus_deleteDescription' version='LIBBINDER_NDK30' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AStatus_fromExceptionCode' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AStatus_fromExceptionCodeWithMessage' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AStatus_fromServiceSpecificError' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AStatus_fromServiceSpecificErrorWithMessage' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AStatus_fromStatus' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AStatus_getDescription' version='LIBBINDER_NDK30' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AStatus_getExceptionCode' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AStatus_getMessage' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AStatus_getServiceSpecificError' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AStatus_getStatus' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AStatus_isOk' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='AStatus_newOk' version='LIBBINDER_NDK' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+  </elf-function-symbols>
+  <abi-instr address-size='32' language='LANG_C_plus_plus_14' path='various'>
+    <array-type-def dimensions='1' type-id='0ad725ff' size-in-bits='96' id='5da85797'>
+      <subrange length='3' type-id='7ff19f0f' id='56f209d2'/>
+    </array-type-def>
+    <array-type-def dimensions='1' type-id='97219ec5' size-in-bits='88' id='8c04a868'>
+      <subrange length='11' type-id='7ff19f0f' id='847bc017'/>
+    </array-type-def>
+    <array-type-def dimensions='1' type-id='3ff5601b' size-in-bits='32' id='e4652d73'>
+      <subrange length='1' type-id='7ff19f0f' id='52f813b4'/>
+    </array-type-def>
+    <class-decl name='ABBinder' size-in-bits='288' is-struct='yes' visibility='default' id='c87e056a'>
+      <base-class access='public' layout-offset-in-bits='0' type-id='d44a2187'/>
+      <base-class access='public' layout-offset-in-bits='96' type-id='a4d376c6'/>
+      <data-member access='private' layout-offset-in-bits='192'>
+        <var-decl name='mUserData' type-id='eaa32e2f' visibility='default'/>
+      </data-member>
+      <member-function access='private' constructor='yes'>
+        <function-decl name='ABBinder' visibility='default' binding='global' size-in-bits='32'>
+          <parameter type-id='3bba26d8' is-artificial='yes'/>
+          <parameter type-id='d42e3019'/>
+          <parameter type-id='eaa32e2f'/>
+          <return type-id='48b5725f'/>
+        </function-decl>
+      </member-function>
+      <member-function access='public' destructor='yes' vtable-offset='0'>
+        <function-decl name='~ABBinder' visibility='default' binding='global' size-in-bits='32'>
+          <parameter type-id='3bba26d8' is-artificial='yes'/>
+          <return type-id='48b5725f'/>
+        </function-decl>
+      </member-function>
+    </class-decl>
+    <class-decl name='ABpBinder' size-in-bits='192' is-struct='yes' visibility='default' id='92235bb6'>
+      <base-class access='public' layout-offset-in-bits='0' type-id='d44a2187'/>
+      <data-member access='private' layout-offset-in-bits='96'>
+        <var-decl name='mRemote' type-id='bb7689ff' visibility='default'/>
+      </data-member>
+      <member-function access='private' constructor='yes'>
+        <function-decl name='ABpBinder' visibility='default' binding='global' size-in-bits='32'>
+          <parameter type-id='cc87291c' is-artificial='yes'/>
+          <parameter type-id='83dafb9a'/>
+          <return type-id='48b5725f'/>
+        </function-decl>
+      </member-function>
+      <member-function access='public' destructor='yes' vtable-offset='0'>
+        <function-decl name='~ABpBinder' visibility='default' binding='global' size-in-bits='32'>
+          <parameter type-id='cc87291c' is-artificial='yes'/>
+          <return type-id='48b5725f'/>
+        </function-decl>
+      </member-function>
+    </class-decl>
+    <class-decl name='AIBinder' is-struct='yes' visibility='default' is-declaration-only='yes' id='d44a2187'>
+      <base-class access='public' layout-offset-in-bits='96' is-virtual='yes' type-id='12f619c0'/>
+      <data-member access='private' layout-offset-in-bits='32'>
+        <var-decl name='mClazz' type-id='d42e3019' visibility='default'/>
+      </data-member>
+      <data-member access='private' layout-offset-in-bits='64'>
+        <var-decl name='mClazzMutex' type-id='199fc21a' visibility='default'/>
+      </data-member>
+      <member-function access='public' constructor='yes'>
+        <function-decl name='AIBinder' visibility='default' binding='global' size-in-bits='32'>
+          <parameter type-id='333f9d5f' is-artificial='yes'/>
+          <parameter type-id='d42e3019'/>
+          <return type-id='48b5725f'/>
+        </function-decl>
+      </member-function>
+      <member-function access='public' destructor='yes' vtable-offset='0'>
+        <function-decl name='~AIBinder' visibility='default' binding='global' size-in-bits='32'>
+          <parameter type-id='333f9d5f' is-artificial='yes'/>
+          <return type-id='48b5725f'/>
+        </function-decl>
+      </member-function>
+    </class-decl>
+    <class-decl name='AIBinder_Class' size-in-bits='320' is-struct='yes' visibility='default' id='5ab57680'>
+      <data-member access='public' layout-offset-in-bits='0'>
+        <var-decl name='writeHeader' type-id='c894953d' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='32'>
+        <var-decl name='onCreate' type-id='c949990b' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='64'>
+        <var-decl name='onDestroy' type-id='3ec19263' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='96'>
+        <var-decl name='onTransact' type-id='6082e9b5' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='128'>
+        <var-decl name='onDump' type-id='3747f7a8' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='160'>
+        <var-decl name='handleShellCommand' type-id='6a15d4f2' visibility='default'/>
+      </data-member>
+      <data-member access='private' layout-offset-in-bits='192'>
+        <var-decl name='mInterfaceDescriptor' type-id='99dba30b' visibility='default'/>
+      </data-member>
+      <data-member access='private' layout-offset-in-bits='288'>
+        <var-decl name='mWideInterfaceDescriptor' type-id='a3cec311' visibility='default'/>
+      </data-member>
+      <member-function access='public' constructor='yes'>
+        <function-decl name='AIBinder_Class' visibility='default' binding='global' size-in-bits='32'>
+          <parameter type-id='3f695a26' is-artificial='yes'/>
+          <parameter type-id='80f4b756'/>
+          <parameter type-id='2f8f0f7b'/>
+          <parameter type-id='f008dbb3'/>
+          <parameter type-id='2ba07ce5'/>
+          <return type-id='48b5725f'/>
+        </function-decl>
+      </member-function>
+    </class-decl>
+    <class-decl name='AIBinder_DeathRecipient' size-in-bits='256' is-struct='yes' visibility='default' id='3a9ccc71'>
+      <base-class access='public' layout-offset-in-bits='0' type-id='12f619c0'/>
+      <member-type access='public'>
+        <class-decl name='TransferDeathRecipient' size-in-bits='320' is-struct='yes' visibility='default' id='e2f3b54f'>
+          <base-class access='public' layout-offset-in-bits='0' type-id='fb20a88a'/>
+          <data-member access='private' layout-offset-in-bits='32'>
+            <var-decl name='mWho' type-id='32985b1b' visibility='default'/>
+          </data-member>
+          <data-member access='private' layout-offset-in-bits='96'>
+            <var-decl name='mCookie' type-id='eaa32e2f' visibility='default'/>
+          </data-member>
+          <data-member access='private' layout-offset-in-bits='128'>
+            <var-decl name='mParentRecipient' type-id='fbb3b2e9' visibility='default'/>
+          </data-member>
+          <data-member access='private' layout-offset-in-bits='192'>
+            <var-decl name='mOnDied' type-id='ae088554' visibility='default'/>
+          </data-member>
+          <data-member access='private' layout-offset-in-bits='224'>
+            <var-decl name='mOnUnlinked' type-id='3a953590' visibility='default'/>
+          </data-member>
+          <member-function access='public' constructor='yes'>
+            <function-decl name='TransferDeathRecipient' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='61fbb9d7' is-artificial='yes'/>
+              <parameter type-id='d603fe46'/>
+              <parameter type-id='eaa32e2f'/>
+              <parameter type-id='aea39a7e'/>
+              <parameter type-id='124cb5c4'/>
+              <parameter type-id='99ef9c60'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public' destructor='yes' vtable-offset='0'>
+            <function-decl name='~TransferDeathRecipient' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='61fbb9d7' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+      </member-type>
+      <data-member access='private' layout-offset-in-bits='64'>
+        <var-decl name='mDeathRecipientsMutex' type-id='199fc21a' visibility='default'/>
+      </data-member>
+      <data-member access='private' layout-offset-in-bits='96'>
+        <var-decl name='mDeathRecipients' type-id='50607161' visibility='default'/>
+      </data-member>
+      <data-member access='private' layout-offset-in-bits='192'>
+        <var-decl name='mOnDied' type-id='124cb5c4' visibility='default'/>
+      </data-member>
+      <data-member access='private' layout-offset-in-bits='224'>
+        <var-decl name='mOnUnlinked' type-id='99ef9c60' visibility='default'/>
+      </data-member>
+      <member-function access='public' constructor='yes'>
+        <function-decl name='AIBinder_DeathRecipient' visibility='default' binding='global' size-in-bits='32'>
+          <parameter type-id='d8795709' is-artificial='yes'/>
+          <parameter type-id='124cb5c4'/>
+          <return type-id='48b5725f'/>
+        </function-decl>
+      </member-function>
+    </class-decl>
+    <class-decl name='AIBinder_Weak' size-in-bits='64' is-struct='yes' visibility='default' id='3e202750'>
+      <data-member access='public' layout-offset-in-bits='0'>
+        <var-decl name='binder' type-id='fa55b13f' visibility='default'/>
+      </data-member>
+    </class-decl>
+    <class-decl name='AParcel' size-in-bits='96' is-struct='yes' visibility='default' id='dfdf676d'>
+      <data-member access='private' layout-offset-in-bits='0'>
+        <var-decl name='mBinder' type-id='d38ab678' visibility='default'/>
+      </data-member>
+      <data-member access='private' layout-offset-in-bits='32'>
+        <var-decl name='mParcel' type-id='1a1ddb91' visibility='default'/>
+      </data-member>
+      <data-member access='private' layout-offset-in-bits='64'>
+        <var-decl name='mOwns' type-id='c894953d' visibility='default'/>
+      </data-member>
+      <member-function access='public' constructor='yes'>
+        <function-decl name='AParcel' visibility='default' binding='global' size-in-bits='32'>
+          <parameter type-id='5d05a99d' is-artificial='yes'/>
+          <parameter type-id='333f9d5f'/>
+          <return type-id='48b5725f'/>
+        </function-decl>
+      </member-function>
+      <member-function access='public' constructor='yes'>
+        <function-decl name='AParcel' visibility='default' binding='global' size-in-bits='32'>
+          <parameter type-id='5d05a99d' is-artificial='yes'/>
+          <parameter type-id='333f9d5f'/>
+          <parameter type-id='1a1ddb91'/>
+          <parameter type-id='c894953d'/>
+          <return type-id='48b5725f'/>
+        </function-decl>
+      </member-function>
+      <member-function access='public' destructor='yes'>
+        <function-decl name='~AParcel' visibility='default' binding='global' size-in-bits='32'>
+          <parameter type-id='5d05a99d' is-artificial='yes'/>
+          <return type-id='48b5725f'/>
+        </function-decl>
+      </member-function>
+    </class-decl>
+    <class-decl name='AStatus' size-in-bits='96' is-struct='yes' visibility='default' id='6b3b7c8e'>
+      <data-member access='private' layout-offset-in-bits='0'>
+        <var-decl name='mStatus' type-id='7917fa3a' visibility='default'/>
+      </data-member>
+      <member-function access='public' constructor='yes'>
+        <function-decl name='AStatus' visibility='default' binding='global' size-in-bits='32'>
+          <parameter type-id='0cb44914' is-artificial='yes'/>
+          <return type-id='48b5725f'/>
+        </function-decl>
+      </member-function>
+      <member-function access='public' constructor='yes'>
+        <function-decl name='AStatus' visibility='default' binding='global' size-in-bits='32'>
+          <parameter type-id='0cb44914' is-artificial='yes'/>
+          <parameter type-id='e6df31ee'/>
+          <return type-id='48b5725f'/>
+        </function-decl>
+      </member-function>
+    </class-decl>
+    <class-decl name='_JNIEnv' is-struct='yes' visibility='default' is-declaration-only='yes' id='c9459134'/>
+    <class-decl name='_jobject' size-in-bits='8' visibility='default' id='baffb083'/>
+    <class-decl name='__anonymous_struct__' size-in-bits='32' is-struct='yes' visibility='default' id='92fa54c8' is-anonymous='yes'>
+      <data-member access='public' layout-offset-in-bits='0'>
+        <var-decl name='__private' type-id='e4652d73' visibility='default'/>
+      </data-member>
+    </class-decl>
+    <function-decl name='AIBinder_Class_define' mangled-name='AIBinder_Class_define' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_Class_define@@LIBBINDER_NDK'>
+      <parameter type-id='80f4b756' name='interfaceDescriptor'/>
+      <parameter type-id='2f8f0f7b' name='onCreate'/>
+      <parameter type-id='f008dbb3' name='onDestroy'/>
+      <parameter type-id='2ba07ce5' name='onTransact'/>
+      <return type-id='3f695a26'/>
+    </function-decl>
+    <function-decl name='AIBinder_Class_disableInterfaceTokenHeader' mangled-name='AIBinder_Class_disableInterfaceTokenHeader' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_Class_disableInterfaceTokenHeader@@LIBBINDER_NDK33'>
+      <parameter type-id='3f695a26' name='clazz'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='AIBinder_Class_getDescriptor' mangled-name='AIBinder_Class_getDescriptor' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_Class_getDescriptor@@LIBBINDER_NDK31'>
+      <parameter type-id='d42e3019' name='clazz'/>
+      <return type-id='80f4b756'/>
+    </function-decl>
+    <function-decl name='AIBinder_Class_setOnDump' mangled-name='AIBinder_Class_setOnDump' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_Class_setOnDump@@LIBBINDER_NDK'>
+      <parameter type-id='3f695a26' name='clazz'/>
+      <parameter type-id='3747f7a8' name='onDump'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='AIBinder_DeathRecipient_delete' mangled-name='AIBinder_DeathRecipient_delete' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_DeathRecipient_delete@@LIBBINDER_NDK'>
+      <parameter type-id='d8795709' name='recipient'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='AIBinder_DeathRecipient_new' mangled-name='AIBinder_DeathRecipient_new' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_DeathRecipient_new@@LIBBINDER_NDK'>
+      <parameter type-id='124cb5c4' name='onBinderDied'/>
+      <return type-id='d8795709'/>
+    </function-decl>
+    <function-decl name='AIBinder_DeathRecipient_setOnUnlinked' mangled-name='AIBinder_DeathRecipient_setOnUnlinked' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_DeathRecipient_setOnUnlinked@@LIBBINDER_NDK33'>
+      <parameter type-id='d8795709' name='recipient'/>
+      <parameter type-id='99ef9c60' name='onUnlinked'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='AIBinder_Weak_clone' mangled-name='AIBinder_Weak_clone' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_Weak_clone@@LIBBINDER_NDK31'>
+      <parameter type-id='9267051b' name='weak'/>
+      <return type-id='1682c9a6'/>
+    </function-decl>
+    <function-decl name='AIBinder_Weak_delete' mangled-name='AIBinder_Weak_delete' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_Weak_delete@@LIBBINDER_NDK'>
+      <parameter type-id='1682c9a6' name='weakBinder'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='AIBinder_Weak_lt' mangled-name='AIBinder_Weak_lt' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_Weak_lt@@LIBBINDER_NDK31'>
+      <parameter type-id='9267051b' name='lhs'/>
+      <parameter type-id='9267051b' name='rhs'/>
+      <return type-id='c894953d'/>
+    </function-decl>
+    <function-decl name='AIBinder_Weak_new' mangled-name='AIBinder_Weak_new' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_Weak_new@@LIBBINDER_NDK'>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <return type-id='1682c9a6'/>
+    </function-decl>
+    <function-decl name='AIBinder_Weak_promote' mangled-name='AIBinder_Weak_promote' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_Weak_promote@@LIBBINDER_NDK'>
+      <parameter type-id='1682c9a6' name='weakBinder'/>
+      <return type-id='333f9d5f'/>
+    </function-decl>
+    <function-decl name='AIBinder_associateClass' mangled-name='AIBinder_associateClass' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_associateClass@@LIBBINDER_NDK'>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <parameter type-id='d42e3019' name='clazz'/>
+      <return type-id='c894953d'/>
+    </function-decl>
+    <function-decl name='AIBinder_debugGetRefCount' mangled-name='AIBinder_debugGetRefCount' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_debugGetRefCount@@LIBBINDER_NDK'>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <return type-id='3ff5601b'/>
+    </function-decl>
+    <function-decl name='AIBinder_decStrong' mangled-name='AIBinder_decStrong' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_decStrong@@LIBBINDER_NDK'>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='AIBinder_dump' mangled-name='AIBinder_dump' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_dump@@LIBBINDER_NDK'>
+      <parameter type-id='333f9d5f'/>
+      <parameter type-id='95e97e5e'/>
+      <parameter type-id='7d3cd834'/>
+      <parameter type-id='8f92235e'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AIBinder_fromJavaBinder' mangled-name='AIBinder_fromJavaBinder' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_fromJavaBinder@@LIBBINDER_NDK'>
+      <parameter type-id='fae49a1f' name='env'/>
+      <parameter type-id='96f3d089' name='binder'/>
+      <return type-id='333f9d5f'/>
+    </function-decl>
+    <function-decl name='AIBinder_getCallingPid' mangled-name='AIBinder_getCallingPid' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_getCallingPid@@LIBBINDER_NDK'>
+      <return type-id='587f89d2'/>
+    </function-decl>
+    <function-decl name='AIBinder_getCallingUid' mangled-name='AIBinder_getCallingUid' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_getCallingUid@@LIBBINDER_NDK'>
+      <return type-id='354978ed'/>
+    </function-decl>
+    <function-decl name='AIBinder_getClass' mangled-name='AIBinder_getClass' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_getClass@@LIBBINDER_NDK'>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <return type-id='d42e3019'/>
+    </function-decl>
+    <function-decl name='AIBinder_getExtension' mangled-name='AIBinder_getExtension' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_getExtension@@LIBBINDER_NDK30'>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <parameter type-id='2224df2f' name='outExt'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AIBinder_getUserData' mangled-name='AIBinder_getUserData' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_getUserData@@LIBBINDER_NDK'>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <return type-id='eaa32e2f'/>
+    </function-decl>
+    <function-decl name='AIBinder_incStrong' mangled-name='AIBinder_incStrong' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_incStrong@@LIBBINDER_NDK'>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='AIBinder_isAlive' mangled-name='AIBinder_isAlive' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_isAlive@@LIBBINDER_NDK'>
+      <parameter type-id='d38ab678' name='binder'/>
+      <return type-id='c894953d'/>
+    </function-decl>
+    <function-decl name='AIBinder_isHandlingTransaction' mangled-name='AIBinder_isHandlingTransaction' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_isHandlingTransaction@@LIBBINDER_NDK33'>
+      <return type-id='c894953d'/>
+    </function-decl>
+    <function-decl name='AIBinder_isRemote' mangled-name='AIBinder_isRemote' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_isRemote@@LIBBINDER_NDK'>
+      <parameter type-id='d38ab678' name='binder'/>
+      <return type-id='c894953d'/>
+    </function-decl>
+    <function-decl name='AIBinder_linkToDeath' mangled-name='AIBinder_linkToDeath' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_linkToDeath@@LIBBINDER_NDK'>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <parameter type-id='d8795709' name='recipient'/>
+      <parameter type-id='eaa32e2f' name='cookie'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AIBinder_lt' mangled-name='AIBinder_lt' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_lt@@LIBBINDER_NDK31'>
+      <parameter type-id='d38ab678' name='lhs'/>
+      <parameter type-id='d38ab678' name='rhs'/>
+      <return type-id='c894953d'/>
+    </function-decl>
+    <function-decl name='AIBinder_new' mangled-name='AIBinder_new' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_new@@LIBBINDER_NDK'>
+      <parameter type-id='d42e3019' name='clazz'/>
+      <parameter type-id='eaa32e2f' name='args'/>
+      <return type-id='333f9d5f'/>
+    </function-decl>
+    <function-decl name='AIBinder_ping' mangled-name='AIBinder_ping' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_ping@@LIBBINDER_NDK'>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AIBinder_prepareTransaction' mangled-name='AIBinder_prepareTransaction' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_prepareTransaction@@LIBBINDER_NDK'>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <parameter type-id='26ea2b15' name='in'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AIBinder_setExtension' mangled-name='AIBinder_setExtension' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_setExtension@@LIBBINDER_NDK30'>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <parameter type-id='333f9d5f' name='ext'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AIBinder_toJavaBinder' mangled-name='AIBinder_toJavaBinder' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_toJavaBinder@@LIBBINDER_NDK'>
+      <parameter type-id='fae49a1f' name='env'/>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <return type-id='96f3d089'/>
+    </function-decl>
+    <function-decl name='AIBinder_transact' mangled-name='AIBinder_transact' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_transact@@LIBBINDER_NDK'>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <parameter type-id='9b5ed313' name='code'/>
+      <parameter type-id='26ea2b15' name='in'/>
+      <parameter type-id='26ea2b15' name='out'/>
+      <parameter type-id='b0dd32ff' name='flags'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AIBinder_unlinkToDeath' mangled-name='AIBinder_unlinkToDeath' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AIBinder_unlinkToDeath@@LIBBINDER_NDK'>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <parameter type-id='d8795709' name='recipient'/>
+      <parameter type-id='eaa32e2f' name='cookie'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_appendFrom' mangled-name='AParcel_appendFrom' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_appendFrom@@LIBBINDER_NDK31'>
+      <parameter type-id='517fbf28' name='from'/>
+      <parameter type-id='5d05a99d' name='to'/>
+      <parameter type-id='3ff5601b' name='start'/>
+      <parameter type-id='3ff5601b' name='size'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_create' mangled-name='AParcel_create' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_create@@LIBBINDER_NDK31'>
+      <return type-id='5d05a99d'/>
+    </function-decl>
+    <function-decl name='AParcel_delete' mangled-name='AParcel_delete' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_delete@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='AParcel_fromJavaParcel' mangled-name='AParcel_fromJavaParcel' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_fromJavaParcel@@LIBBINDER_NDK30'>
+      <parameter type-id='fae49a1f' name='env'/>
+      <parameter type-id='96f3d089' name='jbinder'/>
+      <return type-id='5d05a99d'/>
+    </function-decl>
+    <function-decl name='AParcel_getDataPosition' mangled-name='AParcel_getDataPosition' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_getDataPosition@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <return type-id='3ff5601b'/>
+    </function-decl>
+    <function-decl name='AParcel_getDataSize' mangled-name='AParcel_getDataSize' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_getDataSize@@LIBBINDER_NDK31'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <return type-id='3ff5601b'/>
+    </function-decl>
+    <function-decl name='AParcel_marshal' mangled-name='AParcel_marshal' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_marshal@@LIBBINDER_NDK33'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='ae3e8ca6' name='buffer'/>
+      <parameter type-id='b59d7dce' name='start'/>
+      <parameter type-id='b59d7dce' name='len'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readBool' mangled-name='AParcel_readBool' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readBool@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='d8e6b335' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readBoolArray' mangled-name='AParcel_readBoolArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readBoolArray@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='arrayData'/>
+      <parameter type-id='707d885d' name='allocator'/>
+      <parameter type-id='07b255e3' name='setter'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readByte' mangled-name='AParcel_readByte' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readByte@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='256d5229' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readByteArray' mangled-name='AParcel_readByteArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readByteArray@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='arrayData'/>
+      <parameter type-id='d57f0a5f' name='allocator'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readChar' mangled-name='AParcel_readChar' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readChar@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='f02a41c5' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readCharArray' mangled-name='AParcel_readCharArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readCharArray@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='arrayData'/>
+      <parameter type-id='51fd1b81' name='allocator'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readDouble' mangled-name='AParcel_readDouble' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readDouble@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='7408d286' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readDoubleArray' mangled-name='AParcel_readDoubleArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readDoubleArray@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='arrayData'/>
+      <parameter type-id='099869e4' name='allocator'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readFloat' mangled-name='AParcel_readFloat' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readFloat@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='361f7a7d' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readFloatArray' mangled-name='AParcel_readFloatArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readFloatArray@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='arrayData'/>
+      <parameter type-id='b6ac5acd' name='allocator'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readInt32' mangled-name='AParcel_readInt32' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readInt32@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='4aafb922' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readInt32Array' mangled-name='AParcel_readInt32Array' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readInt32Array@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='arrayData'/>
+      <parameter type-id='e79d084b' name='allocator'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readInt64' mangled-name='AParcel_readInt64' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readInt64@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='cb785ebf' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readInt64Array' mangled-name='AParcel_readInt64Array' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readInt64Array@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='arrayData'/>
+      <parameter type-id='c1828a94' name='allocator'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readParcelFileDescriptor' mangled-name='AParcel_readParcelFileDescriptor' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readParcelFileDescriptor@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='7292109c' name='fd'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readParcelableArray' mangled-name='AParcel_readParcelableArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readParcelableArray@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='arrayData'/>
+      <parameter type-id='92073bd8' name='allocator'/>
+      <parameter type-id='7b1d3952' name='elementReader'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readStatusHeader' mangled-name='AParcel_readStatusHeader' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readStatusHeader@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='3dcf4c9a' name='status'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readString' mangled-name='AParcel_readString' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readString@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='stringData'/>
+      <parameter type-id='6bf44f6b' name='allocator'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readStringArray' mangled-name='AParcel_readStringArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readStringArray@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='arrayData'/>
+      <parameter type-id='6213bcac' name='allocator'/>
+      <parameter type-id='b2d52af2' name='elementAllocator'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readStrongBinder' mangled-name='AParcel_readStrongBinder' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readStrongBinder@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='2224df2f' name='binder'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readUint32' mangled-name='AParcel_readUint32' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readUint32@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='90421557' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readUint32Array' mangled-name='AParcel_readUint32Array' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readUint32Array@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='arrayData'/>
+      <parameter type-id='eec82864' name='allocator'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readUint64' mangled-name='AParcel_readUint64' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readUint64@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='5d6479ae' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_readUint64Array' mangled-name='AParcel_readUint64Array' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_readUint64Array@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='arrayData'/>
+      <parameter type-id='4821304f' name='allocator'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_reset' mangled-name='AParcel_reset' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_reset@@LIBBINDER_NDK31'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_setDataPosition' mangled-name='AParcel_setDataPosition' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_setDataPosition@@LIBBINDER_NDK'>
+      <parameter type-id='517fbf28' name='parcel'/>
+      <parameter type-id='3ff5601b' name='position'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_unmarshal' mangled-name='AParcel_unmarshal' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_unmarshal@@LIBBINDER_NDK33'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='9f7200cf' name='buffer'/>
+      <parameter type-id='b59d7dce' name='len'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeBool' mangled-name='AParcel_writeBool' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeBool@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='c894953d' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeBoolArray' mangled-name='AParcel_writeBoolArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeBoolArray@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='arrayData'/>
+      <parameter type-id='3ff5601b' name='length'/>
+      <parameter type-id='c7426a57' name='getter'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeByte' mangled-name='AParcel_writeByte' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeByte@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='ee31ee44' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeByteArray' mangled-name='AParcel_writeByteArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeByteArray@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='a06445da' name='arrayData'/>
+      <parameter type-id='3ff5601b' name='length'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeChar' mangled-name='AParcel_writeChar' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeChar@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='801a266d' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeCharArray' mangled-name='AParcel_writeCharArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeCharArray@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='161c039a' name='arrayData'/>
+      <parameter type-id='3ff5601b' name='length'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeDouble' mangled-name='AParcel_writeDouble' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeDouble@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='a0eb0f08' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeDoubleArray' mangled-name='AParcel_writeDoubleArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeDoubleArray@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='a6370261' name='arrayData'/>
+      <parameter type-id='3ff5601b' name='length'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeFloat' mangled-name='AParcel_writeFloat' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeFloat@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='a6c45d85' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeFloatArray' mangled-name='AParcel_writeFloatArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeFloatArray@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='bc47ccdc' name='arrayData'/>
+      <parameter type-id='3ff5601b' name='length'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeInt32' mangled-name='AParcel_writeInt32' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeInt32@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='3ff5601b' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeInt32Array' mangled-name='AParcel_writeInt32Array' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeInt32Array@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='1f526493' name='arrayData'/>
+      <parameter type-id='3ff5601b' name='length'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeInt64' mangled-name='AParcel_writeInt64' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeInt64@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='9da381c4' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeInt64Array' mangled-name='AParcel_writeInt64Array' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeInt64Array@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='505bed1a' name='arrayData'/>
+      <parameter type-id='3ff5601b' name='length'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeParcelFileDescriptor' mangled-name='AParcel_writeParcelFileDescriptor' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeParcelFileDescriptor@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='95e97e5e' name='fd'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeParcelableArray' mangled-name='AParcel_writeParcelableArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeParcelableArray@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='arrayData'/>
+      <parameter type-id='3ff5601b' name='length'/>
+      <parameter type-id='bce54c51' name='elementWriter'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeStatusHeader' mangled-name='AParcel_writeStatusHeader' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeStatusHeader@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='00cbb141' name='status'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeString' mangled-name='AParcel_writeString' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeString@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='80f4b756' name='string'/>
+      <parameter type-id='3ff5601b' name='length'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeStringArray' mangled-name='AParcel_writeStringArray' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeStringArray@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='eaa32e2f' name='arrayData'/>
+      <parameter type-id='3ff5601b' name='length'/>
+      <parameter type-id='3e1cb292' name='getter'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeStrongBinder' mangled-name='AParcel_writeStrongBinder' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeStrongBinder@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='333f9d5f' name='binder'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeUint32' mangled-name='AParcel_writeUint32' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeUint32@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='8f92235e' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeUint32Array' mangled-name='AParcel_writeUint32Array' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeUint32Array@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='a6798dcc' name='arrayData'/>
+      <parameter type-id='3ff5601b' name='length'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeUint64' mangled-name='AParcel_writeUint64' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeUint64@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='9c313c2d' name='value'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AParcel_writeUint64Array' mangled-name='AParcel_writeUint64Array' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AParcel_writeUint64Array@@LIBBINDER_NDK'>
+      <parameter type-id='5d05a99d' name='parcel'/>
+      <parameter type-id='713a56f5' name='arrayData'/>
+      <parameter type-id='3ff5601b' name='length'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AStatus_delete' mangled-name='AStatus_delete' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AStatus_delete@@LIBBINDER_NDK'>
+      <parameter type-id='0cb44914' name='status'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='AStatus_deleteDescription' mangled-name='AStatus_deleteDescription' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AStatus_deleteDescription@@LIBBINDER_NDK30'>
+      <parameter type-id='80f4b756'/>
+      <return type-id='48b5725f'/>
+    </function-decl>
+    <function-decl name='AStatus_fromExceptionCode' mangled-name='AStatus_fromExceptionCode' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AStatus_fromExceptionCode@@LIBBINDER_NDK'>
+      <parameter type-id='cca1ea15' name='exception'/>
+      <return type-id='0cb44914'/>
+    </function-decl>
+    <function-decl name='AStatus_fromExceptionCodeWithMessage' mangled-name='AStatus_fromExceptionCodeWithMessage' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AStatus_fromExceptionCodeWithMessage@@LIBBINDER_NDK'>
+      <parameter type-id='cca1ea15' name='exception'/>
+      <parameter type-id='80f4b756' name='message'/>
+      <return type-id='0cb44914'/>
+    </function-decl>
+    <function-decl name='AStatus_fromServiceSpecificError' mangled-name='AStatus_fromServiceSpecificError' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AStatus_fromServiceSpecificError@@LIBBINDER_NDK'>
+      <parameter type-id='3ff5601b' name='serviceSpecific'/>
+      <return type-id='0cb44914'/>
+    </function-decl>
+    <function-decl name='AStatus_fromServiceSpecificErrorWithMessage' mangled-name='AStatus_fromServiceSpecificErrorWithMessage' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AStatus_fromServiceSpecificErrorWithMessage@@LIBBINDER_NDK'>
+      <parameter type-id='3ff5601b' name='serviceSpecific'/>
+      <parameter type-id='80f4b756' name='message'/>
+      <return type-id='0cb44914'/>
+    </function-decl>
+    <function-decl name='AStatus_fromStatus' mangled-name='AStatus_fromStatus' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AStatus_fromStatus@@LIBBINDER_NDK'>
+      <parameter type-id='73ecdbc4' name='status'/>
+      <return type-id='0cb44914'/>
+    </function-decl>
+    <function-decl name='AStatus_getDescription' mangled-name='AStatus_getDescription' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AStatus_getDescription@@LIBBINDER_NDK30'>
+      <parameter type-id='00cbb141' name='status'/>
+      <return type-id='80f4b756'/>
+    </function-decl>
+    <function-decl name='AStatus_getExceptionCode' mangled-name='AStatus_getExceptionCode' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AStatus_getExceptionCode@@LIBBINDER_NDK'>
+      <parameter type-id='00cbb141' name='status'/>
+      <return type-id='cca1ea15'/>
+    </function-decl>
+    <function-decl name='AStatus_getMessage' mangled-name='AStatus_getMessage' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AStatus_getMessage@@LIBBINDER_NDK'>
+      <parameter type-id='00cbb141' name='status'/>
+      <return type-id='80f4b756'/>
+    </function-decl>
+    <function-decl name='AStatus_getServiceSpecificError' mangled-name='AStatus_getServiceSpecificError' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AStatus_getServiceSpecificError@@LIBBINDER_NDK'>
+      <parameter type-id='00cbb141' name='status'/>
+      <return type-id='3ff5601b'/>
+    </function-decl>
+    <function-decl name='AStatus_getStatus' mangled-name='AStatus_getStatus' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AStatus_getStatus@@LIBBINDER_NDK'>
+      <parameter type-id='00cbb141' name='status'/>
+      <return type-id='73ecdbc4'/>
+    </function-decl>
+    <function-decl name='AStatus_isOk' mangled-name='AStatus_isOk' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AStatus_isOk@@LIBBINDER_NDK'>
+      <parameter type-id='00cbb141' name='status'/>
+      <return type-id='c894953d'/>
+    </function-decl>
+    <function-decl name='AStatus_newOk' mangled-name='AStatus_newOk' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='AStatus_newOk@@LIBBINDER_NDK'>
+      <return type-id='0cb44914'/>
+    </function-decl>
+    <function-type size-in-bits='32' id='1002a49e'>
+      <parameter type-id='333f9d5f'/>
+      <parameter type-id='9b5ed313'/>
+      <parameter type-id='517fbf28'/>
+      <parameter type-id='5d05a99d'/>
+      <return type-id='73ecdbc4'/>
+    </function-type>
+    <function-type size-in-bits='32' id='2294665c'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='3ff5601b'/>
+      <parameter type-id='ee181ab9'/>
+      <return type-id='c894953d'/>
+    </function-type>
+    <function-type size-in-bits='32' id='2c3f98c7'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='3ff5601b'/>
+      <parameter type-id='9aa04798'/>
+      <return type-id='c894953d'/>
+    </function-type>
+    <function-type size-in-bits='32' id='333892eb'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='b59d7dce'/>
+      <return type-id='c894953d'/>
+    </function-type>
+    <function-type size-in-bits='32' id='3ddb4cdb'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='3ff5601b'/>
+      <parameter type-id='55e3a4c4'/>
+      <return type-id='c894953d'/>
+    </function-type>
+    <function-type size-in-bits='32' id='66e9cf9e'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='3ff5601b'/>
+      <parameter type-id='9507d3c7'/>
+      <return type-id='c894953d'/>
+    </function-type>
+    <function-type size-in-bits='32' id='6716b81e'>
+      <parameter type-id='5d05a99d'/>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='b59d7dce'/>
+      <return type-id='73ecdbc4'/>
+    </function-type>
+    <function-type size-in-bits='32' id='6d669e82'>
+      <parameter type-id='333f9d5f'/>
+      <parameter type-id='95e97e5e'/>
+      <parameter type-id='7d3cd834'/>
+      <parameter type-id='8f92235e'/>
+      <return type-id='73ecdbc4'/>
+    </function-type>
+    <function-type size-in-bits='32' id='70203b18'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='3ff5601b'/>
+      <parameter type-id='8a8d96f5'/>
+      <return type-id='c894953d'/>
+    </function-type>
+    <function-type size-in-bits='32' id='84c0f5e6'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='3ff5601b'/>
+      <parameter type-id='e37ce48f'/>
+      <return type-id='c894953d'/>
+    </function-type>
+    <function-type size-in-bits='32' id='a5f4584f'>
+      <parameter type-id='517fbf28'/>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='b59d7dce'/>
+      <return type-id='73ecdbc4'/>
+    </function-type>
+    <function-type size-in-bits='32' id='a62ca4a1'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='b59d7dce'/>
+      <parameter type-id='c894953d'/>
+      <return type-id='48b5725f'/>
+    </function-type>
+    <function-type size-in-bits='32' id='ab2dc33d'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='b59d7dce'/>
+      <parameter type-id='4aafb922'/>
+      <return type-id='80f4b756'/>
+    </function-type>
+    <function-type size-in-bits='32' id='b9421358'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='3ff5601b'/>
+      <parameter type-id='9b23c9ad'/>
+      <return type-id='c894953d'/>
+    </function-type>
+    <function-type size-in-bits='32' id='c5c76c9c'>
+      <parameter type-id='eaa32e2f'/>
+      <return type-id='48b5725f'/>
+    </function-type>
+    <function-type size-in-bits='32' id='cd5d79f4'>
+      <parameter type-id='eaa32e2f'/>
+      <return type-id='eaa32e2f'/>
+    </function-type>
+    <function-type size-in-bits='32' id='d06bc6bc'>
+      <parameter type-id='333f9d5f'/>
+      <parameter type-id='95e97e5e'/>
+      <parameter type-id='95e97e5e'/>
+      <parameter type-id='95e97e5e'/>
+      <parameter type-id='7d3cd834'/>
+      <parameter type-id='8f92235e'/>
+      <return type-id='73ecdbc4'/>
+    </function-type>
+    <function-type size-in-bits='32' id='e692fac3'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='3ff5601b'/>
+      <parameter type-id='892b4acc'/>
+      <return type-id='c894953d'/>
+    </function-type>
+    <function-type size-in-bits='32' id='eee7cdfc'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='3ff5601b'/>
+      <return type-id='c894953d'/>
+    </function-type>
+    <function-type size-in-bits='32' id='ef707190'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='3ff5601b'/>
+      <parameter type-id='0185cb3d'/>
+      <return type-id='c894953d'/>
+    </function-type>
+    <function-type size-in-bits='32' id='f5efebf7'>
+      <parameter type-id='eaa32e2f'/>
+      <parameter type-id='b59d7dce'/>
+      <parameter type-id='3ff5601b'/>
+      <parameter type-id='9b23c9ad'/>
+      <return type-id='c894953d'/>
+    </function-type>
+    <pointer-type-def type-id='0f059671' size-in-bits='32' id='00cbb141'/>
+    <pointer-type-def type-id='f02a41c5' size-in-bits='32' id='0185cb3d'/>
+    <pointer-type-def type-id='f5efebf7' size-in-bits='32' id='02f67233'/>
+    <pointer-type-def type-id='c7b95082' size-in-bits='32' id='0553fc90'/>
+    <pointer-type-def type-id='6b3b7c8e' size-in-bits='32' id='0cb44914'/>
+    <pointer-type-def type-id='fcbd9376' size-in-bits='32' id='1145dfec'/>
+    <pointer-type-def type-id='e7c31614' size-in-bits='32' id='161c039a'/>
+    <pointer-type-def type-id='5ab62ae3' size-in-bits='32' id='1682c9a6'/>
+    <pointer-type-def type-id='cb49a619' size-in-bits='32' id='1a1ddb91'/>
+    <pointer-type-def type-id='922df12b' size-in-bits='32' id='1f526493'/>
+    <pointer-type-def type-id='333f9d5f' size-in-bits='32' id='2224df2f'/>
+    <pointer-type-def type-id='86fe95d3' size-in-bits='32' id='24e40de3'/>
+    <pointer-type-def type-id='ee31ee44' size-in-bits='32' id='256d5229'/>
+    <pointer-type-def type-id='bb7689ff' size-in-bits='32' id='26839bc7'/>
+    <pointer-type-def type-id='c73fabea' size-in-bits='32' id='26924198'/>
+    <pointer-type-def type-id='a84c031d' size-in-bits='32' id='26a90f95'/>
+    <pointer-type-def type-id='5d05a99d' size-in-bits='32' id='26ea2b15'/>
+    <pointer-type-def type-id='134a0cfa' size-in-bits='32' id='2b9cdc08'/>
+    <pointer-type-def type-id='333892eb' size-in-bits='32' id='2ea4db0f'/>
+    <pointer-type-def type-id='70203b18' size-in-bits='32' id='2ebb5952'/>
+    <pointer-type-def type-id='1921ad63' size-in-bits='32' id='313fa563'/>
+    <pointer-type-def type-id='236c6552' size-in-bits='32' id='333f9d5f'/>
+    <pointer-type-def type-id='ab2dc33d' size-in-bits='32' id='35328ed1'/>
+    <pointer-type-def type-id='a6c45d85' size-in-bits='32' id='361f7a7d'/>
+    <pointer-type-def type-id='66e9cf9e' size-in-bits='32' id='3b7876f8'/>
+    <pointer-type-def type-id='c87e056a' size-in-bits='32' id='3bba26d8'/>
+    <pointer-type-def type-id='bfa0e315' size-in-bits='32' id='3be1fa35'/>
+    <pointer-type-def type-id='b8d5136c' size-in-bits='32' id='3d6d5732'/>
+    <pointer-type-def type-id='0cb44914' size-in-bits='32' id='3dcf4c9a'/>
+    <pointer-type-def type-id='03f240eb' size-in-bits='32' id='3ddb2ecc'/>
+    <pointer-type-def type-id='5ab57680' size-in-bits='32' id='3f695a26'/>
+    <pointer-type-def type-id='fbb3b2e9' size-in-bits='32' id='3fb962a1'/>
+    <pointer-type-def type-id='baffb083' size-in-bits='32' id='478e3663'/>
+    <pointer-type-def type-id='e692fac3' size-in-bits='32' id='47c07ae7'/>
+    <pointer-type-def type-id='3ff5601b' size-in-bits='32' id='4aafb922'/>
+    <pointer-type-def type-id='32b2d42d' size-in-bits='32' id='4dfb7a9d'/>
+    <pointer-type-def type-id='f07b7694' size-in-bits='32' id='505bed1a'/>
+    <pointer-type-def type-id='0b7f5d12' size-in-bits='32' id='517fbf28'/>
+    <pointer-type-def type-id='7408d286' size-in-bits='32' id='55e3a4c4'/>
+    <pointer-type-def type-id='cd5d79f4' size-in-bits='32' id='5ad9edb6'/>
+    <pointer-type-def type-id='dfdf676d' size-in-bits='32' id='5d05a99d'/>
+    <pointer-type-def type-id='9c313c2d' size-in-bits='32' id='5d6479ae'/>
+    <pointer-type-def type-id='3ddb4cdb' size-in-bits='32' id='5e48bccf'/>
+    <pointer-type-def type-id='e2f3b54f' size-in-bits='32' id='61fbb9d7'/>
+    <pointer-type-def type-id='c3b7ba7d' size-in-bits='32' id='713a56f5'/>
+    <pointer-type-def type-id='95e97e5e' size-in-bits='32' id='7292109c'/>
+    <pointer-type-def type-id='bae33ff3' size-in-bits='32' id='735645b3'/>
+    <pointer-type-def type-id='a0eb0f08' size-in-bits='32' id='7408d286'/>
+    <pointer-type-def type-id='6716b81e' size-in-bits='32' id='74fb66a0'/>
+    <pointer-type-def type-id='4b9d3492' size-in-bits='32' id='7613b793'/>
+    <pointer-type-def type-id='80f4b756' size-in-bits='32' id='7d3cd834'/>
+    <pointer-type-def type-id='9b45d938' size-in-bits='32' id='80f4b756'/>
+    <pointer-type-def type-id='b9421358' size-in-bits='32' id='882588ea'/>
+    <pointer-type-def type-id='5d6479ae' size-in-bits='32' id='892b4acc'/>
+    <pointer-type-def type-id='beccbeec' size-in-bits='32' id='8945a84a'/>
+    <pointer-type-def type-id='fa55b13f' size-in-bits='32' id='8a139997'/>
+    <pointer-type-def type-id='361f7a7d' size-in-bits='32' id='8a8d96f5'/>
+    <pointer-type-def type-id='199fc21a' size-in-bits='32' id='8b55c6d8'/>
+    <pointer-type-def type-id='3ece1bc8' size-in-bits='32' id='8eb968ee'/>
+    <pointer-type-def type-id='8f92235e' size-in-bits='32' id='90421557'/>
+    <pointer-type-def type-id='b52f4373' size-in-bits='32' id='9267051b'/>
+    <pointer-type-def type-id='97be4269' size-in-bits='32' id='92b075b1'/>
+    <pointer-type-def type-id='90421557' size-in-bits='32' id='9507d3c7'/>
+    <pointer-type-def type-id='8fcae50b' size-in-bits='32' id='9612a68b'/>
+    <pointer-type-def type-id='4aafb922' size-in-bits='32' id='9aa04798'/>
+    <pointer-type-def type-id='26a90f95' size-in-bits='32' id='9b23c9ad'/>
+    <pointer-type-def type-id='27619c1c' size-in-bits='32' id='9c8ba24a'/>
+    <pointer-type-def type-id='1002a49e' size-in-bits='32' id='9ec282f0'/>
+    <pointer-type-def type-id='2b61797f' size-in-bits='32' id='9f7200cf'/>
+    <pointer-type-def type-id='721c32d4' size-in-bits='32' id='a06445da'/>
+    <pointer-type-def type-id='a5f4584f' size-in-bits='32' id='a245be5b'/>
+    <pointer-type-def type-id='c80c3491' size-in-bits='32' id='a6370261'/>
+    <pointer-type-def type-id='b9930aae' size-in-bits='32' id='a6798dcc'/>
+    <pointer-type-def type-id='5be5b5e2' size-in-bits='32' id='a85c4060'/>
+    <pointer-type-def type-id='b96825af' size-in-bits='32' id='ae3e8ca6'/>
+    <pointer-type-def type-id='eee7cdfc' size-in-bits='32' id='b41049be'/>
+    <pointer-type-def type-id='edff7cb3' size-in-bits='32' id='b5a5bc13'/>
+    <pointer-type-def type-id='c5c76c9c' size-in-bits='32' id='b7f9d8e6'/>
+    <pointer-type-def type-id='678452de' size-in-bits='32' id='b962da64'/>
+    <pointer-type-def type-id='73f3791e' size-in-bits='32' id='bc47ccdc'/>
+    <pointer-type-def type-id='5e5eccf5' size-in-bits='32' id='bc83b535'/>
+    <pointer-type-def type-id='6d669e82' size-in-bits='32' id='c81ed454'/>
+    <pointer-type-def type-id='7917fa3a' size-in-bits='32' id='c96e7988'/>
+    <pointer-type-def type-id='9da381c4' size-in-bits='32' id='cb785ebf'/>
+    <pointer-type-def type-id='2c3f98c7' size-in-bits='32' id='cc018f13'/>
+    <pointer-type-def type-id='92235bb6' size-in-bits='32' id='cc87291c'/>
+    <pointer-type-def type-id='32985b1b' size-in-bits='32' id='d2269abb'/>
+    <pointer-type-def type-id='f6945a82' size-in-bits='32' id='d38ab678'/>
+    <pointer-type-def type-id='38f9c309' size-in-bits='32' id='d42e3019'/>
+    <pointer-type-def type-id='3a9ccc71' size-in-bits='32' id='d8795709'/>
+    <pointer-type-def type-id='c894953d' size-in-bits='32' id='d8e6b335'/>
+    <pointer-type-def type-id='a62ca4a1' size-in-bits='32' id='dd4bde6d'/>
+    <pointer-type-def type-id='50607161' size-in-bits='32' id='ddc50af9'/>
+    <pointer-type-def type-id='cb785ebf' size-in-bits='32' id='e37ce48f'/>
+    <pointer-type-def type-id='84c0f5e6' size-in-bits='32' id='e49cc510'/>
+    <pointer-type-def type-id='ef707190' size-in-bits='32' id='e87ca74a'/>
+    <pointer-type-def type-id='48b5725f' size-in-bits='32' id='eaa32e2f'/>
+    <pointer-type-def type-id='29d5e6c1' size-in-bits='32' id='ec2a3089'/>
+    <pointer-type-def type-id='d06bc6bc' size-in-bits='32' id='ece68cbe'/>
+    <pointer-type-def type-id='256d5229' size-in-bits='32' id='ee181ab9'/>
+    <pointer-type-def type-id='0e112177' size-in-bits='32' id='efcf88cf'/>
+    <pointer-type-def type-id='801a266d' size-in-bits='32' id='f02a41c5'/>
+    <pointer-type-def type-id='e022a30e' size-in-bits='32' id='fa86d1ac'/>
+    <pointer-type-def type-id='d357872a' size-in-bits='32' id='fae49a1f'/>
+    <pointer-type-def type-id='9bb78930' size-in-bits='32' id='fcf5f756'/>
+    <pointer-type-def type-id='2328d49c' size-in-bits='32' id='fd7aecba'/>
+    <pointer-type-def type-id='2294665c' size-in-bits='32' id='ff57a016'/>
+    <qualified-type-def type-id='5e5eccf5' const='yes' id='04d84e28'/>
+    <qualified-type-def type-id='199fc21a' const='yes' id='07053001'/>
+    <qualified-type-def type-id='2eeb53e2' const='yes' id='0b7f5d12'/>
+    <qualified-type-def type-id='251feb21' const='yes' id='0f059671'/>
+    <qualified-type-def type-id='c7b95082' const='yes' id='1377b429'/>
+    <qualified-type-def type-id='32985b1b' const='yes' id='149d8c44'/>
+    <qualified-type-def type-id='a7c483ac' const='yes' id='1c17529c'/>
+    <qualified-type-def type-id='b96825af' const='yes' id='2b61797f'/>
+    <qualified-type-def type-id='bb7689ff' const='yes' id='34433e18'/>
+    <qualified-type-def type-id='b37892f9' const='yes' id='38f9c309'/>
+    <qualified-type-def type-id='99ef9c60' const='yes' id='3a953590'/>
+    <qualified-type-def type-id='f008dbb3' const='yes' id='3ec19263'/>
+    <qualified-type-def type-id='50607161' const='yes' id='5252f45a'/>
+    <qualified-type-def type-id='143a6b6e' const='yes' id='5919835e'/>
+    <qualified-type-def type-id='2ba07ce5' const='yes' id='6082e9b5'/>
+    <qualified-type-def type-id='9bb78930' const='yes' id='6ad879ed'/>
+    <qualified-type-def type-id='fbb3b2e9' const='yes' id='6ce0026c'/>
+    <qualified-type-def type-id='7917fa3a' const='yes' id='6db14e55'/>
+    <qualified-type-def type-id='ee31ee44' const='yes' id='721c32d4'/>
+    <qualified-type-def type-id='a6c45d85' const='yes' id='73f3791e'/>
+    <qualified-type-def type-id='bacf3393' const='yes' id='745c9152'/>
+    <qualified-type-def type-id='fa55b13f' const='yes' id='7a92f0e0'/>
+    <qualified-type-def type-id='4ed99a10' const='yes' id='8a236ba0'/>
+    <qualified-type-def type-id='86fe95d3' const='yes' id='8e626264'/>
+    <qualified-type-def type-id='3ff5601b' const='yes' id='922df12b'/>
+    <qualified-type-def type-id='2e84cb7b' const='yes' id='99dba30b'/>
+    <qualified-type-def type-id='a84c031d' const='yes' id='9b45d938'/>
+    <qualified-type-def type-id='c0958ab1' const='yes' id='9c6e9081'/>
+    <qualified-type-def type-id='c73fabea' const='yes' id='a3cec311'/>
+    <qualified-type-def type-id='bfa0e315' const='yes' id='a42e64e6'/>
+    <qualified-type-def type-id='97219ec5' const='yes' id='aaf9e895'/>
+    <qualified-type-def type-id='124cb5c4' const='yes' id='ae088554'/>
+    <qualified-type-def type-id='5ab62ae3' const='yes' id='b52f4373'/>
+    <qualified-type-def type-id='3d74e87c' const='yes' id='b8d5136c'/>
+    <qualified-type-def type-id='8f92235e' const='yes' id='b9930aae'/>
+    <qualified-type-def type-id='145bd9a8' const='yes' id='bbcf6bf8'/>
+    <qualified-type-def type-id='27619c1c' const='yes' id='c3332543'/>
+    <qualified-type-def type-id='9c313c2d' const='yes' id='c3b7ba7d'/>
+    <qualified-type-def type-id='0ad725ff' const='yes' id='c5dfd76f'/>
+    <qualified-type-def type-id='a0eb0f08' const='yes' id='c80c3491'/>
+    <qualified-type-def type-id='2f8f0f7b' const='yes' id='c949990b'/>
+    <qualified-type-def type-id='beccbeec' const='yes' id='ce750755'/>
+    <qualified-type-def type-id='8fcae50b' const='yes' id='e022a30e'/>
+    <qualified-type-def type-id='4da3c689' const='yes' id='e5a3737c'/>
+    <qualified-type-def type-id='801a266d' const='yes' id='e7c31614'/>
+    <qualified-type-def type-id='9612a68b' const='yes' id='e9897ec0'/>
+    <qualified-type-def type-id='9da381c4' const='yes' id='f07b7694'/>
+    <qualified-type-def type-id='236c6552' const='yes' id='f6945a82'/>
+    <qualified-type-def type-id='949756ec' const='yes' id='fd5f501c'/>
+    <reference-type-def kind='rvalue' type-id='8fcae50b' size-in-bits='32' id='0c52075b'/>
+    <reference-type-def kind='lvalue' type-id='c7b95082' size-in-bits='32' id='11540f74'/>
+    <reference-type-def kind='lvalue' type-id='5252f45a' size-in-bits='32' id='1496df34'/>
+    <reference-type-def kind='lvalue' type-id='a3cec311' size-in-bits='32' id='157d4f95'/>
+    <reference-type-def kind='lvalue' type-id='fd5f501c' size-in-bits='32' id='170b4b4e'/>
+    <reference-type-def kind='lvalue' type-id='6db14e55' size-in-bits='32' id='211e7f09'/>
+    <reference-type-def kind='lvalue' type-id='a84c031d' size-in-bits='32' id='2aa915e1'/>
+    <reference-type-def kind='lvalue' type-id='07053001' size-in-bits='32' id='342acd65'/>
+    <reference-type-def kind='lvalue' type-id='a42e64e6' size-in-bits='32' id='35089a40'/>
+    <reference-type-def kind='rvalue' type-id='9bb78930' size-in-bits='32' id='3751ea14'/>
+    <reference-type-def kind='lvalue' type-id='949756ec' size-in-bits='32' id='4724dead'/>
+    <reference-type-def kind='rvalue' type-id='a7c483ac' size-in-bits='32' id='5bb3a7c5'/>
+    <reference-type-def kind='lvalue' type-id='8e626264' size-in-bits='32' id='66e0ade6'/>
+    <reference-type-def kind='lvalue' type-id='ce750755' size-in-bits='32' id='753aba09'/>
+    <reference-type-def kind='lvalue' type-id='beccbeec' size-in-bits='32' id='7d459566'/>
+    <reference-type-def kind='lvalue' type-id='4da3c689' size-in-bits='32' id='7da10fe5'/>
+    <reference-type-def kind='rvalue' type-id='bb7689ff' size-in-bits='32' id='82104e1f'/>
+    <reference-type-def kind='lvalue' type-id='34433e18' size-in-bits='32' id='83dafb9a'/>
+    <reference-type-def kind='lvalue' type-id='bbcf6bf8' size-in-bits='32' id='8586ce7a'/>
+    <reference-type-def kind='lvalue' type-id='e9897ec0' size-in-bits='32' id='8972c412'/>
+    <reference-type-def kind='lvalue' type-id='9b45d938' size-in-bits='32' id='8cf4ca3a'/>
+    <reference-type-def kind='lvalue' type-id='8fcae50b' size-in-bits='32' id='9212a03f'/>
+    <reference-type-def kind='lvalue' type-id='745c9152' size-in-bits='32' id='a1b8f99c'/>
+    <reference-type-def kind='lvalue' type-id='04d84e28' size-in-bits='32' id='ae82e00a'/>
+    <reference-type-def kind='lvalue' type-id='c3332543' size-in-bits='32' id='ae83ddff'/>
+    <reference-type-def kind='lvalue' type-id='6ce0026c' size-in-bits='32' id='aea39a7e'/>
+    <reference-type-def kind='lvalue' type-id='1377b429' size-in-bits='32' id='b470739d'/>
+    <reference-type-def kind='rvalue' type-id='5e5eccf5' size-in-bits='32' id='b66067e5'/>
+    <reference-type-def kind='lvalue' type-id='7a92f0e0' size-in-bits='32' id='bb5107b2'/>
+    <reference-type-def kind='rvalue' type-id='27619c1c' size-in-bits='32' id='cbb281c0'/>
+    <reference-type-def kind='lvalue' type-id='149d8c44' size-in-bits='32' id='d603fe46'/>
+    <reference-type-def kind='rvalue' type-id='c73fabea' size-in-bits='32' id='d63387de'/>
+    <reference-type-def kind='rvalue' type-id='86fe95d3' size-in-bits='32' id='d81fc233'/>
+    <reference-type-def kind='lvalue' type-id='e5a3737c' size-in-bits='32' id='da4e96ae'/>
+    <reference-type-def kind='lvalue' type-id='aaf9e895' size-in-bits='32' id='da6951c9'/>
+    <reference-type-def kind='rvalue' type-id='7917fa3a' size-in-bits='32' id='e6df31ee'/>
+    <reference-type-def kind='lvalue' type-id='97219ec5' size-in-bits='32' id='e738f724'/>
+    <reference-type-def kind='lvalue' type-id='9c6e9081' size-in-bits='32' id='e90db6e5'/>
+    <reference-type-def kind='lvalue' type-id='9612a68b' size-in-bits='32' id='ec5c6257'/>
+    <reference-type-def kind='lvalue' type-id='1c17529c' size-in-bits='32' id='f2b73ace'/>
+    <reference-type-def kind='lvalue' type-id='8a236ba0' size-in-bits='32' id='fbc243f2'/>
+    <reference-type-def kind='rvalue' type-id='50607161' size-in-bits='32' id='fc4e3221'/>
+    <reference-type-def kind='lvalue' type-id='6ad879ed' size-in-bits='32' id='fdc7ba91'/>
+    <reference-type-def kind='lvalue' type-id='e022a30e' size-in-bits='32' id='fe86d7f8'/>
+    <type-decl name='__ARRAY_SIZE_TYPE__' size-in-bits='64' id='7ff19f0f'/>
+    <type-decl name='bool' size-in-bits='8' id='c894953d'/>
+    <type-decl name='char' size-in-bits='8' id='a84c031d'/>
+    <type-decl name='char16_t' size-in-bits='16' id='801a266d'/>
+    <type-decl name='double' size-in-bits='64' id='a0eb0f08'/>
+    <type-decl name='float' size-in-bits='32' id='a6c45d85'/>
+    <type-decl name='int' size-in-bits='32' id='95e97e5e'/>
+    <type-decl name='long long int' size-in-bits='64' id='1eb56b1e'/>
+    <type-decl name='signed char' size-in-bits='8' id='28577a57'/>
+    <type-decl name='unsigned char' size-in-bits='8' id='002ac4a6'/>
+    <type-decl name='unsigned int' size-in-bits='32' id='f0981eeb'/>
+    <type-decl name='unsigned long long int' size-in-bits='64' id='0d77e947'/>
+    <type-decl name='void' id='48b5725f'/>
+    <type-decl name='unnamed-enum-underlying-type-32' is-anonymous='yes' size-in-bits='32' alignment-in-bits='32' id='9cac1fee'/>
+    <typedef-decl name='AIBinder' type-id='d44a2187' id='236c6552'/>
+    <typedef-decl name='AIBinder_Class' type-id='5ab57680' id='b37892f9'/>
+    <typedef-decl name='AIBinder_Class_onCreate' type-id='5ad9edb6' id='2f8f0f7b'/>
+    <typedef-decl name='AIBinder_Class_onDestroy' type-id='b7f9d8e6' id='f008dbb3'/>
+    <typedef-decl name='AIBinder_Class_onTransact' type-id='9ec282f0' id='2ba07ce5'/>
+    <typedef-decl name='AIBinder_DeathRecipient_onBinderDied' type-id='b7f9d8e6' id='124cb5c4'/>
+    <typedef-decl name='AIBinder_DeathRecipient_onBinderUnlinked' type-id='b7f9d8e6' id='99ef9c60'/>
+    <typedef-decl name='AIBinder_Weak' type-id='3e202750' id='5ab62ae3'/>
+    <typedef-decl name='AIBinder_handleShellCommand' type-id='ece68cbe' id='6a15d4f2'/>
+    <typedef-decl name='AIBinder_onDump' type-id='c81ed454' id='3747f7a8'/>
+    <typedef-decl name='AParcel' type-id='dfdf676d' id='2eeb53e2'/>
+    <typedef-decl name='AParcel_boolArrayAllocator' type-id='b41049be' id='707d885d'/>
+    <typedef-decl name='AParcel_boolArrayGetter' type-id='2ea4db0f' id='c7426a57'/>
+    <typedef-decl name='AParcel_boolArraySetter' type-id='dd4bde6d' id='07b255e3'/>
+    <typedef-decl name='AParcel_byteArrayAllocator' type-id='ff57a016' id='d57f0a5f'/>
+    <typedef-decl name='AParcel_charArrayAllocator' type-id='e87ca74a' id='51fd1b81'/>
+    <typedef-decl name='AParcel_doubleArrayAllocator' type-id='5e48bccf' id='099869e4'/>
+    <typedef-decl name='AParcel_floatArrayAllocator' type-id='2ebb5952' id='b6ac5acd'/>
+    <typedef-decl name='AParcel_int32ArrayAllocator' type-id='cc018f13' id='e79d084b'/>
+    <typedef-decl name='AParcel_int64ArrayAllocator' type-id='e49cc510' id='c1828a94'/>
+    <typedef-decl name='AParcel_parcelableArrayAllocator' type-id='b41049be' id='92073bd8'/>
+    <typedef-decl name='AParcel_readParcelableElement' type-id='a245be5b' id='7b1d3952'/>
+    <typedef-decl name='AParcel_stringAllocator' type-id='882588ea' id='6bf44f6b'/>
+    <typedef-decl name='AParcel_stringArrayAllocator' type-id='b41049be' id='6213bcac'/>
+    <typedef-decl name='AParcel_stringArrayElementAllocator' type-id='02f67233' id='b2d52af2'/>
+    <typedef-decl name='AParcel_stringArrayElementGetter' type-id='35328ed1' id='3e1cb292'/>
+    <typedef-decl name='AParcel_uint32ArrayAllocator' type-id='3b7876f8' id='eec82864'/>
+    <typedef-decl name='AParcel_uint64ArrayAllocator' type-id='47c07ae7' id='4821304f'/>
+    <typedef-decl name='AParcel_writeParcelableElement' type-id='74fb66a0' id='bce54c51'/>
+    <typedef-decl name='AStatus' type-id='6b3b7c8e' id='251feb21'/>
+    <typedef-decl name='JNIEnv' type-id='c9459134' id='d357872a'/>
+    <typedef-decl name='__int32_t' type-id='95e97e5e' id='33f57a65'/>
+    <typedef-decl name='__int64_t' type-id='1eb56b1e' id='0c9942d2'/>
+    <typedef-decl name='__int8_t' type-id='28577a57' id='2171a512'/>
+    <typedef-decl name='__kernel_pid_t' type-id='95e97e5e' id='63eb2bf2'/>
+    <typedef-decl name='__kernel_uid32_t' type-id='f0981eeb' id='70734f24'/>
+    <typedef-decl name='__pid_t' type-id='63eb2bf2' id='3629bad8'/>
+    <typedef-decl name='__uid_t' type-id='70734f24' id='cc5fcceb'/>
+    <typedef-decl name='__uint32_t' type-id='f0981eeb' id='62f1140c'/>
+    <typedef-decl name='__uint64_t' type-id='0d77e947' id='8910171f'/>
+    <typedef-decl name='__uint8_t' type-id='002ac4a6' id='c51d6389'/>
+    <typedef-decl name='binder_exception_t' type-id='3ff5601b' id='cca1ea15'/>
+    <typedef-decl name='binder_flags_t' type-id='8f92235e' id='b0dd32ff'/>
+    <typedef-decl name='binder_status_t' type-id='3ff5601b' id='73ecdbc4'/>
+    <typedef-decl name='int32_t' type-id='33f57a65' id='3ff5601b'/>
+    <typedef-decl name='int64_t' type-id='0c9942d2' id='9da381c4'/>
+    <typedef-decl name='int8_t' type-id='2171a512' id='ee31ee44'/>
+    <typedef-decl name='jobject' type-id='478e3663' id='96f3d089'/>
+    <typedef-decl name='pid_t' type-id='3629bad8' id='587f89d2'/>
+    <typedef-decl name='pthread_mutex_t' type-id='92fa54c8' id='7a6844eb'/>
+    <typedef-decl name='ptrdiff_t' type-id='95e97e5e' id='fc84bffe'/>
+    <typedef-decl name='size_t' type-id='f0981eeb' id='b59d7dce'/>
+    <typedef-decl name='size_type' type-id='b59d7dce' id='143a6b6e'/>
+    <typedef-decl name='transaction_code_t' type-id='8f92235e' id='9b5ed313'/>
+    <typedef-decl name='uid_t' type-id='cc5fcceb' id='354978ed'/>
+    <typedef-decl name='uint32_t' type-id='62f1140c' id='8f92235e'/>
+    <typedef-decl name='uint64_t' type-id='8910171f' id='9c313c2d'/>
+    <typedef-decl name='uint8_t' type-id='c51d6389' id='b96825af'/>
+    <typedef-decl name='weakref_type' type-id='114d3ce2' id='4b9d3492'/>
+    <namespace-decl name='android'>
+      <class-decl name='BBinder' visibility='default' is-declaration-only='yes' id='a4d376c6'/>
+      <class-decl name='IBinder' visibility='default' is-declaration-only='yes' id='edff7cb3'>
+        <member-type access='private'>
+          <enum-decl name='__anonymous_enum__' is-anonymous='yes' id='08f5ca17'>
+            <underlying-type type-id='9cac1fee'/>
+            <enumerator name='FIRST_CALL_TRANSACTION' value='1'/>
+            <enumerator name='LAST_CALL_TRANSACTION' value='16777215'/>
+            <enumerator name='PING_TRANSACTION' value='1599098439'/>
+            <enumerator name='START_RECORDING_TRANSACTION' value='1599296068'/>
+            <enumerator name='STOP_RECORDING_TRANSACTION' value='1598378564'/>
+            <enumerator name='DUMP_TRANSACTION' value='1598311760'/>
+            <enumerator name='SHELL_COMMAND_TRANSACTION' value='1598246212'/>
+            <enumerator name='INTERFACE_TRANSACTION' value='1598968902'/>
+            <enumerator name='SYSPROPS_TRANSACTION' value='1599295570'/>
+            <enumerator name='EXTENSION_TRANSACTION' value='1598380116'/>
+            <enumerator name='DEBUG_PID_TRANSACTION' value='1599097156'/>
+            <enumerator name='SET_RPC_CLIENT_TRANSACTION' value='1599230019'/>
+            <enumerator name='TWEET_TRANSACTION' value='1599362900'/>
+            <enumerator name='LIKE_TRANSACTION' value='1598835019'/>
+            <enumerator name='FLAG_ONEWAY' value='1'/>
+            <enumerator name='FLAG_CLEAR_BUF' value='32'/>
+            <enumerator name='FLAG_PRIVATE_VENDOR' value='268435456'/>
+          </enum-decl>
+        </member-type>
+        <member-type access='public'>
+          <class-decl name='DeathRecipient' size-in-bits='96' visibility='default' id='fb20a88a'>
+            <base-class access='public' layout-offset-in-bits='96' is-virtual='yes' type-id='12f619c0'/>
+          </class-decl>
+        </member-type>
+      </class-decl>
+      <class-decl name='Parcel' visibility='default' is-declaration-only='yes' id='cb49a619'/>
+      <class-decl name='RefBase' visibility='default' is-declaration-only='yes' id='12f619c0'>
+        <member-type access='public'>
+          <class-decl name='weakref_type' size-in-bits='8' visibility='default' id='114d3ce2'/>
+        </member-type>
+      </class-decl>
+      <class-decl name='String16' size-in-bits='32' visibility='default' id='c73fabea'>
+        <data-member access='private' static='yes'>
+          <var-decl name='kIsSharedBufferAllocated' type-id='b9930aae' visibility='default'/>
+        </data-member>
+        <data-member access='private' layout-offset-in-bits='0'>
+          <var-decl name='mString' type-id='161c039a' visibility='default'/>
+        </data-member>
+        <member-function access='public' constructor='yes'>
+          <function-decl name='String16' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26924198' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' constructor='yes'>
+          <function-decl name='String16' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26924198' is-artificial='yes'/>
+            <parameter type-id='157d4f95'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' constructor='yes'>
+          <function-decl name='String16' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26924198' is-artificial='yes'/>
+            <parameter type-id='d63387de'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' constructor='yes'>
+          <function-decl name='String16' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26924198' is-artificial='yes'/>
+            <parameter type-id='157d4f95'/>
+            <parameter type-id='b59d7dce'/>
+            <parameter type-id='b59d7dce'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' constructor='yes'>
+          <function-decl name='String16' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26924198' is-artificial='yes'/>
+            <parameter type-id='161c039a'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' constructor='yes'>
+          <function-decl name='String16' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26924198' is-artificial='yes'/>
+            <parameter type-id='161c039a'/>
+            <parameter type-id='b59d7dce'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' constructor='yes'>
+          <function-decl name='String16' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26924198' is-artificial='yes'/>
+            <parameter type-id='a1b8f99c'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' constructor='yes'>
+          <function-decl name='String16' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26924198' is-artificial='yes'/>
+            <parameter type-id='80f4b756'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' constructor='yes'>
+          <function-decl name='String16' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26924198' is-artificial='yes'/>
+            <parameter type-id='80f4b756'/>
+            <parameter type-id='b59d7dce'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' destructor='yes'>
+          <function-decl name='~String16' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26924198' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+      </class-decl>
+      <class-decl name='String8' visibility='default' is-declaration-only='yes' id='bacf3393'/>
+      <class-decl name='sp&lt;ABpBinder&gt;' size-in-bits='32' visibility='default' id='9bb78930'>
+        <data-member access='private' layout-offset-in-bits='0'>
+          <var-decl name='m_ptr' type-id='cc87291c' visibility='default'/>
+        </data-member>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='fcf5f756' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='fcf5f756' is-artificial='yes'/>
+            <parameter type-id='cc87291c'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='fcf5f756' is-artificial='yes'/>
+            <parameter type-id='fdc7ba91'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='fcf5f756' is-artificial='yes'/>
+            <parameter type-id='3751ea14'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' destructor='yes'>
+          <function-decl name='~sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='fcf5f756' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+      </class-decl>
+      <class-decl name='sp&lt;AIBinder&gt;' visibility='default' is-declaration-only='yes' id='86fe95d3'>
+        <data-member access='private' layout-offset-in-bits='0'>
+          <var-decl name='m_ptr' type-id='333f9d5f' visibility='default'/>
+        </data-member>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='24e40de3' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='24e40de3' is-artificial='yes'/>
+            <parameter type-id='333f9d5f'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='24e40de3' is-artificial='yes'/>
+            <parameter type-id='66e0ade6'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='24e40de3' is-artificial='yes'/>
+            <parameter type-id='d81fc233'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' destructor='yes'>
+          <function-decl name='~sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='24e40de3' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp&lt;ABBinder&gt;' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='24e40de3' is-artificial='yes'/>
+            <parameter type-id='3bba26d8'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp&lt;ABpBinder&gt;' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='24e40de3' is-artificial='yes'/>
+            <parameter type-id='3751ea14'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+      </class-decl>
+      <class-decl name='sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt;' size-in-bits='32' visibility='default' id='8fcae50b'>
+        <data-member access='private' layout-offset-in-bits='0'>
+          <var-decl name='m_ptr' type-id='61fbb9d7' visibility='default'/>
+        </data-member>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='9612a68b' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='9612a68b' is-artificial='yes'/>
+            <parameter type-id='61fbb9d7'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='9612a68b' is-artificial='yes'/>
+            <parameter type-id='fe86d7f8'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='9612a68b' is-artificial='yes'/>
+            <parameter type-id='0c52075b'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' destructor='yes'>
+          <function-decl name='~sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='9612a68b' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+      </class-decl>
+      <class-decl name='sp&lt;AIBinder_DeathRecipient&gt;' size-in-bits='32' visibility='default' id='5e5eccf5'>
+        <data-member access='private' layout-offset-in-bits='0'>
+          <var-decl name='m_ptr' type-id='d8795709' visibility='default'/>
+        </data-member>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='bc83b535' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='bc83b535' is-artificial='yes'/>
+            <parameter type-id='d8795709'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='bc83b535' is-artificial='yes'/>
+            <parameter type-id='ae82e00a'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='bc83b535' is-artificial='yes'/>
+            <parameter type-id='b66067e5'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' destructor='yes'>
+          <function-decl name='~sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='bc83b535' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+      </class-decl>
+      <class-decl name='sp&lt;android::IBinder&gt;' visibility='default' is-declaration-only='yes' id='bb7689ff'>
+        <data-member access='private' layout-offset-in-bits='0'>
+          <var-decl name='m_ptr' type-id='b5a5bc13' visibility='default'/>
+        </data-member>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26839bc7' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26839bc7' is-artificial='yes'/>
+            <parameter type-id='b5a5bc13'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26839bc7' is-artificial='yes'/>
+            <parameter type-id='83dafb9a'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26839bc7' is-artificial='yes'/>
+            <parameter type-id='82104e1f'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' destructor='yes'>
+          <function-decl name='~sp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26839bc7' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='sp&lt;ABBinder&gt;' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='26839bc7' is-artificial='yes'/>
+            <parameter type-id='3bba26d8'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+      </class-decl>
+      <class-decl name='wp&lt;AIBinder&gt;' size-in-bits='64' visibility='default' id='fa55b13f'>
+        <data-member access='private' layout-offset-in-bits='0'>
+          <var-decl name='m_ptr' type-id='333f9d5f' visibility='default'/>
+        </data-member>
+        <data-member access='private' layout-offset-in-bits='32'>
+          <var-decl name='m_refs' type-id='7613b793' visibility='default'/>
+        </data-member>
+        <member-function access='public'>
+          <function-decl name='wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='8a139997' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='8a139997' is-artificial='yes'/>
+            <parameter type-id='333f9d5f'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='8a139997' is-artificial='yes'/>
+            <parameter type-id='bb5107b2'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='8a139997' is-artificial='yes'/>
+            <parameter type-id='66e0ade6'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' destructor='yes'>
+          <function-decl name='~wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='8a139997' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+      </class-decl>
+      <class-decl name='wp&lt;AIBinder_DeathRecipient&gt;' size-in-bits='64' visibility='default' id='fbb3b2e9'>
+        <data-member access='private' layout-offset-in-bits='0'>
+          <var-decl name='m_ptr' type-id='d8795709' visibility='default'/>
+        </data-member>
+        <data-member access='private' layout-offset-in-bits='32'>
+          <var-decl name='m_refs' type-id='7613b793' visibility='default'/>
+        </data-member>
+        <member-function access='public'>
+          <function-decl name='wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='3fb962a1' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='3fb962a1' is-artificial='yes'/>
+            <parameter type-id='d8795709'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='3fb962a1' is-artificial='yes'/>
+            <parameter type-id='aea39a7e'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='3fb962a1' is-artificial='yes'/>
+            <parameter type-id='ae82e00a'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' destructor='yes'>
+          <function-decl name='~wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='3fb962a1' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+      </class-decl>
+      <class-decl name='wp&lt;android::IBinder&gt;' size-in-bits='64' visibility='default' id='32985b1b'>
+        <data-member access='private' layout-offset-in-bits='0'>
+          <var-decl name='m_ptr' type-id='b5a5bc13' visibility='default'/>
+        </data-member>
+        <data-member access='private' layout-offset-in-bits='32'>
+          <var-decl name='m_refs' type-id='7613b793' visibility='default'/>
+        </data-member>
+        <member-function access='public'>
+          <function-decl name='wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='d2269abb' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='d2269abb' is-artificial='yes'/>
+            <parameter type-id='b5a5bc13'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='d2269abb' is-artificial='yes'/>
+            <parameter type-id='d603fe46'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public'>
+          <function-decl name='wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='d2269abb' is-artificial='yes'/>
+            <parameter type-id='83dafb9a'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' destructor='yes'>
+          <function-decl name='~wp' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='d2269abb' is-artificial='yes'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+        <member-function access='public' constructor='yes'>
+          <function-decl name='wp&lt;android::IBinder&gt;' visibility='default' binding='global' size-in-bits='32'>
+            <parameter type-id='d2269abb' is-artificial='yes'/>
+            <parameter type-id='83dafb9a'/>
+            <return type-id='48b5725f'/>
+          </function-decl>
+        </member-function>
+      </class-decl>
+      <namespace-decl name='binder'>
+        <class-decl name='Status' size-in-bits='96' visibility='default' id='7917fa3a'>
+          <member-type access='private'>
+            <enum-decl name='Exception' id='bf51fe22'>
+              <underlying-type type-id='9cac1fee'/>
+              <enumerator name='EX_NONE' value='0'/>
+              <enumerator name='EX_SECURITY' value='-1'/>
+              <enumerator name='EX_BAD_PARCELABLE' value='-2'/>
+              <enumerator name='EX_ILLEGAL_ARGUMENT' value='-3'/>
+              <enumerator name='EX_NULL_POINTER' value='-4'/>
+              <enumerator name='EX_ILLEGAL_STATE' value='-5'/>
+              <enumerator name='EX_NETWORK_MAIN_THREAD' value='-6'/>
+              <enumerator name='EX_UNSUPPORTED_OPERATION' value='-7'/>
+              <enumerator name='EX_SERVICE_SPECIFIC' value='-8'/>
+              <enumerator name='EX_PARCELABLE' value='-9'/>
+              <enumerator name='EX_HAS_REPLY_HEADER' value='-128'/>
+              <enumerator name='EX_TRANSACTION_FAILED' value='-129'/>
+            </enum-decl>
+          </member-type>
+          <data-member access='private' layout-offset-in-bits='0'>
+            <var-decl name='mException' type-id='3ff5601b' visibility='default'/>
+          </data-member>
+          <data-member access='private' layout-offset-in-bits='32'>
+            <var-decl name='mErrorCode' type-id='3ff5601b' visibility='default'/>
+          </data-member>
+          <data-member access='private' layout-offset-in-bits='64'>
+            <var-decl name='mMessage' type-id='bacf3393' visibility='default'/>
+          </data-member>
+          <member-function access='public' constructor='yes'>
+            <function-decl name='Status' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='c96e7988' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public' destructor='yes'>
+            <function-decl name='~Status' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='c96e7988' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public' constructor='yes'>
+            <function-decl name='Status' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='c96e7988' is-artificial='yes'/>
+              <parameter type-id='211e7f09'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public' constructor='yes'>
+            <function-decl name='Status' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='c96e7988' is-artificial='yes'/>
+              <parameter type-id='e6df31ee'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='private' constructor='yes'>
+            <function-decl name='Status' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='c96e7988' is-artificial='yes'/>
+              <parameter type-id='3ff5601b'/>
+              <parameter type-id='3ff5601b'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='private' constructor='yes'>
+            <function-decl name='Status' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='c96e7988' is-artificial='yes'/>
+              <parameter type-id='3ff5601b'/>
+              <parameter type-id='3ff5601b'/>
+              <parameter type-id='a1b8f99c'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+      </namespace-decl>
+    </namespace-decl>
+    <namespace-decl name='std'>
+      <class-decl name='initializer_list&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; &gt;' visibility='default' is-declaration-only='yes' id='7bde4841'/>
+      <class-decl name='initializer_list&lt;char&gt;' visibility='default' is-declaration-only='yes' id='5580186d'/>
+      <namespace-decl name='__1'>
+        <class-decl name='__alloc_traits_difference_type&lt;std::__1::allocator&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; &gt;, android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; *, true&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='ba11a6ac'>
+          <member-type access='public'>
+            <typedef-decl name='type' type-id='9fb03c2f' id='ca2cc145'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='__basic_string_common&lt;true&gt;' size-in-bits='8' visibility='default' id='c3e90ce7'/>
+        <class-decl name='__compressed_pair&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; *, std::__1::allocator&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; &gt; &gt;' size-in-bits='32' visibility='default' id='03b15e5c'>
+          <base-class access='private' layout-offset-in-bits='0' type-id='5be5b5e2'/>
+          <base-class access='private' layout-offset-in-bits='0' type-id='97be4269'/>
+        </class-decl>
+        <class-decl name='__compressed_pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;::__rep, std::__1::allocator&lt;char&gt; &gt;' size-in-bits='96' visibility='default' id='678452de'>
+          <base-class access='private' layout-offset-in-bits='0' type-id='fcbd9376'/>
+          <base-class access='private' layout-offset-in-bits='0' type-id='bae33ff3'/>
+          <member-function access='public'>
+            <function-decl name='__compressed_pair&lt;true, void&gt;' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='b962da64' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='__compressed_pair_elem&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; *, 0, false&gt;' size-in-bits='32' is-struct='yes' visibility='default' id='5be5b5e2'>
+          <member-type access='public'>
+            <typedef-decl name='reference' type-id='ec5c6257' id='c79e6e34'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='const_reference' type-id='8972c412' id='a1a5ec24'/>
+          </member-type>
+          <data-member access='private' layout-offset-in-bits='0'>
+            <var-decl name='__value_' type-id='9612a68b' visibility='default'/>
+          </data-member>
+          <member-function access='public'>
+            <function-decl name='__compressed_pair_elem' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='a85c4060' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='__compressed_pair_elem&lt;std::__1::allocator&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; &gt;, 1, true&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='97be4269'>
+          <base-class access='private' layout-offset-in-bits='0' type-id='beccbeec'/>
+          <member-type access='public'>
+            <typedef-decl name='reference' type-id='7d459566' id='7c830d27'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='const_reference' type-id='753aba09' id='7b3bbd67'/>
+          </member-type>
+          <member-function access='public'>
+            <function-decl name='__compressed_pair_elem' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='92b075b1' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='__compressed_pair_elem&lt;std::__1::allocator&lt;char&gt;, 1, true&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='bae33ff3'>
+          <base-class access='private' layout-offset-in-bits='0' type-id='c7b95082'/>
+          <member-type access='public'>
+            <typedef-decl name='reference' type-id='11540f74' id='1416c353'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='const_reference' type-id='b470739d' id='b70d8343'/>
+          </member-type>
+          <member-function access='public'>
+            <function-decl name='__compressed_pair_elem' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='735645b3' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='__compressed_pair_elem&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;::__rep, 0, false&gt;' size-in-bits='96' is-struct='yes' visibility='default' id='fcbd9376'>
+          <member-type access='public'>
+            <typedef-decl name='reference' type-id='7da10fe5' id='ce7899b0'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='const_reference' type-id='da4e96ae' id='02212d00'/>
+          </member-type>
+          <data-member access='private' layout-offset-in-bits='0'>
+            <var-decl name='__value_' type-id='4da3c689' visibility='default'/>
+          </data-member>
+          <member-function access='public'>
+            <function-decl name='__compressed_pair_elem' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='1145dfec' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='__const_pointer&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt;, android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; *, std::__1::allocator&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; &gt;, true&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='f14a42f5'>
+          <member-type access='public'>
+            <typedef-decl name='type' type-id='bec8c02e' id='a0dfa0ee'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='__const_pointer&lt;char, char *, std::__1::allocator&lt;char&gt;, true&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='a6fda4d5'>
+          <member-type access='public'>
+            <typedef-decl name='type' type-id='ffee57ca' id='d77939ac'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='__const_void_pointer&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; *, std::__1::allocator&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; &gt;, false&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='cab5e8f5'>
+          <member-type access='public'>
+            <typedef-decl name='type' type-id='783f0e0a' id='047bc272'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='__const_void_pointer&lt;char *, std::__1::allocator&lt;char&gt;, false&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='31cbc7f1'>
+          <member-type access='public'>
+            <typedef-decl name='type' type-id='0951e3d8' id='17efc584'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='__iterator_traits_impl&lt;std::__1::__wrap_iter&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; *&gt;, true&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='b2f4b3f9'>
+          <member-type access='public'>
+            <typedef-decl name='difference_type' type-id='b64e431f' id='63d3c76e'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='pointer' type-id='06c4410a' id='e44c7cbf'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='reference' type-id='676fea7a' id='04a8c323'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='__pointer_type&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt;, std::__1::allocator&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; &gt; &gt;' size-in-bits='8' is-struct='yes' visibility='default' id='6e937578'>
+          <member-type access='public'>
+            <typedef-decl name='type' type-id='b9dec6a8' id='88cfc04f'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='__pointer_type&lt;char, std::__1::allocator&lt;char&gt; &gt;' size-in-bits='8' is-struct='yes' visibility='default' id='aa1d7f80'>
+          <member-type access='public'>
+            <typedef-decl name='type' type-id='dca6e0a0' id='bb139ded'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='__size_type&lt;std::__1::allocator&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; &gt;, int, true&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='e018188f'>
+          <member-type access='public'>
+            <typedef-decl name='type' type-id='263fbd41' id='2bea86ea'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='__size_type&lt;std::__1::allocator&lt;char&gt;, int, true&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='4c3d4c4d'>
+          <member-type access='public'>
+            <typedef-decl name='type' type-id='be0739bd' id='09c34d7a'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='__vector_base&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt;, std::__1::allocator&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; &gt; &gt;' size-in-bits='96' visibility='default' id='0e112177'>
+          <base-class access='protected' layout-offset-in-bits='0' type-id='2328d49c'/>
+          <member-type access='private'>
+            <typedef-decl name='allocator_type' type-id='beccbeec' id='a7c483ac'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='size_type' type-id='cd0802b2' id='6ee0832c'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='value_type' type-id='8fcae50b' id='949756ec'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='reference' type-id='4724dead' id='c34a18df'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_reference' type-id='170b4b4e' id='522399cf'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='difference_type' type-id='b05ba294' id='72546ada'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='pointer' type-id='105ba699' id='1fd2208b'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_pointer' type-id='24e2f895' id='c773065b'/>
+          </member-type>
+          <data-member access='protected' layout-offset-in-bits='0'>
+            <var-decl name='__begin_' type-id='1fd2208b' visibility='default'/>
+          </data-member>
+          <data-member access='protected' layout-offset-in-bits='32'>
+            <var-decl name='__end_' type-id='1fd2208b' visibility='default'/>
+          </data-member>
+          <data-member access='protected' layout-offset-in-bits='64'>
+            <var-decl name='__end_cap_' type-id='03b15e5c' visibility='default'/>
+          </data-member>
+          <member-function access='protected'>
+            <function-decl name='__vector_base' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='efcf88cf' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='protected'>
+            <function-decl name='__vector_base' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='efcf88cf' is-artificial='yes'/>
+              <parameter type-id='f2b73ace'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='protected'>
+            <function-decl name='__vector_base' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='efcf88cf' is-artificial='yes'/>
+              <parameter type-id='5bb3a7c5'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='protected' destructor='yes'>
+            <function-decl name='~__vector_base' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='efcf88cf' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='__vector_base_common&lt;true&gt;' size-in-bits='8' visibility='default' id='2328d49c'>
+          <member-function access='protected'>
+            <function-decl name='__vector_base_common' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='fd7aecba' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='__wrap_iter&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; *&gt;' size-in-bits='32' visibility='default' id='134a0cfa'>
+          <member-type access='private'>
+            <typedef-decl name='iterator_type' type-id='9612a68b' id='5ddf8cd8'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='difference_type' type-id='34d914a6' id='b64e431f'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='pointer' type-id='dc8951e7' id='06c4410a'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='reference' type-id='be13100b' id='676fea7a'/>
+          </member-type>
+          <data-member access='private' layout-offset-in-bits='0'>
+            <var-decl name='__i' type-id='5ddf8cd8' visibility='default'/>
+          </data-member>
+          <member-function access='public'>
+            <function-decl name='__wrap_iter' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='2b9cdc08' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='private'>
+            <function-decl name='__wrap_iter' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='2b9cdc08' is-artificial='yes'/>
+              <parameter type-id='5ddf8cd8'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='__wrap_iter&lt;char *&gt;' size-in-bits='32' visibility='default' id='3ece1bc8'>
+          <member-type access='private'>
+            <typedef-decl name='iterator_type' type-id='26a90f95' id='51e539ca'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='difference_type' type-id='ed297478' id='c3bec259'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='pointer' type-id='134e8dfd' id='176672a0'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='reference' type-id='485151c9' id='2538d500'/>
+          </member-type>
+          <data-member access='private' layout-offset-in-bits='0'>
+            <var-decl name='__i' type-id='51e539ca' visibility='default'/>
+          </data-member>
+          <member-function access='public'>
+            <function-decl name='__wrap_iter' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='8eb968ee' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='private'>
+            <function-decl name='__wrap_iter' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='8eb968ee' is-artificial='yes'/>
+              <parameter type-id='51e539ca'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='__wrap_iter&lt;const android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; *&gt;' size-in-bits='32' visibility='default' id='32b2d42d'>
+          <member-type access='private'>
+            <typedef-decl name='iterator_type' type-id='fa86d1ac' id='04a76469'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='difference_type' type-id='d23f7377' id='a8310fd6'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='pointer' type-id='fd417f52' id='0a3c7597'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='reference' type-id='d7d03962' id='6be31bdb'/>
+          </member-type>
+          <data-member access='private' layout-offset-in-bits='0'>
+            <var-decl name='__i' type-id='04a76469' visibility='default'/>
+          </data-member>
+          <member-function access='public'>
+            <function-decl name='__wrap_iter' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='4dfb7a9d' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='private'>
+            <function-decl name='__wrap_iter' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='4dfb7a9d' is-artificial='yes'/>
+              <parameter type-id='04a76469'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='__wrap_iter&lt;const char *&gt;' visibility='default' is-declaration-only='yes' id='5b0fb1b3'/>
+        <class-decl name='allocator&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; &gt;' size-in-bits='8' visibility='default' id='beccbeec'>
+          <member-type access='private'>
+            <typedef-decl name='size_type' type-id='b59d7dce' id='263fbd41'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='difference_type' type-id='fc84bffe' id='9fb03c2f'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='pointer' type-id='9612a68b' id='54a8e71a'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_pointer' type-id='fa86d1ac' id='bec8c02e'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='reference' type-id='9212a03f' id='62d13dea'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_reference' type-id='fe86d7f8' id='47dbd79e'/>
+          </member-type>
+          <member-function access='public'>
+            <function-decl name='allocator' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='8945a84a' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='allocator&lt;char&gt;' size-in-bits='8' visibility='default' id='c7b95082'>
+          <member-type access='private'>
+            <typedef-decl name='size_type' type-id='b59d7dce' id='be0739bd'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='pointer' type-id='26a90f95' id='7f25d406'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_pointer' type-id='80f4b756' id='ffee57ca'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='reference' type-id='2aa915e1' id='8ce6f4f6'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_reference' type-id='8cf4ca3a' id='f12edd3a'/>
+          </member-type>
+          <member-function access='public'>
+            <function-decl name='allocator' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='0553fc90' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='allocator_traits&lt;std::__1::allocator&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; &gt; &gt;' size-in-bits='8' is-struct='yes' visibility='default' id='07357ba3'>
+          <member-type access='public'>
+            <typedef-decl name='allocator_type' type-id='beccbeec' id='49a773e6'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='pointer' type-id='88cfc04f' id='105ba699'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='const_pointer' type-id='a0dfa0ee' id='24e2f895'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='const_void_pointer' type-id='047bc272' id='2f171c38'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='difference_type' type-id='ca2cc145' id='b05ba294'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='size_type' type-id='2bea86ea' id='cd0802b2'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='allocator_traits&lt;std::__1::allocator&lt;char&gt; &gt;' size-in-bits='8' is-struct='yes' visibility='default' id='3adee9af'>
+          <member-type access='public'>
+            <typedef-decl name='allocator_type' type-id='c7b95082' id='32e47c40'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='pointer' type-id='bb139ded' id='8350ecd7'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='const_pointer' type-id='d77939ac' id='cbcf5557'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='const_void_pointer' type-id='17efc584' id='93874752'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='size_type' type-id='09c34d7a' id='fc6df6f8'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;' size-in-bits='96' visibility='default' id='27619c1c'>
+          <base-class access='private' layout-offset-in-bits='0' type-id='c3e90ce7'/>
+          <member-type access='private'>
+            <typedef-decl name='__self_view' type-id='bfa0e315' id='53d300a5'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='value_type' type-id='a84c031d' id='97219ec5'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='allocator_type' type-id='c7b95082' id='c0958ab1'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='size_type' type-id='fc6df6f8' id='0ad725ff'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='reference' type-id='e738f724' id='4c45b148'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_reference' type-id='da6951c9' id='22c34a08'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='pointer' type-id='8350ecd7' id='fbcf9148'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_pointer' type-id='cbcf5557' id='dc224b08'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='iterator' type-id='3ece1bc8' id='fea67ab9'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_iterator' type-id='5b0fb1b3' id='4e960f79'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='reverse_iterator' type-id='5d9f46d3' id='955b7a52'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_reverse_iterator' type-id='4b1af458' id='63fe8912'/>
+          </member-type>
+          <member-type access='private'>
+            <class-decl name='__long' size-in-bits='96' is-struct='yes' visibility='default' id='b1d75bc8'>
+              <data-member access='public' layout-offset-in-bits='0'>
+                <var-decl name='__cap_' type-id='0ad725ff' visibility='default'/>
+              </data-member>
+              <data-member access='public' layout-offset-in-bits='32'>
+                <var-decl name='__size_' type-id='0ad725ff' visibility='default'/>
+              </data-member>
+              <data-member access='public' layout-offset-in-bits='64'>
+                <var-decl name='__data_' type-id='fbcf9148' visibility='default'/>
+              </data-member>
+            </class-decl>
+          </member-type>
+          <member-type access='private'>
+            <enum-decl name='__anonymous_enum__' is-anonymous='yes' id='08f5ca18'>
+              <underlying-type type-id='9cac1fee'/>
+              <enumerator name='__min_cap' value='11'/>
+            </enum-decl>
+          </member-type>
+          <member-type access='private'>
+            <class-decl name='__short' size-in-bits='96' is-struct='yes' visibility='default' id='6582ed08'>
+              <member-type access='public'>
+                <union-decl name='__anonymous_union__' size-in-bits='8' is-anonymous='yes' visibility='default' id='ac5ab596'>
+                  <data-member access='public'>
+                    <var-decl name='__size_' type-id='002ac4a6' visibility='default'/>
+                  </data-member>
+                  <data-member access='public'>
+                    <var-decl name='__lx' type-id='97219ec5' visibility='default'/>
+                  </data-member>
+                </union-decl>
+              </member-type>
+              <data-member access='public' layout-offset-in-bits='0'>
+                <var-decl name='' type-id='ac5ab596' visibility='default'/>
+              </data-member>
+              <data-member access='public' layout-offset-in-bits='8'>
+                <var-decl name='__data_' type-id='8c04a868' visibility='default'/>
+              </data-member>
+            </class-decl>
+          </member-type>
+          <member-type access='private'>
+            <class-decl name='__raw' size-in-bits='96' is-struct='yes' visibility='default' id='5eacdba8'>
+              <data-member access='public' layout-offset-in-bits='0'>
+                <var-decl name='__words' type-id='5da85797' visibility='default'/>
+              </data-member>
+            </class-decl>
+          </member-type>
+          <member-type access='private'>
+            <class-decl name='__rep' size-in-bits='96' is-struct='yes' visibility='default' id='4da3c689'>
+              <member-type access='public'>
+                <union-decl name='__anonymous_union__' size-in-bits='96' is-anonymous='yes' visibility='default' id='ac5ab597'>
+                  <data-member access='public'>
+                    <var-decl name='__l' type-id='b1d75bc8' visibility='default'/>
+                  </data-member>
+                  <data-member access='public'>
+                    <var-decl name='__s' type-id='6582ed08' visibility='default'/>
+                  </data-member>
+                  <data-member access='public'>
+                    <var-decl name='__r' type-id='5eacdba8' visibility='default'/>
+                  </data-member>
+                </union-decl>
+              </member-type>
+              <data-member access='public' layout-offset-in-bits='0'>
+                <var-decl name='' type-id='ac5ab597' visibility='default'/>
+              </data-member>
+            </class-decl>
+          </member-type>
+          <member-type access='private'>
+            <enum-decl name='__anonymous_enum__' is-anonymous='yes' id='08f5ca19'>
+              <underlying-type type-id='9cac1fee'/>
+              <enumerator name='__alignment' value='16'/>
+            </enum-decl>
+          </member-type>
+          <data-member access='private' static='yes'>
+            <var-decl name='__short_mask' type-id='c5dfd76f' visibility='default'/>
+          </data-member>
+          <data-member access='private' static='yes'>
+            <var-decl name='__long_mask' type-id='c5dfd76f' visibility='default'/>
+          </data-member>
+          <data-member access='private' layout-offset-in-bits='0'>
+            <var-decl name='__r_' type-id='678452de' visibility='default'/>
+          </data-member>
+          <data-member access='public' static='yes'>
+            <var-decl name='npos' type-id='c5dfd76f' visibility='default'/>
+          </data-member>
+          <member-function access='public'>
+            <function-decl name='basic_string' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <parameter type-id='e90db6e5'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <parameter type-id='ae83ddff'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <parameter type-id='ae83ddff'/>
+              <parameter type-id='e90db6e5'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <parameter type-id='cbb281c0'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <parameter type-id='cbb281c0'/>
+              <parameter type-id='e90db6e5'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <parameter type-id='80f4b756'/>
+              <parameter type-id='0ad725ff'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <parameter type-id='80f4b756'/>
+              <parameter type-id='0ad725ff'/>
+              <parameter type-id='b470739d'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <parameter type-id='0ad725ff'/>
+              <parameter type-id='a84c031d'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <parameter type-id='ae83ddff'/>
+              <parameter type-id='0ad725ff'/>
+              <parameter type-id='0ad725ff'/>
+              <parameter type-id='b470739d'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <parameter type-id='ae83ddff'/>
+              <parameter type-id='0ad725ff'/>
+              <parameter type-id='b470739d'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <parameter type-id='5580186d'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <parameter type-id='5580186d'/>
+              <parameter type-id='b470739d'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public' destructor='yes'>
+            <function-decl name='~basic_string' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string&lt;std::nullptr_t&gt;' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='9c8ba24a' is-artificial='yes'/>
+              <parameter type-id='80f4b756'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='basic_string_view&lt;char, std::__1::char_traits&lt;char&gt; &gt;' size-in-bits='64' visibility='default' id='bfa0e315'>
+          <member-type access='private'>
+            <typedef-decl name='value_type' type-id='a84c031d' id='3d74e87c'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_pointer' type-id='80f4b756' id='c6f36d4b'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_reference' type-id='8cf4ca3a' id='47a8059f'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_iterator' type-id='c6f36d4b' id='30c8eb30'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_reverse_iterator' type-id='2339ba19' id='218cce4b'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='size_type' type-id='b59d7dce' id='9788f45c'/>
+          </member-type>
+          <data-member access='public' static='yes'>
+            <var-decl name='npos' type-id='5919835e' visibility='default'/>
+          </data-member>
+          <data-member access='private' layout-offset-in-bits='0'>
+            <var-decl name='__data' type-id='3d6d5732' visibility='default'/>
+          </data-member>
+          <data-member access='private' layout-offset-in-bits='32'>
+            <var-decl name='__size' type-id='143a6b6e' visibility='default'/>
+          </data-member>
+          <member-function access='public'>
+            <function-decl name='basic_string_view' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='3be1fa35' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string_view' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='3be1fa35' is-artificial='yes'/>
+              <parameter type-id='35089a40'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string_view' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='3be1fa35' is-artificial='yes'/>
+              <parameter type-id='80f4b756'/>
+              <parameter type-id='143a6b6e'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='basic_string_view' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='3be1fa35' is-artificial='yes'/>
+              <parameter type-id='80f4b756'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='iterator&lt;std::__1::random_access_iterator_tag, android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt;, int, android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; *, android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; &amp;&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='ea631e48'/>
+        <class-decl name='iterator_traits&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; *&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='da1d78ad'>
+          <member-type access='public'>
+            <typedef-decl name='difference_type' type-id='fc84bffe' id='34d914a6'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='pointer' type-id='9612a68b' id='dc8951e7'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='reference' type-id='9212a03f' id='be13100b'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='iterator_traits&lt;char *&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='b1d1e633'>
+          <member-type access='public'>
+            <typedef-decl name='difference_type' type-id='fc84bffe' id='ed297478'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='pointer' type-id='26a90f95' id='134e8dfd'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='reference' type-id='2aa915e1' id='485151c9'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='iterator_traits&lt;const android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; *&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='cabd8872'>
+          <member-type access='public'>
+            <typedef-decl name='difference_type' type-id='fc84bffe' id='d23f7377'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='pointer' type-id='fa86d1ac' id='fd417f52'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='reference' type-id='fe86d7f8' id='d7d03962'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='mutex' size-in-bits='32' visibility='default' id='199fc21a'>
+          <member-type access='private'>
+            <typedef-decl name='native_handle_type' type-id='3ddb2ecc' id='826093b6'/>
+          </member-type>
+          <data-member access='private' layout-offset-in-bits='0'>
+            <var-decl name='__m_' type-id='03f240eb' visibility='default'/>
+          </data-member>
+          <member-function access='public' constructor='yes'>
+            <function-decl name='mutex' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='8b55c6d8' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public' destructor='yes'>
+            <function-decl name='~mutex' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='8b55c6d8' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='private' constructor='yes'>
+            <function-decl name='mutex' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='8b55c6d8' is-artificial='yes'/>
+              <parameter type-id='342acd65'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='pointer_traits&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; *&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='7f88181e'>
+          <member-type access='public'>
+            <typedef-decl name='pointer' type-id='9612a68b' id='e04fcd40'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='rebind&lt;const void&gt;' type-id='eaa32e2f' id='783f0e0a'/>
+          </member-type>
+          <member-type access='public'>
+            <class-decl name='__nat' is-struct='yes' visibility='default' is-declaration-only='yes' id='fc138487'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='pointer_traits&lt;char *&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='077c57cc'>
+          <member-type access='public'>
+            <typedef-decl name='pointer' type-id='26a90f95' id='91c40f56'/>
+          </member-type>
+          <member-type access='public'>
+            <typedef-decl name='rebind&lt;const void&gt;' type-id='eaa32e2f' id='0951e3d8'/>
+          </member-type>
+          <member-type access='public'>
+            <class-decl name='__nat' is-struct='yes' visibility='default' is-declaration-only='yes' id='d3acbad5'/>
+          </member-type>
+        </class-decl>
+        <class-decl name='reverse_iterator&lt;const char *&gt;' visibility='default' is-declaration-only='yes' id='2339ba19'/>
+        <class-decl name='reverse_iterator&lt;std::__1::__wrap_iter&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; *&gt; &gt;' size-in-bits='64' visibility='default' id='29d5e6c1'>
+          <base-class access='public' layout-offset-in-bits='0' type-id='ea631e48'/>
+          <member-type access='private'>
+            <typedef-decl name='difference_type' type-id='63d3c76e' id='97198970'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='reference' type-id='04a8c323' id='7f380a11'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='pointer' type-id='e44c7cbf' id='46510aa5'/>
+          </member-type>
+          <data-member access='private' layout-offset-in-bits='0'>
+            <var-decl name='__t' type-id='134a0cfa' visibility='default'/>
+          </data-member>
+          <data-member access='protected' layout-offset-in-bits='32'>
+            <var-decl name='current' type-id='134a0cfa' visibility='default'/>
+          </data-member>
+          <member-function access='public'>
+            <function-decl name='reverse_iterator' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ec2a3089' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='reverse_iterator' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ec2a3089' is-artificial='yes'/>
+              <parameter type-id='134a0cfa'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <class-decl name='reverse_iterator&lt;std::__1::__wrap_iter&lt;char *&gt; &gt;' visibility='default' is-declaration-only='yes' id='5d9f46d3'/>
+        <class-decl name='reverse_iterator&lt;std::__1::__wrap_iter&lt;const android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; *&gt; &gt;' visibility='default' is-declaration-only='yes' id='fcf68b46'/>
+        <class-decl name='reverse_iterator&lt;std::__1::__wrap_iter&lt;const char *&gt; &gt;' visibility='default' is-declaration-only='yes' id='4b1af458'/>
+        <class-decl name='vector&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt;, std::__1::allocator&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; &gt; &gt;' size-in-bits='96' visibility='default' id='50607161'>
+          <base-class access='private' layout-offset-in-bits='0' type-id='0e112177'/>
+          <member-type access='private'>
+            <typedef-decl name='value_type' type-id='8fcae50b' id='145bd9a8'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='allocator_type' type-id='beccbeec' id='4ed99a10'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='reference' type-id='c34a18df' id='be51d34b'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_reference' type-id='522399cf' id='ed815a6b'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='size_type' type-id='6ee0832c' id='1bfa2ea8'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='difference_type' type-id='72546ada' id='6a95c5e6'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='pointer' type-id='1fd2208b' id='3ada1027'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_pointer' type-id='c773065b' id='99ae9747'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='iterator' type-id='134a0cfa' id='08d5d6f4'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_iterator' type-id='32b2d42d' id='80d68894'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='reverse_iterator' type-id='29d5e6c1' id='a6f23a57'/>
+          </member-type>
+          <member-type access='private'>
+            <typedef-decl name='const_reverse_iterator' type-id='fcf68b46' id='12315f37'/>
+          </member-type>
+          <member-type access='private'>
+            <class-decl name='__RAII_IncreaseAnnotator' size-in-bits='8' is-struct='yes' visibility='default' id='1921ad63'>
+              <member-function access='public' constructor='yes'>
+                <function-decl name='__RAII_IncreaseAnnotator' visibility='default' binding='global' size-in-bits='32'>
+                  <parameter type-id='313fa563' is-artificial='yes'/>
+                  <parameter type-id='1496df34'/>
+                  <parameter type-id='1bfa2ea8'/>
+                  <return type-id='48b5725f'/>
+                </function-decl>
+              </member-function>
+            </class-decl>
+          </member-type>
+          <member-function access='public'>
+            <function-decl name='vector' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ddc50af9' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='vector' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ddc50af9' is-artificial='yes'/>
+              <parameter type-id='fbc243f2'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='vector' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ddc50af9' is-artificial='yes'/>
+              <parameter type-id='1bfa2ea8'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='vector' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ddc50af9' is-artificial='yes'/>
+              <parameter type-id='1bfa2ea8'/>
+              <parameter type-id='fbc243f2'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='vector' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ddc50af9' is-artificial='yes'/>
+              <parameter type-id='1bfa2ea8'/>
+              <parameter type-id='8586ce7a'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='vector' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ddc50af9' is-artificial='yes'/>
+              <parameter type-id='1bfa2ea8'/>
+              <parameter type-id='8586ce7a'/>
+              <parameter type-id='fbc243f2'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public' destructor='yes'>
+            <function-decl name='~vector' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ddc50af9' is-artificial='yes'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='vector' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ddc50af9' is-artificial='yes'/>
+              <parameter type-id='1496df34'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='vector' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ddc50af9' is-artificial='yes'/>
+              <parameter type-id='1496df34'/>
+              <parameter type-id='fbc243f2'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='vector' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ddc50af9' is-artificial='yes'/>
+              <parameter type-id='7bde4841'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='vector' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ddc50af9' is-artificial='yes'/>
+              <parameter type-id='7bde4841'/>
+              <parameter type-id='fbc243f2'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='vector' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ddc50af9' is-artificial='yes'/>
+              <parameter type-id='fc4e3221'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+          <member-function access='public'>
+            <function-decl name='vector' visibility='default' binding='global' size-in-bits='32'>
+              <parameter type-id='ddc50af9' is-artificial='yes'/>
+              <parameter type-id='fc4e3221'/>
+              <parameter type-id='fbc243f2'/>
+              <return type-id='48b5725f'/>
+            </function-decl>
+          </member-function>
+        </class-decl>
+        <typedef-decl name='__libcpp_mutex_t' type-id='7a6844eb' id='03f240eb'/>
+        <typedef-decl name='string' type-id='27619c1c' id='2e84cb7b'/>
+        <namespace-decl name='__pointer_type_imp'>
+          <class-decl name='__pointer_type&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt;, std::__1::allocator&lt;android::sp&lt;AIBinder_DeathRecipient::TransferDeathRecipient&gt; &gt;, true&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='f09a7d69'>
+            <member-type access='public'>
+              <typedef-decl name='type' type-id='54a8e71a' id='b9dec6a8'/>
+            </member-type>
+          </class-decl>
+          <class-decl name='__pointer_type&lt;char, std::__1::allocator&lt;char&gt;, true&gt;' size-in-bits='8' is-struct='yes' visibility='default' id='7e5862b7'>
+            <member-type access='public'>
+              <typedef-decl name='type' type-id='7f25d406' id='dca6e0a0'/>
+            </member-type>
+          </class-decl>
+        </namespace-decl>
+      </namespace-decl>
+    </namespace-decl>
+  </abi-instr>
+</abi-corpus>

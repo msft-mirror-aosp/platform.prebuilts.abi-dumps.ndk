@@ -1,0 +1,146 @@
+<abi-corpus version='2.1' architecture='elf-arm' soname='libOpenMAXAL.so'>
+  <elf-needed>
+    <dependency name='libwilhelm.so'/>
+    <dependency name='liblog.so'/>
+    <dependency name='libnativewindow.so'/>
+    <dependency name='libc++.so'/>
+    <dependency name='libc.so'/>
+    <dependency name='libm.so'/>
+    <dependency name='libdl.so'/>
+  </elf-needed>
+  <elf-function-symbols>
+    <elf-symbol name='xaCreateEngine' version='LIBOPENMAXAL' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='xaQueryNumSupportedEngineInterfaces' version='LIBOPENMAXAL' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='xaQuerySupportedEngineInterfaces' version='LIBOPENMAXAL' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+  </elf-function-symbols>
+  <elf-variable-symbols>
+    <elf-symbol name='XA_IID_ANDROIDBUFFERQUEUESOURCE' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_AUDIODECODERCAPABILITIES' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_AUDIOENCODER' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_AUDIOENCODERCAPABILITIES' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_AUDIOIODEVICECAPABILITIES' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_CAMERA' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_CAMERACAPABILITIES' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_CONFIGEXTENSION' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_DEVICEVOLUME' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_DYNAMICINTERFACEMANAGEMENT' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_DYNAMICSOURCE' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_ENGINE' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_EQUALIZER' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_IMAGECONTROLS' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_IMAGEDECODERCAPABILITIES' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_IMAGEEFFECTS' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_IMAGEENCODER' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_IMAGEENCODERCAPABILITIES' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_LED' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_METADATAEXTRACTION' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_METADATAINSERTION' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_METADATATRAVERSAL' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_NULL' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_OBJECT' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_OUTPUTMIX' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_PLAY' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_PLAYBACKRATE' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_PREFETCHSTATUS' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_RADIO' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_RDS' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_RECORD' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_SEEK' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_SNAPSHOT' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_STREAMINFORMATION' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_THREADSYNC' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_VIBRA' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_VIDEODECODERCAPABILITIES' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_VIDEOENCODER' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_VIDEOENCODERCAPABILITIES' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_VIDEOPOSTPROCESSING' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+    <elf-symbol name='XA_IID_VOLUME' size='4' version='LIBOPENMAXAL' is-default-version='yes' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
+  </elf-variable-symbols>
+  <abi-instr address-size='32' language='LANG_C_plus_plus_14' path='various'>
+    <class-decl name='XAEngineOption_' is-struct='yes' visibility='default' is-declaration-only='yes' id='ae27eb82'/>
+    <class-decl name='XAInterfaceID_' is-struct='yes' visibility='default' is-declaration-only='yes' id='e80def81'/>
+    <class-decl name='XAObjectItf_' is-struct='yes' visibility='default' is-declaration-only='yes' id='39bea0fb'/>
+    <function-decl name='xaCreateEngine' mangled-name='xaCreateEngine' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='xaCreateEngine@@LIBOPENMAXAL'>
+      <parameter type-id='f391258c' name='pEngine'/>
+      <parameter type-id='0246ebba' name='numOptions'/>
+      <parameter type-id='9e1a8bf6' name='pEngineOptions'/>
+      <parameter type-id='0246ebba' name='numInterfaces'/>
+      <parameter type-id='547f6ca3' name='pInterfaceIds'/>
+      <parameter type-id='2731d2fd' name='pInterfaceRequired'/>
+      <return type-id='d296e3be'/>
+    </function-decl>
+    <function-decl name='xaQueryNumSupportedEngineInterfaces' mangled-name='xaQueryNumSupportedEngineInterfaces' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='xaQueryNumSupportedEngineInterfaces@@LIBOPENMAXAL'>
+      <parameter type-id='2a12676f' name='pNumSupportedInterfaces'/>
+      <return type-id='d296e3be'/>
+    </function-decl>
+    <function-decl name='xaQuerySupportedEngineInterfaces' mangled-name='xaQuerySupportedEngineInterfaces' visibility='default' binding='global' size-in-bits='32' elf-symbol-id='xaQuerySupportedEngineInterfaces@@LIBOPENMAXAL'>
+      <parameter type-id='0246ebba' name='index'/>
+      <parameter type-id='1158fd92' name='pInterfaceId'/>
+      <return type-id='d296e3be'/>
+    </function-decl>
+    <pointer-type-def type-id='82f5538b' size-in-bits='32' id='1158fd92'/>
+    <pointer-type-def type-id='ea61f305' size-in-bits='32' id='2731d2fd'/>
+    <pointer-type-def type-id='0246ebba' size-in-bits='32' id='2a12676f'/>
+    <pointer-type-def type-id='f456129b' size-in-bits='32' id='547f6ca3'/>
+    <pointer-type-def type-id='3d1f6e6f' size-in-bits='32' id='7d7a969f'/>
+    <pointer-type-def type-id='4d039966' size-in-bits='32' id='88aa52a4'/>
+    <pointer-type-def type-id='677f8a8c' size-in-bits='32' id='93c74352'/>
+    <pointer-type-def type-id='ff2815d8' size-in-bits='32' id='9e1a8bf6'/>
+    <pointer-type-def type-id='5aa36c4d' size-in-bits='32' id='f391258c'/>
+    <qualified-type-def type-id='88aa52a4' const='yes' id='3d1f6e6f'/>
+    <qualified-type-def type-id='39bea0fb' const='yes' id='4d039966'/>
+    <qualified-type-def type-id='e80def81' const='yes' id='677f8a8c'/>
+    <qualified-type-def type-id='0e72ecf5' const='yes' id='ea61f305'/>
+    <qualified-type-def type-id='82f5538b' const='yes' id='f456129b'/>
+    <qualified-type-def type-id='c42dd0a8' const='yes' id='ff2815d8'/>
+    <type-decl name='unsigned int' size-in-bits='32' id='f0981eeb'/>
+    <typedef-decl name='XAEngineOption' type-id='ae27eb82' id='c42dd0a8'/>
+    <typedef-decl name='XAInterfaceID' type-id='93c74352' id='82f5538b'/>
+    <typedef-decl name='XAObjectItf' type-id='7d7a969f' id='5aa36c4d'/>
+    <typedef-decl name='XAboolean' type-id='0246ebba' id='0e72ecf5'/>
+    <typedef-decl name='XAresult' type-id='0246ebba' id='d296e3be'/>
+    <typedef-decl name='XAuint32' type-id='48624de2' id='0246ebba'/>
+    <typedef-decl name='xa_uint32_t' type-id='f0981eeb' id='48624de2'/>
+    <var-decl name='XA_IID_ANDROIDBUFFERQUEUESOURCE' type-id='f456129b' mangled-name='XA_IID_ANDROIDBUFFERQUEUESOURCE' visibility='default' elf-symbol-id='XA_IID_ANDROIDBUFFERQUEUESOURCE@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_AUDIODECODERCAPABILITIES' type-id='f456129b' mangled-name='XA_IID_AUDIODECODERCAPABILITIES' visibility='default' elf-symbol-id='XA_IID_AUDIODECODERCAPABILITIES@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_AUDIOENCODER' type-id='f456129b' mangled-name='XA_IID_AUDIOENCODER' visibility='default' elf-symbol-id='XA_IID_AUDIOENCODER@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_AUDIOENCODERCAPABILITIES' type-id='f456129b' mangled-name='XA_IID_AUDIOENCODERCAPABILITIES' visibility='default' elf-symbol-id='XA_IID_AUDIOENCODERCAPABILITIES@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_AUDIOIODEVICECAPABILITIES' type-id='f456129b' mangled-name='XA_IID_AUDIOIODEVICECAPABILITIES' visibility='default' elf-symbol-id='XA_IID_AUDIOIODEVICECAPABILITIES@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_CAMERA' type-id='f456129b' mangled-name='XA_IID_CAMERA' visibility='default' elf-symbol-id='XA_IID_CAMERA@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_CAMERACAPABILITIES' type-id='f456129b' mangled-name='XA_IID_CAMERACAPABILITIES' visibility='default' elf-symbol-id='XA_IID_CAMERACAPABILITIES@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_CONFIGEXTENSION' type-id='f456129b' mangled-name='XA_IID_CONFIGEXTENSION' visibility='default' elf-symbol-id='XA_IID_CONFIGEXTENSION@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_DEVICEVOLUME' type-id='f456129b' mangled-name='XA_IID_DEVICEVOLUME' visibility='default' elf-symbol-id='XA_IID_DEVICEVOLUME@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_DYNAMICINTERFACEMANAGEMENT' type-id='f456129b' mangled-name='XA_IID_DYNAMICINTERFACEMANAGEMENT' visibility='default' elf-symbol-id='XA_IID_DYNAMICINTERFACEMANAGEMENT@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_DYNAMICSOURCE' type-id='f456129b' mangled-name='XA_IID_DYNAMICSOURCE' visibility='default' elf-symbol-id='XA_IID_DYNAMICSOURCE@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_ENGINE' type-id='f456129b' mangled-name='XA_IID_ENGINE' visibility='default' elf-symbol-id='XA_IID_ENGINE@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_EQUALIZER' type-id='f456129b' mangled-name='XA_IID_EQUALIZER' visibility='default' elf-symbol-id='XA_IID_EQUALIZER@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_IMAGECONTROLS' type-id='f456129b' mangled-name='XA_IID_IMAGECONTROLS' visibility='default' elf-symbol-id='XA_IID_IMAGECONTROLS@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_IMAGEDECODERCAPABILITIES' type-id='f456129b' mangled-name='XA_IID_IMAGEDECODERCAPABILITIES' visibility='default' elf-symbol-id='XA_IID_IMAGEDECODERCAPABILITIES@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_IMAGEEFFECTS' type-id='f456129b' mangled-name='XA_IID_IMAGEEFFECTS' visibility='default' elf-symbol-id='XA_IID_IMAGEEFFECTS@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_IMAGEENCODER' type-id='f456129b' mangled-name='XA_IID_IMAGEENCODER' visibility='default' elf-symbol-id='XA_IID_IMAGEENCODER@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_IMAGEENCODERCAPABILITIES' type-id='f456129b' mangled-name='XA_IID_IMAGEENCODERCAPABILITIES' visibility='default' elf-symbol-id='XA_IID_IMAGEENCODERCAPABILITIES@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_LED' type-id='f456129b' mangled-name='XA_IID_LED' visibility='default' elf-symbol-id='XA_IID_LED@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_METADATAEXTRACTION' type-id='f456129b' mangled-name='XA_IID_METADATAEXTRACTION' visibility='default' elf-symbol-id='XA_IID_METADATAEXTRACTION@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_METADATAINSERTION' type-id='f456129b' mangled-name='XA_IID_METADATAINSERTION' visibility='default' elf-symbol-id='XA_IID_METADATAINSERTION@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_METADATATRAVERSAL' type-id='f456129b' mangled-name='XA_IID_METADATATRAVERSAL' visibility='default' elf-symbol-id='XA_IID_METADATATRAVERSAL@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_NULL' type-id='f456129b' mangled-name='XA_IID_NULL' visibility='default' elf-symbol-id='XA_IID_NULL@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_OBJECT' type-id='f456129b' mangled-name='XA_IID_OBJECT' visibility='default' elf-symbol-id='XA_IID_OBJECT@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_OUTPUTMIX' type-id='f456129b' mangled-name='XA_IID_OUTPUTMIX' visibility='default' elf-symbol-id='XA_IID_OUTPUTMIX@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_PLAY' type-id='f456129b' mangled-name='XA_IID_PLAY' visibility='default' elf-symbol-id='XA_IID_PLAY@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_PLAYBACKRATE' type-id='f456129b' mangled-name='XA_IID_PLAYBACKRATE' visibility='default' elf-symbol-id='XA_IID_PLAYBACKRATE@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_PREFETCHSTATUS' type-id='f456129b' mangled-name='XA_IID_PREFETCHSTATUS' visibility='default' elf-symbol-id='XA_IID_PREFETCHSTATUS@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_RADIO' type-id='f456129b' mangled-name='XA_IID_RADIO' visibility='default' elf-symbol-id='XA_IID_RADIO@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_RDS' type-id='f456129b' mangled-name='XA_IID_RDS' visibility='default' elf-symbol-id='XA_IID_RDS@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_RECORD' type-id='f456129b' mangled-name='XA_IID_RECORD' visibility='default' elf-symbol-id='XA_IID_RECORD@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_SEEK' type-id='f456129b' mangled-name='XA_IID_SEEK' visibility='default' elf-symbol-id='XA_IID_SEEK@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_SNAPSHOT' type-id='f456129b' mangled-name='XA_IID_SNAPSHOT' visibility='default' elf-symbol-id='XA_IID_SNAPSHOT@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_STREAMINFORMATION' type-id='f456129b' mangled-name='XA_IID_STREAMINFORMATION' visibility='default' elf-symbol-id='XA_IID_STREAMINFORMATION@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_THREADSYNC' type-id='f456129b' mangled-name='XA_IID_THREADSYNC' visibility='default' elf-symbol-id='XA_IID_THREADSYNC@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_VIBRA' type-id='f456129b' mangled-name='XA_IID_VIBRA' visibility='default' elf-symbol-id='XA_IID_VIBRA@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_VIDEODECODERCAPABILITIES' type-id='f456129b' mangled-name='XA_IID_VIDEODECODERCAPABILITIES' visibility='default' elf-symbol-id='XA_IID_VIDEODECODERCAPABILITIES@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_VIDEOENCODER' type-id='f456129b' mangled-name='XA_IID_VIDEOENCODER' visibility='default' elf-symbol-id='XA_IID_VIDEOENCODER@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_VIDEOENCODERCAPABILITIES' type-id='f456129b' mangled-name='XA_IID_VIDEOENCODERCAPABILITIES' visibility='default' elf-symbol-id='XA_IID_VIDEOENCODERCAPABILITIES@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_VIDEOPOSTPROCESSING' type-id='f456129b' mangled-name='XA_IID_VIDEOPOSTPROCESSING' visibility='default' elf-symbol-id='XA_IID_VIDEOPOSTPROCESSING@@LIBOPENMAXAL'/>
+    <var-decl name='XA_IID_VOLUME' type-id='f456129b' mangled-name='XA_IID_VOLUME' visibility='default' elf-symbol-id='XA_IID_VOLUME@@LIBOPENMAXAL'/>
+  </abi-instr>
+</abi-corpus>

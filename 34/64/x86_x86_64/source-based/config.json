@@ -1,0 +1,10 @@
+{
+    "libnativewindow": [
+      {
+        "target_version": "35",
+        "ignore_linker_set_keys": [
+          "_ZN7android34AHardwareBuffer_isValidPixelFormatEj",
+        ],
+      },
+    ],
+  }

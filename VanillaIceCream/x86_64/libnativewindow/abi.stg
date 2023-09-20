@@ -670,6 +670,14 @@ elf_symbol {
   full_name: "ANativeWindow_getBuffersDataSpace"
 }
 elf_symbol {
+  id: 0x79015d4f
+  name: "ANativeWindow_getBuffersDefaultDataSpace"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0xd8f7a52e
+  full_name: "ANativeWindow_getBuffersDefaultDataSpace"
+}
+elf_symbol {
   id: 0xd406255c
   name: "ANativeWindow_getFormat"
   is_defined: true
@@ -799,6 +807,7 @@ interface {
   symbol_id: 0x99bbbdfb
   symbol_id: 0x475e13d9
   symbol_id: 0x931d25fb
+  symbol_id: 0x79015d4f
   symbol_id: 0xd406255c
   symbol_id: 0x73bf11ac
   symbol_id: 0x47ef1a0e

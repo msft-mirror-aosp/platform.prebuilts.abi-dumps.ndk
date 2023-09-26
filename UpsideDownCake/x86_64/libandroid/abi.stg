@@ -170,6 +170,16 @@ pointer_reference {
   pointee_type_id: 0x572ee3bc
 }
 pointer_reference {
+  id: 0x1f936fd2
+  kind: POINTER
+  pointee_type_id: 0x540d59d4
+}
+pointer_reference {
+  id: 0x1fe64a61
+  kind: POINTER
+  pointee_type_id: 0x55d9cf18
+}
+pointer_reference {
   id: 0x2190f8f9
   kind: POINTER
   pointee_type_id: 0xac030578
@@ -188,11 +198,6 @@ pointer_reference {
   id: 0x253d9322
   kind: POINTER
   pointee_type_id: 0xbeb6aa15
-}
-pointer_reference {
-  id: 0x25bdaeec
-  kind: POINTER
-  pointee_type_id: 0xbcb65d2d
 }
 pointer_reference {
   id: 0x284f2578
@@ -240,14 +245,14 @@ pointer_reference {
   pointee_type_id: 0xeed24b3d
 }
 pointer_reference {
-  id: 0x31b1f13e
-  kind: POINTER
-  pointee_type_id: 0xec872267
-}
-pointer_reference {
   id: 0x31b2351f
   kind: POINTER
   pointee_type_id: 0xec8832e3
+}
+pointer_reference {
+  id: 0x31db8991
+  kind: POINTER
+  pointee_type_id: 0xed2ec0d8
 }
 pointer_reference {
   id: 0x32710d89
@@ -268,11 +273,6 @@ pointer_reference {
   id: 0x34d3469d
   kind: POINTER
   pointee_type_id: 0xf90dfce8
-}
-pointer_reference {
-  id: 0x365f271d
-  kind: POINTER
-  pointee_type_id: 0xf33c7ae9
 }
 pointer_reference {
   id: 0x36ae7c82
@@ -305,6 +305,11 @@ pointer_reference {
   pointee_type_id: 0xc84d9907
 }
 pointer_reference {
+  id: 0x38d49752
+  kind: POINTER
+  pointee_type_id: 0xc912bbd7
+}
+pointer_reference {
   id: 0x38e281b6
   kind: POINTER
   pointee_type_id: 0xc9cae044
@@ -313,6 +318,11 @@ pointer_reference {
   id: 0x38e46ac9
   kind: POINTER
   pointee_type_id: 0xc9d14db8
+}
+pointer_reference {
+  id: 0x390fca51
+  kind: POINTER
+  pointee_type_id: 0xce7fcfdb
 }
 pointer_reference {
   id: 0x39182153
@@ -330,11 +340,6 @@ pointer_reference {
   pointee_type_id: 0xcceba991
 }
 pointer_reference {
-  id: 0x3a06f662
-  kind: POINTER
-  pointee_type_id: 0xc25b3f15
-}
-pointer_reference {
   id: 0x3a09e6e6
   kind: POINTER
   pointee_type_id: 0xc2677d06
@@ -345,14 +350,14 @@ pointer_reference {
   pointee_type_id: 0xc22bf7b5
 }
 pointer_reference {
-  id: 0x3a7beaa3
-  kind: POINTER
-  pointee_type_id: 0xc3af4c10
-}
-pointer_reference {
   id: 0x3b909d21
   kind: POINTER
   pointee_type_id: 0xc402921a
+}
+pointer_reference {
+  id: 0x3baf14dd
+  kind: POINTER
+  pointee_type_id: 0xc4fcb5eb
 }
 pointer_reference {
   id: 0x3c435c95
@@ -458,6 +463,16 @@ typedef {
   id: 0x597d1e45
   name: "ADynamicSensorEvent"
   referred_type_id: 0xa2cb4205
+}
+typedef {
+  id: 0xc4fcb5eb
+  name: "AFont"
+  referred_type_id: 0xbcb65d2d
+}
+typedef {
+  id: 0x540d59d4
+  name: "AFontMatcher"
+  referred_type_id: 0xc25b3f15
 }
 typedef {
   id: 0xcb0e9a7f
@@ -638,6 +653,11 @@ typedef {
   id: 0xeff9bd1e
   name: "ASurfaceTransaction_OnComplete"
   referred_type_id: 0x0f369e3f
+}
+typedef {
+  id: 0x55d9cf18
+  name: "ASystemFontIterator"
+  referred_type_id: 0xc3af4c10
 }
 typedef {
   id: 0xc402921a
@@ -840,6 +860,11 @@ qualified {
   qualified_type_id: 0x5171d297
 }
 qualified {
+  id: 0xc912bbd7
+  qualifier: CONST
+  qualified_type_id: 0x540d59d4
+}
+qualified {
   id: 0xc9cae044
   qualifier: CONST
   qualified_type_id: 0x576c379b
@@ -860,6 +885,11 @@ qualified {
   qualified_type_id: 0x48b5725f
 }
 qualified {
+  id: 0xce7fcfdb
+  qualifier: CONST
+  qualified_type_id: 0x49b889e7
+}
+qualified {
   id: 0xd20232fd
   qualifier: CONST
   qualified_type_id: 0x384f7d7c
@@ -875,14 +905,14 @@ qualified {
   qualified_type_id: 0x0f385340
 }
 qualified {
-  id: 0xec872267
-  qualifier: CONST
-  qualified_type_id: 0xc25b3f15
-}
-qualified {
   id: 0xec8832e3
   qualifier: CONST
   qualified_type_id: 0xc2677d06
+}
+qualified {
+  id: 0xed2ec0d8
+  qualifier: CONST
+  qualified_type_id: 0xc4fcb5eb
 }
 qualified {
   id: 0xeed24b3d
@@ -893,11 +923,6 @@ qualified {
   id: 0xf0f91494
   qualifier: CONST
   qualified_type_id: 0xb3a3e4db
-}
-qualified {
-  id: 0xf33c7ae9
-  qualifier: CONST
-  qualified_type_id: 0xbcb65d2d
 }
 qualified {
   id: 0xf4812cef
@@ -2381,11 +2406,11 @@ enumeration {
       value: 302383104
     }
     enumerator {
-      name: "DEPTH"
+      name: "ADATASPACE_DEPTH"
       value: 4096
     }
     enumerator {
-      name: "DYNAMIC_DEPTH"
+      name: "ADATASPACE_DYNAMIC_DEPTH"
       value: 4098
     }
   }
@@ -2454,6 +2479,10 @@ function {
   parameter_id: 0x0e97f05a
 }
 function {
+  id: 0x05c9102c
+  return_type_id: 0x1fe64a61
+}
+function {
   id: 0x07e96032
   return_type_id: 0x03c8f98e
   parameter_id: 0x3fc92392
@@ -2515,6 +2544,13 @@ function {
   parameter_id: 0xf435685e
 }
 function {
+  id: 0x15aaae5b
+  return_type_id: 0x48b5725f
+  parameter_id: 0x1f936fd2
+  parameter_id: 0xb3a3e4db
+  parameter_id: 0x62aebfd4
+}
+function {
   id: 0x16428572
   return_type_id: 0x48b5725f
   parameter_id: 0x18ea281d
@@ -2556,6 +2592,28 @@ function {
   parameter_id: 0x18ea281d
 }
 function {
+  id: 0x170c7c9e
+  return_type_id: 0x48b5725f
+  parameter_id: 0x1f936fd2
+  parameter_id: 0x1c3dbe5a
+}
+function {
+  id: 0x1761c30b
+  return_type_id: 0x48b5725f
+  parameter_id: 0x1fe64a61
+}
+function {
+  id: 0x177c8a67
+  return_type_id: 0x48b5725f
+  parameter_id: 0x1f936fd2
+}
+function {
+  id: 0x1784c8b3
+  return_type_id: 0x48b5725f
+  parameter_id: 0x1f936fd2
+  parameter_id: 0x3e10b518
+}
+function {
   id: 0x1801bf70
   return_type_id: 0x48b5725f
   parameter_id: 0x2190f8f9
@@ -2586,11 +2644,6 @@ function {
   id: 0x19d7355b
   return_type_id: 0x48b5725f
   parameter_id: 0x253d9322
-}
-function {
-  id: 0x19f73a28
-  return_type_id: 0x48b5725f
-  parameter_id: 0x25bdaeec
 }
 function {
   id: 0x1a023f2c
@@ -2743,6 +2796,12 @@ function {
   parameter_id: 0x3c435c95
 }
 function {
+  id: 0x1aecedfb
+  return_type_id: 0x48b5725f
+  parameter_id: 0x295869de
+  parameter_id: 0x08a987db
+}
+function {
   id: 0x1aee28ac
   return_type_id: 0x48b5725f
   parameter_id: 0x295869de
@@ -2755,6 +2814,10 @@ function {
   parameter_id: 0x295869de
   parameter_id: 0x08a987db
   parameter_id: 0x08a987db
+}
+function {
+  id: 0x1af0903b
+  return_type_id: 0x1f936fd2
 }
 function {
   id: 0x1af44654
@@ -2820,13 +2883,6 @@ function {
   parameter_id: 0x1f5099bd
 }
 function {
-  id: 0x1ccfc837
-  return_type_id: 0x48b5725f
-  parameter_id: 0x3a06f662
-  parameter_id: 0xb3a3e4db
-  parameter_id: 0x62aebfd4
-}
-function {
   id: 0x1cf4dcd4
   return_type_id: 0x48b5725f
   parameter_id: 0x31b2351f
@@ -2853,16 +2909,6 @@ function {
   return_type_id: 0x48b5725f
   parameter_id: 0x34962163
   parameter_id: 0x18bd6530
-}
-function {
-  id: 0x1e06ab3b
-  return_type_id: 0x48b5725f
-  parameter_id: 0x3a7beaa3
-}
-function {
-  id: 0x1e19ec0b
-  return_type_id: 0x48b5725f
-  parameter_id: 0x3a06f662
 }
 function {
   id: 0x1e4425e3
@@ -2908,10 +2954,9 @@ function {
   parameter_id: 0x18bd6530
 }
 function {
-  id: 0x1e691af2
+  id: 0x1e7394a4
   return_type_id: 0x48b5725f
-  parameter_id: 0x3a06f662
-  parameter_id: 0x1c3dbe5a
+  parameter_id: 0x3baf14dd
 }
 function {
   id: 0x1e7c76db
@@ -2933,12 +2978,6 @@ function {
   id: 0x1ede59c7
   return_type_id: 0x48b5725f
   parameter_id: 0x39182153
-}
-function {
-  id: 0x1ee1aedf
-  return_type_id: 0x48b5725f
-  parameter_id: 0x3a06f662
-  parameter_id: 0x3e10b518
 }
 function {
   id: 0x1ef3d19c
@@ -2969,10 +3008,24 @@ function {
   parameter_id: 0x284f2578
 }
 function {
+  id: 0x263b803f
+  return_type_id: 0x3baf14dd
+  parameter_id: 0x38d49752
+  parameter_id: 0x3e10b518
+  parameter_id: 0x36ae7c82
+  parameter_id: 0x1c3dbe5a
+  parameter_id: 0x0d9f5631
+}
+function {
   id: 0x2d47c97e
   return_type_id: 0x3fc92392
   parameter_id: 0x21aba7d1
   parameter_id: 0x0e97f05a
+}
+function {
+  id: 0x2f02ada9
+  return_type_id: 0x3baf14dd
+  parameter_id: 0x1fe64a61
 }
 function {
   id: 0x2ff92368
@@ -2985,9 +3038,9 @@ function {
   return_type_id: 0x3b909d21
 }
 function {
-  id: 0x3ef8b4ef
+  id: 0x3f199f4c
   return_type_id: 0x1c3dbe5a
-  parameter_id: 0x365f271d
+  parameter_id: 0x31db8991
   parameter_id: 0x1c3dbe5a
 }
 function {
@@ -3008,6 +3061,12 @@ function {
   return_type_id: 0xdd0152a2
   parameter_id: 0x34962163
   parameter_id: 0xf435685e
+}
+function {
+  id: 0x45d6b9c5
+  return_type_id: 0x08a987db
+  parameter_id: 0x21aba7d1
+  parameter_id: 0x0e97f05a
 }
 function {
   id: 0x4a7c2cef
@@ -3037,6 +3096,12 @@ function {
 function {
   id: 0x55e9adda
   return_type_id: 0x39182153
+}
+function {
+  id: 0x581b1e87
+  return_type_id: 0x295869de
+  parameter_id: 0x21aba7d1
+  parameter_id: 0x0e97f05a
 }
 function {
   id: 0x5b9e2dc6
@@ -3130,9 +3195,11 @@ function {
   parameter_id: 0x6720d32f
 }
 function {
-  id: 0x90b17277
-  return_type_id: 0xb3a3e4db
-  parameter_id: 0x365f271d
+  id: 0x9089b46d
+  return_type_id: 0x6720d32f
+  parameter_id: 0x374194c4
+  parameter_id: 0x390fca51
+  parameter_id: 0xf435685e
 }
 function {
   id: 0x914fb38b
@@ -3140,6 +3207,11 @@ function {
   parameter_id: 0x30c55d0d
   parameter_id: 0x3c45a3ea
   parameter_id: 0x3c45a3ea
+}
+function {
+  id: 0x915059d4
+  return_type_id: 0xb3a3e4db
+  parameter_id: 0x31db8991
 }
 function {
   id: 0x916de294
@@ -3211,10 +3283,6 @@ function {
   id: 0x9272abcb
   return_type_id: 0x6720d32f
   parameter_id: 0x3fc92392
-}
-function {
-  id: 0x92e473ef
-  return_type_id: 0x3a06f662
 }
 function {
   id: 0x92f6bfcd
@@ -3297,11 +3365,6 @@ function {
   parameter_id: 0x15698814
 }
 function {
-  id: 0x9aa80095
-  return_type_id: 0xf435685e
-  parameter_id: 0x365f271d
-}
-function {
   id: 0x9aec0e89
   return_type_id: 0x6720d32f
   parameter_id: 0x1e55c947
@@ -3328,6 +3391,11 @@ function {
   parameter_id: 0x3e10b518
 }
 function {
+  id: 0x9b492b36
+  return_type_id: 0xf435685e
+  parameter_id: 0x31db8991
+}
+function {
   id: 0x9b534415
   return_type_id: 0xf435685e
   parameter_id: 0x31b2351f
@@ -3343,12 +3411,6 @@ function {
   parameter_id: 0x1e55c947
   parameter_id: 0x6720d32f
   parameter_id: 0xf435685e
-}
-function {
-  id: 0x9c046794
-  return_type_id: 0x8b7c737e
-  parameter_id: 0x365f271d
-  parameter_id: 0x1c3dbe5a
 }
 function {
   id: 0x9c30d569
@@ -3450,6 +3512,17 @@ function {
   parameter_id: 0x3e4e9d4b
 }
 function {
+  id: 0x9de54c37
+  return_type_id: 0x8b7c737e
+  parameter_id: 0x31db8991
+  parameter_id: 0x1c3dbe5a
+}
+function {
+  id: 0x9e32f5c7
+  return_type_id: 0x3e10b518
+  parameter_id: 0x31db8991
+}
+function {
   id: 0x9e5f004c
   return_type_id: 0x8b7c737e
   parameter_id: 0x31b2351f
@@ -3488,11 +3561,6 @@ function {
   return_type_id: 0x6720d32f
   parameter_id: 0x0b65af3c
   parameter_id: 0x08a987db
-}
-function {
-  id: 0x9fd3de64
-  return_type_id: 0x3e10b518
-  parameter_id: 0x365f271d
 }
 function {
   id: 0xa47b1787
@@ -3546,23 +3614,9 @@ function {
   parameter_id: 0x3dd9738b
 }
 function {
-  id: 0xb3c7a279
+  id: 0xb22689da
   return_type_id: 0x62aebfd4
-  parameter_id: 0x365f271d
-}
-function {
-  id: 0xb85a1e49
-  return_type_id: 0x25bdaeec
-  parameter_id: 0x31b1f13e
-  parameter_id: 0x3e10b518
-  parameter_id: 0x36ae7c82
-  parameter_id: 0x1c3dbe5a
-  parameter_id: 0x0d9f5631
-}
-function {
-  id: 0xba5d0274
-  return_type_id: 0x25bdaeec
-  parameter_id: 0x3a7beaa3
+  parameter_id: 0x31db8991
 }
 function {
   id: 0xbe506bbe
@@ -3732,10 +3786,6 @@ function {
   id: 0xfbb9cd7e
   return_type_id: 0x7533d9d0
   parameter_id: 0x31b2351f
-}
-function {
-  id: 0xfc47387e
-  return_type_id: 0x3a7beaa3
 }
 function {
   id: 0xfd61b743
@@ -4047,6 +4097,14 @@ elf_symbol {
   full_name: "AConfiguration_getDensity"
 }
 elf_symbol {
+  id: 0x08555ae7
+  name: "AConfiguration_getGrammaticalGender"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0xd23c6ae8
+  full_name: "AConfiguration_getGrammaticalGender"
+}
+elf_symbol {
   id: 0x8b044d8b
   name: "AConfiguration_getKeyboard"
   is_defined: true
@@ -4239,6 +4297,14 @@ elf_symbol {
   full_name: "AConfiguration_setDensity"
 }
 elf_symbol {
+  id: 0x653b3e7e
+  name: "AConfiguration_setGrammaticalGender"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1be4677c
+  full_name: "AConfiguration_setGrammaticalGender"
+}
+elf_symbol {
   id: 0x7fb7d486
   name: "AConfiguration_setKeyboard"
   is_defined: true
@@ -4387,7 +4453,7 @@ elf_symbol {
   name: "AFontMatcher_create"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x92e473ef
+  type_id: 0x1af0903b
   full_name: "AFontMatcher_create"
 }
 elf_symbol {
@@ -4395,7 +4461,7 @@ elf_symbol {
   name: "AFontMatcher_destroy"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x1e19ec0b
+  type_id: 0x177c8a67
   full_name: "AFontMatcher_destroy"
 }
 elf_symbol {
@@ -4403,7 +4469,7 @@ elf_symbol {
   name: "AFontMatcher_match"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0xb85a1e49
+  type_id: 0x263b803f
   full_name: "AFontMatcher_match"
 }
 elf_symbol {
@@ -4411,7 +4477,7 @@ elf_symbol {
   name: "AFontMatcher_setFamilyVariant"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x1e691af2
+  type_id: 0x170c7c9e
   full_name: "AFontMatcher_setFamilyVariant"
 }
 elf_symbol {
@@ -4419,7 +4485,7 @@ elf_symbol {
   name: "AFontMatcher_setLocales"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x1ee1aedf
+  type_id: 0x1784c8b3
   full_name: "AFontMatcher_setLocales"
 }
 elf_symbol {
@@ -4427,7 +4493,7 @@ elf_symbol {
   name: "AFontMatcher_setStyle"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x1ccfc837
+  type_id: 0x15aaae5b
   full_name: "AFontMatcher_setStyle"
 }
 elf_symbol {
@@ -4435,7 +4501,7 @@ elf_symbol {
   name: "AFont_close"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x19f73a28
+  type_id: 0x1e7394a4
   full_name: "AFont_close"
 }
 elf_symbol {
@@ -4443,7 +4509,7 @@ elf_symbol {
   name: "AFont_getAxisCount"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x9aa80095
+  type_id: 0x9b492b36
   full_name: "AFont_getAxisCount"
 }
 elf_symbol {
@@ -4451,7 +4517,7 @@ elf_symbol {
   name: "AFont_getAxisTag"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3ef8b4ef
+  type_id: 0x3f199f4c
   full_name: "AFont_getAxisTag"
 }
 elf_symbol {
@@ -4459,7 +4525,7 @@ elf_symbol {
   name: "AFont_getAxisValue"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x9c046794
+  type_id: 0x9de54c37
   full_name: "AFont_getAxisValue"
 }
 elf_symbol {
@@ -4467,7 +4533,7 @@ elf_symbol {
   name: "AFont_getCollectionIndex"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x9aa80095
+  type_id: 0x9b492b36
   full_name: "AFont_getCollectionIndex"
 }
 elf_symbol {
@@ -4475,7 +4541,7 @@ elf_symbol {
   name: "AFont_getFontFilePath"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x9fd3de64
+  type_id: 0x9e32f5c7
   full_name: "AFont_getFontFilePath"
 }
 elf_symbol {
@@ -4483,7 +4549,7 @@ elf_symbol {
   name: "AFont_getLocale"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x9fd3de64
+  type_id: 0x9e32f5c7
   full_name: "AFont_getLocale"
 }
 elf_symbol {
@@ -4491,7 +4557,7 @@ elf_symbol {
   name: "AFont_getWeight"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x90b17277
+  type_id: 0x915059d4
   full_name: "AFont_getWeight"
 }
 elf_symbol {
@@ -4499,7 +4565,7 @@ elf_symbol {
   name: "AFont_isItalic"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0xb3c7a279
+  type_id: 0xb22689da
   full_name: "AFont_isItalic"
 }
 elf_symbol {
@@ -5399,6 +5465,14 @@ elf_symbol {
   full_name: "APerformanceHint_reportActualWorkDuration"
 }
 elf_symbol {
+  id: 0x83764e43
+  name: "APerformanceHint_setThreads"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x9089b46d
+  full_name: "APerformanceHint_setThreads"
+}
+elf_symbol {
   id: 0xfd979c5d
   name: "APerformanceHint_updateTargetWorkDuration"
   is_defined: true
@@ -5775,6 +5849,14 @@ elf_symbol {
   full_name: "ASurfaceControl_createFromWindow"
 }
 elf_symbol {
+  id: 0xdb9634b6
+  name: "ASurfaceControl_fromJava"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x45d6b9c5
+  full_name: "ASurfaceControl_fromJava"
+}
+elf_symbol {
   id: 0xbccbe123
   name: "ASurfaceControl_release"
   is_defined: true
@@ -5903,6 +5985,14 @@ elf_symbol {
   full_name: "ASurfaceTransaction_apply"
 }
 elf_symbol {
+  id: 0xcd9ffaf8
+  name: "ASurfaceTransaction_clearFrameRate"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1aecedfb
+  full_name: "ASurfaceTransaction_clearFrameRate"
+}
+elf_symbol {
   id: 0xfaece02d
   name: "ASurfaceTransaction_create"
   is_defined: true
@@ -5917,6 +6007,14 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x1ace4be4
   full_name: "ASurfaceTransaction_delete"
+}
+elf_symbol {
+  id: 0xc535e39b
+  name: "ASurfaceTransaction_fromJava"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x581b1e87
+  full_name: "ASurfaceTransaction_fromJava"
 }
 elf_symbol {
   id: 0x48e077d2
@@ -6005,6 +6103,14 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x1af44654
   full_name: "ASurfaceTransaction_setEnableBackPressure"
+}
+elf_symbol {
+  id: 0x6377255f
+  name: "ASurfaceTransaction_setExtendedRangeBrightness"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1acc1f16
+  full_name: "ASurfaceTransaction_setExtendedRangeBrightness"
 }
 elf_symbol {
   id: 0xfaf67e81
@@ -6107,7 +6213,7 @@ elf_symbol {
   name: "ASystemFontIterator_close"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x1e06ab3b
+  type_id: 0x1761c30b
   full_name: "ASystemFontIterator_close"
 }
 elf_symbol {
@@ -6115,7 +6221,7 @@ elf_symbol {
   name: "ASystemFontIterator_next"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0xba5d0274
+  type_id: 0x2f02ada9
   full_name: "ASystemFontIterator_next"
 }
 elf_symbol {
@@ -6123,7 +6229,7 @@ elf_symbol {
   name: "ASystemFontIterator_open"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0xfc47387e
+  type_id: 0x05c9102c
   full_name: "ASystemFontIterator_open"
 }
 elf_symbol {
@@ -6366,6 +6472,7 @@ interface {
   symbol_id: 0x789b012a
   symbol_id: 0x384ad56f
   symbol_id: 0x9ab52333
+  symbol_id: 0x08555ae7
   symbol_id: 0x8b044d8b
   symbol_id: 0xd7984ac7
   symbol_id: 0x81ae1f63
@@ -6390,6 +6497,7 @@ interface {
   symbol_id: 0xca9fbeab
   symbol_id: 0x00a61894
   symbol_id: 0x8d93ff30
+  symbol_id: 0x653b3e7e
   symbol_id: 0x7fb7d486
   symbol_id: 0x16dec5bc
   symbol_id: 0xf14aeff2
@@ -6535,6 +6643,7 @@ interface {
   symbol_id: 0x535faf77
   symbol_id: 0x7002f1b4
   symbol_id: 0xaff60d6f
+  symbol_id: 0x83764e43
   symbol_id: 0xfd979c5d
   symbol_id: 0x7065cff1
   symbol_id: 0x4e9b3771
@@ -6582,6 +6691,7 @@ interface {
   symbol_id: 0xd05feed1
   symbol_id: 0x98654be8
   symbol_id: 0x4d81b646
+  symbol_id: 0xdb9634b6
   symbol_id: 0xbccbe123
   symbol_id: 0x284750a0
   symbol_id: 0xeec3f9af
@@ -6598,8 +6708,10 @@ interface {
   symbol_id: 0x4031605b
   symbol_id: 0x82999b83
   symbol_id: 0x2150aa8a
+  symbol_id: 0xcd9ffaf8
   symbol_id: 0xfaece02d
   symbol_id: 0xbb8679e0
+  symbol_id: 0xc535e39b
   symbol_id: 0x48e077d2
   symbol_id: 0xd693e389
   symbol_id: 0x1b8c8946
@@ -6611,6 +6723,7 @@ interface {
   symbol_id: 0xf3b10764
   symbol_id: 0x63683f00
   symbol_id: 0xd1f63b87
+  symbol_id: 0x6377255f
   symbol_id: 0xfaf67e81
   symbol_id: 0xd8beec6f
   symbol_id: 0x6c82bfec

@@ -497,7 +497,7 @@ typedef {
 typedef {
   id: 0xb44b612e
   name: "OutputFormat"
-  referred_type_id: 0x4ee4cead
+  referred_type_id: 0x4ee4ce83
 }
 typedef {
   id: 0x59ea4b43
@@ -1129,7 +1129,7 @@ enumeration {
   }
 }
 enumeration {
-  id: 0x4ee4cead
+  id: 0x4ee4ce83
   definition {
     underlying_type_id: 0x4585663f
     enumerator {
@@ -1142,6 +1142,14 @@ enumeration {
     enumerator {
       name: "AMEDIAMUXER_OUTPUT_FORMAT_THREE_GPP"
       value: 2
+    }
+    enumerator {
+      name: "AMEDIAMUXER_OUTPUT_FORMAT_HEIF"
+      value: 3
+    }
+    enumerator {
+      name: "AMEDIAMUXER_OUTPUT_FORMAT_OGG"
+      value: 4
     }
   }
 }

@@ -6356,6 +6356,10 @@ enumeration {
       name: "ANDROID_FDSAN_OWNER_TYPE_NATIVE_HANDLE"
       value: 13
     }
+    enumerator {
+      name: "ANDROID_FDSAN_OWNER_TYPE_PARCEL"
+      value: 14
+    }
   }
 }
 function {

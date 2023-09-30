@@ -20408,6 +20408,14 @@ elf_symbol {
   full_name: "strerror_r"
 }
 elf_symbol {
+  id: 0x8ca6b87e
+  name: "strerrorname_np"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x8b8c2368
+  full_name: "strerrorname_np"
+}
+elf_symbol {
   id: 0xdd9531bd
   name: "strftime"
   is_defined: true
@@ -23462,6 +23470,7 @@ interface {
   symbol_id: 0xb869405d
   symbol_id: 0x592e7f22
   symbol_id: 0xf6a937e7
+  symbol_id: 0x8ca6b87e
   symbol_id: 0xdd9531bd
   symbol_id: 0x0d2e0330
   symbol_id: 0x5d71d694

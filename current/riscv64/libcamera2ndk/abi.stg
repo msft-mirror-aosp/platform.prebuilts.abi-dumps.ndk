@@ -165,6 +165,11 @@ pointer_reference {
   pointee_type_id: 0x16745cc4
 }
 pointer_reference {
+  id: 0x0f266e5c
+  kind: POINTER
+  pointee_type_id: 0x16d95fec
+}
+pointer_reference {
   id: 0x0f2f1a1f
   kind: POINTER
   pointee_type_id: 0x16fc8ee0
@@ -433,6 +438,11 @@ typedef {
   id: 0x81b44274
   name: "ACameraCaptureSession_logicalCamera_captureCallbacksV2"
   referred_type_id: 0x413ab65a
+}
+typedef {
+  id: 0xcf9d125f
+  name: "ACameraCaptureSession_prepareCallback"
+  referred_type_id: 0x0f266e5c
 }
 typedef {
   id: 0x8df1cf0d
@@ -1472,6 +1482,13 @@ function {
   parameter_id: 0x18bd6530
 }
 function {
+  id: 0x16d95fec
+  return_type_id: 0x48b5725f
+  parameter_id: 0x18bd6530
+  parameter_id: 0x180fa1c9
+  parameter_id: 0x39a6d3c7
+}
+function {
   id: 0x1c7fe6a7
   return_type_id: 0x48b5725f
   parameter_id: 0x339edcd2
@@ -1541,10 +1558,23 @@ function {
   parameter_id: 0x06a57817
 }
 function {
+  id: 0x355ff794
+  return_type_id: 0x08612c0d
+  parameter_id: 0x39a6d3c7
+  parameter_id: 0x18bd6530
+  parameter_id: 0xcf9d125f
+}
+function {
   id: 0x3567fb3c
   return_type_id: 0x08612c0d
   parameter_id: 0x39a6d3c7
   parameter_id: 0x1a479e15
+}
+function {
+  id: 0x356edbc3
+  return_type_id: 0x08612c0d
+  parameter_id: 0x39a6d3c7
+  parameter_id: 0x180fa1c9
 }
 function {
   id: 0x3570fc3f
@@ -1912,6 +1942,14 @@ elf_symbol {
   full_name: "ACameraCaptureSession_logicalCamera_setRepeatingRequestV2"
 }
 elf_symbol {
+  id: 0x47edcc24
+  name: "ACameraCaptureSession_prepareWindow"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x356edbc3
+  full_name: "ACameraCaptureSession_prepareWindow"
+}
+elf_symbol {
   id: 0x84ed3e32
   name: "ACameraCaptureSession_setRepeatingRequest"
   is_defined: true
@@ -1926,6 +1964,14 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x35f76d6e
   full_name: "ACameraCaptureSession_setRepeatingRequestV2"
+}
+elf_symbol {
+  id: 0x315bb2ce
+  name: "ACameraCaptureSession_setWindowPreparedCallback"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x355ff794
+  full_name: "ACameraCaptureSession_setWindowPreparedCallback"
 }
 elf_symbol {
   id: 0x555df16a
@@ -2402,8 +2448,10 @@ interface {
   symbol_id: 0xc8c34933
   symbol_id: 0xda609ca1
   symbol_id: 0xff4dbe04
+  symbol_id: 0x47edcc24
   symbol_id: 0x84ed3e32
   symbol_id: 0xde0ed72e
+  symbol_id: 0x315bb2ce
   symbol_id: 0x555df16a
   symbol_id: 0x05c7580a
   symbol_id: 0x2cdff565

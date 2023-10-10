@@ -577,7 +577,7 @@ typedef {
 typedef {
   id: 0xb44b612e
   name: "OutputFormat"
-  referred_type_id: 0x4ee4cead
+  referred_type_id: 0x4ee4ce83
 }
 typedef {
   id: 0x59ea4b43
@@ -1240,7 +1240,7 @@ enumeration {
   }
 }
 enumeration {
-  id: 0x4ee4cead
+  id: 0x4ee4ce83
   definition {
     underlying_type_id: 0x4585663f
     enumerator {
@@ -1253,6 +1253,14 @@ enumeration {
     enumerator {
       name: "AMEDIAMUXER_OUTPUT_FORMAT_THREE_GPP"
       value: 2
+    }
+    enumerator {
+      name: "AMEDIAMUXER_OUTPUT_FORMAT_HEIF"
+      value: 3
+    }
+    enumerator {
+      name: "AMEDIAMUXER_OUTPUT_FORMAT_OGG"
+      value: 4
     }
   }
 }
@@ -1701,6 +1709,17 @@ function {
   parameter_id: 0x5171d297
   parameter_id: 0x5171d297
   parameter_id: 0x1c898f28
+  parameter_id: 0x5171d297
+  parameter_id: 0x04a19f14
+}
+function {
+  id: 0x2a5bbbd3
+  return_type_id: 0x4d19d058
+  parameter_id: 0x5171d297
+  parameter_id: 0x5171d297
+  parameter_id: 0x1c898f28
+  parameter_id: 0x5171d297
+  parameter_id: 0x1c3dbe5a
   parameter_id: 0x5171d297
   parameter_id: 0x04a19f14
 }
@@ -2455,6 +2474,14 @@ elf_symbol {
   full_name: "AImageReader_new"
 }
 elf_symbol {
+  id: 0x6cc15a51
+  name: "AImageReader_newWithDataSpace"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x2a5bbbd3
+  full_name: "AImageReader_newWithDataSpace"
+}
+elf_symbol {
   id: 0x3dcd042b
   name: "AImageReader_newWithUsage"
   is_defined: true
@@ -2501,6 +2528,14 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x309d462f
   full_name: "AImage_getCropRect"
+}
+elf_symbol {
+  id: 0x2fd78f74
+  name: "AImage_getDataSpace"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x302a531c
+  full_name: "AImage_getDataSpace"
 }
 elf_symbol {
   id: 0x3d759560
@@ -2717,6 +2752,14 @@ elf_symbol {
   symbol_type: OBJECT
   type_id: 0x3e10b518
   full_name: "AMEDIAFORMAT_KEY_ALBUMARTIST"
+}
+elf_symbol {
+  id: 0x4e9d911c
+  name: "AMEDIAFORMAT_KEY_ALLOW_FRAME_DROP"
+  is_defined: true
+  symbol_type: OBJECT
+  type_id: 0x3e10b518
+  full_name: "AMEDIAFORMAT_KEY_ALLOW_FRAME_DROP"
 }
 elf_symbol {
   id: 0x58eeee74
@@ -3301,6 +3344,14 @@ elf_symbol {
   symbol_type: OBJECT
   type_id: 0x3e10b518
   full_name: "AMEDIAFORMAT_KEY_MAX_BIT_RATE"
+}
+elf_symbol {
+  id: 0xb0d1678a
+  name: "AMEDIAFORMAT_KEY_MAX_B_FRAMES"
+  is_defined: true
+  symbol_type: OBJECT
+  type_id: 0x3e10b518
+  full_name: "AMEDIAFORMAT_KEY_MAX_B_FRAMES"
 }
 elf_symbol {
   id: 0xfb4d3a79
@@ -4779,12 +4830,14 @@ interface {
   symbol_id: 0x2dc08667
   symbol_id: 0x47b6b2fb
   symbol_id: 0xec866358
+  symbol_id: 0x6cc15a51
   symbol_id: 0x3dcd042b
   symbol_id: 0xc832b426
   symbol_id: 0x17a9f1b7
   symbol_id: 0xcbbf1ac0
   symbol_id: 0x7bbf0e0c
   symbol_id: 0xcd84c4cb
+  symbol_id: 0x2fd78f74
   symbol_id: 0x3d759560
   symbol_id: 0xd800a6a7
   symbol_id: 0x2e7f15d2
@@ -4812,6 +4865,7 @@ interface {
   symbol_id: 0x794dbd21
   symbol_id: 0x123c2b08
   symbol_id: 0x6ab6f181
+  symbol_id: 0x4e9d911c
   symbol_id: 0x58eeee74
   symbol_id: 0xffdb5400
   symbol_id: 0x59d63547
@@ -4885,6 +4939,7 @@ interface {
   symbol_id: 0x0bfc5b54
   symbol_id: 0x656d8ab6
   symbol_id: 0x3ffe4d40
+  symbol_id: 0xb0d1678a
   symbol_id: 0xfb4d3a79
   symbol_id: 0x82e63330
   symbol_id: 0xe2bbefea

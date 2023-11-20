@@ -9933,11 +9933,6 @@ function {
   parameter_id: 0x32a3402b
 }
 function {
-  id: 0x98bbe414
-  return_type_id: 0xf435685e
-  parameter_id: 0x3e10b518
-}
-function {
   id: 0x98c1afea
   return_type_id: 0x6720d32f
   parameter_id: 0x15053314
@@ -16643,8 +16638,6 @@ elf_symbol {
   name: "memchr"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x5970fa9d
-  full_name: "memchr"
 }
 elf_symbol {
   id: 0xad94cee2
@@ -16659,8 +16652,6 @@ elf_symbol {
   name: "memcpy"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x506099b0
-  full_name: "memcpy"
 }
 elf_symbol {
   id: 0x19d44e1b
@@ -16681,8 +16672,6 @@ elf_symbol {
   name: "memmove"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x506099b0
-  full_name: "memmove"
 }
 elf_symbol {
   id: 0x55e17290
@@ -16705,8 +16694,6 @@ elf_symbol {
   name: "memset"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x511866ab
-  full_name: "memset"
 }
 elf_symbol {
   id: 0x3a6616ed
@@ -20272,8 +20259,6 @@ elf_symbol {
   name: "stpcpy"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3fe6baa1
-  full_name: "stpcpy"
 }
 elf_symbol {
   id: 0xb7ac2d63
@@ -20312,16 +20297,12 @@ elf_symbol {
   name: "strcat"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3fe6baa1
-  full_name: "strcat"
 }
 elf_symbol {
   id: 0xfcf064a9
   name: "strchr"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3026afc1
-  full_name: "strchr"
 }
 elf_symbol {
   id: 0x9dd5c94f
@@ -20336,8 +20317,6 @@ elf_symbol {
   name: "strcmp"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x92fc8cbd
-  full_name: "strcmp"
 }
 elf_symbol {
   id: 0x65040764
@@ -20360,8 +20339,6 @@ elf_symbol {
   name: "strcpy"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3fe6baa1
-  full_name: "strcpy"
 }
 elf_symbol {
   id: 0x81366fa1
@@ -20448,8 +20425,6 @@ elf_symbol {
   name: "strlen"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x98bbe414
-  full_name: "strlen"
 }
 elf_symbol {
   id: 0x258b3330
@@ -20472,24 +20447,18 @@ elf_symbol {
   name: "strncat"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3fdbb7fb
-  full_name: "strncat"
 }
 elf_symbol {
   id: 0x35fbffad
   name: "strncmp"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x92c181e7
-  full_name: "strncmp"
 }
 elf_symbol {
   id: 0x400b412c
   name: "strncpy"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3fdbb7fb
-  full_name: "strncpy"
 }
 elf_symbol {
   id: 0xaea41ea4
@@ -20504,8 +20473,6 @@ elf_symbol {
   name: "strnlen"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x9b6b31b5
-  full_name: "strnlen"
 }
 elf_symbol {
   id: 0x8f344cc6

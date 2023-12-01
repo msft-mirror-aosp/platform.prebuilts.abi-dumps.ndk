@@ -20,6 +20,11 @@ pointer_reference {
   pointee_type_id: 0x3a09e6e6
 }
 pointer_reference {
+  id: 0x044017d5
+  kind: POINTER
+  pointee_type_id: 0x3b40b9c9
+}
+pointer_reference {
   id: 0x0483e6f8
   kind: POINTER
   pointee_type_id: 0x384f7d7c
@@ -350,6 +355,11 @@ pointer_reference {
   pointee_type_id: 0xc22bf7b5
 }
 pointer_reference {
+  id: 0x3b40b9c9
+  kind: POINTER
+  pointee_type_id: 0xc74201b8
+}
+pointer_reference {
   id: 0x3b909d21
   kind: POINTER
   pointee_type_id: 0xc402921a
@@ -373,11 +383,6 @@ pointer_reference {
   id: 0x3d3d3a62
   kind: POINTER
   pointee_type_id: 0xdeb40f16
-}
-pointer_reference {
-  id: 0x3d45a7a1
-  kind: POINTER
-  pointee_type_id: 0xdf56781b
 }
 pointer_reference {
   id: 0x3d67c7fb
@@ -685,11 +690,6 @@ typedef {
   referred_type_id: 0x7533d9d0
 }
 typedef {
-  id: 0xdf56781b
-  name: "AWorkDuration"
-  referred_type_id: 0x3d4aed91
-}
-typedef {
   id: 0xacee79d8
   name: "JNIEnv"
   referred_type_id: 0xc4cb203f
@@ -873,6 +873,11 @@ qualified {
   id: 0xc22bf7b5
   qualifier: CONST
   qualified_type_id: 0x78e8685c
+}
+qualified {
+  id: 0xc74201b8
+  qualifier: CONST
+  qualified_type_id: 0x6d4fb069
 }
 qualified {
   id: 0xc84d9907
@@ -1317,6 +1322,11 @@ member {
   type_id: 0x503a7d6d
 }
 member {
+  id: 0x3e74c7e7
+  name: "headroom"
+  type_id: 0x8b7c737e
+}
+member {
   id: 0x76737aa1
   name: "heart_rate"
   type_id: 0xabf3dc39
@@ -1539,6 +1549,12 @@ member {
   id: 0x0acf4923
   name: "temperature"
   type_id: 0x8b7c737e
+}
+member {
+  id: 0x02110687
+  name: "thermalStatus"
+  type_id: 0x3c1e4e7f
+  offset: 32
 }
 member {
   id: 0x5a91f0d2
@@ -2195,6 +2211,16 @@ struct_union {
   name: "ASystemFontIterator"
 }
 struct_union {
+  id: 0x6d4fb069
+  kind: STRUCT
+  name: "AThermalHeadroomThreshold"
+  definition {
+    bytesize: 8
+    member_id: 0x3e74c7e7
+    member_id: 0x02110687
+  }
+}
+struct_union {
   id: 0xe6c18de5
   kind: STRUCT
   name: "AThermalManager"
@@ -2208,11 +2234,6 @@ struct_union {
     member_id: 0x3891d1e8
     member_id: 0x34064f0c
   }
-}
-struct_union {
-  id: 0x3d4aed91
-  kind: STRUCT
-  name: "AWorkDuration"
 }
 struct_union {
   id: 0xc4cb203f
@@ -2942,12 +2963,6 @@ function {
   parameter_id: 0x18bd6530
 }
 function {
-  id: 0x1e1df71c
-  return_type_id: 0x48b5725f
-  parameter_id: 0x3d45a7a1
-  parameter_id: 0x7533d9d0
-}
-function {
   id: 0x1e4425e3
   return_type_id: 0x48b5725f
   parameter_id: 0x3d3d3a62
@@ -3039,11 +3054,6 @@ function {
   parameter_id: 0x3fc92392
 }
 function {
-  id: 0x1fc9387b
-  return_type_id: 0x48b5725f
-  parameter_id: 0x3d45a7a1
-}
-function {
   id: 0x1fcb25e2
   return_type_id: 0x48b5725f
   parameter_id: 0x3fc92392
@@ -3103,10 +3113,6 @@ function {
   return_type_id: 0xdd0152a2
   parameter_id: 0x34962163
   parameter_id: 0xf435685e
-}
-function {
-  id: 0x441b263c
-  return_type_id: 0x3d45a7a1
 }
 function {
   id: 0x45d6b9c5
@@ -3248,12 +3254,6 @@ function {
   parameter_id: 0xf435685e
 }
 function {
-  id: 0x90a59080
-  return_type_id: 0x6720d32f
-  parameter_id: 0x374194c4
-  parameter_id: 0x3d45a7a1
-}
-function {
   id: 0x914fb38b
   return_type_id: 0x6720d32f
   parameter_id: 0x30c55d0d
@@ -3346,6 +3346,13 @@ function {
   id: 0x92f6bfcd
   return_type_id: 0x6720d32f
   parameter_id: 0x3dd9738b
+}
+function {
+  id: 0x93782360
+  return_type_id: 0x6720d32f
+  parameter_id: 0x3b909d21
+  parameter_id: 0x044017d5
+  parameter_id: 0x379d63b0
 }
 function {
   id: 0x93abeae4
@@ -5523,14 +5530,6 @@ elf_symbol {
   full_name: "APerformanceHint_reportActualWorkDuration"
 }
 elf_symbol {
-  id: 0x54af5fe9
-  name: "APerformanceHint_reportActualWorkDuration2"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0x90a59080
-  full_name: "APerformanceHint_reportActualWorkDuration2"
-}
-elf_symbol {
   id: 0xa7a9fc57
   name: "APerformanceHint_setPreferPowerEfficiency"
   is_defined: true
@@ -6331,6 +6330,14 @@ elf_symbol {
   full_name: "AThermal_getThermalHeadroom"
 }
 elf_symbol {
+  id: 0xfa57f884
+  name: "AThermal_getThermalHeadroomThresholds"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x93782360
+  full_name: "AThermal_getThermalHeadroomThresholds"
+}
+elf_symbol {
   id: 0x5309a7ad
   name: "AThermal_registerThermalStatusListener"
   is_defined: true
@@ -6401,54 +6408,6 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x1ec8b3b2
   full_name: "ATrace_setCounter"
-}
-elf_symbol {
-  id: 0x84873879
-  name: "AWorkDuration_create"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0x441b263c
-  full_name: "AWorkDuration_create"
-}
-elf_symbol {
-  id: 0x95f893e1
-  name: "AWorkDuration_release"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0x1fc9387b
-  full_name: "AWorkDuration_release"
-}
-elf_symbol {
-  id: 0x61db4dbe
-  name: "AWorkDuration_setActualCpuDurationNanos"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0x1e1df71c
-  full_name: "AWorkDuration_setActualCpuDurationNanos"
-}
-elf_symbol {
-  id: 0xdb415d99
-  name: "AWorkDuration_setActualGpuDurationNanos"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0x1e1df71c
-  full_name: "AWorkDuration_setActualGpuDurationNanos"
-}
-elf_symbol {
-  id: 0x83b69f30
-  name: "AWorkDuration_setActualTotalDurationNanos"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0x1e1df71c
-  full_name: "AWorkDuration_setActualTotalDurationNanos"
-}
-elf_symbol {
-  id: 0x024106b7
-  name: "AWorkDuration_setWorkPeriodStartTimestampNanos"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0x1e1df71c
-  full_name: "AWorkDuration_setWorkPeriodStartTimestampNanos"
 }
 elf_symbol {
   id: 0x6ce2c8c2
@@ -6765,7 +6724,6 @@ interface {
   symbol_id: 0x535faf77
   symbol_id: 0x7002f1b4
   symbol_id: 0xaff60d6f
-  symbol_id: 0x54af5fe9
   symbol_id: 0xa7a9fc57
   symbol_id: 0x83764e43
   symbol_id: 0xfd979c5d
@@ -6866,6 +6824,7 @@ interface {
   symbol_id: 0xbf2e2ef6
   symbol_id: 0x68257888
   symbol_id: 0x3d26cd52
+  symbol_id: 0xfa57f884
   symbol_id: 0x5309a7ad
   symbol_id: 0x002efe90
   symbol_id: 0x53b4ae39
@@ -6875,12 +6834,6 @@ interface {
   symbol_id: 0xe565a201
   symbol_id: 0xa3969a24
   symbol_id: 0x1e49cc3b
-  symbol_id: 0x84873879
-  symbol_id: 0x95f893e1
-  symbol_id: 0x61db4dbe
-  symbol_id: 0xdb415d99
-  symbol_id: 0x83b69f30
-  symbol_id: 0x024106b7
   symbol_id: 0x6ce2c8c2
   symbol_id: 0xa224adb1
   symbol_id: 0xca5453e3

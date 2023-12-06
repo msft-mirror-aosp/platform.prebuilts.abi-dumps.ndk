@@ -385,6 +385,11 @@ pointer_reference {
   pointee_type_id: 0xdeb40f16
 }
 pointer_reference {
+  id: 0x3d45a7a1
+  kind: POINTER
+  pointee_type_id: 0xdf56781b
+}
+pointer_reference {
   id: 0x3d67c7fb
   kind: POINTER
   pointee_type_id: 0xdfdff972
@@ -688,6 +693,11 @@ typedef {
   id: 0xdd0152a2
   name: "AVsyncId"
   referred_type_id: 0x7533d9d0
+}
+typedef {
+  id: 0xdf56781b
+  name: "AWorkDuration"
+  referred_type_id: 0x3d4aed91
 }
 typedef {
   id: 0xacee79d8
@@ -2220,6 +2230,11 @@ struct_union {
   }
 }
 struct_union {
+  id: 0x3d4aed91
+  kind: STRUCT
+  name: "AWorkDuration"
+}
+struct_union {
   id: 0xc4cb203f
   kind: STRUCT
   name: "_JNIEnv"
@@ -2947,6 +2962,12 @@ function {
   parameter_id: 0x18bd6530
 }
 function {
+  id: 0x1e1df71c
+  return_type_id: 0x48b5725f
+  parameter_id: 0x3d45a7a1
+  parameter_id: 0x7533d9d0
+}
+function {
   id: 0x1e4425e3
   return_type_id: 0x48b5725f
   parameter_id: 0x3d3d3a62
@@ -3038,6 +3059,11 @@ function {
   parameter_id: 0x3fc92392
 }
 function {
+  id: 0x1fc9387b
+  return_type_id: 0x48b5725f
+  parameter_id: 0x3d45a7a1
+}
+function {
   id: 0x1fcb25e2
   return_type_id: 0x48b5725f
   parameter_id: 0x3fc92392
@@ -3097,6 +3123,10 @@ function {
   return_type_id: 0xdd0152a2
   parameter_id: 0x34962163
   parameter_id: 0xf435685e
+}
+function {
+  id: 0x441b263c
+  return_type_id: 0x3d45a7a1
 }
 function {
   id: 0x45d6b9c5
@@ -3236,6 +3266,12 @@ function {
   parameter_id: 0x374194c4
   parameter_id: 0x390fca51
   parameter_id: 0xf435685e
+}
+function {
+  id: 0x90a59080
+  return_type_id: 0x6720d32f
+  parameter_id: 0x374194c4
+  parameter_id: 0x3d45a7a1
 }
 function {
   id: 0x914fb38b
@@ -5514,6 +5550,14 @@ elf_symbol {
   full_name: "APerformanceHint_reportActualWorkDuration"
 }
 elf_symbol {
+  id: 0x54af5fe9
+  name: "APerformanceHint_reportActualWorkDuration2"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x90a59080
+  full_name: "APerformanceHint_reportActualWorkDuration2"
+}
+elf_symbol {
   id: 0xa7a9fc57
   name: "APerformanceHint_setPreferPowerEfficiency"
   is_defined: true
@@ -6394,6 +6438,54 @@ elf_symbol {
   full_name: "ATrace_setCounter"
 }
 elf_symbol {
+  id: 0x84873879
+  name: "AWorkDuration_create"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x441b263c
+  full_name: "AWorkDuration_create"
+}
+elf_symbol {
+  id: 0x95f893e1
+  name: "AWorkDuration_release"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1fc9387b
+  full_name: "AWorkDuration_release"
+}
+elf_symbol {
+  id: 0x61db4dbe
+  name: "AWorkDuration_setActualCpuDurationNanos"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1e1df71c
+  full_name: "AWorkDuration_setActualCpuDurationNanos"
+}
+elf_symbol {
+  id: 0xdb415d99
+  name: "AWorkDuration_setActualGpuDurationNanos"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1e1df71c
+  full_name: "AWorkDuration_setActualGpuDurationNanos"
+}
+elf_symbol {
+  id: 0x83b69f30
+  name: "AWorkDuration_setActualTotalDurationNanos"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1e1df71c
+  full_name: "AWorkDuration_setActualTotalDurationNanos"
+}
+elf_symbol {
+  id: 0x024106b7
+  name: "AWorkDuration_setWorkPeriodStartTimestampNanos"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1e1df71c
+  full_name: "AWorkDuration_setWorkPeriodStartTimestampNanos"
+}
+elf_symbol {
   id: 0x6ce2c8c2
   name: "android_getaddrinfofornetwork"
   is_defined: true
@@ -6708,6 +6800,7 @@ interface {
   symbol_id: 0x535faf77
   symbol_id: 0x7002f1b4
   symbol_id: 0xaff60d6f
+  symbol_id: 0x54af5fe9
   symbol_id: 0xa7a9fc57
   symbol_id: 0x83764e43
   symbol_id: 0xfd979c5d
@@ -6818,6 +6911,12 @@ interface {
   symbol_id: 0xe565a201
   symbol_id: 0xa3969a24
   symbol_id: 0x1e49cc3b
+  symbol_id: 0x84873879
+  symbol_id: 0x95f893e1
+  symbol_id: 0x61db4dbe
+  symbol_id: 0xdb415d99
+  symbol_id: 0x83b69f30
+  symbol_id: 0x024106b7
   symbol_id: 0x6ce2c8c2
   symbol_id: 0xa224adb1
   symbol_id: 0xca5453e3

@@ -25,6 +25,11 @@ pointer_reference {
   pointee_type_id: 0x0f385340
 }
 pointer_reference {
+  id: 0x0a6207c4
+  kind: POINTER
+  pointee_type_id: 0x03c8f98e
+}
+pointer_reference {
   id: 0x0cbf60eb
   kind: POINTER
   pointee_type_id: 0x18bd6530
@@ -513,10 +518,22 @@ function {
   parameter_id: 0xde365fc3
 }
 function {
+  id: 0xe74b5a9a
+  return_type_id: 0x32c05246
+  parameter_id: 0x03c8f98e
+  parameter_id: 0x07b8ce6f
+}
+function {
   id: 0xe8020b76
   return_type_id: 0x32c05246
   parameter_id: 0x3ede7f3d
   parameter_id: 0x0484de69
+}
+function {
+  id: 0xe8399010
+  return_type_id: 0x32c05246
+  parameter_id: 0x3ede7f3d
+  parameter_id: 0x0a6207c4
 }
 function {
   id: 0xebf04e23
@@ -693,6 +710,14 @@ elf_symbol {
   full_name: "ANativeWindow_lock"
 }
 elf_symbol {
+  id: 0xf0fa2db0
+  name: "ANativeWindow_readFromParcel"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0xe8399010
+  full_name: "ANativeWindow_readFromParcel"
+}
+elf_symbol {
   id: 0x44c9d0ee
   name: "ANativeWindow_release"
   is_defined: true
@@ -756,6 +781,14 @@ elf_symbol {
   type_id: 0xd8f7a52e
   full_name: "ANativeWindow_unlockAndPost"
 }
+elf_symbol {
+  id: 0x2c11464b
+  name: "ANativeWindow_writeToParcel"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0xe74b5a9a
+  full_name: "ANativeWindow_writeToParcel"
+}
 interface {
   id: 0x84ea5130
   symbol_id: 0x83b535a6
@@ -779,6 +812,7 @@ interface {
   symbol_id: 0x73bf11ac
   symbol_id: 0x47ef1a0e
   symbol_id: 0x50ee8dae
+  symbol_id: 0xf0fa2db0
   symbol_id: 0x44c9d0ee
   symbol_id: 0x1480d8c4
   symbol_id: 0x3989e497
@@ -787,4 +821,5 @@ interface {
   symbol_id: 0x6f97b933
   symbol_id: 0x66313631
   symbol_id: 0xf129b964
+  symbol_id: 0x2c11464b
 }

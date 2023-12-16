@@ -20,6 +20,11 @@ pointer_reference {
   pointee_type_id: 0x3a09e6e6
 }
 pointer_reference {
+  id: 0x044017d5
+  kind: POINTER
+  pointee_type_id: 0x3b40b9c9
+}
+pointer_reference {
   id: 0x0483e6f8
   kind: POINTER
   pointee_type_id: 0x384f7d7c
@@ -348,6 +353,11 @@ pointer_reference {
   id: 0x3a1ac44a
   kind: POINTER
   pointee_type_id: 0xc22bf7b5
+}
+pointer_reference {
+  id: 0x3b40b9c9
+  kind: POINTER
+  pointee_type_id: 0xc74201b8
 }
 pointer_reference {
   id: 0x3b909d21
@@ -875,6 +885,11 @@ qualified {
   qualified_type_id: 0x78e8685c
 }
 qualified {
+  id: 0xc74201b8
+  qualifier: CONST
+  qualified_type_id: 0x6d4fb069
+}
+qualified {
   id: 0xc84d9907
   qualifier: CONST
   qualified_type_id: 0x5171d297
@@ -1317,6 +1332,11 @@ member {
   type_id: 0x503a7d6d
 }
 member {
+  id: 0x3e74c7e7
+  name: "headroom"
+  type_id: 0x8b7c737e
+}
+member {
   id: 0x76737aa1
   name: "heart_rate"
   type_id: 0xabf3dc39
@@ -1539,6 +1559,12 @@ member {
   id: 0x0acf4923
   name: "temperature"
   type_id: 0x8b7c737e
+}
+member {
+  id: 0x02110687
+  name: "thermalStatus"
+  type_id: 0x3c1e4e7f
+  offset: 32
 }
 member {
   id: 0x5a91f0d2
@@ -2195,6 +2221,16 @@ struct_union {
   name: "ASystemFontIterator"
 }
 struct_union {
+  id: 0x6d4fb069
+  kind: STRUCT
+  name: "AThermalHeadroomThreshold"
+  definition {
+    bytesize: 8
+    member_id: 0x3e74c7e7
+    member_id: 0x02110687
+  }
+}
+struct_union {
   id: 0xe6c18de5
   kind: STRUCT
   name: "AThermalManager"
@@ -2259,117 +2295,117 @@ enumeration {
   id: 0x8f8b51f7
   name: "ADataSpace"
   definition {
-    underlying_type_id: 0x4585663f
+    underlying_type_id: 0x5171d297
     enumerator {
       name: "ADATASPACE_UNKNOWN"
     }
     enumerator {
-      name: "STANDARD_MASK"
+      name: "ADATASPACE_STANDARD_MASK"
       value: 4128768
     }
     enumerator {
-      name: "STANDARD_UNSPECIFIED"
+      name: "ADATASPACE_STANDARD_UNSPECIFIED"
     }
     enumerator {
-      name: "STANDARD_BT709"
+      name: "ADATASPACE_STANDARD_BT709"
       value: 65536
     }
     enumerator {
-      name: "STANDARD_BT601_625"
+      name: "ADATASPACE_STANDARD_BT601_625"
       value: 131072
     }
     enumerator {
-      name: "STANDARD_BT601_625_UNADJUSTED"
+      name: "ADATASPACE_STANDARD_BT601_625_UNADJUSTED"
       value: 196608
     }
     enumerator {
-      name: "STANDARD_BT601_525"
+      name: "ADATASPACE_STANDARD_BT601_525"
       value: 262144
     }
     enumerator {
-      name: "STANDARD_BT601_525_UNADJUSTED"
+      name: "ADATASPACE_STANDARD_BT601_525_UNADJUSTED"
       value: 327680
     }
     enumerator {
-      name: "STANDARD_BT2020"
+      name: "ADATASPACE_STANDARD_BT2020"
       value: 393216
     }
     enumerator {
-      name: "STANDARD_BT2020_CONSTANT_LUMINANCE"
+      name: "ADATASPACE_STANDARD_BT2020_CONSTANT_LUMINANCE"
       value: 458752
     }
     enumerator {
-      name: "STANDARD_BT470M"
+      name: "ADATASPACE_STANDARD_BT470M"
       value: 524288
     }
     enumerator {
-      name: "STANDARD_FILM"
+      name: "ADATASPACE_STANDARD_FILM"
       value: 589824
     }
     enumerator {
-      name: "STANDARD_DCI_P3"
+      name: "ADATASPACE_STANDARD_DCI_P3"
       value: 655360
     }
     enumerator {
-      name: "STANDARD_ADOBE_RGB"
+      name: "ADATASPACE_STANDARD_ADOBE_RGB"
       value: 720896
     }
     enumerator {
-      name: "TRANSFER_MASK"
+      name: "ADATASPACE_TRANSFER_MASK"
       value: 130023424
     }
     enumerator {
-      name: "TRANSFER_UNSPECIFIED"
+      name: "ADATASPACE_TRANSFER_UNSPECIFIED"
     }
     enumerator {
-      name: "TRANSFER_LINEAR"
+      name: "ADATASPACE_TRANSFER_LINEAR"
       value: 4194304
     }
     enumerator {
-      name: "TRANSFER_SRGB"
+      name: "ADATASPACE_TRANSFER_SRGB"
       value: 8388608
     }
     enumerator {
-      name: "TRANSFER_SMPTE_170M"
+      name: "ADATASPACE_TRANSFER_SMPTE_170M"
       value: 12582912
     }
     enumerator {
-      name: "TRANSFER_GAMMA2_2"
+      name: "ADATASPACE_TRANSFER_GAMMA2_2"
       value: 16777216
     }
     enumerator {
-      name: "TRANSFER_GAMMA2_6"
+      name: "ADATASPACE_TRANSFER_GAMMA2_6"
       value: 20971520
     }
     enumerator {
-      name: "TRANSFER_GAMMA2_8"
+      name: "ADATASPACE_TRANSFER_GAMMA2_8"
       value: 25165824
     }
     enumerator {
-      name: "TRANSFER_ST2084"
+      name: "ADATASPACE_TRANSFER_ST2084"
       value: 29360128
     }
     enumerator {
-      name: "TRANSFER_HLG"
+      name: "ADATASPACE_TRANSFER_HLG"
       value: 33554432
     }
     enumerator {
-      name: "RANGE_MASK"
+      name: "ADATASPACE_RANGE_MASK"
       value: 939524096
     }
     enumerator {
-      name: "RANGE_UNSPECIFIED"
+      name: "ADATASPACE_RANGE_UNSPECIFIED"
     }
     enumerator {
-      name: "RANGE_FULL"
+      name: "ADATASPACE_RANGE_FULL"
       value: 134217728
     }
     enumerator {
-      name: "RANGE_LIMITED"
+      name: "ADATASPACE_RANGE_LIMITED"
       value: 268435456
     }
     enumerator {
-      name: "RANGE_EXTENDED"
+      name: "ADATASPACE_RANGE_EXTENDED"
       value: 402653184
     }
     enumerator {
@@ -2443,6 +2479,111 @@ enumeration {
     enumerator {
       name: "ADATASPACE_DYNAMIC_DEPTH"
       value: 4098
+    }
+    enumerator {
+      name: "STANDARD_MASK"
+      value: 4128768
+    }
+    enumerator {
+      name: "STANDARD_UNSPECIFIED"
+    }
+    enumerator {
+      name: "STANDARD_BT709"
+      value: 65536
+    }
+    enumerator {
+      name: "STANDARD_BT601_625"
+      value: 131072
+    }
+    enumerator {
+      name: "STANDARD_BT601_625_UNADJUSTED"
+      value: 196608
+    }
+    enumerator {
+      name: "STANDARD_BT601_525"
+      value: 262144
+    }
+    enumerator {
+      name: "STANDARD_BT601_525_UNADJUSTED"
+      value: 327680
+    }
+    enumerator {
+      name: "STANDARD_BT470M"
+      value: 524288
+    }
+    enumerator {
+      name: "STANDARD_BT2020"
+      value: 393216
+    }
+    enumerator {
+      name: "STANDARD_FILM"
+      value: 589824
+    }
+    enumerator {
+      name: "STANDARD_DCI_P3"
+      value: 655360
+    }
+    enumerator {
+      name: "STANDARD_ADOBE_RGB"
+      value: 720896
+    }
+    enumerator {
+      name: "TRANSFER_MASK"
+      value: 130023424
+    }
+    enumerator {
+      name: "TRANSFER_UNSPECIFIED"
+    }
+    enumerator {
+      name: "TRANSFER_LINEAR"
+      value: 4194304
+    }
+    enumerator {
+      name: "TRANSFER_SMPTE_170M"
+      value: 12582912
+    }
+    enumerator {
+      name: "TRANSFER_GAMMA2_2"
+      value: 16777216
+    }
+    enumerator {
+      name: "TRANSFER_GAMMA2_6"
+      value: 20971520
+    }
+    enumerator {
+      name: "TRANSFER_GAMMA2_8"
+      value: 25165824
+    }
+    enumerator {
+      name: "TRANSFER_SRGB"
+      value: 8388608
+    }
+    enumerator {
+      name: "TRANSFER_ST2084"
+      value: 29360128
+    }
+    enumerator {
+      name: "TRANSFER_HLG"
+      value: 33554432
+    }
+    enumerator {
+      name: "RANGE_MASK"
+      value: 939524096
+    }
+    enumerator {
+      name: "RANGE_UNSPECIFIED"
+    }
+    enumerator {
+      name: "RANGE_FULL"
+      value: 134217728
+    }
+    enumerator {
+      name: "RANGE_LIMITED"
+      value: 268435456
+    }
+    enumerator {
+      name: "RANGE_EXTENDED"
+      value: 402653184
     }
   }
 }
@@ -3346,6 +3487,13 @@ function {
   id: 0x92f6bfcd
   return_type_id: 0x6720d32f
   parameter_id: 0x3dd9738b
+}
+function {
+  id: 0x93782360
+  return_type_id: 0x6720d32f
+  parameter_id: 0x3b909d21
+  parameter_id: 0x044017d5
+  parameter_id: 0x379d63b0
 }
 function {
   id: 0x93abeae4
@@ -6331,6 +6479,14 @@ elf_symbol {
   full_name: "AThermal_getThermalHeadroom"
 }
 elf_symbol {
+  id: 0xfa57f884
+  name: "AThermal_getThermalHeadroomThresholds"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x93782360
+  full_name: "AThermal_getThermalHeadroomThresholds"
+}
+elf_symbol {
   id: 0x5309a7ad
   name: "AThermal_registerThermalStatusListener"
   is_defined: true
@@ -6866,6 +7022,7 @@ interface {
   symbol_id: 0xbf2e2ef6
   symbol_id: 0x68257888
   symbol_id: 0x3d26cd52
+  symbol_id: 0xfa57f884
   symbol_id: 0x5309a7ad
   symbol_id: 0x002efe90
   symbol_id: 0x53b4ae39

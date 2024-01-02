@@ -35,11 +35,6 @@ pointer_reference {
   pointee_type_id: 0x5171d297
 }
 pointer_reference {
-  id: 0x20b82584
-  kind: POINTER
-  pointee_type_id: 0xa8a0708f
-}
-pointer_reference {
   id: 0x21aba7d1
   kind: POINTER
   pointee_type_id: 0xacee79d8
@@ -68,11 +63,6 @@ pointer_reference {
   id: 0x34a50b92
   kind: POINTER
   pointee_type_id: 0xf8d4c8d4
-}
-pointer_reference {
-  id: 0x371e45c7
-  kind: POINTER
-  pointee_type_id: 0xf639f181
 }
 pointer_reference {
   id: 0x38539f38
@@ -115,11 +105,6 @@ typedef {
   referred_type_id: 0x78311d07
 }
 typedef {
-  id: 0xa8a0708f
-  name: "AImageDecoderFrameInfo"
-  referred_type_id: 0xe4500a42
-}
-typedef {
   id: 0x09a9c67e
   name: "AImageDecoderHeaderInfo"
   referred_type_id: 0x73cb4c6a
@@ -150,11 +135,6 @@ typedef {
   referred_type_id: 0x6720d32f
 }
 typedef {
-  id: 0x0d272264
-  name: "__int64_t"
-  referred_type_id: 0x39470e64
-}
-typedef {
   id: 0x903f4c78
   name: "__uint32_t"
   referred_type_id: 0x4585663f
@@ -163,11 +143,6 @@ typedef {
   id: 0x5171d297
   name: "int32_t"
   referred_type_id: 0x16936efb
-}
-typedef {
-  id: 0x7533d9d0
-  name: "int64_t"
-  referred_type_id: 0x0d272264
 }
 typedef {
   id: 0x0e97f05a
@@ -205,11 +180,6 @@ qualified {
   qualified_type_id: 0x09a9c67e
 }
 qualified {
-  id: 0xf639f181
-  qualifier: CONST
-  qualified_type_id: 0xa8a0708f
-}
-qualified {
   id: 0xf8d4c8d4
   qualifier: CONST
   qualified_type_id: 0x931495d9
@@ -219,12 +189,6 @@ primitive {
   name: "char"
   encoding: SIGNED_CHARACTER
   bytesize: 0x00000001
-}
-primitive {
-  id: 0x39470e64
-  name: "long long"
-  encoding: SIGNED_INTEGER
-  bytesize: 0x00000008
 }
 primitive {
   id: 0x4585663f
@@ -324,11 +288,6 @@ struct_union {
   name: "AImageDecoder"
 }
 struct_union {
-  id: 0xe4500a42
-  kind: STRUCT
-  name: "AImageDecoderFrameInfo"
-}
-struct_union {
   id: 0x73cb4c6a
   kind: STRUCT
   name: "AImageDecoderHeaderInfo"
@@ -356,17 +315,6 @@ struct_union {
   name: "_jobject"
 }
 function {
-  id: 0x18b658f2
-  return_type_id: 0x48b5725f
-  parameter_id: 0x20b82584
-}
-function {
-  id: 0x1a87ac58
-  return_type_id: 0x48b5725f
-  parameter_id: 0x2e551cd1
-  parameter_id: 0x62aebfd4
-}
-function {
   id: 0x1b0d16a7
   return_type_id: 0x48b5725f
   parameter_id: 0x2e551cd1
@@ -375,10 +323,6 @@ function {
   id: 0x5bb90d53
   return_type_id: 0x3d0edea8
   parameter_id: 0x34a50b92
-}
-function {
-  id: 0x6e62bc52
-  return_type_id: 0x20b82584
 }
 function {
   id: 0x844cc21e
@@ -465,12 +409,6 @@ function {
   parameter_id: 0xf435685e
 }
 function {
-  id: 0x9697448d
-  return_type_id: 0x6720d32f
-  parameter_id: 0x2e551cd1
-  parameter_id: 0x20b82584
-}
-function {
   id: 0x97443f25
   return_type_id: 0x6720d32f
   parameter_id: 0x2e551cd1
@@ -500,11 +438,6 @@ function {
   parameter_id: 0x3d0edea8
 }
 function {
-  id: 0xb397facf
-  return_type_id: 0x62aebfd4
-  parameter_id: 0x371e45c7
-}
-function {
   id: 0xb8a643ff
   return_type_id: 0x62aebfd4
   parameter_id: 0x18bd6530
@@ -518,80 +451,9 @@ function {
   parameter_id: 0x0e97f05a
 }
 function {
-  id: 0xd5c20a3c
-  return_type_id: 0x5171d297
-  parameter_id: 0x371e45c7
-}
-function {
   id: 0xd7462ce7
   return_type_id: 0x5171d297
   parameter_id: 0x3d0edea8
-}
-function {
-  id: 0xe879d674
-  return_type_id: 0x0f385340
-  parameter_id: 0x371e45c7
-}
-function {
-  id: 0xfa12d148
-  return_type_id: 0x7533d9d0
-  parameter_id: 0x371e45c7
-}
-elf_symbol {
-  id: 0x4e9f8ef1
-  name: "AImageDecoderFrameInfo_create"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0x6e62bc52
-  full_name: "AImageDecoderFrameInfo_create"
-}
-elf_symbol {
-  id: 0x408cee7b
-  name: "AImageDecoderFrameInfo_delete"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0x18b658f2
-  full_name: "AImageDecoderFrameInfo_delete"
-}
-elf_symbol {
-  id: 0x264211d4
-  name: "AImageDecoderFrameInfo_getBlendOp"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0xd5c20a3c
-  full_name: "AImageDecoderFrameInfo_getBlendOp"
-}
-elf_symbol {
-  id: 0xf8b2b5af
-  name: "AImageDecoderFrameInfo_getDisposeOp"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0xd5c20a3c
-  full_name: "AImageDecoderFrameInfo_getDisposeOp"
-}
-elf_symbol {
-  id: 0x28da1052
-  name: "AImageDecoderFrameInfo_getDuration"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0xfa12d148
-  full_name: "AImageDecoderFrameInfo_getDuration"
-}
-elf_symbol {
-  id: 0x53f80243
-  name: "AImageDecoderFrameInfo_getFrameRect"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0xe879d674
-  full_name: "AImageDecoderFrameInfo_getFrameRect"
-}
-elf_symbol {
-  id: 0x9fdfbf7a
-  name: "AImageDecoderFrameInfo_hasAlphaWithinBounds"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0xb397facf
-  full_name: "AImageDecoderFrameInfo_hasAlphaWithinBounds"
 }
 elf_symbol {
   id: 0xa249b9d7
@@ -690,14 +552,6 @@ elf_symbol {
   full_name: "AImageDecoder_delete"
 }
 elf_symbol {
-  id: 0x5c643fca
-  name: "AImageDecoder_getFrameInfo"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0x9697448d
-  full_name: "AImageDecoder_getFrameInfo"
-}
-elf_symbol {
   id: 0x5d9085fc
   name: "AImageDecoder_getHeaderInfo"
   is_defined: true
@@ -736,14 +590,6 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x97506351
   full_name: "AImageDecoder_setDataSpace"
-}
-elf_symbol {
-  id: 0xc4b3626d
-  name: "AImageDecoder_setInternallyHandleDisposePrevious"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0x1a87ac58
-  full_name: "AImageDecoder_setInternallyHandleDisposePrevious"
 }
 elf_symbol {
   id: 0x52929273
@@ -811,13 +657,6 @@ elf_symbol {
 }
 interface {
   id: 0x84ea5130
-  symbol_id: 0x4e9f8ef1
-  symbol_id: 0x408cee7b
-  symbol_id: 0x264211d4
-  symbol_id: 0xf8b2b5af
-  symbol_id: 0x28da1052
-  symbol_id: 0x53f80243
-  symbol_id: 0x9fdfbf7a
   symbol_id: 0xa249b9d7
   symbol_id: 0xbadaec07
   symbol_id: 0xce61cd9f
@@ -830,13 +669,11 @@ interface {
   symbol_id: 0xdb8e5d5a
   symbol_id: 0xca4837a3
   symbol_id: 0x94c56108
-  symbol_id: 0x5c643fca
   symbol_id: 0x5d9085fc
   symbol_id: 0x3138c9ab
   symbol_id: 0x66c7e977
   symbol_id: 0x65a8a1a6
   symbol_id: 0xc2efbc68
-  symbol_id: 0xc4b3626d
   symbol_id: 0x52929273
   symbol_id: 0x7ced99e5
   symbol_id: 0x287ea1a7

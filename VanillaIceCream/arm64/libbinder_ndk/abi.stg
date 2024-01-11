@@ -1387,9 +1387,9 @@ function {
   parameter_id: 0x18bd6530
 }
 function {
-  id: 0xd4c1a537
+  id: 0xd4f887fa
   return_type_id: 0x5171d297
-  parameter_id: 0x3310f9eb
+  parameter_id: 0x33f472dc
 }
 function {
   id: 0xd6480df3
@@ -2909,7 +2909,7 @@ elf_symbol {
   name: "APersistableBundle_size"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0xd4c1a537
+  type_id: 0xd4f887fa
   full_name: "APersistableBundle_size"
 }
 elf_symbol {

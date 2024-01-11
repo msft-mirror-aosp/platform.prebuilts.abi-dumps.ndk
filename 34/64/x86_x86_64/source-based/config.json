@@ -13,4 +13,18 @@
       ],
     },
   ],
+  "libz": [
+    {
+      "target_version": "current",
+      "ignore_linker_set_keys": [
+        "_ZTI14internal_state"
+      ]
+    },
+    {
+      "target_version": "35",
+      "ignore_linker_set_keys": [
+        "_ZTI14internal_state"
+      ]
+    }
+  ]
 }

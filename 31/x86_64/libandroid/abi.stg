@@ -2143,7 +2143,7 @@ enumeration {
   id: 0x8f8b51f7
   name: "ADataSpace"
   definition {
-    underlying_type_id: 0x4585663f
+    underlying_type_id: 0x5171d297
     enumerator {
       name: "ADATASPACE_UNKNOWN"
     }

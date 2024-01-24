@@ -9854,6 +9854,12 @@ function {
   parameter_id: 0x49b889e7
 }
 function {
+  id: 0x944d2bae
+  return_type_id: 0x6720d32f
+  parameter_id: 0x24d62955
+  parameter_id: 0x3e10b518
+}
+function {
   id: 0x9492bcf9
   return_type_id: 0x6720d32f
   parameter_id: 0x223b7269
@@ -11973,6 +11979,14 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x9d26c0b7
   full_name: "__freadable"
+}
+elf_symbol {
+  id: 0xb9f5e8d2
+  name: "__freadahead"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x9799eaca
+  full_name: "__freadahead"
 }
 elf_symbol {
   id: 0x9adaf18e
@@ -14138,6 +14152,12 @@ elf_symbol {
   full_name: "close"
 }
 elf_symbol {
+  id: 0xcc4e6a25
+  name: "close_range"
+  is_defined: true
+  symbol_type: FUNCTION
+}
+elf_symbol {
   id: 0xb407ee04
   name: "closedir"
   is_defined: true
@@ -14208,6 +14228,12 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x84a954d2
   full_name: "connect"
+}
+elf_symbol {
+  id: 0x1d4ed9d8
+  name: "copy_file_range"
+  is_defined: true
+  symbol_type: FUNCTION
 }
 elf_symbol {
   id: 0x940fb91a
@@ -17523,6 +17549,14 @@ elf_symbol {
   full_name: "memset_resolver"
 }
 elf_symbol {
+  id: 0x3a6616ed
+  name: "memset_explicit"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x511866ab
+  full_name: "memset_explicit"
+}
+elf_symbol {
   id: 0x37070c75
   name: "mincore"
   is_defined: true
@@ -18189,6 +18223,14 @@ elf_symbol {
   full_name: "posix_spawn"
 }
 elf_symbol {
+  id: 0xebd7d347
+  name: "posix_spawn_file_actions_addchdir_np"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x944d2bae
+  full_name: "posix_spawn_file_actions_addchdir_np"
+}
+elf_symbol {
   id: 0x57d52e71
   name: "posix_spawn_file_actions_addclose"
   is_defined: true
@@ -18203,6 +18245,14 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x95302202
   full_name: "posix_spawn_file_actions_adddup2"
+}
+elf_symbol {
+  id: 0x982ce1d4
+  name: "posix_spawn_file_actions_addfchdir_np"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x9529ea36
+  full_name: "posix_spawn_file_actions_addfchdir_np"
 }
 elf_symbol {
   id: 0xd540f5d2
@@ -22985,6 +23035,7 @@ interface {
   symbol_id: 0xfc7656ce
   symbol_id: 0x0830adb3
   symbol_id: 0x6dcbaf2a
+  symbol_id: 0xb9f5e8d2
   symbol_id: 0x9adaf18e
   symbol_id: 0xfa120b00
   symbol_id: 0x2b9c60dd
@@ -23265,6 +23316,7 @@ interface {
   symbol_id: 0x5d9b5384
   symbol_id: 0xdf2ff4c4
   symbol_id: 0x23bb744d
+  symbol_id: 0xcc4e6a25
   symbol_id: 0xb407ee04
   symbol_id: 0x03737ea5
   symbol_id: 0x7caa123d
@@ -23274,6 +23326,7 @@ interface {
   symbol_id: 0x3a1d0b75
   symbol_id: 0x6703ade0
   symbol_id: 0x407ae59d
+  symbol_id: 0x1d4ed9d8
   symbol_id: 0x940fb91a
   symbol_id: 0xd80eba5e
   symbol_id: 0x598c6f12
@@ -23701,6 +23754,7 @@ interface {
   symbol_id: 0x55e17290
   symbol_id: 0xbb6565fa
   symbol_id: 0xd1412061
+  symbol_id: 0x3a6616ed
   symbol_id: 0x37070c75
   symbol_id: 0x8042c284
   symbol_id: 0x0c0d2de0
@@ -23788,8 +23842,10 @@ interface {
   symbol_id: 0xfee578c6
   symbol_id: 0x98e3cfac
   symbol_id: 0xd28ede20
+  symbol_id: 0xebd7d347
   symbol_id: 0x57d52e71
   symbol_id: 0xf992d9c1
+  symbol_id: 0x982ce1d4
   symbol_id: 0xd540f5d2
   symbol_id: 0x7e40d4ba
   symbol_id: 0x33526828

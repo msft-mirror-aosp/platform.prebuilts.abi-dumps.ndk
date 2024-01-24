@@ -1697,6 +1697,17 @@ function {
   parameter_id: 0x04a19f14
 }
 function {
+  id: 0x2a5bbbd3
+  return_type_id: 0x4d19d058
+  parameter_id: 0x5171d297
+  parameter_id: 0x5171d297
+  parameter_id: 0x1c898f28
+  parameter_id: 0x5171d297
+  parameter_id: 0x1c3dbe5a
+  parameter_id: 0x5171d297
+  parameter_id: 0x04a19f14
+}
+function {
   id: 0x300e1117
   return_type_id: 0x4d19d058
   parameter_id: 0x3c542fef
@@ -2447,6 +2458,14 @@ elf_symbol {
   full_name: "AImageReader_new"
 }
 elf_symbol {
+  id: 0x6cc15a51
+  name: "AImageReader_newWithDataSpace"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x2a5bbbd3
+  full_name: "AImageReader_newWithDataSpace"
+}
+elf_symbol {
   id: 0x3dcd042b
   name: "AImageReader_newWithUsage"
   is_defined: true
@@ -2493,6 +2512,14 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x309d462f
   full_name: "AImage_getCropRect"
+}
+elf_symbol {
+  id: 0x2fd78f74
+  name: "AImage_getDataSpace"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x302a531c
+  full_name: "AImage_getDataSpace"
 }
 elf_symbol {
   id: 0x3d759560
@@ -4787,12 +4814,14 @@ interface {
   symbol_id: 0x2dc08667
   symbol_id: 0x47b6b2fb
   symbol_id: 0xec866358
+  symbol_id: 0x6cc15a51
   symbol_id: 0x3dcd042b
   symbol_id: 0xc832b426
   symbol_id: 0x17a9f1b7
   symbol_id: 0xcbbf1ac0
   symbol_id: 0x7bbf0e0c
   symbol_id: 0xcd84c4cb
+  symbol_id: 0x2fd78f74
   symbol_id: 0x3d759560
   symbol_id: 0xd800a6a7
   symbol_id: 0x2e7f15d2

@@ -1,4 +1,18 @@
 {
+  "libnativewindow": [
+    {
+      "target_version": "current",
+      "ignore_linker_set_keys": [
+        "_ZN7android34AHardwareBuffer_isValidPixelFormatEj",
+      ],
+    },
+    {
+      "target_version": "35",
+      "ignore_linker_set_keys": [
+        "_ZN7android34AHardwareBuffer_isValidPixelFormatEj",
+      ],
+    },
+  ],
   "libz": [
     {
       "target_version": "current",

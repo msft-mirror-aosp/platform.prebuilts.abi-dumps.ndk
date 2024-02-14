@@ -6727,6 +6727,13 @@ function {
   return_type_id: 0x48b5725f
 }
 function {
+  id: 0x10e45470
+  return_type_id: 0x48b5725f
+  parameter_id: 0x0295d3ba
+  parameter_id: 0x391f15ea
+  parameter_id: 0xf435685e
+}
+function {
   id: 0x12210920
   return_type_id: 0x48b5725f
   parameter_id: 0x0a0e0011
@@ -13817,6 +13824,22 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0xb1b2c692
   full_name: "android_register_crash_detail"
+}
+elf_symbol {
+  id: 0xd0e3446d
+  name: "android_replace_crash_detail_data"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x10e45470
+  full_name: "android_replace_crash_detail_data"
+}
+elf_symbol {
+  id: 0xcc43643e
+  name: "android_replace_crash_detail_name"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x10e45470
+  full_name: "android_replace_crash_detail_name"
 }
 elf_symbol {
   id: 0x78ea974d
@@ -23473,6 +23496,8 @@ interface {
   symbol_id: 0xd0f5afce
   symbol_id: 0x97d31ebe
   symbol_id: 0xd6e29820
+  symbol_id: 0xd0e3446d
+  symbol_id: 0xcc43643e
   symbol_id: 0x78ea974d
   symbol_id: 0x13bc4ad1
   symbol_id: 0x50069f74

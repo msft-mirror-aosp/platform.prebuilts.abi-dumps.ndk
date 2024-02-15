@@ -3835,6 +3835,12 @@ function {
   parameter_id: 0x38539f38
 }
 function {
+  id: 0xc47e9371
+  return_type_id: 0x0e97f05a
+  parameter_id: 0x21aba7d1
+  parameter_id: 0x31b2351f
+}
+function {
   id: 0xc4b77843
   return_type_id: 0x0e97f05a
   parameter_id: 0x21aba7d1
@@ -4925,6 +4931,14 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x1cf4dcd4
   full_name: "AInputEvent_release"
+}
+elf_symbol {
+  id: 0xe1feb459
+  name: "AInputEvent_toJava"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0xc47e9371
+  full_name: "AInputEvent_toJava"
 }
 elf_symbol {
   id: 0x87a8aba8
@@ -6828,6 +6842,7 @@ interface {
   symbol_id: 0x26f9ffb0
   symbol_id: 0xa76693aa
   symbol_id: 0xb6d2b8f7
+  symbol_id: 0xe1feb459
   symbol_id: 0x87a8aba8
   symbol_id: 0x2a2b0cb3
   symbol_id: 0xa6fa3758

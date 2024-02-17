@@ -6309,6 +6309,14 @@ elf_symbol {
   full_name: "ASurfaceTransaction_setDamageRegion"
 }
 elf_symbol {
+  id: 0xa45dae7c
+  name: "ASurfaceTransaction_setDesiredHdrHeadroom"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1ace32e7
+  full_name: "ASurfaceTransaction_setDesiredHdrHeadroom"
+}
+elf_symbol {
   id: 0x63683f00
   name: "ASurfaceTransaction_setDesiredPresentTime"
   is_defined: true
@@ -7000,6 +7008,7 @@ interface {
   symbol_id: 0x4bf0f022
   symbol_id: 0xe94295f9
   symbol_id: 0xf3b10764
+  symbol_id: 0xa45dae7c
   symbol_id: 0x63683f00
   symbol_id: 0xd1f63b87
   symbol_id: 0x6377255f

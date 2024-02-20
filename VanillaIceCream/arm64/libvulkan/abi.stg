@@ -12642,6 +12642,14 @@ enumeration {
       value: 1000099000
     }
     enumerator {
+      name: "VK_DYNAMIC_STATE_DISCARD_RECTANGLE_ENABLE_EXT"
+      value: 1000099001
+    }
+    enumerator {
+      name: "VK_DYNAMIC_STATE_DISCARD_RECTANGLE_MODE_EXT"
+      value: 1000099002
+    }
+    enumerator {
       name: "VK_DYNAMIC_STATE_SAMPLE_LOCATIONS_EXT"
       value: 1000143000
     }
@@ -12656,6 +12664,10 @@ enumeration {
     enumerator {
       name: "VK_DYNAMIC_STATE_VIEWPORT_COARSE_SAMPLE_ORDER_NV"
       value: 1000164006
+    }
+    enumerator {
+      name: "VK_DYNAMIC_STATE_EXCLUSIVE_SCISSOR_ENABLE_NV"
+      value: 1000205000
     }
     enumerator {
       name: "VK_DYNAMIC_STATE_EXCLUSIVE_SCISSOR_NV"
@@ -12808,6 +12820,10 @@ enumeration {
     enumerator {
       name: "VK_DYNAMIC_STATE_COVERAGE_REDUCTION_MODE_NV"
       value: 1000455032
+    }
+    enumerator {
+      name: "VK_DYNAMIC_STATE_ATTACHMENT_FEEDBACK_LOOP_ENABLE_EXT"
+      value: 1000524000
     }
     enumerator {
       name: "VK_DYNAMIC_STATE_CULL_MODE_EXT"
@@ -12974,6 +12990,10 @@ enumeration {
     enumerator {
       name: "VK_EXTERNAL_MEMORY_HANDLE_TYPE_RDMA_ADDRESS_BIT_NV"
       value: 4096
+    }
+    enumerator {
+      name: "VK_EXTERNAL_MEMORY_HANDLE_TYPE_SCREEN_BUFFER_BIT_QNX"
+      value: 16384
     }
     enumerator {
       name: "VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_FD_BIT_KHR"
@@ -14091,6 +14111,14 @@ enumeration {
       value: 1000464000
     }
     enumerator {
+      name: "VK_FORMAT_A1B5G5R5_UNORM_PACK16_KHR"
+      value: 1000470000
+    }
+    enumerator {
+      name: "VK_FORMAT_A8_UNORM_KHR"
+      value: 1000470001
+    }
+    enumerator {
       name: "VK_FORMAT_ASTC_4x4_SFLOAT_BLOCK_EXT"
       value: 1000066000
     }
@@ -14480,6 +14508,18 @@ enumeration {
       value: 1000001002
     }
     enumerator {
+      name: "VK_IMAGE_LAYOUT_VIDEO_DECODE_DST_KHR"
+      value: 1000024000
+    }
+    enumerator {
+      name: "VK_IMAGE_LAYOUT_VIDEO_DECODE_SRC_KHR"
+      value: 1000024001
+    }
+    enumerator {
+      name: "VK_IMAGE_LAYOUT_VIDEO_DECODE_DPB_KHR"
+      value: 1000024002
+    }
+    enumerator {
       name: "VK_IMAGE_LAYOUT_SHARED_PRESENT_KHR"
       value: 1000111000
     }
@@ -14490,6 +14530,18 @@ enumeration {
     enumerator {
       name: "VK_IMAGE_LAYOUT_FRAGMENT_SHADING_RATE_ATTACHMENT_OPTIMAL_KHR"
       value: 1000164003
+    }
+    enumerator {
+      name: "VK_IMAGE_LAYOUT_VIDEO_ENCODE_DST_KHR"
+      value: 1000299000
+    }
+    enumerator {
+      name: "VK_IMAGE_LAYOUT_VIDEO_ENCODE_SRC_KHR"
+      value: 1000299001
+    }
+    enumerator {
+      name: "VK_IMAGE_LAYOUT_VIDEO_ENCODE_DPB_KHR"
+      value: 1000299002
     }
     enumerator {
       name: "VK_IMAGE_LAYOUT_ATTACHMENT_FEEDBACK_LOOP_OPTIMAL_EXT"
@@ -14878,6 +14930,14 @@ enumeration {
       value: 1000011000
     }
     enumerator {
+      name: "VK_OBJECT_TYPE_VIDEO_SESSION_KHR"
+      value: 1000023000
+    }
+    enumerator {
+      name: "VK_OBJECT_TYPE_VIDEO_SESSION_PARAMETERS_KHR"
+      value: 1000023001
+    }
+    enumerator {
       name: "VK_OBJECT_TYPE_CU_MODULE_NVX"
       value: 1000029000
     }
@@ -14914,6 +14974,14 @@ enumeration {
       value: 1000277000
     }
     enumerator {
+      name: "VK_OBJECT_TYPE_CUDA_MODULE_NV"
+      value: 1000307000
+    }
+    enumerator {
+      name: "VK_OBJECT_TYPE_CUDA_FUNCTION_NV"
+      value: 1000307001
+    }
+    enumerator {
       name: "VK_OBJECT_TYPE_BUFFER_COLLECTION_FUCHSIA"
       value: 1000366000
     }
@@ -14924,6 +14992,10 @@ enumeration {
     enumerator {
       name: "VK_OBJECT_TYPE_OPTICAL_FLOW_SESSION_NV"
       value: 1000464000
+    }
+    enumerator {
+      name: "VK_OBJECT_TYPE_SHADER_EXT"
+      value: 1000482000
     }
     enumerator {
       name: "VK_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_KHR"
@@ -15275,6 +15347,10 @@ enumeration {
       value: 2
     }
     enumerator {
+      name: "VK_QUERY_TYPE_RESULT_STATUS_ONLY_KHR"
+      value: 1000023000
+    }
+    enumerator {
       name: "VK_QUERY_TYPE_TRANSFORM_FEEDBACK_STREAM_EXT"
       value: 1000028004
     }
@@ -15297,6 +15373,10 @@ enumeration {
     enumerator {
       name: "VK_QUERY_TYPE_PERFORMANCE_QUERY_INTEL"
       value: 1000210000
+    }
+    enumerator {
+      name: "VK_QUERY_TYPE_VIDEO_ENCODE_FEEDBACK_KHR"
+      value: 1000299000
     }
     enumerator {
       name: "VK_QUERY_TYPE_MESH_PRIMITIVES_GENERATED_EXT"
@@ -15351,6 +15431,10 @@ enumeration {
     enumerator {
       name: "VK_RESOLVE_MODE_MAX_BIT"
       value: 8
+    }
+    enumerator {
+      name: "VK_RESOLVE_MODE_EXTERNAL_FORMAT_DOWNSAMPLE_ANDROID"
+      value: 16
     }
     enumerator {
       name: "VK_RESOLVE_MODE_NONE_KHR"
@@ -15506,6 +15590,30 @@ enumeration {
       value: -1000012000
     }
     enumerator {
+      name: "VK_ERROR_IMAGE_USAGE_NOT_SUPPORTED_KHR"
+      value: -1000023000
+    }
+    enumerator {
+      name: "VK_ERROR_VIDEO_PICTURE_LAYOUT_NOT_SUPPORTED_KHR"
+      value: -1000023001
+    }
+    enumerator {
+      name: "VK_ERROR_VIDEO_PROFILE_OPERATION_NOT_SUPPORTED_KHR"
+      value: -1000023002
+    }
+    enumerator {
+      name: "VK_ERROR_VIDEO_PROFILE_FORMAT_NOT_SUPPORTED_KHR"
+      value: -1000023003
+    }
+    enumerator {
+      name: "VK_ERROR_VIDEO_PROFILE_CODEC_NOT_SUPPORTED_KHR"
+      value: -1000023004
+    }
+    enumerator {
+      name: "VK_ERROR_VIDEO_STD_VERSION_NOT_SUPPORTED_KHR"
+      value: -1000023005
+    }
+    enumerator {
       name: "VK_ERROR_INVALID_DRM_FORMAT_MODIFIER_PLANE_LAYOUT_EXT"
       value: -1000158000
     }
@@ -15534,8 +15642,16 @@ enumeration {
       value: 1000268003
     }
     enumerator {
+      name: "VK_ERROR_INVALID_VIDEO_STD_PARAMETERS_KHR"
+      value: -1000299000
+    }
+    enumerator {
       name: "VK_ERROR_COMPRESSION_EXHAUSTED_EXT"
       value: -1000338000
+    }
+    enumerator {
+      name: "VK_ERROR_INCOMPATIBLE_SHADER_BINARY_EXT"
+      value: 1000482000
     }
     enumerator {
       name: "VK_ERROR_OUT_OF_POOL_MEMORY_KHR"
@@ -15812,6 +15928,10 @@ enumeration {
     enumerator {
       name: "VK_SHADER_STAGE_SUBPASS_SHADING_BIT_HUAWEI"
       value: 16384
+    }
+    enumerator {
+      name: "VK_SHADER_STAGE_CLUSTER_CULLING_BIT_HUAWEI"
+      value: 524288
     }
     enumerator {
       name: "VK_SHADER_STAGE_RAYGEN_BIT_NV"
@@ -16864,6 +16984,86 @@ enumeration {
       value: 1000022002
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_PROFILE_INFO_KHR"
+      value: 1000023000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_CAPABILITIES_KHR"
+      value: 1000023001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_PICTURE_RESOURCE_INFO_KHR"
+      value: 1000023002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_SESSION_MEMORY_REQUIREMENTS_KHR"
+      value: 1000023003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_BIND_VIDEO_SESSION_MEMORY_INFO_KHR"
+      value: 1000023004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_SESSION_CREATE_INFO_KHR"
+      value: 1000023005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_SESSION_PARAMETERS_CREATE_INFO_KHR"
+      value: 1000023006
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_SESSION_PARAMETERS_UPDATE_INFO_KHR"
+      value: 1000023007
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_BEGIN_CODING_INFO_KHR"
+      value: 1000023008
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_END_CODING_INFO_KHR"
+      value: 1000023009
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_CODING_CONTROL_INFO_KHR"
+      value: 1000023010
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_REFERENCE_SLOT_INFO_KHR"
+      value: 1000023011
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_QUEUE_FAMILY_VIDEO_PROPERTIES_KHR"
+      value: 1000023012
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_PROFILE_LIST_INFO_KHR"
+      value: 1000023013
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VIDEO_FORMAT_INFO_KHR"
+      value: 1000023014
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_FORMAT_PROPERTIES_KHR"
+      value: 1000023015
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_QUEUE_FAMILY_QUERY_RESULT_STATUS_PROPERTIES_KHR"
+      value: 1000023016
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_INFO_KHR"
+      value: 1000024000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_CAPABILITIES_KHR"
+      value: 1000024001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_USAGE_INFO_KHR"
+      value: 1000024002
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_IMAGE_CREATE_INFO_NV"
       value: 1000026000
     }
@@ -16906,6 +17106,142 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_IMAGE_VIEW_ADDRESS_PROPERTIES_NVX"
       value: 1000030001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H264_CAPABILITIES_KHR"
+      value: 1000038000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H264_SESSION_PARAMETERS_CREATE_INFO_KHR"
+      value: 1000038001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H264_SESSION_PARAMETERS_ADD_INFO_KHR"
+      value: 1000038002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H264_PICTURE_INFO_KHR"
+      value: 1000038003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H264_DPB_SLOT_INFO_KHR"
+      value: 1000038004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H264_NALU_SLICE_INFO_KHR"
+      value: 1000038005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H264_GOP_REMAINING_FRAME_INFO_KHR"
+      value: 1000038006
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H264_PROFILE_INFO_KHR"
+      value: 1000038007
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H264_RATE_CONTROL_INFO_KHR"
+      value: 1000038008
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H264_RATE_CONTROL_LAYER_INFO_KHR"
+      value: 1000038009
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H264_SESSION_CREATE_INFO_KHR"
+      value: 1000038010
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H264_QUALITY_LEVEL_PROPERTIES_KHR"
+      value: 1000038011
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H264_SESSION_PARAMETERS_GET_INFO_KHR"
+      value: 1000038012
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H264_SESSION_PARAMETERS_FEEDBACK_INFO_KHR"
+      value: 1000038013
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H265_CAPABILITIES_KHR"
+      value: 1000039000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H265_SESSION_PARAMETERS_CREATE_INFO_KHR"
+      value: 1000039001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H265_SESSION_PARAMETERS_ADD_INFO_KHR"
+      value: 1000039002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H265_PICTURE_INFO_KHR"
+      value: 1000039003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H265_DPB_SLOT_INFO_KHR"
+      value: 1000039004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H265_NALU_SLICE_SEGMENT_INFO_KHR"
+      value: 1000039005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H265_GOP_REMAINING_FRAME_INFO_KHR"
+      value: 1000039006
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H265_PROFILE_INFO_KHR"
+      value: 1000039007
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H265_RATE_CONTROL_INFO_KHR"
+      value: 1000039009
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H265_RATE_CONTROL_LAYER_INFO_KHR"
+      value: 1000039010
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H265_SESSION_CREATE_INFO_KHR"
+      value: 1000039011
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H265_QUALITY_LEVEL_PROPERTIES_KHR"
+      value: 1000039012
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H265_SESSION_PARAMETERS_GET_INFO_KHR"
+      value: 1000039013
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_H265_SESSION_PARAMETERS_FEEDBACK_INFO_KHR"
+      value: 1000039014
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_H264_CAPABILITIES_KHR"
+      value: 1000040000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_H264_PICTURE_INFO_KHR"
+      value: 1000040001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_H264_PROFILE_INFO_KHR"
+      value: 1000040003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_H264_SESSION_PARAMETERS_CREATE_INFO_KHR"
+      value: 1000040004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_H264_SESSION_PARAMETERS_ADD_INFO_KHR"
+      value: 1000040005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_H264_DPB_SLOT_INFO_KHR"
+      value: 1000040006
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_TEXTURE_LOD_GATHER_FORMAT_PROPERTIES_AMD"
@@ -17122,6 +17458,10 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_HDR_METADATA_EXT"
       value: 1000105000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RELAXED_LINE_RASTERIZATION_FEATURES_IMG"
+      value: 1000110000
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_SHARED_PRESENT_SURFACE_CAPABILITIES_KHR"
@@ -17524,12 +17864,32 @@ enumeration {
       value: 1000183000
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_CALIBRATED_TIMESTAMP_INFO_EXT"
-      value: 1000184000
-    }
-    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_AMD"
       value: 1000185000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_H265_CAPABILITIES_KHR"
+      value: 1000187000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_H265_SESSION_PARAMETERS_CREATE_INFO_KHR"
+      value: 1000187001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_H265_SESSION_PARAMETERS_ADD_INFO_KHR"
+      value: 1000187002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_H265_PROFILE_INFO_KHR"
+      value: 1000187003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_H265_PICTURE_INFO_KHR"
+      value: 1000187004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_H265_DPB_SLOT_INFO_KHR"
+      value: 1000187005
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_KHR"
@@ -17550,14 +17910,6 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES_EXT"
       value: 1000190000
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO_EXT"
-      value: 1000190001
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES_EXT"
-      value: 1000190002
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PRESENT_FRAME_TOKEN_GGP"
@@ -17832,6 +18184,54 @@ enumeration {
       value: 1000269005
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_IMAGE_COPY_FEATURES_EXT"
+      value: 1000270000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_IMAGE_COPY_PROPERTIES_EXT"
+      value: 1000270001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_MEMORY_TO_IMAGE_COPY_EXT"
+      value: 1000270002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_IMAGE_TO_MEMORY_COPY_EXT"
+      value: 1000270003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_COPY_IMAGE_TO_MEMORY_INFO_EXT"
+      value: 1000270004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_COPY_MEMORY_TO_IMAGE_INFO_EXT"
+      value: 1000270005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_HOST_IMAGE_LAYOUT_TRANSITION_INFO_EXT"
+      value: 1000270006
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_COPY_IMAGE_TO_IMAGE_INFO_EXT"
+      value: 1000270007
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SUBRESOURCE_HOST_MEMCPY_SIZE_EXT"
+      value: 1000270008
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_HOST_IMAGE_COPY_DEVICE_PERFORMANCE_QUERY_EXT"
+      value: 1000270009
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_MEMORY_MAP_INFO_KHR"
+      value: 1000271000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_MEMORY_UNMAP_INFO_KHR"
+      value: 1000271001
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_FLOAT_2_FEATURES_EXT"
       value: 1000273000
     }
@@ -17924,6 +18324,18 @@ enumeration {
       value: 1000282001
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_BIAS_CONTROL_FEATURES_EXT"
+      value: 1000283000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DEPTH_BIAS_INFO_EXT"
+      value: 1000283001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DEPTH_BIAS_REPRESENTATION_INFO_EXT"
+      value: 1000283002
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_MEMORY_REPORT_FEATURES_EXT"
       value: 1000284000
     }
@@ -17980,12 +18392,80 @@ enumeration {
       value: 1000294001
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_INFO_KHR"
+      value: 1000299000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_RATE_CONTROL_INFO_KHR"
+      value: 1000299001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_RATE_CONTROL_LAYER_INFO_KHR"
+      value: 1000299002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_CAPABILITIES_KHR"
+      value: 1000299003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_USAGE_INFO_KHR"
+      value: 1000299004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_QUERY_POOL_VIDEO_ENCODE_FEEDBACK_CREATE_INFO_KHR"
+      value: 1000299005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VIDEO_ENCODE_QUALITY_LEVEL_INFO_KHR"
+      value: 1000299006
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_QUALITY_LEVEL_PROPERTIES_KHR"
+      value: 1000299007
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_QUALITY_LEVEL_INFO_KHR"
+      value: 1000299008
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_SESSION_PARAMETERS_GET_INFO_KHR"
+      value: 1000299009
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_SESSION_PARAMETERS_FEEDBACK_INFO_KHR"
+      value: 1000299010
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DIAGNOSTICS_CONFIG_FEATURES_NV"
       value: 1000300000
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_DEVICE_DIAGNOSTICS_CONFIG_CREATE_INFO_NV"
       value: 1000300001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_CUDA_MODULE_CREATE_INFO_NV"
+      value: 1000307000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_CUDA_FUNCTION_CREATE_INFO_NV"
+      value: 1000307001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_CUDA_LAUNCH_INFO_NV"
+      value: 1000307002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CUDA_KERNEL_LAUNCH_FEATURES_NV"
+      value: 1000307003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CUDA_KERNEL_LAUNCH_PROPERTIES_NV"
+      value: 1000307004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_QUERY_LOW_LATENCY_SUPPORT_NV"
+      value: 1000310000
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_EXPORT_METAL_OBJECT_CREATE_INFO_EXT"
@@ -18184,14 +18664,6 @@ enumeration {
       value: 1000338001
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_SUBRESOURCE_LAYOUT_2_EXT"
-      value: 1000338002
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_IMAGE_SUBRESOURCE_2_EXT"
-      value: 1000338003
-    }
-    enumerator {
       name: "VK_STRUCTURE_TYPE_IMAGE_COMPRESSION_PROPERTIES_EXT"
       value: 1000338004
     }
@@ -18352,6 +18824,14 @@ enumeration {
       value: 1000372001
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAME_BOUNDARY_FEATURES_EXT"
+      value: 1000375000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_FRAME_BOUNDARY_EXT"
+      value: 1000375001
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTISAMPLED_RENDER_TO_SINGLE_SAMPLED_FEATURES_EXT"
       value: 1000376000
     }
@@ -18408,6 +18888,14 @@ enumeration {
       value: 1000393000
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_TILE_IMAGE_FEATURES_EXT"
+      value: 1000395000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_TILE_IMAGE_PROPERTIES_EXT"
+      value: 1000395001
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_MICROMAP_BUILD_INFO_EXT"
       value: 1000396000
     }
@@ -18448,6 +18936,18 @@ enumeration {
       value: 1000396009
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CLUSTER_CULLING_SHADER_FEATURES_HUAWEI"
+      value: 1000404000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CLUSTER_CULLING_SHADER_PROPERTIES_HUAWEI"
+      value: 1000404001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CLUSTER_CULLING_SHADER_VRS_FEATURES_HUAWEI"
+      value: 1000404002
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BORDER_COLOR_SWIZZLE_FEATURES_EXT"
       value: 1000411000
     }
@@ -18458,6 +18958,30 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PAGEABLE_DEVICE_LOCAL_MEMORY_FEATURES_EXT"
       value: 1000412000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_ARM"
+      value: 1000415000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DEVICE_QUEUE_SHADER_CORE_CONTROL_CREATE_INFO_ARM"
+      value: 1000417000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCHEDULING_CONTROLS_FEATURES_ARM"
+      value: 1000417001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCHEDULING_CONTROLS_PROPERTIES_ARM"
+      value: 1000417002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_SLICED_VIEW_OF_3D_FEATURES_EXT"
+      value: 1000418000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_IMAGE_VIEW_SLICED_CREATE_INFO_EXT"
+      value: 1000418001
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_SET_HOST_MAPPING_FEATURES_VALVE"
@@ -18478,6 +19002,26 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_NON_SEAMLESS_CUBE_MAP_FEATURES_EXT"
       value: 1000422000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RENDER_PASS_STRIPED_FEATURES_ARM"
+      value: 1000424000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RENDER_PASS_STRIPED_PROPERTIES_ARM"
+      value: 1000424001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_RENDER_PASS_STRIPE_BEGIN_INFO_ARM"
+      value: 1000424002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_RENDER_PASS_STRIPE_INFO_ARM"
+      value: 1000424003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_RENDER_PASS_STRIPE_SUBMIT_INFO_ARM"
+      value: 1000424004
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_OFFSET_FEATURES_QCOM"
@@ -18508,6 +19052,18 @@ enumeration {
       value: 1000427001
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_GENERATED_COMMANDS_COMPUTE_FEATURES_NV"
+      value: 1000428000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_COMPUTE_PIPELINE_INDIRECT_BUFFER_INFO_NV"
+      value: 1000428001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_INDIRECT_DEVICE_ADDRESS_INFO_NV"
+      value: 1000428002
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINEAR_COLOR_ATTACHMENT_FEATURES_NV"
       value: 1000430000
     }
@@ -18526,6 +19082,18 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_IMAGE_VIEW_SAMPLE_WEIGHT_CREATE_INFO_QCOM"
       value: 1000440002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_NESTED_COMMAND_BUFFER_FEATURES_EXT"
+      value: 1000451000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_NESTED_COMMAND_BUFFER_PROPERTIES_EXT"
+      value: 1000451001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_ACQUIRE_UNMODIFIED_EXT"
+      value: 1000453000
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_DYNAMIC_STATE_3_FEATURES_EXT"
@@ -18616,6 +19184,66 @@ enumeration {
       value: 1000466000
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FORMAT_RESOLVE_FEATURES_ANDROID"
+      value: 1000468000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FORMAT_RESOLVE_PROPERTIES_ANDROID"
+      value: 1000468001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_FORMAT_RESOLVE_PROPERTIES_ANDROID"
+      value: 1000468002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_5_FEATURES_KHR"
+      value: 1000470000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_5_PROPERTIES_KHR"
+      value: 1000470001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_RENDERING_AREA_INFO_KHR"
+      value: 1000470003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DEVICE_IMAGE_SUBRESOURCE_INFO_KHR"
+      value: 1000470004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SUBRESOURCE_LAYOUT_2_KHR"
+      value: 1000338002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_IMAGE_SUBRESOURCE_2_KHR"
+      value: 1000338003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_CREATE_FLAGS_2_CREATE_INFO_KHR"
+      value: 1000470005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_BUFFER_USAGE_FLAGS_2_CREATE_INFO_KHR"
+      value: 1000470006
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_POSITION_FETCH_FEATURES_KHR"
+      value: 1000481000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_OBJECT_FEATURES_EXT"
+      value: 1000482000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_OBJECT_PROPERTIES_EXT"
+      value: 1000482001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SHADER_CREATE_INFO_EXT"
+      value: 1000482002
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TILE_PROPERTIES_FEATURES_QCOM"
       value: 1000484000
     }
@@ -18644,6 +19272,14 @@ enumeration {
       value: 1000490001
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_SPARSE_ADDRESS_SPACE_FEATURES_NV"
+      value: 1000492000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_SPARSE_ADDRESS_SPACE_PROPERTIES_NV"
+      value: 1000492001
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MUTABLE_DESCRIPTOR_TYPE_FEATURES_EXT"
       value: 1000351000
     }
@@ -18652,12 +19288,212 @@ enumeration {
       value: 1000351002
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_LAYER_SETTINGS_CREATE_INFO_EXT"
+      value: 1000496000
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_BUILTINS_FEATURES_ARM"
       value: 1000497000
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_BUILTINS_PROPERTIES_ARM"
       value: 1000497001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_LIBRARY_GROUP_HANDLES_FEATURES_EXT"
+      value: 1000498000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DYNAMIC_RENDERING_UNUSED_ATTACHMENTS_FEATURES_EXT"
+      value: 1000499000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_LATENCY_SLEEP_MODE_INFO_NV"
+      value: 1000505000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_LATENCY_SLEEP_INFO_NV"
+      value: 1000505001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SET_LATENCY_MARKER_INFO_NV"
+      value: 1000505002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_GET_LATENCY_MARKER_INFO_NV"
+      value: 1000505003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_LATENCY_TIMINGS_FRAME_REPORT_NV"
+      value: 1000505004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_LATENCY_SUBMISSION_PRESENT_ID_NV"
+      value: 1000505005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_OUT_OF_BAND_QUEUE_TYPE_INFO_NV"
+      value: 1000505006
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SWAPCHAIN_LATENCY_CREATE_INFO_NV"
+      value: 1000505007
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_LATENCY_SURFACE_CAPABILITIES_NV"
+      value: 1000505008
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_FEATURES_KHR"
+      value: 1000506000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_COOPERATIVE_MATRIX_PROPERTIES_KHR"
+      value: 1000506001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_PROPERTIES_KHR"
+      value: 1000506002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PER_VIEW_RENDER_AREAS_FEATURES_QCOM"
+      value: 1000510000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_MULTIVIEW_PER_VIEW_RENDER_AREAS_RENDER_PASS_BEGIN_INFO_QCOM"
+      value: 1000510001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VIDEO_MAINTENANCE_1_FEATURES_KHR"
+      value: 1000515000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_INLINE_QUERY_INFO_KHR"
+      value: 1000515001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PER_STAGE_DESCRIPTOR_SET_FEATURES_NV"
+      value: 1000516000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_PROCESSING_2_FEATURES_QCOM"
+      value: 1000518000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_PROCESSING_2_PROPERTIES_QCOM"
+      value: 1000518001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SAMPLER_BLOCK_MATCH_WINDOW_CREATE_INFO_QCOM"
+      value: 1000518002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SAMPLER_CUBIC_WEIGHTS_CREATE_INFO_QCOM"
+      value: 1000519000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CUBIC_WEIGHTS_FEATURES_QCOM"
+      value: 1000519001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_BLIT_IMAGE_CUBIC_WEIGHTS_INFO_QCOM"
+      value: 1000519002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_YCBCR_DEGAMMA_FEATURES_QCOM"
+      value: 1000520000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_YCBCR_DEGAMMA_CREATE_INFO_QCOM"
+      value: 1000520001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CUBIC_CLAMP_FEATURES_QCOM"
+      value: 1000521000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ATTACHMENT_FEEDBACK_LOOP_DYNAMIC_STATE_FEATURES_EXT"
+      value: 1000524000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES_KHR"
+      value: 1000525000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO_KHR"
+      value: 1000190001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES_KHR"
+      value: 1000190002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SCREEN_BUFFER_PROPERTIES_QNX"
+      value: 1000529000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SCREEN_BUFFER_FORMAT_PROPERTIES_QNX"
+      value: 1000529001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_IMPORT_SCREEN_BUFFER_INFO_QNX"
+      value: 1000529002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_EXTERNAL_FORMAT_QNX"
+      value: 1000529003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_MEMORY_SCREEN_BUFFER_FEATURES_QNX"
+      value: 1000529004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LAYERED_DRIVER_PROPERTIES_MSFT"
+      value: 1000530000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_CALIBRATED_TIMESTAMP_INFO_KHR"
+      value: 1000184000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_6_FEATURES_KHR"
+      value: 1000545000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_6_PROPERTIES_KHR"
+      value: 1000545001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_BIND_MEMORY_STATUS_KHR"
+      value: 1000545002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_BIND_DESCRIPTOR_SETS_INFO_KHR"
+      value: 1000545003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PUSH_CONSTANTS_INFO_KHR"
+      value: 1000545004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PUSH_DESCRIPTOR_SET_INFO_KHR"
+      value: 1000545005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PUSH_DESCRIPTOR_SET_WITH_TEMPLATE_INFO_KHR"
+      value: 1000545006
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SET_DESCRIPTOR_BUFFER_OFFSETS_INFO_EXT"
+      value: 1000545007
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_BIND_DESCRIPTOR_BUFFER_EMBEDDED_SAMPLERS_INFO_EXT"
+      value: 1000545008
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_POOL_OVERALLOCATION_FEATURES_NV"
+      value: 1000546000
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES"
@@ -19060,6 +19896,18 @@ enumeration {
       value: 1000180000
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_CALIBRATED_TIMESTAMP_INFO_EXT"
+      value: 1000184000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO_EXT"
+      value: 1000190001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES_EXT"
+      value: 1000190002
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO_EXT"
       value: 1000192000
     }
@@ -19308,6 +20156,14 @@ enumeration {
       value: 1000337010
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_SUBRESOURCE_LAYOUT_2_EXT"
+      value: 1000338002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_IMAGE_SUBRESOURCE_2_EXT"
+      value: 1000338003
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RASTERIZATION_ORDER_ATTACHMENT_ACCESS_FEATURES_ARM"
       value: 1000342000
     }
@@ -19352,6 +20208,10 @@ enumeration {
       value: 1000413003
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_SHADER_REQUIRED_SUBGROUP_SIZE_CREATE_INFO_EXT"
+      value: 1000225001
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_MAX_ENUM"
       value: 2147483647
     }
@@ -19368,6 +20228,10 @@ enumeration {
     enumerator {
       name: "VK_SUBPASS_CONTENTS_SECONDARY_COMMAND_BUFFERS"
       value: 1
+    }
+    enumerator {
+      name: "VK_SUBPASS_CONTENTS_INLINE_AND_SECONDARY_COMMAND_BUFFERS_EXT"
+      value: 1000451000
     }
     enumerator {
       name: "VK_SUBPASS_CONTENTS_MAX_ENUM"

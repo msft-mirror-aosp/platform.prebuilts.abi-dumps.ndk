@@ -29,6 +29,11 @@ pointer_reference {
   pointee_type_id: 0x23de3489
 }
 pointer_reference {
+  id: 0x0295d3ba
+  kind: POINTER
+  pointee_type_id: 0x2017a874
+}
+pointer_reference {
   id: 0x02988e60
   kind: POINTER
   pointee_type_id: 0x2022df1f
@@ -1472,6 +1477,11 @@ typedef {
   id: 0x645c90d3
   name: "cpu_set_t"
   referred_type_id: 0x39506230
+}
+typedef {
+  id: 0x2017a874
+  name: "crash_detail_t"
+  referred_type_id: 0x137a1b5d
 }
 typedef {
   id: 0xeb0f6de6
@@ -5115,6 +5125,11 @@ struct_union {
   }
 }
 struct_union {
+  id: 0x137a1b5d
+  kind: STRUCT
+  name: "crash_detail_t"
+}
+struct_union {
   id: 0x3936cdf1
   kind: STRUCT
   name: "dirent"
@@ -6428,6 +6443,11 @@ function {
   parameter_id: 0x02988e60
   parameter_id: 0x0483e6f8
   parameter_id: 0x6720d32f
+}
+function {
+  id: 0x103d257d
+  return_type_id: 0x48b5725f
+  parameter_id: 0x0295d3ba
 }
 function {
   id: 0x103e720b
@@ -10813,6 +10833,14 @@ function {
   parameter_id: 0xf435685e
 }
 function {
+  id: 0xb1b2c692
+  return_type_id: 0x0295d3ba
+  parameter_id: 0x391f15ea
+  parameter_id: 0xf435685e
+  parameter_id: 0x391f15ea
+  parameter_id: 0xf435685e
+}
+function {
   id: 0xb20b9eb4
   return_type_id: 0x62aebfd4
   parameter_id: 0x30a2baad
@@ -12951,6 +12979,14 @@ elf_symbol {
   full_name: "android_get_device_api_level"
 }
 elf_symbol {
+  id: 0xd6e29820
+  name: "android_register_crash_detail"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0xb1b2c692
+  full_name: "android_register_crash_detail"
+}
+elf_symbol {
   id: 0x78ea974d
   name: "android_reset_stack_guards"
   is_defined: true
@@ -12965,6 +13001,14 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x1f1c7cd5
   full_name: "android_set_abort_message"
+}
+elf_symbol {
+  id: 0x50069f74
+  name: "android_unregister_crash_detail"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x103d257d
+  full_name: "android_unregister_crash_detail"
 }
 elf_symbol {
   id: 0xaa0b3b3a
@@ -22506,8 +22550,10 @@ interface {
   symbol_id: 0xb48182f7
   symbol_id: 0xd0f5afce
   symbol_id: 0x97d31ebe
+  symbol_id: 0xd6e29820
   symbol_id: 0x78ea974d
   symbol_id: 0x13bc4ad1
+  symbol_id: 0x50069f74
   symbol_id: 0xaa0b3b3a
   symbol_id: 0x3353c0e6
   symbol_id: 0x631bfd4d

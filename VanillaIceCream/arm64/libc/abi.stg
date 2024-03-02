@@ -11586,6 +11586,14 @@ elf_symbol {
   full_name: "_exit"
 }
 elf_symbol {
+  id: 0xf678de2a
+  name: "_Fork"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x9d80e32f
+  full_name: "_Fork"
+}
+elf_symbol {
   id: 0x94fce23a
   name: "_Unwind_Backtrace"
   is_defined: true
@@ -22674,6 +22682,7 @@ elf_symbol {
 interface {
   id: 0x84ea5130
   symbol_id: 0x4776e57d
+  symbol_id: 0xf678de2a
   symbol_id: 0x94fce23a
   symbol_id: 0x22681c73
   symbol_id: 0x18632fc7

@@ -225,6 +225,11 @@ pointer_reference {
   pointee_type_id: 0x810f9135
 }
 pointer_reference {
+  id: 0x2b9f19fe
+  kind: POINTER
+  pointee_type_id: 0x843c8164
+}
+pointer_reference {
   id: 0x2be4a75b
   kind: POINTER
   pointee_type_id: 0x85d27bf1
@@ -278,6 +283,11 @@ pointer_reference {
   id: 0x34d3469d
   kind: POINTER
   pointee_type_id: 0xf90dfce8
+}
+pointer_reference {
+  id: 0x35d78ad9
+  kind: POINTER
+  pointee_type_id: 0xfd1ecdfb
 }
 pointer_reference {
   id: 0x36ae7c82
@@ -533,6 +543,11 @@ typedef {
   id: 0xac030578
   name: "AInputQueue"
   referred_type_id: 0x4257a5a2
+}
+typedef {
+  id: 0x843c8164
+  name: "AInputTransferToken"
+  referred_type_id: 0x07d8336a
 }
 typedef {
   id: 0x43ee221a
@@ -968,6 +983,11 @@ qualified {
   id: 0xf8186310
   qualifier: CONST
   qualified_type_id: 0x90263ac9
+}
+qualified {
+  id: 0xfd1ecdfb
+  qualifier: CONST
+  qualified_type_id: 0x843c8164
 }
 primitive {
   id: 0x384f7d7c
@@ -2071,6 +2091,11 @@ struct_union {
   name: "AInputQueue"
 }
 struct_union {
+  id: 0x07d8336a
+  kind: STRUCT
+  name: "AInputTransferToken"
+}
+struct_union {
   id: 0x4924721c
   kind: STRUCT
   name: "ALimitedAxesImuEvent"
@@ -2836,6 +2861,11 @@ function {
   parameter_id: 0x3e10b518
 }
 function {
+  id: 0x1a7f97ec
+  return_type_id: 0x48b5725f
+  parameter_id: 0x2b9f19fe
+}
+function {
   id: 0x1a97401f
   return_type_id: 0x48b5725f
   parameter_id: 0x295869de
@@ -3198,6 +3228,12 @@ function {
   parameter_id: 0x36ae7c82
   parameter_id: 0x1c3dbe5a
   parameter_id: 0x0d9f5631
+}
+function {
+  id: 0x289edabf
+  return_type_id: 0x2b9f19fe
+  parameter_id: 0x21aba7d1
+  parameter_id: 0x0e97f05a
 }
 function {
   id: 0x2d47c97e
@@ -3833,6 +3869,12 @@ function {
   return_type_id: 0x0e97f05a
   parameter_id: 0x21aba7d1
   parameter_id: 0x38539f38
+}
+function {
+  id: 0xc46f058e
+  return_type_id: 0x0e97f05a
+  parameter_id: 0x21aba7d1
+  parameter_id: 0x35d78ad9
 }
 function {
   id: 0xc47e9371
@@ -4995,6 +5037,30 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0xd08982e8
   full_name: "AInputQueue_preDispatchEvent"
+}
+elf_symbol {
+  id: 0xd2ebd41c
+  name: "AInputTransferToken_fromJava"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x289edabf
+  full_name: "AInputTransferToken_fromJava"
+}
+elf_symbol {
+  id: 0x9b34c491
+  name: "AInputTransferToken_release"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1a7f97ec
+  full_name: "AInputTransferToken_release"
+}
+elf_symbol {
+  id: 0xd28023c7
+  name: "AInputTransferToken_toJava"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0xc46f058e
+  full_name: "AInputTransferToken_toJava"
 }
 elf_symbol {
   id: 0xef8c701b
@@ -6858,6 +6924,9 @@ interface {
   symbol_id: 0xa13402ab
   symbol_id: 0x964771d5
   symbol_id: 0xbb387a98
+  symbol_id: 0xd2ebd41c
+  symbol_id: 0x9b34c491
+  symbol_id: 0xd28023c7
   symbol_id: 0xef8c701b
   symbol_id: 0x307e980b
   symbol_id: 0xce7c9a76

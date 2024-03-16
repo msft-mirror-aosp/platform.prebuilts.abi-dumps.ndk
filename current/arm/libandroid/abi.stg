@@ -200,6 +200,11 @@ pointer_reference {
   pointee_type_id: 0xa616e242
 }
 pointer_reference {
+  id: 0x24b5fcfd
+  kind: POINTER
+  pointee_type_id: 0xb8971569
+}
+pointer_reference {
   id: 0x253d9322
   kind: POINTER
   pointee_type_id: 0xbeb6aa15
@@ -268,6 +273,11 @@ pointer_reference {
   id: 0x32710d89
   kind: POINTER
   pointee_type_id: 0xe384d0bb
+}
+pointer_reference {
+  id: 0x33a80438
+  kind: POINTER
+  pointee_type_id: 0xe4e0f67e
 }
 pointer_reference {
   id: 0x3450b573
@@ -345,6 +355,11 @@ pointer_reference {
   pointee_type_id: 0xce2063d0
 }
 pointer_reference {
+  id: 0x391bddc2
+  kind: POINTER
+  pointee_type_id: 0xce2f9196
+}
+pointer_reference {
   id: 0x391f15ea
   kind: POINTER
   pointee_type_id: 0xce3cb135
@@ -388,6 +403,11 @@ pointer_reference {
   id: 0x3c45a3ea
   kind: POINTER
   pointee_type_id: 0xdb566935
+}
+pointer_reference {
+  id: 0x3d1a2d50
+  kind: POINTER
+  pointee_type_id: 0xde2853de
 }
 pointer_reference {
   id: 0x3d3d3a62
@@ -543,6 +563,21 @@ typedef {
   id: 0xac030578
   name: "AInputQueue"
   referred_type_id: 0x4257a5a2
+}
+typedef {
+  id: 0xe4e0f67e
+  name: "AInputReceiver"
+  referred_type_id: 0x4c88985d
+}
+typedef {
+  id: 0x71ff683a
+  name: "AInputReceiver_onKeyEvent"
+  referred_type_id: 0x24b5fcfd
+}
+typedef {
+  id: 0xac126a8c
+  name: "AInputReceiver_onMotionEvent"
+  referred_type_id: 0x24b5fcfd
 }
 typedef {
   id: 0x843c8164
@@ -948,6 +983,11 @@ qualified {
   id: 0xdd2528b1
   qualifier: CONST
   qualified_type_id: 0x04d3144e
+}
+qualified {
+  id: 0xde2853de
+  qualifier: CONST
+  qualified_type_id: 0x08e6f9f2
 }
 qualified {
   id: 0xdfdff972
@@ -2091,6 +2131,16 @@ struct_union {
   name: "AInputQueue"
 }
 struct_union {
+  id: 0x4c88985d
+  kind: STRUCT
+  name: "AInputReceiver"
+}
+struct_union {
+  id: 0xce2f9196
+  kind: STRUCT
+  name: "AInputReceiverCallbacks"
+}
+struct_union {
   id: 0x07d8336a
   kind: STRUCT
   name: "AInputTransferToken"
@@ -3074,6 +3124,17 @@ function {
   parameter_id: 0x5171d297
 }
 function {
+  id: 0x1c6eef49
+  return_type_id: 0x48b5725f
+  parameter_id: 0x391bddc2
+  parameter_id: 0xac126a8c
+}
+function {
+  id: 0x1c72509d
+  return_type_id: 0x48b5725f
+  parameter_id: 0x33a80438
+}
+function {
   id: 0x1ca906d0
   return_type_id: 0x48b5725f
   parameter_id: 0x30c55d0d
@@ -3188,6 +3249,11 @@ function {
   parameter_id: 0x39182153
 }
 function {
+  id: 0x1edea6e3
+  return_type_id: 0x48b5725f
+  parameter_id: 0x391bddc2
+}
+function {
   id: 0x1ef3d19c
   return_type_id: 0x48b5725f
   parameter_id: 0x3d3d3a62
@@ -3198,6 +3264,12 @@ function {
   id: 0x1f0bf6c1
   return_type_id: 0x48b5725f
   parameter_id: 0x3e4e9d4b
+}
+function {
+  id: 0x1f195b43
+  return_type_id: 0x48b5725f
+  parameter_id: 0x391bddc2
+  parameter_id: 0x71ff683a
 }
 function {
   id: 0x1f1c7cd5
@@ -3255,6 +3327,22 @@ function {
 function {
   id: 0x303e03dc
   return_type_id: 0x3b909d21
+}
+function {
+  id: 0x32b8ce20
+  return_type_id: 0x33a80438
+  parameter_id: 0x39182153
+  parameter_id: 0x35d78ad9
+  parameter_id: 0x3d1a2d50
+  parameter_id: 0x391bddc2
+}
+function {
+  id: 0x33b188ec
+  return_type_id: 0x33a80438
+  parameter_id: 0x3d3d3a62
+  parameter_id: 0x35d78ad9
+  parameter_id: 0x3d1a2d50
+  parameter_id: 0x391bddc2
 }
 function {
   id: 0x3f199f4c
@@ -3315,6 +3403,11 @@ function {
 function {
   id: 0x504ba8b2
   return_type_id: 0x295869de
+}
+function {
+  id: 0x52d513eb
+  return_type_id: 0x391bddc2
+  parameter_id: 0x18bd6530
 }
 function {
   id: 0x55e9adda
@@ -3805,6 +3898,11 @@ function {
   parameter_id: 0x08a987db
 }
 function {
+  id: 0xa2c643bc
+  return_type_id: 0x35d78ad9
+  parameter_id: 0x33a80438
+}
+function {
   id: 0xa47b1787
   return_type_id: 0x1e55c947
   parameter_id: 0x3e10b518
@@ -3859,6 +3957,12 @@ function {
   id: 0xb22689da
   return_type_id: 0x62aebfd4
   parameter_id: 0x31db8991
+}
+function {
+  id: 0xb8971569
+  return_type_id: 0x62aebfd4
+  parameter_id: 0x18bd6530
+  parameter_id: 0x3a09e6e6
 }
 function {
   id: 0xbe506bbe
@@ -5037,6 +5141,70 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0xd08982e8
   full_name: "AInputQueue_preDispatchEvent"
+}
+elf_symbol {
+  id: 0x5d6e7325
+  name: "AInputReceiverCallbacks_create"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x52d513eb
+  full_name: "AInputReceiverCallbacks_create"
+}
+elf_symbol {
+  id: 0xe3280f02
+  name: "AInputReceiverCallbacks_release"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1edea6e3
+  full_name: "AInputReceiverCallbacks_release"
+}
+elf_symbol {
+  id: 0xaa2b164d
+  name: "AInputReceiverCallbacks_setKeyEventCallback"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1f195b43
+  full_name: "AInputReceiverCallbacks_setKeyEventCallback"
+}
+elf_symbol {
+  id: 0xce0361d1
+  name: "AInputReceiverCallbacks_setMotionEventCallback"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1c6eef49
+  full_name: "AInputReceiverCallbacks_setMotionEventCallback"
+}
+elf_symbol {
+  id: 0x3dc75594
+  name: "AInputReceiver_createBatchedInputReceiver"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x33b188ec
+  full_name: "AInputReceiver_createBatchedInputReceiver"
+}
+elf_symbol {
+  id: 0xa2cbb900
+  name: "AInputReceiver_createUnbatchedInputReceiver"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x32b8ce20
+  full_name: "AInputReceiver_createUnbatchedInputReceiver"
+}
+elf_symbol {
+  id: 0x2acaf12e
+  name: "AInputReceiver_getInputTransferToken"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0xa2c643bc
+  full_name: "AInputReceiver_getInputTransferToken"
+}
+elf_symbol {
+  id: 0xfede21e6
+  name: "AInputReceiver_release"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1c72509d
+  full_name: "AInputReceiver_release"
 }
 elf_symbol {
   id: 0xd2ebd41c
@@ -6924,6 +7092,14 @@ interface {
   symbol_id: 0xa13402ab
   symbol_id: 0x964771d5
   symbol_id: 0xbb387a98
+  symbol_id: 0x5d6e7325
+  symbol_id: 0xe3280f02
+  symbol_id: 0xaa2b164d
+  symbol_id: 0xce0361d1
+  symbol_id: 0x3dc75594
+  symbol_id: 0xa2cbb900
+  symbol_id: 0x2acaf12e
+  symbol_id: 0xfede21e6
   symbol_id: 0xd2ebd41c
   symbol_id: 0x9b34c491
   symbol_id: 0xd28023c7

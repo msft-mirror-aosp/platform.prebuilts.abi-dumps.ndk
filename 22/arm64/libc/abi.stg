@@ -264,6 +264,11 @@ pointer_reference {
   pointee_type_id: 0x6019d5cc
 }
 pointer_reference {
+  id: 0x134e5f85
+  kind: POINTER
+  pointee_type_id: 0x67799889
+}
+pointer_reference {
   id: 0x13580d6c
   kind: POINTER
   pointee_type_id: 0x6720d32f
@@ -352,6 +357,11 @@ pointer_reference {
   id: 0x1e7441ef
   kind: POINTER
   pointee_type_id: 0x5391e121
+}
+pointer_reference {
+  id: 0x1e8b5236
+  kind: POINTER
+  pointee_type_id: 0x506dae47
 }
 pointer_reference {
   id: 0x1ebe4388
@@ -1382,6 +1392,16 @@ typedef {
   id: 0x323e4790
   name: "memmove_func"
   referred_type_id: 0x506099b0
+}
+typedef {
+  id: 0x506dae47
+  name: "memrchr_func"
+  referred_type_id: 0x9266a843
+}
+typedef {
+  id: 0x67799889
+  name: "memset_func"
+  referred_type_id: 0x9a0e3475
 }
 typedef {
   id: 0x056861e3
@@ -7426,6 +7446,13 @@ function {
   parameter_id: 0x6720d32f
 }
 function {
+  id: 0x9266a843
+  return_type_id: 0x6720d32f
+  parameter_id: 0x391f15ea
+  parameter_id: 0x6720d32f
+  parameter_id: 0xf435685e
+}
+function {
   id: 0x927aa208
   return_type_id: 0x6720d32f
   parameter_id: 0x3e10b518
@@ -8172,6 +8199,13 @@ function {
   id: 0x99780c28
   return_type_id: 0xf435685e
   parameter_id: 0x391f15ea
+}
+function {
+  id: 0x9a0e3475
+  return_type_id: 0x6720d32f
+  parameter_id: 0x18bd6530
+  parameter_id: 0x6720d32f
+  parameter_id: 0xf435685e
 }
 function {
   id: 0x9a95deb1
@@ -9051,6 +9085,12 @@ function {
   parameter_id: 0x24af31e4
 }
 function {
+  id: 0xda211cb9
+  return_type_id: 0x1e8b5236
+  parameter_id: 0x1c898f28
+  parameter_id: 0x24af31e4
+}
+function {
   id: 0xdc08c25a
   return_type_id: 0x3b075a2f
   parameter_id: 0x3b075a2f
@@ -9101,6 +9141,12 @@ function {
   parameter_id: 0x175f2793
   parameter_id: 0x0483e6f8
   parameter_id: 0x6720d32f
+}
+function {
+  id: 0xe5f0281e
+  return_type_id: 0x134e5f85
+  parameter_id: 0x1c898f28
+  parameter_id: 0x24af31e4
 }
 function {
   id: 0xe8cade9e
@@ -13182,13 +13228,17 @@ elf_symbol {
   id: 0xbb6565fa
   name: "memrchr"
   is_defined: true
-  symbol_type: FUNCTION
+  symbol_type: GNU_IFUNC
+  type_id: 0xda211cb9
+  full_name: "memrchr_resolver"
 }
 elf_symbol {
   id: 0xd1412061
   name: "memset"
   is_defined: true
-  symbol_type: FUNCTION
+  symbol_type: GNU_IFUNC
+  type_id: 0xe5f0281e
+  full_name: "memset_resolver"
 }
 elf_symbol {
   id: 0x37070c75

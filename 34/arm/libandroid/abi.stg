@@ -2432,6 +2432,38 @@ enumeration {
   }
 }
 enumeration {
+  id: 0xa2f69513
+  name: "ASurfaceTransactionTransparency"
+  definition {
+    underlying_type_id: 0xde365fc3
+    enumerator {
+      name: "ASURFACE_TRANSACTION_TRANSPARENCY_TRANSPARENT"
+    }
+    enumerator {
+      name: "ASURFACE_TRANSACTION_TRANSPARENCY_TRANSLUCENT"
+      value: 1
+    }
+    enumerator {
+      name: "ASURFACE_TRANSACTION_TRANSPARENCY_OPAQUE"
+      value: 2
+    }
+  }
+}
+enumeration {
+  id: 0xfcc1b600
+  name: "ASurfaceTransactionVisibility"
+  definition {
+    underlying_type_id: 0xde365fc3
+    enumerator {
+      name: "ASURFACE_TRANSACTION_VISIBILITY_HIDE"
+    }
+    enumerator {
+      name: "ASURFACE_TRANSACTION_VISIBILITY_SHOW"
+      value: 1
+    }
+  }
+}
+enumeration {
   id: 0x3c1e4e7f
   name: "AThermalStatus"
   definition {
@@ -2705,6 +2737,13 @@ function {
   parameter_id: 0x6aeca672
 }
 function {
+  id: 0x1ac4505e
+  return_type_id: 0x48b5725f
+  parameter_id: 0x295869de
+  parameter_id: 0x08a987db
+  parameter_id: 0xa2f69513
+}
+function {
   id: 0x1acc1f16
   return_type_id: 0x48b5725f
   parameter_id: 0x295869de
@@ -2776,17 +2815,17 @@ function {
   parameter_id: 0x5171d297
 }
 function {
+  id: 0x1ad3dd96
+  return_type_id: 0x48b5725f
+  parameter_id: 0x295869de
+  parameter_id: 0x08a987db
+  parameter_id: 0xfcc1b600
+}
+function {
   id: 0x1ad8860d
   return_type_id: 0x48b5725f
   parameter_id: 0x28e7c695
   parameter_id: 0x1e498ec1
-}
-function {
-  id: 0x1adb606c
-  return_type_id: 0x48b5725f
-  parameter_id: 0x295869de
-  parameter_id: 0x08a987db
-  parameter_id: 0xde365fc3
 }
 function {
   id: 0x1ae3659f
@@ -6077,7 +6116,7 @@ elf_symbol {
   name: "ASurfaceTransaction_setBufferTransparency"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x1adb606c
+  type_id: 0x1ac4505e
   full_name: "ASurfaceTransaction_setBufferTransparency"
 }
 elf_symbol {
@@ -6213,7 +6252,7 @@ elf_symbol {
   name: "ASurfaceTransaction_setVisibility"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x1adb606c
+  type_id: 0x1ad3dd96
   full_name: "ASurfaceTransaction_setVisibility"
 }
 elf_symbol {

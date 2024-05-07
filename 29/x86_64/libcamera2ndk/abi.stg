@@ -15,6 +15,11 @@ pointer_reference {
   pointee_type_id: 0x27565f1d
 }
 pointer_reference {
+  id: 0x03c8f98e
+  kind: POINTER
+  pointee_type_id: 0x256300a6
+}
+pointer_reference {
   id: 0x04f98d56
   kind: POINTER
   pointee_type_id: 0x39a6d3c7
@@ -135,9 +140,9 @@ pointer_reference {
   pointee_type_id: 0x16504158
 }
 pointer_reference {
-  id: 0x0f04311f
+  id: 0x0f042ad8
   kind: POINTER
-  pointee_type_id: 0x165022e0
+  pointee_type_id: 0x16504dfd
 }
 pointer_reference {
   id: 0x0f045d43
@@ -173,11 +178,6 @@ pointer_reference {
   id: 0x13580d6c
   kind: POINTER
   pointee_type_id: 0x6720d32f
-}
-pointer_reference {
-  id: 0x180fa1c9
-  kind: POINTER
-  pointee_type_id: 0x4a7e61b9
 }
 pointer_reference {
   id: 0x18bd6530
@@ -347,7 +347,7 @@ typedef {
 typedef {
   id: 0x9b42c752
   name: "ACameraCaptureSession_captureCallback_bufferLost"
-  referred_type_id: 0x0f04311f
+  referred_type_id: 0x0f042ad8
 }
 typedef {
   id: 0x42644e68
@@ -483,11 +483,6 @@ typedef {
   id: 0xe43b95d6
   name: "ACameraOutputTarget"
   referred_type_id: 0xf7c3c3c3
-}
-typedef {
-  id: 0x4a7e61b9
-  name: "ACameraWindowType"
-  referred_type_id: 0x256300a6
 }
 typedef {
   id: 0x3680c9eb
@@ -1289,21 +1284,21 @@ function {
   parameter_id: 0x3e10b518
 }
 function {
-  id: 0x165022e0
-  return_type_id: 0x48b5725f
-  parameter_id: 0x18bd6530
-  parameter_id: 0x39a6d3c7
-  parameter_id: 0x07300bdd
-  parameter_id: 0x180fa1c9
-  parameter_id: 0x7533d9d0
-}
-function {
   id: 0x16504158
   return_type_id: 0x48b5725f
   parameter_id: 0x18bd6530
   parameter_id: 0x39a6d3c7
   parameter_id: 0x07300bdd
   parameter_id: 0x07b2be3f
+}
+function {
+  id: 0x16504dfd
+  return_type_id: 0x48b5725f
+  parameter_id: 0x18bd6530
+  parameter_id: 0x39a6d3c7
+  parameter_id: 0x07300bdd
+  parameter_id: 0x03c8f98e
+  parameter_id: 0x7533d9d0
 }
 function {
   id: 0x1650898b
@@ -1658,29 +1653,29 @@ function {
   parameter_id: 0x39a1ab23
 }
 function {
-  id: 0x3d54bebf
+  id: 0x3b6e2d75
   return_type_id: 0x08612c0d
-  parameter_id: 0x180fa1c9
+  parameter_id: 0x03c8f98e
+  parameter_id: 0x3e10b518
   parameter_id: 0x0c01de22
 }
 function {
-  id: 0x3d7d67fd
+  id: 0x3b8cb1ec
   return_type_id: 0x08612c0d
-  parameter_id: 0x180fa1c9
+  parameter_id: 0x03c8f98e
   parameter_id: 0x06778e93
 }
 function {
-  id: 0x3d9688b7
+  id: 0x3ba568ae
   return_type_id: 0x08612c0d
-  parameter_id: 0x1a479e15
-  parameter_id: 0x180fa1c9
+  parameter_id: 0x03c8f98e
+  parameter_id: 0x0c01de22
 }
 function {
-  id: 0x3d9ffb64
+  id: 0x3df995d6
   return_type_id: 0x08612c0d
-  parameter_id: 0x180fa1c9
-  parameter_id: 0x3e10b518
-  parameter_id: 0x0c01de22
+  parameter_id: 0x1a479e15
+  parameter_id: 0x03c8f98e
 }
 function {
   id: 0x42e743c6
@@ -1961,7 +1956,7 @@ elf_symbol {
   name: "ACameraOutputTarget_create"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3d7d67fd
+  type_id: 0x3b8cb1ec
   full_name: "ACameraOutputTarget_create"
 }
 elf_symbol {
@@ -2177,7 +2172,7 @@ elf_symbol {
   name: "ACaptureSessionOutput_create"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3d54bebf
+  type_id: 0x3ba568ae
   full_name: "ACaptureSessionOutput_create"
 }
 elf_symbol {
@@ -2193,7 +2188,7 @@ elf_symbol {
   name: "ACaptureSessionPhysicalOutput_create"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3d9ffb64
+  type_id: 0x3b6e2d75
   full_name: "ACaptureSessionPhysicalOutput_create"
 }
 elf_symbol {
@@ -2201,7 +2196,7 @@ elf_symbol {
   name: "ACaptureSessionSharedOutput_add"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3d9688b7
+  type_id: 0x3df995d6
   full_name: "ACaptureSessionSharedOutput_add"
 }
 elf_symbol {
@@ -2209,7 +2204,7 @@ elf_symbol {
   name: "ACaptureSessionSharedOutput_create"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3d54bebf
+  type_id: 0x3ba568ae
   full_name: "ACaptureSessionSharedOutput_create"
 }
 elf_symbol {
@@ -2217,7 +2212,7 @@ elf_symbol {
   name: "ACaptureSessionSharedOutput_remove"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3d9688b7
+  type_id: 0x3df995d6
   full_name: "ACaptureSessionSharedOutput_remove"
 }
 interface {

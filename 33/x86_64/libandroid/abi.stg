@@ -2223,112 +2223,112 @@ enumeration {
       name: "ADATASPACE_UNKNOWN"
     }
     enumerator {
-      name: "STANDARD_MASK"
+      name: "ADATASPACE_STANDARD_MASK"
       value: 4128768
     }
     enumerator {
-      name: "STANDARD_UNSPECIFIED"
+      name: "ADATASPACE_STANDARD_UNSPECIFIED"
     }
     enumerator {
-      name: "STANDARD_BT709"
+      name: "ADATASPACE_STANDARD_BT709"
       value: 65536
     }
     enumerator {
-      name: "STANDARD_BT601_625"
+      name: "ADATASPACE_STANDARD_BT601_625"
       value: 131072
     }
     enumerator {
-      name: "STANDARD_BT601_625_UNADJUSTED"
+      name: "ADATASPACE_STANDARD_BT601_625_UNADJUSTED"
       value: 196608
     }
     enumerator {
-      name: "STANDARD_BT601_525"
+      name: "ADATASPACE_STANDARD_BT601_525"
       value: 262144
     }
     enumerator {
-      name: "STANDARD_BT601_525_UNADJUSTED"
+      name: "ADATASPACE_STANDARD_BT601_525_UNADJUSTED"
       value: 327680
     }
     enumerator {
-      name: "STANDARD_BT2020"
+      name: "ADATASPACE_STANDARD_BT2020"
       value: 393216
     }
     enumerator {
-      name: "STANDARD_BT2020_CONSTANT_LUMINANCE"
+      name: "ADATASPACE_STANDARD_BT2020_CONSTANT_LUMINANCE"
       value: 458752
     }
     enumerator {
-      name: "STANDARD_BT470M"
+      name: "ADATASPACE_STANDARD_BT470M"
       value: 524288
     }
     enumerator {
-      name: "STANDARD_FILM"
+      name: "ADATASPACE_STANDARD_FILM"
       value: 589824
     }
     enumerator {
-      name: "STANDARD_DCI_P3"
+      name: "ADATASPACE_STANDARD_DCI_P3"
       value: 655360
     }
     enumerator {
-      name: "STANDARD_ADOBE_RGB"
+      name: "ADATASPACE_STANDARD_ADOBE_RGB"
       value: 720896
     }
     enumerator {
-      name: "TRANSFER_MASK"
+      name: "ADATASPACE_TRANSFER_MASK"
       value: 130023424
     }
     enumerator {
-      name: "TRANSFER_UNSPECIFIED"
+      name: "ADATASPACE_TRANSFER_UNSPECIFIED"
     }
     enumerator {
-      name: "TRANSFER_LINEAR"
+      name: "ADATASPACE_TRANSFER_LINEAR"
       value: 4194304
     }
     enumerator {
-      name: "TRANSFER_SRGB"
+      name: "ADATASPACE_TRANSFER_SRGB"
       value: 8388608
     }
     enumerator {
-      name: "TRANSFER_SMPTE_170M"
+      name: "ADATASPACE_TRANSFER_SMPTE_170M"
       value: 12582912
     }
     enumerator {
-      name: "TRANSFER_GAMMA2_2"
+      name: "ADATASPACE_TRANSFER_GAMMA2_2"
       value: 16777216
     }
     enumerator {
-      name: "TRANSFER_GAMMA2_6"
+      name: "ADATASPACE_TRANSFER_GAMMA2_6"
       value: 20971520
     }
     enumerator {
-      name: "TRANSFER_GAMMA2_8"
+      name: "ADATASPACE_TRANSFER_GAMMA2_8"
       value: 25165824
     }
     enumerator {
-      name: "TRANSFER_ST2084"
+      name: "ADATASPACE_TRANSFER_ST2084"
       value: 29360128
     }
     enumerator {
-      name: "TRANSFER_HLG"
+      name: "ADATASPACE_TRANSFER_HLG"
       value: 33554432
     }
     enumerator {
-      name: "RANGE_MASK"
+      name: "ADATASPACE_RANGE_MASK"
       value: 939524096
     }
     enumerator {
-      name: "RANGE_UNSPECIFIED"
+      name: "ADATASPACE_RANGE_UNSPECIFIED"
     }
     enumerator {
-      name: "RANGE_FULL"
+      name: "ADATASPACE_RANGE_FULL"
       value: 134217728
     }
     enumerator {
-      name: "RANGE_LIMITED"
+      name: "ADATASPACE_RANGE_LIMITED"
       value: 268435456
     }
     enumerator {
-      name: "RANGE_EXTENDED"
+      name: "ADATASPACE_RANGE_EXTENDED"
       value: 402653184
     }
     enumerator {
@@ -2402,6 +2402,111 @@ enumeration {
     enumerator {
       name: "ADATASPACE_DYNAMIC_DEPTH"
       value: 4098
+    }
+    enumerator {
+      name: "STANDARD_MASK"
+      value: 4128768
+    }
+    enumerator {
+      name: "STANDARD_UNSPECIFIED"
+    }
+    enumerator {
+      name: "STANDARD_BT709"
+      value: 65536
+    }
+    enumerator {
+      name: "STANDARD_BT601_625"
+      value: 131072
+    }
+    enumerator {
+      name: "STANDARD_BT601_625_UNADJUSTED"
+      value: 196608
+    }
+    enumerator {
+      name: "STANDARD_BT601_525"
+      value: 262144
+    }
+    enumerator {
+      name: "STANDARD_BT601_525_UNADJUSTED"
+      value: 327680
+    }
+    enumerator {
+      name: "STANDARD_BT470M"
+      value: 524288
+    }
+    enumerator {
+      name: "STANDARD_BT2020"
+      value: 393216
+    }
+    enumerator {
+      name: "STANDARD_FILM"
+      value: 589824
+    }
+    enumerator {
+      name: "STANDARD_DCI_P3"
+      value: 655360
+    }
+    enumerator {
+      name: "STANDARD_ADOBE_RGB"
+      value: 720896
+    }
+    enumerator {
+      name: "TRANSFER_MASK"
+      value: 130023424
+    }
+    enumerator {
+      name: "TRANSFER_UNSPECIFIED"
+    }
+    enumerator {
+      name: "TRANSFER_LINEAR"
+      value: 4194304
+    }
+    enumerator {
+      name: "TRANSFER_SMPTE_170M"
+      value: 12582912
+    }
+    enumerator {
+      name: "TRANSFER_GAMMA2_2"
+      value: 16777216
+    }
+    enumerator {
+      name: "TRANSFER_GAMMA2_6"
+      value: 20971520
+    }
+    enumerator {
+      name: "TRANSFER_GAMMA2_8"
+      value: 25165824
+    }
+    enumerator {
+      name: "TRANSFER_SRGB"
+      value: 8388608
+    }
+    enumerator {
+      name: "TRANSFER_ST2084"
+      value: 29360128
+    }
+    enumerator {
+      name: "TRANSFER_HLG"
+      value: 33554432
+    }
+    enumerator {
+      name: "RANGE_MASK"
+      value: 939524096
+    }
+    enumerator {
+      name: "RANGE_UNSPECIFIED"
+    }
+    enumerator {
+      name: "RANGE_FULL"
+      value: 134217728
+    }
+    enumerator {
+      name: "RANGE_LIMITED"
+      value: 268435456
+    }
+    enumerator {
+      name: "RANGE_EXTENDED"
+      value: 402653184
     }
   }
 }

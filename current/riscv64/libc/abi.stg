@@ -7339,11 +7339,6 @@ function {
   parameter_id: 0x379d63b0
 }
 function {
-  id: 0x3e60fe5a
-  return_type_id: 0x1c3dbe5a
-  parameter_id: 0x35fdd62d
-}
-function {
   id: 0x3e810dcf
   return_type_id: 0x0483e6f8
   parameter_id: 0x0483e6f8
@@ -7616,15 +7611,6 @@ function {
   parameter_id: 0x18bd6530
   parameter_id: 0xf435685e
   parameter_id: 0xf435685e
-}
-function {
-  id: 0x5355858f
-  return_type_id: 0x18bd6530
-  parameter_id: 0x18bd6530
-  parameter_id: 0xf435685e
-  parameter_id: 0xf435685e
-  parameter_id: 0x6720d32f
-  parameter_id: 0xa52a0930
 }
 function {
   id: 0x53677ad9
@@ -10892,11 +10878,6 @@ function {
   parameter_id: 0x3e10b518
 }
 function {
-  id: 0xa59518e0
-  return_type_id: 0xb3a3e4db
-  parameter_id: 0xe2ce8d42
-}
-function {
   id: 0xa7203b99
   return_type_id: 0xfc0e1dbd
 }
@@ -11035,6 +11016,11 @@ function {
   parameter_id: 0xf435685e
   parameter_id: 0x391f15ea
   parameter_id: 0xf435685e
+}
+function {
+  id: 0xb1ce4286
+  return_type_id: 0xb3a3e4db
+  parameter_id: 0xb3a3e4db
 }
 function {
   id: 0xb20b9eb4
@@ -15757,7 +15743,7 @@ elf_symbol {
   name: "htonl"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3e60fe5a
+  type_id: 0x3410e447
   full_name: "htonl"
 }
 elf_symbol {
@@ -15765,7 +15751,7 @@ elf_symbol {
   name: "htons"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0xa59518e0
+  type_id: 0xb1ce4286
   full_name: "htons"
 }
 elf_symbol {
@@ -17206,8 +17192,6 @@ elf_symbol {
   name: "mremap"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x5355858f
-  full_name: "mremap"
 }
 elf_symbol {
   id: 0x8605cc43
@@ -17564,7 +17548,7 @@ elf_symbol {
   name: "ntohl"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x3e60fe5a
+  type_id: 0x3410e447
   full_name: "ntohl"
 }
 elf_symbol {
@@ -17572,7 +17556,7 @@ elf_symbol {
   name: "ntohs"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0xa59518e0
+  type_id: 0xb1ce4286
   full_name: "ntohs"
 }
 elf_symbol {

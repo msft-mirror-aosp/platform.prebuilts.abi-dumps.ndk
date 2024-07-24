@@ -20,6 +20,11 @@ pointer_reference {
   pointee_type_id: 0x3a09e6e6
 }
 pointer_reference {
+  id: 0x044017d5
+  kind: POINTER
+  pointee_type_id: 0x3b40b9c9
+}
+pointer_reference {
   id: 0x0483e6f8
   kind: POINTER
   pointee_type_id: 0x384f7d7c
@@ -350,6 +355,11 @@ pointer_reference {
   pointee_type_id: 0xc22bf7b5
 }
 pointer_reference {
+  id: 0x3b40b9c9
+  kind: POINTER
+  pointee_type_id: 0xc74201b8
+}
+pointer_reference {
   id: 0x3b909d21
   kind: POINTER
   pointee_type_id: 0xc402921a
@@ -373,6 +383,11 @@ pointer_reference {
   id: 0x3d3d3a62
   kind: POINTER
   pointee_type_id: 0xdeb40f16
+}
+pointer_reference {
+  id: 0x3d45a7a1
+  kind: POINTER
+  pointee_type_id: 0xdf56781b
 }
 pointer_reference {
   id: 0x3d67c7fb
@@ -680,6 +695,11 @@ typedef {
   referred_type_id: 0x7533d9d0
 }
 typedef {
+  id: 0xdf56781b
+  name: "AWorkDuration"
+  referred_type_id: 0x3d4aed91
+}
+typedef {
   id: 0xacee79d8
   name: "JNIEnv"
   referred_type_id: 0xc4cb203f
@@ -863,6 +883,11 @@ qualified {
   id: 0xc22bf7b5
   qualifier: CONST
   qualified_type_id: 0x78e8685c
+}
+qualified {
+  id: 0xc74201b8
+  qualifier: CONST
+  qualified_type_id: 0x6d4fb069
 }
 qualified {
   id: 0xc84d9907
@@ -1307,6 +1332,11 @@ member {
   type_id: 0x503a7d6d
 }
 member {
+  id: 0x3e74c7e7
+  name: "headroom"
+  type_id: 0x8b7c737e
+}
+member {
   id: 0x76737aa1
   name: "heart_rate"
   type_id: 0xabf3dc39
@@ -1529,6 +1559,12 @@ member {
   id: 0x0acf4923
   name: "temperature"
   type_id: 0x8b7c737e
+}
+member {
+  id: 0x02110687
+  name: "thermalStatus"
+  type_id: 0x3c1e4e7f
+  offset: 32
 }
 member {
   id: 0x5a91f0d2
@@ -2185,6 +2221,16 @@ struct_union {
   name: "ASystemFontIterator"
 }
 struct_union {
+  id: 0x6d4fb069
+  kind: STRUCT
+  name: "AThermalHeadroomThreshold"
+  definition {
+    bytesize: 8
+    member_id: 0x3e74c7e7
+    member_id: 0x02110687
+  }
+}
+struct_union {
   id: 0xe6c18de5
   kind: STRUCT
   name: "AThermalManager"
@@ -2198,6 +2244,11 @@ struct_union {
     member_id: 0x3891d1e8
     member_id: 0x34064f0c
   }
+}
+struct_union {
+  id: 0x3d4aed91
+  kind: STRUCT
+  name: "AWorkDuration"
 }
 struct_union {
   id: 0xc4cb203f
@@ -2249,112 +2300,112 @@ enumeration {
       name: "ADATASPACE_UNKNOWN"
     }
     enumerator {
-      name: "STANDARD_MASK"
+      name: "ADATASPACE_STANDARD_MASK"
       value: 4128768
     }
     enumerator {
-      name: "STANDARD_UNSPECIFIED"
+      name: "ADATASPACE_STANDARD_UNSPECIFIED"
     }
     enumerator {
-      name: "STANDARD_BT709"
+      name: "ADATASPACE_STANDARD_BT709"
       value: 65536
     }
     enumerator {
-      name: "STANDARD_BT601_625"
+      name: "ADATASPACE_STANDARD_BT601_625"
       value: 131072
     }
     enumerator {
-      name: "STANDARD_BT601_625_UNADJUSTED"
+      name: "ADATASPACE_STANDARD_BT601_625_UNADJUSTED"
       value: 196608
     }
     enumerator {
-      name: "STANDARD_BT601_525"
+      name: "ADATASPACE_STANDARD_BT601_525"
       value: 262144
     }
     enumerator {
-      name: "STANDARD_BT601_525_UNADJUSTED"
+      name: "ADATASPACE_STANDARD_BT601_525_UNADJUSTED"
       value: 327680
     }
     enumerator {
-      name: "STANDARD_BT2020"
+      name: "ADATASPACE_STANDARD_BT2020"
       value: 393216
     }
     enumerator {
-      name: "STANDARD_BT2020_CONSTANT_LUMINANCE"
+      name: "ADATASPACE_STANDARD_BT2020_CONSTANT_LUMINANCE"
       value: 458752
     }
     enumerator {
-      name: "STANDARD_BT470M"
+      name: "ADATASPACE_STANDARD_BT470M"
       value: 524288
     }
     enumerator {
-      name: "STANDARD_FILM"
+      name: "ADATASPACE_STANDARD_FILM"
       value: 589824
     }
     enumerator {
-      name: "STANDARD_DCI_P3"
+      name: "ADATASPACE_STANDARD_DCI_P3"
       value: 655360
     }
     enumerator {
-      name: "STANDARD_ADOBE_RGB"
+      name: "ADATASPACE_STANDARD_ADOBE_RGB"
       value: 720896
     }
     enumerator {
-      name: "TRANSFER_MASK"
+      name: "ADATASPACE_TRANSFER_MASK"
       value: 130023424
     }
     enumerator {
-      name: "TRANSFER_UNSPECIFIED"
+      name: "ADATASPACE_TRANSFER_UNSPECIFIED"
     }
     enumerator {
-      name: "TRANSFER_LINEAR"
+      name: "ADATASPACE_TRANSFER_LINEAR"
       value: 4194304
     }
     enumerator {
-      name: "TRANSFER_SRGB"
+      name: "ADATASPACE_TRANSFER_SRGB"
       value: 8388608
     }
     enumerator {
-      name: "TRANSFER_SMPTE_170M"
+      name: "ADATASPACE_TRANSFER_SMPTE_170M"
       value: 12582912
     }
     enumerator {
-      name: "TRANSFER_GAMMA2_2"
+      name: "ADATASPACE_TRANSFER_GAMMA2_2"
       value: 16777216
     }
     enumerator {
-      name: "TRANSFER_GAMMA2_6"
+      name: "ADATASPACE_TRANSFER_GAMMA2_6"
       value: 20971520
     }
     enumerator {
-      name: "TRANSFER_GAMMA2_8"
+      name: "ADATASPACE_TRANSFER_GAMMA2_8"
       value: 25165824
     }
     enumerator {
-      name: "TRANSFER_ST2084"
+      name: "ADATASPACE_TRANSFER_ST2084"
       value: 29360128
     }
     enumerator {
-      name: "TRANSFER_HLG"
+      name: "ADATASPACE_TRANSFER_HLG"
       value: 33554432
     }
     enumerator {
-      name: "RANGE_MASK"
+      name: "ADATASPACE_RANGE_MASK"
       value: 939524096
     }
     enumerator {
-      name: "RANGE_UNSPECIFIED"
+      name: "ADATASPACE_RANGE_UNSPECIFIED"
     }
     enumerator {
-      name: "RANGE_FULL"
+      name: "ADATASPACE_RANGE_FULL"
       value: 134217728
     }
     enumerator {
-      name: "RANGE_LIMITED"
+      name: "ADATASPACE_RANGE_LIMITED"
       value: 268435456
     }
     enumerator {
-      name: "RANGE_EXTENDED"
+      name: "ADATASPACE_RANGE_EXTENDED"
       value: 402653184
     }
     enumerator {
@@ -2428,6 +2479,143 @@ enumeration {
     enumerator {
       name: "ADATASPACE_DYNAMIC_DEPTH"
       value: 4098
+    }
+    enumerator {
+      name: "STANDARD_MASK"
+      value: 4128768
+    }
+    enumerator {
+      name: "STANDARD_UNSPECIFIED"
+    }
+    enumerator {
+      name: "STANDARD_BT709"
+      value: 65536
+    }
+    enumerator {
+      name: "STANDARD_BT601_625"
+      value: 131072
+    }
+    enumerator {
+      name: "STANDARD_BT601_625_UNADJUSTED"
+      value: 196608
+    }
+    enumerator {
+      name: "STANDARD_BT601_525"
+      value: 262144
+    }
+    enumerator {
+      name: "STANDARD_BT601_525_UNADJUSTED"
+      value: 327680
+    }
+    enumerator {
+      name: "STANDARD_BT470M"
+      value: 524288
+    }
+    enumerator {
+      name: "STANDARD_BT2020"
+      value: 393216
+    }
+    enumerator {
+      name: "STANDARD_FILM"
+      value: 589824
+    }
+    enumerator {
+      name: "STANDARD_DCI_P3"
+      value: 655360
+    }
+    enumerator {
+      name: "STANDARD_ADOBE_RGB"
+      value: 720896
+    }
+    enumerator {
+      name: "TRANSFER_MASK"
+      value: 130023424
+    }
+    enumerator {
+      name: "TRANSFER_UNSPECIFIED"
+    }
+    enumerator {
+      name: "TRANSFER_LINEAR"
+      value: 4194304
+    }
+    enumerator {
+      name: "TRANSFER_SMPTE_170M"
+      value: 12582912
+    }
+    enumerator {
+      name: "TRANSFER_GAMMA2_2"
+      value: 16777216
+    }
+    enumerator {
+      name: "TRANSFER_GAMMA2_6"
+      value: 20971520
+    }
+    enumerator {
+      name: "TRANSFER_GAMMA2_8"
+      value: 25165824
+    }
+    enumerator {
+      name: "TRANSFER_SRGB"
+      value: 8388608
+    }
+    enumerator {
+      name: "TRANSFER_ST2084"
+      value: 29360128
+    }
+    enumerator {
+      name: "TRANSFER_HLG"
+      value: 33554432
+    }
+    enumerator {
+      name: "RANGE_MASK"
+      value: 939524096
+    }
+    enumerator {
+      name: "RANGE_UNSPECIFIED"
+    }
+    enumerator {
+      name: "RANGE_FULL"
+      value: 134217728
+    }
+    enumerator {
+      name: "RANGE_LIMITED"
+      value: 268435456
+    }
+    enumerator {
+      name: "RANGE_EXTENDED"
+      value: 402653184
+    }
+  }
+}
+enumeration {
+  id: 0xa2f69513
+  name: "ASurfaceTransactionTransparency"
+  definition {
+    underlying_type_id: 0xde365fc3
+    enumerator {
+      name: "ASURFACE_TRANSACTION_TRANSPARENCY_TRANSPARENT"
+    }
+    enumerator {
+      name: "ASURFACE_TRANSACTION_TRANSPARENCY_TRANSLUCENT"
+      value: 1
+    }
+    enumerator {
+      name: "ASURFACE_TRANSACTION_TRANSPARENCY_OPAQUE"
+      value: 2
+    }
+  }
+}
+enumeration {
+  id: 0xfcc1b600
+  name: "ASurfaceTransactionVisibility"
+  definition {
+    underlying_type_id: 0xde365fc3
+    enumerator {
+      name: "ASURFACE_TRANSACTION_VISIBILITY_HIDE"
+    }
+    enumerator {
+      name: "ASURFACE_TRANSACTION_VISIBILITY_SHOW"
+      value: 1
     }
   }
 }
@@ -2705,6 +2893,13 @@ function {
   parameter_id: 0x6aeca672
 }
 function {
+  id: 0x1ac4505e
+  return_type_id: 0x48b5725f
+  parameter_id: 0x295869de
+  parameter_id: 0x08a987db
+  parameter_id: 0xa2f69513
+}
+function {
   id: 0x1acc1f16
   return_type_id: 0x48b5725f
   parameter_id: 0x295869de
@@ -2776,17 +2971,17 @@ function {
   parameter_id: 0x5171d297
 }
 function {
+  id: 0x1ad3dd96
+  return_type_id: 0x48b5725f
+  parameter_id: 0x295869de
+  parameter_id: 0x08a987db
+  parameter_id: 0xfcc1b600
+}
+function {
   id: 0x1ad8860d
   return_type_id: 0x48b5725f
   parameter_id: 0x28e7c695
   parameter_id: 0x1e498ec1
-}
-function {
-  id: 0x1adb606c
-  return_type_id: 0x48b5725f
-  parameter_id: 0x295869de
-  parameter_id: 0x08a987db
-  parameter_id: 0xde365fc3
 }
 function {
   id: 0x1ae3659f
@@ -2927,6 +3122,12 @@ function {
   parameter_id: 0x18bd6530
 }
 function {
+  id: 0x1e1df71c
+  return_type_id: 0x48b5725f
+  parameter_id: 0x3d45a7a1
+  parameter_id: 0x7533d9d0
+}
+function {
   id: 0x1e4425e3
   return_type_id: 0x48b5725f
   parameter_id: 0x3d3d3a62
@@ -3018,6 +3219,11 @@ function {
   parameter_id: 0x3fc92392
 }
 function {
+  id: 0x1fc9387b
+  return_type_id: 0x48b5725f
+  parameter_id: 0x3d45a7a1
+}
+function {
   id: 0x1fcb25e2
   return_type_id: 0x48b5725f
   parameter_id: 0x3fc92392
@@ -3077,6 +3283,10 @@ function {
   return_type_id: 0xdd0152a2
   parameter_id: 0x34962163
   parameter_id: 0xf435685e
+}
+function {
+  id: 0x441b263c
+  return_type_id: 0x3d45a7a1
 }
 function {
   id: 0x45d6b9c5
@@ -3218,6 +3428,12 @@ function {
   parameter_id: 0xf435685e
 }
 function {
+  id: 0x90a59080
+  return_type_id: 0x6720d32f
+  parameter_id: 0x374194c4
+  parameter_id: 0x3d45a7a1
+}
+function {
   id: 0x914fb38b
   return_type_id: 0x6720d32f
   parameter_id: 0x30c55d0d
@@ -3252,6 +3468,12 @@ function {
   return_type_id: 0x6720d32f
   parameter_id: 0x3e10b518
   parameter_id: 0xf435685e
+}
+function {
+  id: 0x91da3ce1
+  return_type_id: 0x6720d32f
+  parameter_id: 0x374194c4
+  parameter_id: 0x62aebfd4
 }
 function {
   id: 0x91ee4ca2
@@ -3304,6 +3526,13 @@ function {
   id: 0x92f6bfcd
   return_type_id: 0x6720d32f
   parameter_id: 0x3dd9738b
+}
+function {
+  id: 0x93782360
+  return_type_id: 0x6720d32f
+  parameter_id: 0x3b909d21
+  parameter_id: 0x044017d5
+  parameter_id: 0x379d63b0
 }
 function {
   id: 0x93abeae4
@@ -3643,6 +3872,12 @@ function {
   return_type_id: 0x0e97f05a
   parameter_id: 0x21aba7d1
   parameter_id: 0x38539f38
+}
+function {
+  id: 0xc47e9371
+  return_type_id: 0x0e97f05a
+  parameter_id: 0x21aba7d1
+  parameter_id: 0x31b2351f
 }
 function {
   id: 0xc4b77843
@@ -4737,6 +4972,14 @@ elf_symbol {
   full_name: "AInputEvent_release"
 }
 elf_symbol {
+  id: 0xe1feb459
+  name: "AInputEvent_toJava"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0xc47e9371
+  full_name: "AInputEvent_toJava"
+}
+elf_symbol {
   id: 0x87a8aba8
   name: "AInputQueue_attachLooper"
   is_defined: true
@@ -5481,6 +5724,22 @@ elf_symbol {
   full_name: "APerformanceHint_reportActualWorkDuration"
 }
 elf_symbol {
+  id: 0x54af5fe9
+  name: "APerformanceHint_reportActualWorkDuration2"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x90a59080
+  full_name: "APerformanceHint_reportActualWorkDuration2"
+}
+elf_symbol {
+  id: 0xa7a9fc57
+  name: "APerformanceHint_setPreferPowerEfficiency"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x91da3ce1
+  full_name: "APerformanceHint_setPreferPowerEfficiency"
+}
+elf_symbol {
   id: 0x83764e43
   name: "APerformanceHint_setThreads"
   is_defined: true
@@ -6077,7 +6336,7 @@ elf_symbol {
   name: "ASurfaceTransaction_setBufferTransparency"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x1adb606c
+  type_id: 0x1ac4505e
   full_name: "ASurfaceTransaction_setBufferTransparency"
 }
 elf_symbol {
@@ -6103,6 +6362,14 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x1ae3c4fc
   full_name: "ASurfaceTransaction_setDamageRegion"
+}
+elf_symbol {
+  id: 0xa45dae7c
+  name: "ASurfaceTransaction_setDesiredHdrHeadroom"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1ace32e7
+  full_name: "ASurfaceTransaction_setDesiredHdrHeadroom"
 }
 elf_symbol {
   id: 0x63683f00
@@ -6213,7 +6480,7 @@ elf_symbol {
   name: "ASurfaceTransaction_setVisibility"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x1adb606c
+  type_id: 0x1ad3dd96
   full_name: "ASurfaceTransaction_setVisibility"
 }
 elf_symbol {
@@ -6271,6 +6538,14 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x9e9bfcae
   full_name: "AThermal_getThermalHeadroom"
+}
+elf_symbol {
+  id: 0xfa57f884
+  name: "AThermal_getThermalHeadroomThresholds"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x93782360
+  full_name: "AThermal_getThermalHeadroomThresholds"
 }
 elf_symbol {
   id: 0x5309a7ad
@@ -6343,6 +6618,54 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x1ec8b3b2
   full_name: "ATrace_setCounter"
+}
+elf_symbol {
+  id: 0x84873879
+  name: "AWorkDuration_create"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x441b263c
+  full_name: "AWorkDuration_create"
+}
+elf_symbol {
+  id: 0x95f893e1
+  name: "AWorkDuration_release"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1fc9387b
+  full_name: "AWorkDuration_release"
+}
+elf_symbol {
+  id: 0x61db4dbe
+  name: "AWorkDuration_setActualCpuDurationNanos"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1e1df71c
+  full_name: "AWorkDuration_setActualCpuDurationNanos"
+}
+elf_symbol {
+  id: 0xdb415d99
+  name: "AWorkDuration_setActualGpuDurationNanos"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1e1df71c
+  full_name: "AWorkDuration_setActualGpuDurationNanos"
+}
+elf_symbol {
+  id: 0x83b69f30
+  name: "AWorkDuration_setActualTotalDurationNanos"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1e1df71c
+  full_name: "AWorkDuration_setActualTotalDurationNanos"
+}
+elf_symbol {
+  id: 0x024106b7
+  name: "AWorkDuration_setWorkPeriodStartTimestampNanos"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1e1df71c
+  full_name: "AWorkDuration_setWorkPeriodStartTimestampNanos"
 }
 elf_symbol {
   id: 0x6ce2c8c2
@@ -6566,6 +6889,7 @@ interface {
   symbol_id: 0x26f9ffb0
   symbol_id: 0xa76693aa
   symbol_id: 0xb6d2b8f7
+  symbol_id: 0xe1feb459
   symbol_id: 0x87a8aba8
   symbol_id: 0x2a2b0cb3
   symbol_id: 0xa6fa3758
@@ -6659,6 +6983,8 @@ interface {
   symbol_id: 0x535faf77
   symbol_id: 0x7002f1b4
   symbol_id: 0xaff60d6f
+  symbol_id: 0x54af5fe9
+  symbol_id: 0xa7a9fc57
   symbol_id: 0x83764e43
   symbol_id: 0xfd979c5d
   symbol_id: 0x7065cff1
@@ -6737,6 +7063,7 @@ interface {
   symbol_id: 0x4bf0f022
   symbol_id: 0xe94295f9
   symbol_id: 0xf3b10764
+  symbol_id: 0xa45dae7c
   symbol_id: 0x63683f00
   symbol_id: 0xd1f63b87
   symbol_id: 0x6377255f
@@ -6758,6 +7085,7 @@ interface {
   symbol_id: 0xbf2e2ef6
   symbol_id: 0x68257888
   symbol_id: 0x3d26cd52
+  symbol_id: 0xfa57f884
   symbol_id: 0x5309a7ad
   symbol_id: 0x002efe90
   symbol_id: 0x53b4ae39
@@ -6767,6 +7095,12 @@ interface {
   symbol_id: 0xe565a201
   symbol_id: 0xa3969a24
   symbol_id: 0x1e49cc3b
+  symbol_id: 0x84873879
+  symbol_id: 0x95f893e1
+  symbol_id: 0x61db4dbe
+  symbol_id: 0xdb415d99
+  symbol_id: 0x83b69f30
+  symbol_id: 0x024106b7
   symbol_id: 0x6ce2c8c2
   symbol_id: 0xa224adb1
   symbol_id: 0xca5453e3

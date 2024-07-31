@@ -484,6 +484,11 @@ pointer_reference {
   pointee_type_id: 0x5da3a2e5
 }
 pointer_reference {
+  id: 0x1df8d11f
+  kind: POINTER
+  pointee_type_id: 0x5da3a2e6
+}
+pointer_reference {
   id: 0x1e49e711
   kind: POINTER
   pointee_type_id: 0x53677ad9
@@ -1612,6 +1617,11 @@ typedef {
   id: 0x5da3a2e5
   name: "cmp_t"
   referred_type_id: 0x93235a02
+}
+typedef {
+  id: 0x5da3a2e6
+  name: "cmp_t"
+  referred_type_id: 0x9325755b
 }
 typedef {
   id: 0xffc7753d
@@ -6795,6 +6805,15 @@ function {
   parameter_id: 0x3e10b518
 }
 function {
+  id: 0x155aa1e8
+  return_type_id: 0x48b5725f
+  parameter_id: 0x18bd6530
+  parameter_id: 0xf435685e
+  parameter_id: 0xf435685e
+  parameter_id: 0x1df8d11f
+  parameter_id: 0x18bd6530
+}
+function {
   id: 0x155aa7c7
   return_type_id: 0x48b5725f
   parameter_id: 0x18bd6530
@@ -9745,6 +9764,13 @@ function {
   parameter_id: 0x3e10b518
   parameter_id: 0x0483e6f8
   parameter_id: 0xf435685e
+}
+function {
+  id: 0x9325755b
+  return_type_id: 0x6720d32f
+  parameter_id: 0x391f15ea
+  parameter_id: 0x391f15ea
+  parameter_id: 0x18bd6530
 }
 function {
   id: 0x9326da59
@@ -20039,6 +20065,14 @@ elf_symbol {
   full_name: "qsort"
 }
 elf_symbol {
+  id: 0x336f9ee2
+  name: "qsort_r"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x155aa1e8
+  full_name: "qsort_r"
+}
+elf_symbol {
   id: 0x270f62cd
   name: "quick_exit"
   is_defined: true
@@ -24570,6 +24604,7 @@ interface {
   symbol_id: 0x036295bf
   symbol_id: 0xcfe0c1f7
   symbol_id: 0x76ddd000
+  symbol_id: 0x336f9ee2
   symbol_id: 0x270f62cd
   symbol_id: 0x3bd89b04
   symbol_id: 0x831196cd

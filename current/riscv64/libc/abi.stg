@@ -20159,6 +20159,14 @@ elf_symbol {
   symbol_type: FUNCTION
 }
 elf_symbol {
+  id: 0x25b38790
+  name: "sigblock"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x8448d7e4
+  full_name: "sigblock"
+}
+elf_symbol {
   id: 0x9111fd59
   name: "sigdelset"
   is_defined: true
@@ -20347,6 +20355,14 @@ elf_symbol {
   is_defined: true
   symbol_type: FUNCTION
   binding: WEAK
+}
+elf_symbol {
+  id: 0x6b93ab7e
+  name: "sigsetmask"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x8448d7e4
+  full_name: "sigsetmask"
 }
 elf_symbol {
   id: 0xdcf1684f
@@ -23704,6 +23720,7 @@ interface {
   symbol_id: 0x589bedee
   symbol_id: 0x79da2398
   symbol_id: 0xbcedc187
+  symbol_id: 0x25b38790
   symbol_id: 0x9111fd59
   symbol_id: 0x3eb2d01f
   symbol_id: 0x255a8160
@@ -23728,6 +23745,7 @@ interface {
   symbol_id: 0x3cf8f2af
   symbol_id: 0xa5a98758
   symbol_id: 0x179b62f8
+  symbol_id: 0x6b93ab7e
   symbol_id: 0xdcf1684f
   symbol_id: 0xd1a9e2f7
   symbol_id: 0x0c1e03d6

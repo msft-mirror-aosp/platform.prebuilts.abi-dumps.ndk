@@ -105,14 +105,14 @@ pointer_reference {
   pointee_type_id: 0x1ddf2c5f
 }
 pointer_reference {
-  id: 0x0f01e5de
-  kind: POINTER
-  pointee_type_id: 0x164771e6
-}
-pointer_reference {
   id: 0x0f369e3f
   kind: POINTER
   pointee_type_id: 0x169a9e63
+}
+pointer_reference {
+  id: 0x0f40a3ac
+  kind: POINTER
+  pointee_type_id: 0x1742682e
 }
 pointer_reference {
   id: 0x13580d6c
@@ -715,9 +715,14 @@ typedef {
   referred_type_id: 0xe6c18de5
 }
 typedef {
+  id: 0x7d583c74
+  name: "AThermalStatus"
+  referred_type_id: 0x3c1e4e7f
+}
+typedef {
   id: 0x4a572bcd
   name: "AThermal_StatusCallback"
-  referred_type_id: 0x0f01e5de
+  referred_type_id: 0x0f40a3ac
 }
 typedef {
   id: 0x171ff86e
@@ -2788,12 +2793,6 @@ function {
   parameter_id: 0x18bd6530
 }
 function {
-  id: 0x164771e6
-  return_type_id: 0x48b5725f
-  parameter_id: 0x18bd6530
-  parameter_id: 0x3c1e4e7f
-}
-function {
   id: 0x1654c96b
   return_type_id: 0x48b5725f
   parameter_id: 0x18ea281d
@@ -2824,6 +2823,12 @@ function {
   return_type_id: 0x48b5725f
   parameter_id: 0x1f936fd2
   parameter_id: 0x1c3dbe5a
+}
+function {
+  id: 0x1742682e
+  return_type_id: 0x48b5725f
+  parameter_id: 0x18bd6530
+  parameter_id: 0x7d583c74
 }
 function {
   id: 0x1761c30b
@@ -3149,11 +3154,6 @@ function {
   parameter_id: 0x3d3d3a62
   parameter_id: 0x963343b5
   parameter_id: 0x18bd6530
-}
-function {
-  id: 0x1dc40be3
-  return_type_id: 0x3c1e4e7f
-  parameter_id: 0x3b909d21
 }
 function {
   id: 0x1ddf2c5f
@@ -4103,6 +4103,11 @@ function {
   id: 0xfd61b743
   return_type_id: 0x7533d9d0
   parameter_id: 0x2ad3ddea
+}
+function {
+  id: 0xfdb440ae
+  return_type_id: 0x7d583c74
+  parameter_id: 0x3b909d21
 }
 elf_symbol {
   id: 0x42cb2f32
@@ -6653,7 +6658,7 @@ elf_symbol {
   name: "AThermal_getCurrentThermalStatus"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x1dc40be3
+  type_id: 0xfdb440ae
   full_name: "AThermal_getCurrentThermalStatus"
 }
 elf_symbol {

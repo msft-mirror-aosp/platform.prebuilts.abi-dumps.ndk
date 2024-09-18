@@ -120,6 +120,11 @@ pointer_reference {
   pointee_type_id: 0x1742682e
 }
 pointer_reference {
+  id: 0x0f5adb43
+  kind: POINTER
+  pointee_type_id: 0x172b8b93
+}
+pointer_reference {
   id: 0x13580d6c
   kind: POINTER
   pointee_type_id: 0x6720d32f
@@ -708,6 +713,11 @@ typedef {
   id: 0x07d65a6e
   name: "ASurfaceTransactionStats"
   referred_type_id: 0xab2ace83
+}
+typedef {
+  id: 0x30e4776a
+  name: "ASurfaceTransaction_OnBufferRelease"
+  referred_type_id: 0x0f5adb43
 }
 typedef {
   id: 0x6aeca672
@@ -2865,6 +2875,12 @@ function {
   parameter_id: 0x1c3dbe5a
 }
 function {
+  id: 0x172b8b93
+  return_type_id: 0x48b5725f
+  parameter_id: 0x18bd6530
+  parameter_id: 0x6720d32f
+}
+function {
   id: 0x1742682e
   return_type_id: 0x48b5725f
   parameter_id: 0x18bd6530
@@ -3056,6 +3072,16 @@ function {
   return_type_id: 0x48b5725f
   parameter_id: 0x28e7c695
   parameter_id: 0x1e498ec1
+}
+function {
+  id: 0x1ae36373
+  return_type_id: 0x48b5725f
+  parameter_id: 0x295869de
+  parameter_id: 0x08a987db
+  parameter_id: 0x38539f38
+  parameter_id: 0x6720d32f
+  parameter_id: 0x18bd6530
+  parameter_id: 0x30e4776a
 }
 function {
   id: 0x1ae3659f
@@ -6568,6 +6594,14 @@ elf_symbol {
   full_name: "ASurfaceTransaction_setBufferTransparency"
 }
 elf_symbol {
+  id: 0x59122f21
+  name: "ASurfaceTransaction_setBufferWithRelease"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1ae36373
+  full_name: "ASurfaceTransaction_setBufferWithRelease"
+}
+elf_symbol {
   id: 0x4bf0f022
   name: "ASurfaceTransaction_setColor"
   is_defined: true
@@ -7299,6 +7333,7 @@ interface {
   symbol_id: 0x6cfd7d2e
   symbol_id: 0xfdb0c668
   symbol_id: 0xd12a3492
+  symbol_id: 0x59122f21
   symbol_id: 0x4bf0f022
   symbol_id: 0xe94295f9
   symbol_id: 0xf3b10764

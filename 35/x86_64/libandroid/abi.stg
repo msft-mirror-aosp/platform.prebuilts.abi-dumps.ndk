@@ -350,11 +350,6 @@ pointer_reference {
   pointee_type_id: 0xce2063d0
 }
 pointer_reference {
-  id: 0x391bddc2
-  kind: POINTER
-  pointee_type_id: 0xce2f9196
-}
-pointer_reference {
   id: 0x391f15ea
   kind: POINTER
   pointee_type_id: 0xce3cb135
@@ -393,6 +388,11 @@ pointer_reference {
   id: 0x3c45a3ea
   kind: POINTER
   pointee_type_id: 0xdb566935
+}
+pointer_reference {
+  id: 0x3cbf078b
+  kind: POINTER
+  pointee_type_id: 0xd8bcf8b2
 }
 pointer_reference {
   id: 0x3d1a2d50
@@ -553,6 +553,11 @@ typedef {
   id: 0xe4e0f67e
   name: "AInputReceiver"
   referred_type_id: 0x4c88985d
+}
+typedef {
+  id: 0xd8bcf8b2
+  name: "AInputReceiverCallbacks"
+  referred_type_id: 0xce2f9196
 }
 typedef {
   id: 0x71ff683a
@@ -3101,12 +3106,6 @@ function {
   parameter_id: 0x5171d297
 }
 function {
-  id: 0x1c6eef49
-  return_type_id: 0x48b5725f
-  parameter_id: 0x391bddc2
-  parameter_id: 0xac126a8c
-}
-function {
   id: 0x1c72509d
   return_type_id: 0x48b5725f
   parameter_id: 0x33a80438
@@ -3126,6 +3125,12 @@ function {
   id: 0x1cf4dcd4
   return_type_id: 0x48b5725f
   parameter_id: 0x31b2351f
+}
+function {
+  id: 0x1d07d9db
+  return_type_id: 0x48b5725f
+  parameter_id: 0x3cbf078b
+  parameter_id: 0xac126a8c
 }
 function {
   id: 0x1d4834a2
@@ -3189,6 +3194,12 @@ function {
   parameter_id: 0x18bd6530
 }
 function {
+  id: 0x1e706dd1
+  return_type_id: 0x48b5725f
+  parameter_id: 0x3cbf078b
+  parameter_id: 0x71ff683a
+}
+function {
   id: 0x1e7394a4
   return_type_id: 0x48b5725f
   parameter_id: 0x3baf14dd
@@ -3215,11 +3226,6 @@ function {
   parameter_id: 0x39182153
 }
 function {
-  id: 0x1edea6e3
-  return_type_id: 0x48b5725f
-  parameter_id: 0x391bddc2
-}
-function {
   id: 0x1ef3d19c
   return_type_id: 0x48b5725f
   parameter_id: 0x3d3d3a62
@@ -3232,12 +3238,6 @@ function {
   parameter_id: 0x3e4e9d4b
 }
 function {
-  id: 0x1f195b43
-  return_type_id: 0x48b5725f
-  parameter_id: 0x391bddc2
-  parameter_id: 0x71ff683a
-}
-function {
   id: 0x1f1c7cd5
   return_type_id: 0x48b5725f
   parameter_id: 0x3e10b518
@@ -3246,6 +3246,11 @@ function {
   id: 0x1f6a1977
   return_type_id: 0x48b5725f
   parameter_id: 0x3fc92392
+}
+function {
+  id: 0x1fb79071
+  return_type_id: 0x48b5725f
+  parameter_id: 0x3cbf078b
 }
 function {
   id: 0x1fcb25e2
@@ -3290,20 +3295,20 @@ function {
   return_type_id: 0x3b909d21
 }
 function {
-  id: 0x32b8ce20
+  id: 0x32b8d8b3
   return_type_id: 0x33a80438
   parameter_id: 0x39182153
   parameter_id: 0x35d78ad9
   parameter_id: 0x3d1a2d50
-  parameter_id: 0x391bddc2
+  parameter_id: 0x3cbf078b
 }
 function {
-  id: 0x33b188ec
+  id: 0x33b19e7f
   return_type_id: 0x33a80438
   parameter_id: 0x3d3d3a62
   parameter_id: 0x35d78ad9
   parameter_id: 0x3d1a2d50
-  parameter_id: 0x391bddc2
+  parameter_id: 0x3cbf078b
 }
 function {
   id: 0x3f199f4c
@@ -3362,11 +3367,6 @@ function {
   return_type_id: 0x295869de
 }
 function {
-  id: 0x52d513eb
-  return_type_id: 0x391bddc2
-  parameter_id: 0x18bd6530
-}
-function {
   id: 0x55e9adda
   return_type_id: 0x39182153
 }
@@ -3392,6 +3392,11 @@ function {
   parameter_id: 0x1e498ec1
   parameter_id: 0x3e10b518
   parameter_id: 0x6720d32f
+}
+function {
+  id: 0x6d048ad0
+  return_type_id: 0x3cbf078b
+  parameter_id: 0x18bd6530
 }
 function {
   id: 0x742900cf
@@ -5090,7 +5095,7 @@ elf_symbol {
   name: "AInputReceiverCallbacks_create"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x52d513eb
+  type_id: 0x6d048ad0
   full_name: "AInputReceiverCallbacks_create"
 }
 elf_symbol {
@@ -5098,7 +5103,7 @@ elf_symbol {
   name: "AInputReceiverCallbacks_release"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x1edea6e3
+  type_id: 0x1fb79071
   full_name: "AInputReceiverCallbacks_release"
 }
 elf_symbol {
@@ -5106,7 +5111,7 @@ elf_symbol {
   name: "AInputReceiverCallbacks_setKeyEventCallback"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x1f195b43
+  type_id: 0x1e706dd1
   full_name: "AInputReceiverCallbacks_setKeyEventCallback"
 }
 elf_symbol {
@@ -5114,7 +5119,7 @@ elf_symbol {
   name: "AInputReceiverCallbacks_setMotionEventCallback"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x1c6eef49
+  type_id: 0x1d07d9db
   full_name: "AInputReceiverCallbacks_setMotionEventCallback"
 }
 elf_symbol {
@@ -5122,7 +5127,7 @@ elf_symbol {
   name: "AInputReceiver_createBatchedInputReceiver"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x33b188ec
+  type_id: 0x33b19e7f
   full_name: "AInputReceiver_createBatchedInputReceiver"
 }
 elf_symbol {
@@ -5130,7 +5135,7 @@ elf_symbol {
   name: "AInputReceiver_createUnbatchedInputReceiver"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x32b8ce20
+  type_id: 0x32b8d8b3
   full_name: "AInputReceiver_createUnbatchedInputReceiver"
 }
 elf_symbol {

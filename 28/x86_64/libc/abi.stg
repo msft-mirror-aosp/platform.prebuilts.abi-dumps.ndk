@@ -10645,6 +10645,8 @@ elf_symbol {
   name: "_Exit"
   is_defined: true
   symbol_type: FUNCTION
+  type_id: 0x09506558
+  full_name: "_exit"
 }
 elf_symbol {
   id: 0x3fb2b260
@@ -11923,6 +11925,8 @@ elf_symbol {
   name: "_exit"
   is_defined: true
   symbol_type: FUNCTION
+  type_id: 0x09506558
+  full_name: "_exit"
 }
 elf_symbol {
   id: 0xa1668041
@@ -12905,6 +12909,8 @@ elf_symbol {
   name: "execve"
   is_defined: true
   symbol_type: FUNCTION
+  type_id: 0x92fcc884
+  full_name: "execve"
 }
 elf_symbol {
   id: 0x6730909a

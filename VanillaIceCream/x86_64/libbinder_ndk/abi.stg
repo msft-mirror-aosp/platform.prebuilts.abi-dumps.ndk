@@ -1033,6 +1033,13 @@ function {
   parameter_id: 0x3529b00c
 }
 function {
+  id: 0x1dfb6099
+  return_type_id: 0x48b5725f
+  parameter_id: 0x3529b00c
+  parameter_id: 0x051414e1
+  parameter_id: 0xf435685e
+}
+function {
   id: 0x1e20cf34
   return_type_id: 0x48b5725f
   parameter_id: 0x3529b00c
@@ -1100,6 +1107,12 @@ function {
   id: 0x9e1ed732
   return_type_id: 0x3e10b518
   parameter_id: 0x316b0244
+}
+function {
+  id: 0x9e93d3e3
+  return_type_id: 0x3e10b518
+  parameter_id: 0x3529b00c
+  parameter_id: 0x676a10c4
 }
 function {
   id: 0x9eda9f8a
@@ -1873,12 +1886,28 @@ elf_symbol {
   full_name: "AIBinder_Class_getDescriptor"
 }
 elf_symbol {
+  id: 0xbbc36bbb
+  name: "AIBinder_Class_getFunctionName"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x9e93d3e3
+  full_name: "AIBinder_Class_getFunctionName"
+}
+elf_symbol {
   id: 0x0a457f1d
   name: "AIBinder_Class_setOnDump"
   is_defined: true
   symbol_type: FUNCTION
   type_id: 0x1e20cf34
   full_name: "AIBinder_Class_setOnDump"
+}
+elf_symbol {
+  id: 0xedba7e4b
+  name: "AIBinder_Class_setTransactionCodeToFunctionNameMap"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1dfb6099
+  full_name: "AIBinder_Class_setTransactionCodeToFunctionNameMap"
 }
 elf_symbol {
   id: 0x139d64d4
@@ -3037,7 +3066,9 @@ interface {
   symbol_id: 0x883bbf6c
   symbol_id: 0x0bf97933
   symbol_id: 0x43906f35
+  symbol_id: 0xbbc36bbb
   symbol_id: 0x0a457f1d
+  symbol_id: 0xedba7e4b
   symbol_id: 0x139d64d4
   symbol_id: 0xdd9293d9
   symbol_id: 0x499b3dbc

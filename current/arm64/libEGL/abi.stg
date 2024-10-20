@@ -504,14 +504,6 @@ function {
   parameter_id: 0x3e2eee44
 }
 function {
-  id: 0x19e7879b
-  return_type_id: 0x9d75e163
-  parameter_id: 0x63037801
-  parameter_id: 0x4937596b
-  parameter_id: 0x3e2eee44
-  parameter_id: 0x3baac8b9
-}
-function {
   id: 0x19e8e28b
   return_type_id: 0x9d75e163
   parameter_id: 0x63037801
@@ -1244,7 +1236,7 @@ elf_symbol {
   name: "eglSwapBuffersWithDamageKHR"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x19e7879b
+  type_id: 0x19e91282
   full_name: "eglSwapBuffersWithDamageKHR"
 }
 elf_symbol {

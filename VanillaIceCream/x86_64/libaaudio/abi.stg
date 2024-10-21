@@ -80,11 +80,6 @@ typedef {
   referred_type_id: 0x0f7dd631
 }
 typedef {
-  id: 0x0b03b7ef
-  name: "AAudio_DeviceType"
-  referred_type_id: 0x31c7ca8a
-}
-typedef {
   id: 0x77083415
   name: "__clockid_t"
   referred_type_id: 0xa53710f6
@@ -254,10 +249,6 @@ struct_union {
   kind: STRUCT
   name: "AAudioStreamStruct"
 }
-enumeration {
-  id: 0x31c7ca8a
-  name: "AAudio_DeviceType"
-}
 function {
   id: 0x14965199
   return_type_id: 0x48b5725f
@@ -340,12 +331,6 @@ function {
   return_type_id: 0x48b5725f
   parameter_id: 0x1269da38
   parameter_id: 0x9faf917e
-}
-function {
-  id: 0x16bf81a7
-  return_type_id: 0x5c6330bb
-  parameter_id: 0x0b03b7ef
-  parameter_id: 0x251da138
 }
 function {
   id: 0x170789c0
@@ -1078,22 +1063,6 @@ elf_symbol {
   full_name: "AAudio_getMMapPolicy"
 }
 elf_symbol {
-  id: 0x286c7fd7
-  name: "AAudio_getPlatformMMapExclusivePolicy"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0x16bf81a7
-  full_name: "AAudio_getPlatformMMapExclusivePolicy"
-}
-elf_symbol {
-  id: 0xdd4e4319
-  name: "AAudio_getPlatformMMapPolicy"
-  is_defined: true
-  symbol_type: FUNCTION
-  type_id: 0x16bf81a7
-  full_name: "AAudio_getPlatformMMapPolicy"
-}
-elf_symbol {
   id: 0x9687da23
   name: "AAudio_setMMapPolicy"
   is_defined: true
@@ -1172,7 +1141,5 @@ interface {
   symbol_id: 0x5d434faa
   symbol_id: 0x1bf92f40
   symbol_id: 0xff22a7b2
-  symbol_id: 0x286c7fd7
-  symbol_id: 0xdd4e4319
   symbol_id: 0x9687da23
 }

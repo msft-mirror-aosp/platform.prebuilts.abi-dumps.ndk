@@ -120,6 +120,11 @@ typedef {
   referred_type_id: 0x26e0860b
 }
 typedef {
+  id: 0x94c65a36
+  name: "ANativeWindow_ChangeFrameRateStrategy"
+  referred_type_id: 0xadf74175
+}
+typedef {
   id: 0x34a3df20
   name: "AParcel"
   referred_type_id: 0xa0496784
@@ -396,6 +401,20 @@ struct_union {
     member_id: 0xfac54e4d
   }
 }
+enumeration {
+  id: 0xadf74175
+  name: "ANativeWindow_ChangeFrameRateStrategy"
+  definition {
+    underlying_type_id: 0xde365fc3
+    enumerator {
+      name: "ANATIVEWINDOW_CHANGE_FRAME_RATE_ONLY_IF_SEAMLESS"
+    }
+    enumerator {
+      name: "ANATIVEWINDOW_CHANGE_FRAME_RATE_ALWAYS"
+      value: 1
+    }
+  }
+}
 function {
   id: 0x106a6ff0
   return_type_id: 0x48b5725f
@@ -516,6 +535,15 @@ function {
   parameter_id: 0x8b7c737e
   parameter_id: 0xde365fc3
   parameter_id: 0xde365fc3
+}
+function {
+  id: 0xdafa833f
+  return_type_id: 0x5171d297
+  parameter_id: 0x03c8f98e
+  parameter_id: 0x8b7c737e
+  parameter_id: 0x8b7c737e
+  parameter_id: 0x8b7c737e
+  parameter_id: 0x94c65a36
 }
 function {
   id: 0xe74b5a9a
@@ -758,6 +786,14 @@ elf_symbol {
   full_name: "ANativeWindow_setFrameRate"
 }
 elf_symbol {
+  id: 0x608eb4ca
+  name: "ANativeWindow_setFrameRateParams"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0xdafa833f
+  full_name: "ANativeWindow_setFrameRateParams"
+}
+elf_symbol {
   id: 0x6f97b933
   name: "ANativeWindow_setFrameRateWithChangeStrategy"
   is_defined: true
@@ -818,6 +854,7 @@ interface {
   symbol_id: 0x3989e497
   symbol_id: 0x0fa46ee2
   symbol_id: 0x59e4e5c0
+  symbol_id: 0x608eb4ca
   symbol_id: 0x6f97b933
   symbol_id: 0x66313631
   symbol_id: 0xf129b964

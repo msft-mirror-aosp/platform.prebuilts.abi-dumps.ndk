@@ -115,6 +115,11 @@ typedef {
   referred_type_id: 0x56e357ff
 }
 typedef {
+  id: 0x47b3d6fd
+  name: "ANativeWindowFrameRateParams"
+  referred_type_id: 0x276de163
+}
+typedef {
   id: 0xa616e242
   name: "ANativeWindow_Buffer"
   referred_type_id: 0x26e0860b
@@ -236,9 +241,32 @@ member {
   offset: 96
 }
 member {
+  id: 0xffa5ece7
+  name: "changeFrameRateStrategy"
+  type_id: 0xde365fc3
+  offset: 96
+}
+member {
   id: 0xff8a9909
   name: "data"
   type_id: 0x18bd6530
+}
+member {
+  id: 0x20aaee63
+  name: "desiredMaxRate"
+  type_id: 0x8b7c737e
+  offset: 32
+}
+member {
+  id: 0x3b891d2d
+  name: "desiredMinRate"
+  type_id: 0x8b7c737e
+}
+member {
+  id: 0xcbb2ee63
+  name: "fixedSourceRate"
+  type_id: 0x8b7c737e
+  offset: 64
 }
 member {
   id: 0x084b6793
@@ -375,6 +403,18 @@ struct_union {
   name: "ANativeWindow"
 }
 struct_union {
+  id: 0x276de163
+  kind: STRUCT
+  name: "ANativeWindowFrameRateParams"
+  definition {
+    bytesize: 16
+    member_id: 0x3b891d2d
+    member_id: 0x20aaee63
+    member_id: 0xcbb2ee63
+    member_id: 0xffa5ece7
+  }
+}
+struct_union {
   id: 0x26e0860b
   kind: STRUCT
   name: "ANativeWindow_Buffer"
@@ -501,6 +541,12 @@ function {
   return_type_id: 0x5171d297
   parameter_id: 0x03c8f98e
   parameter_id: 0x5171d297
+}
+function {
+  id: 0xd9e96a75
+  return_type_id: 0x5171d297
+  parameter_id: 0x03c8f98e
+  parameter_id: 0x47b3d6fd
 }
 function {
   id: 0xdaedd974
@@ -758,6 +804,14 @@ elf_symbol {
   full_name: "ANativeWindow_setFrameRate"
 }
 elf_symbol {
+  id: 0x608eb4ca
+  name: "ANativeWindow_setFrameRateParams"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0xd9e96a75
+  full_name: "ANativeWindow_setFrameRateParams"
+}
+elf_symbol {
   id: 0x6f97b933
   name: "ANativeWindow_setFrameRateWithChangeStrategy"
   is_defined: true
@@ -818,6 +872,7 @@ interface {
   symbol_id: 0x3989e497
   symbol_id: 0x0fa46ee2
   symbol_id: 0x59e4e5c0
+  symbol_id: 0x608eb4ca
   symbol_id: 0x6f97b933
   symbol_id: 0x66313631
   symbol_id: 0xf129b964

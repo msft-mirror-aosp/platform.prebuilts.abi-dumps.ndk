@@ -20,6 +20,11 @@ pointer_reference {
   pointee_type_id: 0x3a09e6e6
 }
 pointer_reference {
+  id: 0x044017d5
+  kind: POINTER
+  pointee_type_id: 0x3b40b9c9
+}
+pointer_reference {
   id: 0x0483e6f8
   kind: POINTER
   pointee_type_id: 0x384f7d7c
@@ -33,11 +38,6 @@ pointer_reference {
   id: 0x048a8dc2
   kind: POINTER
   pointee_type_id: 0x386ad197
-}
-pointer_reference {
-  id: 0x0756f86a
-  kind: POINTER
-  pointee_type_id: 0x371b0736
 }
 pointer_reference {
   id: 0x08a987db
@@ -110,14 +110,14 @@ pointer_reference {
   pointee_type_id: 0x1ddf2c5f
 }
 pointer_reference {
+  id: 0x0f01e5de
+  kind: POINTER
+  pointee_type_id: 0x164771e6
+}
+pointer_reference {
   id: 0x0f369e3f
   kind: POINTER
   pointee_type_id: 0x169a9e63
-}
-pointer_reference {
-  id: 0x0f40a3ac
-  kind: POINTER
-  pointee_type_id: 0x1742682e
 }
 pointer_reference {
   id: 0x13580d6c
@@ -305,11 +305,6 @@ pointer_reference {
   pointee_type_id: 0xf0f91494
 }
 pointer_reference {
-  id: 0x371b0736
-  kind: POINTER
-  pointee_type_id: 0xf62cfa47
-}
-pointer_reference {
   id: 0x374194c4
   kind: POINTER
   pointee_type_id: 0xf746b58d
@@ -383,6 +378,11 @@ pointer_reference {
   id: 0x3a1ac44a
   kind: POINTER
   pointee_type_id: 0xc22bf7b5
+}
+pointer_reference {
+  id: 0x3b40b9c9
+  kind: POINTER
+  pointee_type_id: 0xc74201b8
 }
 pointer_reference {
   id: 0x3b909d21
@@ -725,24 +725,14 @@ typedef {
   referred_type_id: 0xc3af4c10
 }
 typedef {
-  id: 0xa8f45f95
-  name: "AThermalHeadroomThreshold"
-  referred_type_id: 0x6d4fb069
-}
-typedef {
   id: 0xc402921a
   name: "AThermalManager"
   referred_type_id: 0xe6c18de5
 }
 typedef {
-  id: 0x7d583c74
-  name: "AThermalStatus"
-  referred_type_id: 0x3c1e4e7f
-}
-typedef {
   id: 0x4a572bcd
   name: "AThermal_StatusCallback"
-  referred_type_id: 0x0f40a3ac
+  referred_type_id: 0x0f01e5de
 }
 typedef {
   id: 0x171ff86e
@@ -935,6 +925,11 @@ qualified {
   qualified_type_id: 0x78e8685c
 }
 qualified {
+  id: 0xc74201b8
+  qualifier: CONST
+  qualified_type_id: 0x6d4fb069
+}
+qualified {
   id: 0xc84d9907
   qualifier: CONST
   qualified_type_id: 0x5171d297
@@ -1013,11 +1008,6 @@ qualified {
   id: 0xf4812cef
   qualifier: CONST
   qualified_type_id: 0xa2430535
-}
-qualified {
-  id: 0xf62cfa47
-  qualifier: CONST
-  qualified_type_id: 0xa8f45f95
 }
 qualified {
   id: 0xf8186310
@@ -1615,9 +1605,9 @@ member {
   type_id: 0x8b7c737e
 }
 member {
-  id: 0x025040f5
+  id: 0x02110687
   name: "thermalStatus"
-  type_id: 0x7d583c74
+  type_id: 0x3c1e4e7f
   offset: 32
 }
 member {
@@ -2296,7 +2286,7 @@ struct_union {
   definition {
     bytesize: 8
     member_id: 0x3e74c7e7
-    member_id: 0x025040f5
+    member_id: 0x02110687
   }
 }
 struct_union {
@@ -2833,6 +2823,12 @@ function {
   parameter_id: 0x18bd6530
 }
 function {
+  id: 0x164771e6
+  return_type_id: 0x48b5725f
+  parameter_id: 0x18bd6530
+  parameter_id: 0x3c1e4e7f
+}
+function {
   id: 0x1654c96b
   return_type_id: 0x48b5725f
   parameter_id: 0x18ea281d
@@ -2863,12 +2859,6 @@ function {
   return_type_id: 0x48b5725f
   parameter_id: 0x1f936fd2
   parameter_id: 0x1c3dbe5a
-}
-function {
-  id: 0x1742682e
-  return_type_id: 0x48b5725f
-  parameter_id: 0x18bd6530
-  parameter_id: 0x7d583c74
 }
 function {
   id: 0x1761c30b
@@ -3194,6 +3184,11 @@ function {
   parameter_id: 0x3d3d3a62
   parameter_id: 0x963343b5
   parameter_id: 0x18bd6530
+}
+function {
+  id: 0x1dc40be3
+  return_type_id: 0x3c1e4e7f
+  parameter_id: 0x3b909d21
 }
 function {
   id: 0x1ddf2c5f
@@ -3646,10 +3641,10 @@ function {
   parameter_id: 0x3dd9738b
 }
 function {
-  id: 0x937478de
+  id: 0x93782360
   return_type_id: 0x6720d32f
   parameter_id: 0x3b909d21
-  parameter_id: 0x0756f86a
+  parameter_id: 0x044017d5
   parameter_id: 0x379d63b0
 }
 function {
@@ -4177,11 +4172,6 @@ function {
   id: 0xfd61b743
   return_type_id: 0x7533d9d0
   parameter_id: 0x2ad3ddea
-}
-function {
-  id: 0xfdb440ae
-  return_type_id: 0x7d583c74
-  parameter_id: 0x3b909d21
 }
 elf_symbol {
   id: 0x42cb2f32
@@ -6756,7 +6746,7 @@ elf_symbol {
   name: "AThermal_getCurrentThermalStatus"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0xfdb440ae
+  type_id: 0x1dc40be3
   full_name: "AThermal_getCurrentThermalStatus"
 }
 elf_symbol {
@@ -6772,7 +6762,7 @@ elf_symbol {
   name: "AThermal_getThermalHeadroomThresholds"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x937478de
+  type_id: 0x93782360
   full_name: "AThermal_getThermalHeadroomThresholds"
 }
 elf_symbol {

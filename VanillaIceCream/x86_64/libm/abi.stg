@@ -2036,16 +2036,12 @@ elf_symbol {
   name: "llrint"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x44beceaf
-  full_name: "llrint"
 }
 elf_symbol {
   id: 0xb68c688c
   name: "llrintf"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x63209eb5
-  full_name: "llrintf"
 }
 elf_symbol {
   id: 0x3e0fed11
@@ -2204,16 +2200,12 @@ elf_symbol {
   name: "lrint"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0xa261775c
-  full_name: "lrint"
 }
 elf_symbol {
   id: 0x6903c385
   name: "lrintf"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x85ff2746
-  full_name: "lrintf"
 }
 elf_symbol {
   id: 0xe2802b38

@@ -635,6 +635,11 @@ typedef {
   referred_type_id: 0x26e0860b
 }
 typedef {
+  id: 0x94c65a36
+  name: "ANativeWindow_ChangeFrameRateStrategy"
+  referred_type_id: 0xadf74175
+}
+typedef {
   id: 0xbeb6aa15
   name: "AObbInfo"
   referred_type_id: 0x630dced5
@@ -2672,6 +2677,20 @@ enumeration {
   }
 }
 enumeration {
+  id: 0xadf74175
+  name: "ANativeWindow_ChangeFrameRateStrategy"
+  definition {
+    underlying_type_id: 0xde365fc3
+    enumerator {
+      name: "ANATIVEWINDOW_CHANGE_FRAME_RATE_ONLY_IF_SEAMLESS"
+    }
+    enumerator {
+      name: "ANATIVEWINDOW_CHANGE_FRAME_RATE_ALWAYS"
+      value: 1
+    }
+  }
+}
+enumeration {
   id: 0xa2f69513
   name: "ASurfaceTransactionTransparency"
   definition {
@@ -3001,6 +3020,16 @@ function {
   parameter_id: 0x08a987db
   parameter_id: 0x8b7c737e
   parameter_id: 0x8b7c737e
+}
+function {
+  id: 0x1acc3f9a
+  return_type_id: 0x48b5725f
+  parameter_id: 0x295869de
+  parameter_id: 0x08a987db
+  parameter_id: 0x8b7c737e
+  parameter_id: 0x8b7c737e
+  parameter_id: 0x8b7c737e
+  parameter_id: 0x94c65a36
 }
 function {
   id: 0x1acc3fc7
@@ -6671,6 +6700,14 @@ elf_symbol {
   full_name: "ASurfaceTransaction_setFrameRate"
 }
 elf_symbol {
+  id: 0x6b1753fe
+  name: "ASurfaceTransaction_setFrameRateParams"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x1acc3f9a
+  full_name: "ASurfaceTransaction_setFrameRateParams"
+}
+elf_symbol {
   id: 0xd8beec6f
   name: "ASurfaceTransaction_setFrameRateWithChangeStrategy"
   is_defined: true
@@ -7347,6 +7384,7 @@ interface {
   symbol_id: 0xd1f63b87
   symbol_id: 0x6377255f
   symbol_id: 0xfaf67e81
+  symbol_id: 0x6b1753fe
   symbol_id: 0xd8beec6f
   symbol_id: 0x6c82bfec
   symbol_id: 0x442c6fa1

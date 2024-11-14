@@ -2547,6 +2547,10 @@ enumeration {
       value: 302383104
     }
     enumerator {
+      name: "ADATASPACE_DISPLAY_BT2020"
+      value: 142999552
+    }
+    enumerator {
       name: "ADATASPACE_DEPTH"
       value: 4096
     }

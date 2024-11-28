@@ -5,6 +5,11 @@ special {
   kind: VOID
 }
 pointer_reference {
+  id: 0x00353a50
+  kind: POINTER
+  pointee_type_id: 0x2a940fdd
+}
+pointer_reference {
   id: 0x003ef40f
   kind: POINTER
   pointee_type_id: 0x2abb36a3
@@ -490,6 +495,11 @@ pointer_reference {
   pointee_type_id: 0xe8f0378a
 }
 pointer_reference {
+  id: 0x30b146cc
+  kind: POINTER
+  pointee_type_id: 0xe885fdaf
+}
+pointer_reference {
   id: 0x30b8b0a8
   kind: POINTER
   pointee_type_id: 0xe8a2243d
@@ -508,6 +518,11 @@ pointer_reference {
   id: 0x310e4e7c
   kind: POINTER
   pointee_type_id: 0xee79df6f
+}
+pointer_reference {
+  id: 0x3110b11c
+  kind: POINTER
+  pointee_type_id: 0xee0222ec
 }
 pointer_reference {
   id: 0x31331bc5
@@ -535,6 +550,11 @@ pointer_reference {
   pointee_type_id: 0xefffc34d
 }
 pointer_reference {
+  id: 0x31718dff
+  kind: POINTER
+  pointee_type_id: 0xef86d161
+}
+pointer_reference {
   id: 0x317666bd
   kind: POINTER
   pointee_type_id: 0xef997c6a
@@ -558,6 +578,11 @@ pointer_reference {
   id: 0x31f44062
   kind: POINTER
   pointee_type_id: 0xed91e714
+}
+pointer_reference {
+  id: 0x320516d9
+  kind: POINTER
+  pointee_type_id: 0xe254bdfb
 }
 pointer_reference {
   id: 0x320bf974
@@ -680,6 +705,11 @@ pointer_reference {
   pointee_type_id: 0xf984e6f2
 }
 pointer_reference {
+  id: 0x350d0d1b
+  kind: POINTER
+  pointee_type_id: 0xfe74d2f2
+}
+pointer_reference {
   id: 0x352385f8
   kind: POINTER
   pointee_type_id: 0xfecef17d
@@ -693,6 +723,11 @@ pointer_reference {
   id: 0x35500a9d
   kind: POINTER
   pointee_type_id: 0xff00cceb
+}
+pointer_reference {
+  id: 0x356c50a3
+  kind: POINTER
+  pointee_type_id: 0xfff1a412
 }
 pointer_reference {
   id: 0x35944ecc
@@ -760,6 +795,11 @@ pointer_reference {
   pointee_type_id: 0xf0e74117
 }
 pointer_reference {
+  id: 0x36b5d9e7
+  kind: POINTER
+  pointee_type_id: 0xf0978103
+}
+pointer_reference {
   id: 0x36b5e248
   kind: POINTER
   pointee_type_id: 0xf0976fbc
@@ -783,6 +823,11 @@ pointer_reference {
   id: 0x370a9aad
   kind: POINTER
   pointee_type_id: 0xf66a8c2b
+}
+pointer_reference {
+  id: 0x370cbbda
+  kind: POINTER
+  pointee_type_id: 0xf67209f4
 }
 pointer_reference {
   id: 0x371588db
@@ -925,6 +970,11 @@ pointer_reference {
   pointee_type_id: 0xceb067ef
 }
 pointer_reference {
+  id: 0x395a3191
+  kind: POINTER
+  pointee_type_id: 0xcf2820d8
+}
+pointer_reference {
   id: 0x396c22b5
   kind: POINTER
   pointee_type_id: 0xcff06c4a
@@ -938,6 +988,16 @@ pointer_reference {
   id: 0x39854a7f
   kind: POINTER
   pointee_type_id: 0xcc55cf61
+}
+pointer_reference {
+  id: 0x39857e4b
+  kind: POINTER
+  pointee_type_id: 0xcc551fb3
+}
+pointer_reference {
+  id: 0x39a5c86e
+  kind: POINTER
+  pointee_type_id: 0xccd7c726
 }
 pointer_reference {
   id: 0x39cc4e9f
@@ -980,6 +1040,11 @@ pointer_reference {
   pointee_type_id: 0xc32d3380
 }
 pointer_reference {
+  id: 0x3a9ac6f4
+  kind: POINTER
+  pointee_type_id: 0xc02bfd4d
+}
+pointer_reference {
   id: 0x3a9de35b
   kind: POINTER
   pointee_type_id: 0xc0376bf0
@@ -988,6 +1053,11 @@ pointer_reference {
   id: 0x3aa265ac
   kind: POINTER
   pointee_type_id: 0xc0c9702c
+}
+pointer_reference {
+  id: 0x3ab0d191
+  kind: POINTER
+  pointee_type_id: 0xc083a0db
 }
 pointer_reference {
   id: 0x3ae01e26
@@ -1040,6 +1110,11 @@ pointer_reference {
   pointee_type_id: 0xc41c1f88
 }
 pointer_reference {
+  id: 0x3bb1ae83
+  kind: POINTER
+  pointee_type_id: 0xc4865c90
+}
+pointer_reference {
   id: 0x3bb30404
   kind: POINTER
   pointee_type_id: 0xc48cf68c
@@ -1065,6 +1140,11 @@ pointer_reference {
   pointee_type_id: 0xda4dbe7a
 }
 pointer_reference {
+  id: 0x3c1aea77
+  kind: POINTER
+  pointee_type_id: 0xda2b4f42
+}
+pointer_reference {
   id: 0x3c1ef3b4
   kind: POINTER
   pointee_type_id: 0xda3b284e
@@ -1078,6 +1158,11 @@ pointer_reference {
   id: 0x3c302aeb
   kind: POINTER
   pointee_type_id: 0xda804d33
+}
+pointer_reference {
+  id: 0x3c396e77
+  kind: POINTER
+  pointee_type_id: 0xdaa55f40
 }
 pointer_reference {
   id: 0x3c414af2
@@ -1258,6 +1343,11 @@ pointer_reference {
   id: 0x3e75499e
   kind: POINTER
   pointee_type_id: 0xd395c0e4
+}
+pointer_reference {
+  id: 0x3e8a7cc5
+  kind: POINTER
+  pointee_type_id: 0xd0691588
 }
 pointer_reference {
   id: 0x3e98342c
@@ -1463,6 +1553,11 @@ typedef {
   id: 0x1058b0fe
   name: "VkBindBufferMemoryInfo"
   referred_type_id: 0xab70b9c9
+}
+typedef {
+  id: 0x4113c845
+  name: "VkBindDescriptorSetsInfo"
+  referred_type_id: 0xece4b085
 }
 typedef {
   id: 0xd662bc78
@@ -1735,6 +1830,16 @@ typedef {
   referred_type_id: 0x7f7b90b9
 }
 typedef {
+  id: 0x18ea8b80
+  name: "VkCopyImageToMemoryInfo"
+  referred_type_id: 0xd38df7dc
+}
+typedef {
+  id: 0x4ce735e8
+  name: "VkCopyMemoryToImageInfo"
+  referred_type_id: 0xd15572b2
+}
+typedef {
   id: 0x0bfae037
   name: "VkCullModeFlags"
   referred_type_id: 0xb299d5bd
@@ -1888,6 +1993,11 @@ typedef {
   id: 0xbeb78027
   name: "VkDeviceImageMemoryRequirements"
   referred_type_id: 0xde5dc9b7
+}
+typedef {
+  id: 0x625ec4c8
+  name: "VkDeviceImageSubresourceInfo"
+  referred_type_id: 0x9c26c343
 }
 typedef {
   id: 0x5e558921
@@ -2095,6 +2205,16 @@ typedef {
   referred_type_id: 0x2c0f5d16
 }
 typedef {
+  id: 0x08b4703c
+  name: "VkHostImageCopyFlags"
+  referred_type_id: 0xb299d5bd
+}
+typedef {
+  id: 0xa98f9159
+  name: "VkHostImageLayoutTransitionInfo"
+  referred_type_id: 0xdde7405c
+}
+typedef {
   id: 0x8afbb6dd
   name: "VkImage"
   referred_type_id: 0x102c8e45
@@ -2190,6 +2310,11 @@ typedef {
   referred_type_id: 0x7ff1e6a3
 }
 typedef {
+  id: 0xd2504035
+  name: "VkImageSubresource2"
+  referred_type_id: 0x00274ef8
+}
+typedef {
   id: 0x12c52818
   name: "VkImageSubresourceLayers"
   referred_type_id: 0xdfd5d66f
@@ -2203,6 +2328,11 @@ typedef {
   id: 0x4db0314e
   name: "VkImageTiling"
   referred_type_id: 0x742938ed
+}
+typedef {
+  id: 0xf9154166
+  name: "VkImageToMemoryCopy"
+  referred_type_id: 0xce854f2b
 }
 typedef {
   id: 0x23145ec3
@@ -2310,6 +2440,11 @@ typedef {
   referred_type_id: 0xb299d5bd
 }
 typedef {
+  id: 0x31e3e0aa
+  name: "VkMemoryMapInfo"
+  referred_type_id: 0xa12a6ed8
+}
+typedef {
   id: 0x3a331d68
   name: "VkMemoryPropertyFlags"
   referred_type_id: 0xb299d5bd
@@ -2325,9 +2460,24 @@ typedef {
   referred_type_id: 0xf6255c2f
 }
 typedef {
+  id: 0x70e843bf
+  name: "VkMemoryToImageCopy"
+  referred_type_id: 0x26fdc152
+}
+typedef {
   id: 0x88b532c7
   name: "VkMemoryType"
   referred_type_id: 0x0e2a8d00
+}
+typedef {
+  id: 0x511ff9a7
+  name: "VkMemoryUnmapFlags"
+  referred_type_id: 0xb299d5bd
+}
+typedef {
+  id: 0xc84f3d3b
+  name: "VkMemoryUnmapInfo"
+  referred_type_id: 0x7e489da7
 }
 typedef {
   id: 0x54e56232
@@ -2640,6 +2790,21 @@ typedef {
   referred_type_id: 0x126b631f
 }
 typedef {
+  id: 0x724935e5
+  name: "VkPushConstantsInfo"
+  referred_type_id: 0x692d55ec
+}
+typedef {
+  id: 0xce5cf30f
+  name: "VkPushDescriptorSetInfo"
+  referred_type_id: 0x12bf6356
+}
+typedef {
+  id: 0x1ad2cb88
+  name: "VkPushDescriptorSetWithTemplateInfo"
+  referred_type_id: 0x017185b2
+}
+typedef {
   id: 0x50c0a82b
   name: "VkQueryControlFlags"
   referred_type_id: 0xb299d5bd
@@ -2725,9 +2890,19 @@ typedef {
   referred_type_id: 0xc08ed848
 }
 typedef {
+  id: 0x8f8126c2
+  name: "VkRenderingAreaInfo"
+  referred_type_id: 0x91f3daa4
+}
+typedef {
   id: 0x0cc06c0a
   name: "VkRenderingAttachmentInfo"
   referred_type_id: 0xc9ff97f2
+}
+typedef {
+  id: 0x4318aa12
+  name: "VkRenderingAttachmentLocationInfo"
+  referred_type_id: 0xd765f072
 }
 typedef {
   id: 0xb4410981
@@ -2738,6 +2913,11 @@ typedef {
   id: 0xf15e0d5b
   name: "VkRenderingInfo"
   referred_type_id: 0x4d3726de
+}
+typedef {
+  id: 0x8994fd42
+  name: "VkRenderingInputAttachmentIndexInfo"
+  referred_type_id: 0x59fd43d6
 }
 typedef {
   id: 0x054b1376
@@ -3025,6 +3205,11 @@ typedef {
   referred_type_id: 0xb971c83f
 }
 typedef {
+  id: 0x2a940fdd
+  name: "VkSubresourceLayout2"
+  referred_type_id: 0xaad362cb
+}
+typedef {
   id: 0x96903354
   name: "VkSurfaceCapabilitiesKHR"
   referred_type_id: 0x7b48411d
@@ -3105,6 +3290,11 @@ typedef {
   referred_type_id: 0x6720d32f
 }
 typedef {
+  id: 0x092f630f
+  name: "__uint16_t"
+  referred_type_id: 0xc93e017b
+}
+typedef {
   id: 0x903f4c78
   name: "__uint32_t"
   referred_type_id: 0x4585663f
@@ -3130,6 +3320,11 @@ typedef {
   referred_type_id: 0x33756485
 }
 typedef {
+  id: 0xb3a3e4db
+  name: "uint16_t"
+  referred_type_id: 0x092f630f
+}
+typedef {
   id: 0x1c3dbe5a
   name: "uint32_t"
   referred_type_id: 0x903f4c78
@@ -3145,9 +3340,19 @@ typedef {
   referred_type_id: 0x2ebf28fa
 }
 qualified {
+  id: 0xc02bfd4d
+  qualifier: CONST
+  qualified_type_id: 0x70e843bf
+}
+qualified {
   id: 0xc0376bf0
   qualifier: CONST
   qualified_type_id: 0x709a194b
+}
+qualified {
+  id: 0xc083a0db
+  qualifier: CONST
+  qualified_type_id: 0x724935e5
 }
 qualified {
   id: 0xc0c9702c
@@ -3183,6 +3388,11 @@ qualified {
   id: 0xc41c1f88
   qualifier: CONST
   qualified_type_id: 0x6037c8aa
+}
+qualified {
+  id: 0xc4865c90
+  qualifier: CONST
+  qualified_type_id: 0x625ec4c8
 }
 qualified {
   id: 0xc48cf68c
@@ -3290,9 +3500,19 @@ qualified {
   qualified_type_id: 0x5f3aca65
 }
 qualified {
+  id: 0xcc551fb3
+  qualifier: CONST
+  qualified_type_id: 0x4113c845
+}
+qualified {
   id: 0xcc55cf61
   qualifier: CONST
   qualified_type_id: 0x41108b0e
+}
+qualified {
+  id: 0xccd7c726
+  qualifier: CONST
+  qualified_type_id: 0x4318aa12
 }
 qualified {
   id: 0xcd71dce0
@@ -3325,6 +3545,11 @@ qualified {
   qualified_type_id: 0x49a26822
 }
 qualified {
+  id: 0xcf2820d8
+  qualifier: CONST
+  qualified_type_id: 0x4ce735e8
+}
+qualified {
   id: 0xcfac18c9
   qualifier: CONST
   qualified_type_id: 0x4ef7d5ad
@@ -3343,6 +3568,11 @@ qualified {
   id: 0xd038318f
   qualifier: CONST
   qualified_type_id: 0x30a770b5
+}
+qualified {
+  id: 0xd0691588
+  qualifier: CONST
+  qualified_type_id: 0x31e3e0aa
 }
 qualified {
   id: 0xd0da2413
@@ -3500,6 +3730,11 @@ qualified {
   qualified_type_id: 0x17ce3aec
 }
 qualified {
+  id: 0xda2b4f42
+  qualifier: CONST
+  qualified_type_id: 0x18ea8b80
+}
+qualified {
   id: 0xda4dbe7a
   qualifier: CONST
   qualified_type_id: 0x19714f62
@@ -3508,6 +3743,11 @@ qualified {
   id: 0xda804d33
   qualifier: CONST
   qualified_type_id: 0x1a468246
+}
+qualified {
+  id: 0xdaa55f40
+  qualifier: CONST
+  qualified_type_id: 0x1ad2cb88
 }
 qualified {
   id: 0xdb1e8234
@@ -3625,6 +3865,11 @@ qualified {
   qualified_type_id: 0xf7f21e5f
 }
 qualified {
+  id: 0xe254bdfb
+  qualifier: CONST
+  qualified_type_id: 0xf9154166
+}
+qualified {
   id: 0xe26f034f
   qualifier: CONST
   qualified_type_id: 0xf9fbbbb7
@@ -3700,6 +3945,11 @@ qualified {
   qualified_type_id: 0xd1c19b93
 }
 qualified {
+  id: 0xe885fdaf
+  qualifier: CONST
+  qualified_type_id: 0xd2504035
+}
+qualified {
   id: 0xe8aa2efc
   qualifier: CONST
   qualified_type_id: 0xd2ef0d78
@@ -3755,6 +4005,11 @@ qualified {
   qualified_type_id: 0xc6002ad8
 }
 qualified {
+  id: 0xee0222ec
+  qualifier: CONST
+  qualified_type_id: 0xc84f3d3b
+}
+qualified {
   id: 0xee79df6f
   qualifier: CONST
   qualified_type_id: 0xc9a0cb34
@@ -3780,6 +4035,11 @@ qualified {
   qualified_type_id: 0xccd4c63e
 }
 qualified {
+  id: 0xef86d161
+  qualifier: CONST
+  qualified_type_id: 0xce5cf30f
+}
+qualified {
   id: 0xefffc34d
   qualifier: CONST
   qualified_type_id: 0xcfb8bbbf
@@ -3793,6 +4053,11 @@ qualified {
   id: 0xf0976fbc
   qualifier: CONST
   qualified_type_id: 0xb21a0878
+}
+qualified {
+  id: 0xf0978103
+  qualifier: CONST
+  qualified_type_id: 0xb219b284
 }
 qualified {
   id: 0xf0e74117
@@ -3885,6 +4150,11 @@ qualified {
   qualified_type_id: 0xa9ed8624
 }
 qualified {
+  id: 0xf67209f4
+  qualifier: CONST
+  qualified_type_id: 0xa98f9159
+}
+qualified {
   id: 0xf6df73b8
   qualifier: CONST
   qualified_type_id: 0xab3a7868
@@ -3925,6 +4195,11 @@ qualified {
   qualified_type_id: 0x85ca712c
 }
 qualified {
+  id: 0xfe74d2f2
+  qualifier: CONST
+  qualified_type_id: 0x8994fd42
+}
+qualified {
   id: 0xfe97b22b
   qualifier: CONST
   qualified_type_id: 0x8a197e25
@@ -3933,6 +4208,11 @@ qualified {
   id: 0xfecef17d
   qualifier: CONST
   qualified_type_id: 0x8b7c737e
+}
+qualified {
+  id: 0xfff1a412
+  qualifier: CONST
+  qualified_type_id: 0x8f8126c2
 }
 primitive {
   id: 0x33756485
@@ -3969,6 +4249,12 @@ primitive {
   name: "float"
   encoding: REAL_NUMBER
   bytesize: 0x00000004
+}
+primitive {
+  id: 0xc93e017b
+  name: "unsigned short"
+  encoding: UNSIGNED_INTEGER
+  bytesize: 0x00000002
 }
 array {
   id: 0x15ca9aa2
@@ -4424,10 +4710,22 @@ member {
   offset: 352
 }
 member {
+  id: 0x5c5f9af8
+  name: "colorAttachmentCount"
+  type_id: 0x1c3dbe5a
+  offset: 128
+}
+member {
   id: 0x5c5f9bf3
   name: "colorAttachmentCount"
   type_id: 0x1c3dbe5a
   offset: 192
+}
+member {
+  id: 0x5c5f9eda
+  name: "colorAttachmentCount"
+  type_id: 0x1c3dbe5a
+  offset: 160
 }
 member {
   id: 0x1db7a3e9
@@ -4614,6 +4912,12 @@ member {
   type_id: 0x8b7c737e
 }
 member {
+  id: 0x8ce488a0
+  name: "depthAttachmentFormat"
+  type_id: 0xb219b284
+  offset: 256
+}
+member {
   id: 0x2c2d0350
   name: "depthBiasClamp"
   type_id: 0x8b7c737e
@@ -4751,6 +5055,12 @@ member {
   offset: 192
 }
 member {
+  id: 0x182b9e7f
+  name: "descriptorSetCount"
+  type_id: 0x1c3dbe5a
+  offset: 288
+}
+member {
   id: 0x674b9d88
   name: "descriptorSetLayout"
   type_id: 0xa5cebebf
@@ -4779,6 +5089,18 @@ member {
   name: "descriptorUpdateEntryCount"
   type_id: 0x1c3dbe5a
   offset: 160
+}
+member {
+  id: 0x32a26b21
+  name: "descriptorUpdateTemplate"
+  type_id: 0xc55be50b
+  offset: 128
+}
+member {
+  id: 0x2d310a26
+  name: "descriptorWriteCount"
+  type_id: 0x1c3dbe5a
+  offset: 288
 }
 member {
   id: 0x15cfa116
@@ -5068,6 +5390,12 @@ member {
   offset: 224
 }
 member {
+  id: 0x0b12f5dd
+  name: "dynamicOffsetCount"
+  type_id: 0x1c3dbe5a
+  offset: 384
+}
+member {
   id: 0x39543d28
   name: "dynamicStateCount"
   type_id: 0x1c3dbe5a
@@ -5209,6 +5537,12 @@ member {
   offset: 256
 }
 member {
+  id: 0x8574eda3
+  name: "firstSet"
+  type_id: 0x1c3dbe5a
+  offset: 256
+}
+member {
   id: 0x2d0b35bb
   name: "flags"
   type_id: 0x63b82728
@@ -5242,6 +5576,12 @@ member {
   id: 0x2d2b138c
   name: "flags"
   type_id: 0x439e1045
+  offset: 128
+}
+member {
+  id: 0x2d399265
+  name: "flags"
+  type_id: 0x511ff9a7
   offset: 128
 }
 member {
@@ -5310,6 +5650,12 @@ member {
   offset: 128
 }
 member {
+  id: 0x2d6039ec
+  name: "flags"
+  type_id: 0x08b4703c
+  offset: 128
+}
+member {
   id: 0x2d62cba8
   name: "flags"
   type_id: 0x0a463495
@@ -5337,6 +5683,12 @@ member {
   id: 0x2d6b0a08
   name: "flags"
   type_id: 0x0387944a
+  offset: 128
+}
+member {
+  id: 0x2d77f979
+  name: "flags"
+  type_id: 0x1f74e551
   offset: 128
 }
 member {
@@ -5845,6 +6197,12 @@ member {
   offset: 128
 }
 member {
+  id: 0xde3f62f9
+  name: "imageSubresource"
+  type_id: 0x24b855f9
+  offset: 128
+}
+member {
   id: 0xa5f412de
   name: "imageType"
   type_id: 0x23145ec3
@@ -5991,6 +6349,18 @@ member {
   name: "layout"
   type_id: 0xceb067ef
   offset: 576
+}
+member {
+  id: 0x4dc628dd
+  name: "layout"
+  type_id: 0xceb067ef
+  offset: 128
+}
+member {
+  id: 0x4dc629d6
+  name: "layout"
+  type_id: 0xceb067ef
+  offset: 192
 }
 member {
   id: 0x4dea8c6a
@@ -6624,6 +6994,12 @@ member {
   offset: 2112
 }
 member {
+  id: 0xe7f5f25c
+  name: "memoryImageHeight"
+  type_id: 0x1c3dbe5a
+  offset: 224
+}
+member {
   id: 0x806b8529
   name: "memoryOffset"
   type_id: 0x47f209ef
@@ -6658,6 +7034,12 @@ member {
   name: "memoryRequirements"
   type_id: 0x0f00279e
   offset: 128
+}
+member {
+  id: 0x62f5ad06
+  name: "memoryRowLength"
+  type_id: 0x1c3dbe5a
+  offset: 192
 }
 member {
   id: 0x371ec0b4
@@ -6874,6 +7256,12 @@ member {
   offset: 736
 }
 member {
+  id: 0x9b00e25e
+  name: "offset"
+  type_id: 0x1c3dbe5a
+  offset: 224
+}
+member {
   id: 0x9b00e8f9
   name: "offset"
   type_id: 0x1c3dbe5a
@@ -6908,6 +7296,12 @@ member {
   name: "offset"
   type_id: 0x47f209ef
   offset: 64
+}
+member {
+  id: 0x9b5b2e66
+  name: "offset"
+  type_id: 0x47f209ef
+  offset: 256
 }
 member {
   id: 0x9b5b2ecd
@@ -7052,6 +7446,24 @@ member {
   offset: 256
 }
 member {
+  id: 0xed9194f4
+  name: "pColorAttachmentFormats"
+  type_id: 0x36b5d9e7
+  offset: 192
+}
+member {
+  id: 0xef218391
+  name: "pColorAttachmentInputIndices"
+  type_id: 0x3c57992a
+  offset: 192
+}
+member {
+  id: 0x8eac5926
+  name: "pColorAttachmentLocations"
+  type_id: 0x3c57992a
+  offset: 192
+}
+member {
   id: 0x7d210329
   name: "pColorAttachments"
   type_id: 0x3ed7559d
@@ -7112,6 +7524,12 @@ member {
   offset: 192
 }
 member {
+  id: 0x27f07c78
+  name: "pData"
+  type_id: 0x391f15ea
+  offset: 320
+}
+member {
   id: 0xeaa682b1
   name: "pDependencies"
   type_id: 0x3fa67603
@@ -7128,6 +7546,12 @@ member {
   name: "pDepthAttachment"
   type_id: 0x3d58440f
   offset: 448
+}
+member {
+  id: 0xab867596
+  name: "pDepthInputAttachmentIndex"
+  type_id: 0x3c57992a
+  offset: 256
 }
 member {
   id: 0xd3d34bea
@@ -7148,10 +7572,28 @@ member {
   offset: 640
 }
 member {
+  id: 0xdbe7f4c7
+  name: "pDescriptorSets"
+  type_id: 0x3d77bcad
+  offset: 320
+}
+member {
   id: 0xa4d4f148
   name: "pDescriptorUpdateEntries"
   type_id: 0x3cf9cb34
   offset: 192
+}
+member {
+  id: 0xca9572fc
+  name: "pDescriptorWrites"
+  type_id: 0x3b01c8c0
+  offset: 320
+}
+member {
+  id: 0x83cabc66
+  name: "pDynamicOffsets"
+  type_id: 0x3c57992a
+  offset: 448
 }
 member {
   id: 0x84a33009
@@ -7176,6 +7618,18 @@ member {
   name: "pEngineName"
   type_id: 0x3e10b518
   offset: 256
+}
+member {
+  id: 0x2f517caa
+  name: "pHostPointer"
+  type_id: 0x391f15ea
+  offset: 128
+}
+member {
+  id: 0x2f70deda
+  name: "pHostPointer"
+  type_id: 0x18bd6530
+  offset: 128
 }
 member {
   id: 0xc394dbbc
@@ -7340,6 +7794,12 @@ member {
   offset: 320
 }
 member {
+  id: 0xf6b51133
+  name: "pRegions"
+  type_id: 0x3a9ac6f4
+  offset: 320
+}
+member {
   id: 0xf6b5b18a
   name: "pRegions"
   type_id: 0x3a3c2a56
@@ -7362,6 +7822,12 @@ member {
   name: "pRegions"
   type_id: 0x3310b7dc
   offset: 384
+}
+member {
+  id: 0xf6bd8ee3
+  name: "pRegions"
+  type_id: 0x320516d9
+  offset: 320
 }
 member {
   id: 0xf6bff2b3
@@ -7454,6 +7920,12 @@ member {
   offset: 512
 }
 member {
+  id: 0xa078a97e
+  name: "pStencilInputAttachmentIndex"
+  type_id: 0x3c57992a
+  offset: 320
+}
+member {
   id: 0xa00d4bbb
   name: "pSubpasses"
   type_id: 0x3c8bd76b
@@ -7464,6 +7936,12 @@ member {
   name: "pSubpasses"
   type_id: 0x3cb73945
   offset: 320
+}
+member {
+  id: 0x401ad89b
+  name: "pSubresource"
+  type_id: 0x30b146cc
+  offset: 192
 }
 member {
   id: 0xf110c18f
@@ -7493,6 +7971,12 @@ member {
   name: "pValues"
   type_id: 0x3c5cda3d
   offset: 256
+}
+member {
+  id: 0xc49f5d82
+  name: "pValues"
+  type_id: 0x391f15ea
+  offset: 320
 }
 member {
   id: 0x9cfbef5c
@@ -8086,6 +8570,12 @@ member {
   offset: 512
 }
 member {
+  id: 0x3dc27de4
+  name: "set"
+  type_id: 0x1c3dbe5a
+  offset: 256
+}
+member {
   id: 0x8fb58e63
   name: "setLayoutCount"
   type_id: 0x1c3dbe5a
@@ -8242,6 +8732,12 @@ member {
   offset: 128
 }
 member {
+  id: 0xd939e9bc
+  name: "size"
+  type_id: 0x47f209ef
+  offset: 320
+}
+member {
   id: 0xd939ea9a
   name: "size"
   type_id: 0x47f209ef
@@ -8263,6 +8759,12 @@ member {
   name: "size"
   type_id: 0x47f209ef
   offset: 384
+}
+member {
+  id: 0xd9622167
+  name: "size"
+  type_id: 0x1c3dbe5a
+  offset: 256
 }
 member {
   id: 0xd962252d
@@ -8397,10 +8899,22 @@ member {
   offset: 32
 }
 member {
+  id: 0xf52fee28
+  name: "srcImage"
+  type_id: 0x8afbb6dd
+  offset: 192
+}
+member {
   id: 0xf52fef23
   name: "srcImage"
   type_id: 0x8afbb6dd
   offset: 128
+}
+member {
+  id: 0xa3617492
+  name: "srcImageLayout"
+  type_id: 0xe210f22d
+  offset: 256
 }
 member {
   id: 0xa3617cf0
@@ -8543,6 +9057,18 @@ member {
   offset: 96
 }
 member {
+  id: 0x9012e85c
+  name: "stageFlags"
+  type_id: 0x56037af2
+  offset: 128
+}
+member {
+  id: 0x9012e957
+  name: "stageFlags"
+  type_id: 0x56037af2
+  offset: 192
+}
+member {
   id: 0x1e436795
   name: "stageMask"
   type_id: 0xe2891135
@@ -8559,6 +9085,12 @@ member {
   name: "stencil"
   type_id: 0x1c3dbe5a
   offset: 32
+}
+member {
+  id: 0x0ebcc59d
+  name: "stencilAttachmentFormat"
+  type_id: 0xb219b284
+  offset: 288
 }
 member {
   id: 0x3479a244
@@ -8674,6 +9206,12 @@ member {
   type_id: 0x24b855f9
 }
 member {
+  id: 0x1d5c4a52
+  name: "subresourceLayout"
+  type_id: 0xf1d32021
+  offset: 128
+}
+member {
   id: 0x0f01e2ea
   name: "subresourceRange"
   type_id: 0xc259ae88
@@ -8684,6 +9222,12 @@ member {
   name: "subresourceRange"
   type_id: 0xc259ae88
   offset: 384
+}
+member {
+  id: 0x0f01eb33
+  name: "subresourceRange"
+  type_id: 0xc259ae88
+  offset: 256
 }
 member {
   id: 0x0f01ecef
@@ -8916,6 +9460,12 @@ member {
   name: "viewMask"
   type_id: 0x1c3dbe5a
   offset: 192
+}
+member {
+  id: 0xf7036d49
+  name: "viewMask"
+  type_id: 0x1c3dbe5a
+  offset: 128
 }
 member {
   id: 0x42207934
@@ -9194,6 +9744,23 @@ struct_union {
     member_id: 0x336fa1cd
     member_id: 0x1ff2e237
     member_id: 0x806b8d4b
+  }
+}
+struct_union {
+  id: 0xece4b085
+  kind: STRUCT
+  name: "VkBindDescriptorSetsInfo"
+  definition {
+    bytesize: 64
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0x9012e85c
+    member_id: 0x4dc629d6
+    member_id: 0x8574eda3
+    member_id: 0x182b9e7f
+    member_id: 0xdbe7f4c7
+    member_id: 0x0b12f5dd
+    member_id: 0x83cabc66
   }
 }
 struct_union {
@@ -9632,6 +10199,36 @@ struct_union {
   }
 }
 struct_union {
+  id: 0xd38df7dc
+  kind: STRUCT
+  name: "VkCopyImageToMemoryInfo"
+  definition {
+    bytesize: 48
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0x2d6039ec
+    member_id: 0xf52fee28
+    member_id: 0xa3617492
+    member_id: 0x514c96d5
+    member_id: 0xf6bd8ee3
+  }
+}
+struct_union {
+  id: 0xd15572b2
+  kind: STRUCT
+  name: "VkCopyMemoryToImageInfo"
+  definition {
+    bytesize: 48
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0x2d6039ec
+    member_id: 0x72c78736
+    member_id: 0x09e39f78
+    member_id: 0x514c96d5
+    member_id: 0xf6b51133
+  }
+}
+struct_union {
   id: 0x01118920
   kind: STRUCT
   name: "VkDependencyInfo"
@@ -9847,6 +10444,18 @@ struct_union {
     member_id: 0xdcdcd543
     member_id: 0xce498139
     member_id: 0x0bc252ec
+  }
+}
+struct_union {
+  id: 0x9c26c343
+  kind: STRUCT
+  name: "VkDeviceImageSubresourceInfo"
+  definition {
+    bytesize: 32
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0xce498139
+    member_id: 0x401ad89b
   }
 }
 struct_union {
@@ -10080,6 +10689,20 @@ struct_union {
   }
 }
 struct_union {
+  id: 0xdde7405c
+  kind: STRUCT
+  name: "VkHostImageLayoutTransitionInfo"
+  definition {
+    bytesize: 56
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0x7780cd0c
+    member_id: 0xf101349e
+    member_id: 0x0aa87659
+    member_id: 0x0f01eb33
+  }
+}
+struct_union {
   id: 0x20a68f9f
   kind: STRUCT
   name: "VkImageBlit"
@@ -10280,6 +10903,17 @@ struct_union {
   }
 }
 struct_union {
+  id: 0x00274ef8
+  kind: STRUCT
+  name: "VkImageSubresource2"
+  definition {
+    bytesize: 32
+    member_id: 0xf84a2e48
+    member_id: 0xdcfd7733
+    member_id: 0xde3f62f9
+  }
+}
+struct_union {
   id: 0xdfd5d66f
   kind: STRUCT
   name: "VkImageSubresourceLayers"
@@ -10302,6 +10936,22 @@ struct_union {
     member_id: 0xca5bb945
     member_id: 0xda9f61d0
     member_id: 0xda3f9a60
+  }
+}
+struct_union {
+  id: 0xce854f2b
+  kind: STRUCT
+  name: "VkImageToMemoryCopy"
+  definition {
+    bytesize: 72
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0x2f70deda
+    member_id: 0x62f5ad06
+    member_id: 0xe7f5f25c
+    member_id: 0xde0916ed
+    member_id: 0x61295185
+    member_id: 0x1956ceb7
   }
 }
 struct_union {
@@ -10436,6 +11086,20 @@ struct_union {
   }
 }
 struct_union {
+  id: 0xa12a6ed8
+  kind: STRUCT
+  name: "VkMemoryMapInfo"
+  definition {
+    bytesize: 48
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0x2d77f979
+    member_id: 0x1ff2e237
+    member_id: 0x9b5b2e66
+    member_id: 0xd939e9bc
+  }
+}
+struct_union {
   id: 0x38439a58
   kind: STRUCT
   name: "VkMemoryRequirements"
@@ -10458,6 +11122,22 @@ struct_union {
   }
 }
 struct_union {
+  id: 0x26fdc152
+  kind: STRUCT
+  name: "VkMemoryToImageCopy"
+  definition {
+    bytesize: 72
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0x2f517caa
+    member_id: 0x62f5ad06
+    member_id: 0xe7f5f25c
+    member_id: 0xde0916ed
+    member_id: 0x61295185
+    member_id: 0x1956ceb7
+  }
+}
+struct_union {
   id: 0x0e2a8d00
   kind: STRUCT
   name: "VkMemoryType"
@@ -10465,6 +11145,18 @@ struct_union {
     bytesize: 8
     member_id: 0xda84fc5e
     member_id: 0x04e02841
+  }
+}
+struct_union {
+  id: 0x7e489da7
+  kind: STRUCT
+  name: "VkMemoryUnmapInfo"
+  definition {
+    bytesize: 32
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0x2d399265
+    member_id: 0x1ff2e237
   }
 }
 struct_union {
@@ -11098,6 +11790,50 @@ struct_union {
   }
 }
 struct_union {
+  id: 0x692d55ec
+  kind: STRUCT
+  name: "VkPushConstantsInfo"
+  definition {
+    bytesize: 48
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0x4dc628dd
+    member_id: 0x9012e957
+    member_id: 0x9b00e25e
+    member_id: 0xd9622167
+    member_id: 0xc49f5d82
+  }
+}
+struct_union {
+  id: 0x12bf6356
+  kind: STRUCT
+  name: "VkPushDescriptorSetInfo"
+  definition {
+    bytesize: 48
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0x9012e85c
+    member_id: 0x4dc629d6
+    member_id: 0x3dc27de4
+    member_id: 0x2d310a26
+    member_id: 0xca9572fc
+  }
+}
+struct_union {
+  id: 0x017185b2
+  kind: STRUCT
+  name: "VkPushDescriptorSetWithTemplateInfo"
+  definition {
+    bytesize: 48
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0x32a26b21
+    member_id: 0x4dc629d6
+    member_id: 0x3dc27de4
+    member_id: 0x27f07c78
+  }
+}
+struct_union {
   id: 0x6b12d777
   kind: STRUCT
   name: "VkQueryPoolCreateInfo"
@@ -11211,6 +11947,21 @@ struct_union {
   name: "VkRenderPass_T"
 }
 struct_union {
+  id: 0x91f3daa4
+  kind: STRUCT
+  name: "VkRenderingAreaInfo"
+  definition {
+    bytesize: 40
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0xf7036d49
+    member_id: 0x5c5f9eda
+    member_id: 0xed9194f4
+    member_id: 0x8ce488a0
+    member_id: 0x0ebcc59d
+  }
+}
+struct_union {
   id: 0xc9ff97f2
   kind: STRUCT
   name: "VkRenderingAttachmentInfo"
@@ -11229,6 +11980,18 @@ struct_union {
   }
 }
 struct_union {
+  id: 0xd765f072
+  kind: STRUCT
+  name: "VkRenderingAttachmentLocationInfo"
+  definition {
+    bytesize: 32
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0x5c5f9af8
+    member_id: 0x8eac5926
+  }
+}
+struct_union {
   id: 0x4d3726de
   kind: STRUCT
   name: "VkRenderingInfo"
@@ -11244,6 +12007,20 @@ struct_union {
     member_id: 0x7d228d01
     member_id: 0x3552ab93
     member_id: 0x0863e9eb
+  }
+}
+struct_union {
+  id: 0x59fd43d6
+  kind: STRUCT
+  name: "VkRenderingInputAttachmentIndexInfo"
+  definition {
+    bytesize: 48
+    member_id: 0xf84a2e48
+    member_id: 0xdcdcd543
+    member_id: 0x5c5f9af8
+    member_id: 0xef218391
+    member_id: 0xab867596
+    member_id: 0xa078a97e
   }
 }
 struct_union {
@@ -11675,6 +12452,17 @@ struct_union {
   }
 }
 struct_union {
+  id: 0xaad362cb
+  kind: STRUCT
+  name: "VkSubresourceLayout2"
+  definition {
+    bytesize: 56
+    member_id: 0xf84a2e48
+    member_id: 0xdcfd7733
+    member_id: 0x1d5c4a52
+  }
+}
+struct_union {
   id: 0x7b48411d
   kind: STRUCT
   name: "VkSurfaceCapabilitiesKHR"
@@ -11810,7 +12598,15 @@ enumeration {
       value: 2
     }
     enumerator {
+      name: "VK_ATTACHMENT_LOAD_OP_NONE"
+      value: 1000400000
+    }
+    enumerator {
       name: "VK_ATTACHMENT_LOAD_OP_NONE_EXT"
+      value: 1000400000
+    }
+    enumerator {
+      name: "VK_ATTACHMENT_LOAD_OP_NONE_KHR"
       value: 1000400000
     }
     enumerator {
@@ -12521,6 +13317,10 @@ enumeration {
       name: "VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_DESCRIPTOR_SET"
     }
     enumerator {
+      name: "VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_PUSH_DESCRIPTORS"
+      value: 1
+    }
+    enumerator {
       name: "VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_PUSH_DESCRIPTORS_KHR"
       value: 1
     }
@@ -12634,6 +13434,10 @@ enumeration {
       value: 1000377004
     }
     enumerator {
+      name: "VK_DYNAMIC_STATE_LINE_STIPPLE"
+      value: 1000259000
+    }
+    enumerator {
       name: "VK_DYNAMIC_STATE_VIEWPORT_W_SCALING_NV"
       value: 1000087000
     }
@@ -12678,10 +13482,6 @@ enumeration {
       value: 1000226000
     }
     enumerator {
-      name: "VK_DYNAMIC_STATE_LINE_STIPPLE_EXT"
-      value: 1000259000
-    }
-    enumerator {
       name: "VK_DYNAMIC_STATE_VERTEX_INPUT_EXT"
       value: 1000352000
     }
@@ -12696,10 +13496,6 @@ enumeration {
     enumerator {
       name: "VK_DYNAMIC_STATE_COLOR_WRITE_ENABLE_EXT"
       value: 1000381000
-    }
-    enumerator {
-      name: "VK_DYNAMIC_STATE_TESSELLATION_DOMAIN_ORIGIN_EXT"
-      value: 1000455002
     }
     enumerator {
       name: "VK_DYNAMIC_STATE_DEPTH_CLAMP_ENABLE_EXT"
@@ -12740,6 +13536,10 @@ enumeration {
     enumerator {
       name: "VK_DYNAMIC_STATE_COLOR_WRITE_MASK_EXT"
       value: 1000455012
+    }
+    enumerator {
+      name: "VK_DYNAMIC_STATE_TESSELLATION_DOMAIN_ORIGIN_EXT"
+      value: 1000455002
     }
     enumerator {
       name: "VK_DYNAMIC_STATE_RASTERIZATION_STREAM_EXT"
@@ -12826,6 +13626,10 @@ enumeration {
       value: 1000524000
     }
     enumerator {
+      name: "VK_DYNAMIC_STATE_LINE_STIPPLE_EXT"
+      value: 1000259000
+    }
+    enumerator {
       name: "VK_DYNAMIC_STATE_CULL_MODE_EXT"
       value: 1000267000
     }
@@ -12884,6 +13688,10 @@ enumeration {
     enumerator {
       name: "VK_DYNAMIC_STATE_PRIMITIVE_RESTART_ENABLE_EXT"
       value: 1000377004
+    }
+    enumerator {
+      name: "VK_DYNAMIC_STATE_LINE_STIPPLE_KHR"
+      value: 1000259000
     }
     enumerator {
       name: "VK_DYNAMIC_STATE_MAX_ENUM"
@@ -14075,6 +14883,14 @@ enumeration {
       value: 1000066013
     }
     enumerator {
+      name: "VK_FORMAT_A1B5G5R5_UNORM_PACK16"
+      value: 1000470000
+    }
+    enumerator {
+      name: "VK_FORMAT_A8_UNORM"
+      value: 1000470001
+    }
+    enumerator {
       name: "VK_FORMAT_PVRTC1_2BPP_UNORM_BLOCK_IMG"
       value: 1000054000
     }
@@ -14107,16 +14923,8 @@ enumeration {
       value: 1000054007
     }
     enumerator {
-      name: "VK_FORMAT_R16G16_S10_5_NV"
+      name: "VK_FORMAT_R16G16_SFIXED5_NV"
       value: 1000464000
-    }
-    enumerator {
-      name: "VK_FORMAT_A1B5G5R5_UNORM_PACK16_KHR"
-      value: 1000470000
-    }
-    enumerator {
-      name: "VK_FORMAT_A8_UNORM_KHR"
-      value: 1000470001
     }
     enumerator {
       name: "VK_FORMAT_ASTC_4x4_SFLOAT_BLOCK_EXT"
@@ -14335,6 +15143,18 @@ enumeration {
       value: 1000340001
     }
     enumerator {
+      name: "VK_FORMAT_R16G16_S10_5_NV"
+      value: 1000464000
+    }
+    enumerator {
+      name: "VK_FORMAT_A1B5G5R5_UNORM_PACK16_KHR"
+      value: 1000470000
+    }
+    enumerator {
+      name: "VK_FORMAT_A8_UNORM_KHR"
+      value: 1000470001
+    }
+    enumerator {
       name: "VK_FORMAT_MAX_ENUM"
       value: 2147483647
     }
@@ -14504,6 +15324,10 @@ enumeration {
       value: 1000314001
     }
     enumerator {
+      name: "VK_IMAGE_LAYOUT_RENDERING_LOCAL_READ"
+      value: 1000232000
+    }
+    enumerator {
       name: "VK_IMAGE_LAYOUT_PRESENT_SRC_KHR"
       value: 1000001002
     }
@@ -14558,6 +15382,10 @@ enumeration {
     enumerator {
       name: "VK_IMAGE_LAYOUT_SHADING_RATE_OPTIMAL_NV"
       value: 1000164003
+    }
+    enumerator {
+      name: "VK_IMAGE_LAYOUT_RENDERING_LOCAL_READ_KHR"
+      value: 1000232000
     }
     enumerator {
       name: "VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL_KHR"
@@ -14684,7 +15512,15 @@ enumeration {
       value: 1
     }
     enumerator {
+      name: "VK_INDEX_TYPE_UINT8"
+      value: 1000265000
+    }
+    enumerator {
       name: "VK_INDEX_TYPE_NONE_KHR"
+      value: 1000165000
+    }
+    enumerator {
+      name: "VK_INDEX_TYPE_NONE_NV"
       value: 1000165000
     }
     enumerator {
@@ -14692,8 +15528,8 @@ enumeration {
       value: 1000265000
     }
     enumerator {
-      name: "VK_INDEX_TYPE_NONE_NV"
-      value: 1000165000
+      name: "VK_INDEX_TYPE_UINT8_KHR"
+      value: 1000265000
     }
     enumerator {
       name: "VK_INDEX_TYPE_MAX_ENUM"
@@ -14996,6 +15832,10 @@ enumeration {
     enumerator {
       name: "VK_OBJECT_TYPE_SHADER_EXT"
       value: 1000482000
+    }
+    enumerator {
+      name: "VK_OBJECT_TYPE_PIPELINE_BINARY_KHR"
+      value: 1000483000
     }
     enumerator {
       name: "VK_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_KHR"
@@ -15562,6 +16402,10 @@ enumeration {
       value: 1000297000
     }
     enumerator {
+      name: "VK_ERROR_NOT_PERMITTED"
+      value: -1000174001
+    }
+    enumerator {
       name: "VK_ERROR_SURFACE_LOST_KHR"
       value: -1000000000
     }
@@ -15618,10 +16462,6 @@ enumeration {
       value: -1000158000
     }
     enumerator {
-      name: "VK_ERROR_NOT_PERMITTED_KHR"
-      value: -1000174001
-    }
-    enumerator {
       name: "VK_ERROR_FULL_SCREEN_EXCLUSIVE_MODE_LOST_EXT"
       value: -1000255000
     }
@@ -15650,8 +16490,16 @@ enumeration {
       value: -1000338000
     }
     enumerator {
-      name: "VK_ERROR_INCOMPATIBLE_SHADER_BINARY_EXT"
+      name: "VK_INCOMPATIBLE_SHADER_BINARY_EXT"
       value: 1000482000
+    }
+    enumerator {
+      name: "VK_PIPELINE_BINARY_MISSING_KHR"
+      value: 1000483000
+    }
+    enumerator {
+      name: "VK_ERROR_NOT_ENOUGH_SPACE_KHR"
+      value: -1000483000
     }
     enumerator {
       name: "VK_ERROR_OUT_OF_POOL_MEMORY_KHR"
@@ -15670,6 +16518,10 @@ enumeration {
       value: -1000174001
     }
     enumerator {
+      name: "VK_ERROR_NOT_PERMITTED_KHR"
+      value: -1000174001
+    }
+    enumerator {
       name: "VK_ERROR_INVALID_DEVICE_ADDRESS_EXT"
       value: -1000257000
     }
@@ -15684,6 +16536,10 @@ enumeration {
     enumerator {
       name: "VK_ERROR_PIPELINE_COMPILE_REQUIRED_EXT"
       value: 1000297000
+    }
+    enumerator {
+      name: "VK_ERROR_INCOMPATIBLE_SHADER_BINARY_EXT"
+      value: 1000482000
     }
     enumerator {
       name: "VK_RESULT_MAX_ENUM"
@@ -16900,6 +17756,206 @@ enumeration {
       value: 1000413003
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_4_FEATURES"
+      value: 55
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_4_PROPERTIES"
+      value: 56
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO"
+      value: 1000174000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GLOBAL_PRIORITY_QUERY_FEATURES"
+      value: 1000388000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_QUEUE_FAMILY_GLOBAL_PRIORITY_PROPERTIES"
+      value: 1000388001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_ROTATE_FEATURES"
+      value: 1000416000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT_CONTROLS_2_FEATURES"
+      value: 1000528000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_EXPECT_ASSUME_FEATURES"
+      value: 1000544000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_FEATURES"
+      value: 1000259000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_LINE_STATE_CREATE_INFO"
+      value: 1000259001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_PROPERTIES"
+      value: 1000259002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES"
+      value: 1000525000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO"
+      value: 1000190001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES"
+      value: 1000190002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INDEX_TYPE_UINT8_FEATURES"
+      value: 1000265000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_MEMORY_MAP_INFO"
+      value: 1000271000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_MEMORY_UNMAP_INFO"
+      value: 1000271001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_5_FEATURES"
+      value: 1000470000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_5_PROPERTIES"
+      value: 1000470001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_RENDERING_AREA_INFO"
+      value: 1000470003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DEVICE_IMAGE_SUBRESOURCE_INFO"
+      value: 1000470004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SUBRESOURCE_LAYOUT_2"
+      value: 1000338002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_IMAGE_SUBRESOURCE_2"
+      value: 1000338003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_CREATE_FLAGS_2_CREATE_INFO"
+      value: 1000470005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_BUFFER_USAGE_FLAGS_2_CREATE_INFO"
+      value: 1000470006
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PUSH_DESCRIPTOR_PROPERTIES"
+      value: 1000080000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DYNAMIC_RENDERING_LOCAL_READ_FEATURES"
+      value: 1000232000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_RENDERING_ATTACHMENT_LOCATION_INFO"
+      value: 1000232001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_RENDERING_INPUT_ATTACHMENT_INDEX_INFO"
+      value: 1000232002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_6_FEATURES"
+      value: 1000545000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_6_PROPERTIES"
+      value: 1000545001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_BIND_MEMORY_STATUS"
+      value: 1000545002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_BIND_DESCRIPTOR_SETS_INFO"
+      value: 1000545003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PUSH_CONSTANTS_INFO"
+      value: 1000545004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PUSH_DESCRIPTOR_SET_INFO"
+      value: 1000545005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PUSH_DESCRIPTOR_SET_WITH_TEMPLATE_INFO"
+      value: 1000545006
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_PROTECTED_ACCESS_FEATURES"
+      value: 1000466000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_ROBUSTNESS_CREATE_INFO"
+      value: 1000068000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_ROBUSTNESS_FEATURES"
+      value: 1000068001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_ROBUSTNESS_PROPERTIES"
+      value: 1000068002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_IMAGE_COPY_FEATURES"
+      value: 1000270000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_IMAGE_COPY_PROPERTIES"
+      value: 1000270001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_MEMORY_TO_IMAGE_COPY"
+      value: 1000270002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_IMAGE_TO_MEMORY_COPY"
+      value: 1000270003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_COPY_IMAGE_TO_MEMORY_INFO"
+      value: 1000270004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_COPY_MEMORY_TO_IMAGE_INFO"
+      value: 1000270005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_HOST_IMAGE_LAYOUT_TRANSITION_INFO"
+      value: 1000270006
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_COPY_IMAGE_TO_IMAGE_INFO"
+      value: 1000270007
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SUBRESOURCE_HOST_MEMCPY_SIZE"
+      value: 1000270008
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_HOST_IMAGE_COPY_DEVICE_PERFORMANCE_QUERY"
+      value: 1000270009
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_SWAPCHAIN_CREATE_INFO_KHR"
       value: 1000001000
     }
@@ -17308,18 +18364,6 @@ enumeration {
       value: 1000067001
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_PIPELINE_ROBUSTNESS_CREATE_INFO_EXT"
-      value: 1000068000
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_ROBUSTNESS_FEATURES_EXT"
-      value: 1000068001
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_ROBUSTNESS_PROPERTIES_EXT"
-      value: 1000068002
-    }
-    enumerator {
       name: "VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_KHR"
       value: 1000073000
     }
@@ -17374,10 +18418,6 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_SEMAPHORE_GET_FD_INFO_KHR"
       value: 1000079001
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PUSH_DESCRIPTOR_PROPERTIES_KHR"
-      value: 1000080000
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_CONDITIONAL_RENDERING_INFO_EXT"
@@ -17892,18 +18932,6 @@ enumeration {
       value: 1000187005
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_KHR"
-      value: 1000174000
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GLOBAL_PRIORITY_QUERY_FEATURES_KHR"
-      value: 1000388000
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_QUEUE_FAMILY_GLOBAL_PRIORITY_PROPERTIES_KHR"
-      value: 1000388001
-    }
-    enumerator {
       name: "VK_STRUCTURE_TYPE_DEVICE_MEMORY_OVERALLOCATION_CREATE_INFO_AMD"
       value: 1000189000
     }
@@ -18040,6 +19068,10 @@ enumeration {
       value: 1000234000
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_QUAD_CONTROL_FEATURES_KHR"
+      value: 1000235000
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_BUDGET_PROPERTIES_EXT"
       value: 1000237000
     }
@@ -18136,24 +19168,8 @@ enumeration {
       value: 1000256000
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_FEATURES_EXT"
-      value: 1000259000
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_LINE_STATE_CREATE_INFO_EXT"
-      value: 1000259001
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_PROPERTIES_EXT"
-      value: 1000259002
-    }
-    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_FLOAT_FEATURES_EXT"
       value: 1000260000
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INDEX_TYPE_UINT8_FEATURES_EXT"
-      value: 1000265000
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_DYNAMIC_STATE_FEATURES_EXT"
@@ -18184,52 +19200,16 @@ enumeration {
       value: 1000269005
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_IMAGE_COPY_FEATURES_EXT"
-      value: 1000270000
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAP_MEMORY_PLACED_FEATURES_EXT"
+      value: 1000272000
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_IMAGE_COPY_PROPERTIES_EXT"
-      value: 1000270001
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAP_MEMORY_PLACED_PROPERTIES_EXT"
+      value: 1000272001
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_MEMORY_TO_IMAGE_COPY_EXT"
-      value: 1000270002
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_IMAGE_TO_MEMORY_COPY_EXT"
-      value: 1000270003
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_COPY_IMAGE_TO_MEMORY_INFO_EXT"
-      value: 1000270004
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_COPY_MEMORY_TO_IMAGE_INFO_EXT"
-      value: 1000270005
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_HOST_IMAGE_LAYOUT_TRANSITION_INFO_EXT"
-      value: 1000270006
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_COPY_IMAGE_TO_IMAGE_INFO_EXT"
-      value: 1000270007
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_SUBRESOURCE_HOST_MEMCPY_SIZE_EXT"
-      value: 1000270008
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_HOST_IMAGE_COPY_DEVICE_PERFORMANCE_QUERY_EXT"
-      value: 1000270009
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_MEMORY_MAP_INFO_KHR"
-      value: 1000271000
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_MEMORY_UNMAP_INFO_KHR"
-      value: 1000271001
+      name: "VK_STRUCTURE_TYPE_MEMORY_MAP_PLACED_INFO_EXT"
+      value: 1000272002
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_FLOAT_2_FEATURES_EXT"
@@ -19068,6 +20048,10 @@ enumeration {
       value: 1000430000
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_MAXIMAL_RECONVERGENCE_FEATURES_KHR"
+      value: 1000434000
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_COMPRESSION_CONTROL_SWAPCHAIN_FEATURES_EXT"
       value: 1000437000
     }
@@ -19180,10 +20164,6 @@ enumeration {
       value: 1000465000
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_PROTECTED_ACCESS_FEATURES_EXT"
-      value: 1000466000
-    }
-    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FORMAT_RESOLVE_FEATURES_ANDROID"
       value: 1000468000
     }
@@ -19196,36 +20176,16 @@ enumeration {
       value: 1000468002
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_5_FEATURES_KHR"
-      value: 1000470000
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ANTI_LAG_FEATURES_AMD"
+      value: 1000476000
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_5_PROPERTIES_KHR"
-      value: 1000470001
+      name: "VK_STRUCTURE_TYPE_ANTI_LAG_DATA_AMD"
+      value: 1000476001
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_RENDERING_AREA_INFO_KHR"
-      value: 1000470003
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_DEVICE_IMAGE_SUBRESOURCE_INFO_KHR"
-      value: 1000470004
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_SUBRESOURCE_LAYOUT_2_KHR"
-      value: 1000338002
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_IMAGE_SUBRESOURCE_2_KHR"
-      value: 1000338003
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PIPELINE_CREATE_FLAGS_2_CREATE_INFO_KHR"
-      value: 1000470005
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_BUFFER_USAGE_FLAGS_2_CREATE_INFO_KHR"
-      value: 1000470006
+      name: "VK_STRUCTURE_TYPE_ANTI_LAG_PRESENTATION_INFO_AMD"
+      value: 1000476002
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_POSITION_FETCH_FEATURES_KHR"
@@ -19242,6 +20202,46 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_SHADER_CREATE_INFO_EXT"
       value: 1000482002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_BINARY_FEATURES_KHR"
+      value: 1000483000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_BINARY_CREATE_INFO_KHR"
+      value: 1000483001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_BINARY_INFO_KHR"
+      value: 1000483002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_BINARY_KEY_KHR"
+      value: 1000483003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_BINARY_PROPERTIES_KHR"
+      value: 1000483004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_RELEASE_CAPTURED_PIPELINE_DATA_INFO_KHR"
+      value: 1000483005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_BINARY_DATA_INFO_KHR"
+      value: 1000483006
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_CREATE_INFO_KHR"
+      value: 1000483007
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DEVICE_PIPELINE_BINARY_INTERNAL_CACHE_CONTROL_KHR"
+      value: 1000483008
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_BINARY_HANDLES_INFO_KHR"
+      value: 1000483009
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TILE_PROPERTIES_FEATURES_QCOM"
@@ -19286,6 +20286,14 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_MUTABLE_DESCRIPTOR_TYPE_CREATE_INFO_EXT"
       value: 1000351002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LEGACY_VERTEX_ATTRIBUTES_FEATURES_EXT"
+      value: 1000495000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LEGACY_VERTEX_ATTRIBUTES_PROPERTIES_EXT"
+      value: 1000495001
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_LAYER_SETTINGS_CREATE_INFO_EXT"
@@ -19364,6 +20372,26 @@ enumeration {
       value: 1000510001
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_AV1_CAPABILITIES_KHR"
+      value: 1000512000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_AV1_PICTURE_INFO_KHR"
+      value: 1000512001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_AV1_PROFILE_INFO_KHR"
+      value: 1000512003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_AV1_SESSION_PARAMETERS_CREATE_INFO_KHR"
+      value: 1000512004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_DECODE_AV1_DPB_SLOT_INFO_KHR"
+      value: 1000512005
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VIDEO_MAINTENANCE_1_FEATURES_KHR"
       value: 1000515000
     }
@@ -19416,18 +20444,6 @@ enumeration {
       value: 1000524000
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES_KHR"
-      value: 1000525000
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO_KHR"
-      value: 1000190001
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES_KHR"
-      value: 1000190002
-    }
-    enumerator {
       name: "VK_STRUCTURE_TYPE_SCREEN_BUFFER_PROPERTIES_QNX"
       value: 1000529000
     }
@@ -19456,34 +20472,6 @@ enumeration {
       value: 1000184000
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_6_FEATURES_KHR"
-      value: 1000545000
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_6_PROPERTIES_KHR"
-      value: 1000545001
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_BIND_MEMORY_STATUS_KHR"
-      value: 1000545002
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_BIND_DESCRIPTOR_SETS_INFO_KHR"
-      value: 1000545003
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PUSH_CONSTANTS_INFO_KHR"
-      value: 1000545004
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PUSH_DESCRIPTOR_SET_INFO_KHR"
-      value: 1000545005
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PUSH_DESCRIPTOR_SET_WITH_TEMPLATE_INFO_KHR"
-      value: 1000545006
-    }
-    enumerator {
       name: "VK_STRUCTURE_TYPE_SET_DESCRIPTOR_BUFFER_OFFSETS_INFO_EXT"
       value: 1000545007
     }
@@ -19494,6 +20482,62 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_POOL_OVERALLOCATION_FEATURES_NV"
       value: 1000546000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAW_ACCESS_CHAINS_FEATURES_NV"
+      value: 1000555000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_RELAXED_EXTENDED_INSTRUCTION_FEATURES_KHR"
+      value: 1000558000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COMMAND_BUFFER_INHERITANCE_FEATURES_NV"
+      value: 1000559000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_7_FEATURES_KHR"
+      value: 1000562000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_7_PROPERTIES_KHR"
+      value: 1000562001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LAYERED_API_PROPERTIES_LIST_KHR"
+      value: 1000562002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LAYERED_API_PROPERTIES_KHR"
+      value: 1000562003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LAYERED_API_VULKAN_PROPERTIES_KHR"
+      value: 1000562004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_FLOAT16_VECTOR_FEATURES_NV"
+      value: 1000563000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_REPLICATED_COMPOSITES_FEATURES_EXT"
+      value: 1000564000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_VALIDATION_FEATURES_NV"
+      value: 1000568000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_ALIGNMENT_CONTROL_FEATURES_MESA"
+      value: 1000575000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_ALIGNMENT_CONTROL_PROPERTIES_MESA"
+      value: 1000575001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_IMAGE_ALIGNMENT_CONTROL_CREATE_INFO_MESA"
+      value: 1000575002
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES"
@@ -19612,6 +20656,18 @@ enumeration {
       value: 1000066000
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_ROBUSTNESS_CREATE_INFO_EXT"
+      value: 1000068000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_ROBUSTNESS_FEATURES_EXT"
+      value: 1000068001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_ROBUSTNESS_PROPERTIES_EXT"
+      value: 1000068002
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES_KHR"
       value: 1000070000
     }
@@ -19662,6 +20718,10 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO_KHR"
       value: 1000077000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PUSH_DESCRIPTOR_PROPERTIES_KHR"
+      value: 1000080000
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES_KHR"
@@ -19900,6 +20960,18 @@ enumeration {
       value: 1000184000
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_KHR"
+      value: 1000174000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GLOBAL_PRIORITY_QUERY_FEATURES_KHR"
+      value: 1000388000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_QUEUE_FAMILY_GLOBAL_PRIORITY_PROPERTIES_KHR"
+      value: 1000388001
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO_EXT"
       value: 1000190001
     }
@@ -19984,6 +21056,18 @@ enumeration {
       value: 1000225002
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DYNAMIC_RENDERING_LOCAL_READ_FEATURES_KHR"
+      value: 1000232000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_RENDERING_ATTACHMENT_LOCATION_INFO_KHR"
+      value: 1000232001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_RENDERING_INPUT_ATTACHMENT_INDEX_INFO_KHR"
+      value: 1000232002
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES_KHR"
       value: 1000241000
     }
@@ -20036,8 +21120,72 @@ enumeration {
       value: 1000257004
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_FEATURES_EXT"
+      value: 1000259000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_LINE_STATE_CREATE_INFO_EXT"
+      value: 1000259001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_PROPERTIES_EXT"
+      value: 1000259002
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES_EXT"
       value: 1000261000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INDEX_TYPE_UINT8_FEATURES_EXT"
+      value: 1000265000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_IMAGE_COPY_FEATURES_EXT"
+      value: 1000270000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_IMAGE_COPY_PROPERTIES_EXT"
+      value: 1000270001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_MEMORY_TO_IMAGE_COPY_EXT"
+      value: 1000270002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_IMAGE_TO_MEMORY_COPY_EXT"
+      value: 1000270003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_COPY_IMAGE_TO_MEMORY_INFO_EXT"
+      value: 1000270004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_COPY_MEMORY_TO_IMAGE_INFO_EXT"
+      value: 1000270005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_HOST_IMAGE_LAYOUT_TRANSITION_INFO_EXT"
+      value: 1000270006
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_COPY_IMAGE_TO_IMAGE_INFO_EXT"
+      value: 1000270007
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SUBRESOURCE_HOST_MEMCPY_SIZE_EXT"
+      value: 1000270008
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_HOST_IMAGE_COPY_DEVICE_PERFORMANCE_QUERY_EXT"
+      value: 1000270009
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_MEMORY_MAP_INFO_KHR"
+      value: 1000271000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_MEMORY_UNMAP_INFO_KHR"
+      value: 1000271001
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES_EXT"
@@ -20208,8 +21356,112 @@ enumeration {
       value: 1000413003
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_ROTATE_FEATURES_KHR"
+      value: 1000416000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_PROTECTED_ACCESS_FEATURES_EXT"
+      value: 1000466000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_5_FEATURES_KHR"
+      value: 1000470000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_5_PROPERTIES_KHR"
+      value: 1000470001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_RENDERING_AREA_INFO_KHR"
+      value: 1000470003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DEVICE_IMAGE_SUBRESOURCE_INFO_KHR"
+      value: 1000470004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SUBRESOURCE_LAYOUT_2_KHR"
+      value: 1000338002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_IMAGE_SUBRESOURCE_2_KHR"
+      value: 1000338003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_CREATE_FLAGS_2_CREATE_INFO_KHR"
+      value: 1000470005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_BUFFER_USAGE_FLAGS_2_CREATE_INFO_KHR"
+      value: 1000470006
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_SHADER_REQUIRED_SUBGROUP_SIZE_CREATE_INFO_EXT"
       value: 1000225001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES_KHR"
+      value: 1000525000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO_KHR"
+      value: 1000190001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES_KHR"
+      value: 1000190002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT_CONTROLS_2_FEATURES_KHR"
+      value: 1000528000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INDEX_TYPE_UINT8_FEATURES_KHR"
+      value: 1000265000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_FEATURES_KHR"
+      value: 1000259000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_LINE_STATE_CREATE_INFO_KHR"
+      value: 1000259001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_PROPERTIES_KHR"
+      value: 1000259002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_EXPECT_ASSUME_FEATURES_KHR"
+      value: 1000544000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_6_FEATURES_KHR"
+      value: 1000545000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_6_PROPERTIES_KHR"
+      value: 1000545001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_BIND_MEMORY_STATUS_KHR"
+      value: 1000545002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_BIND_DESCRIPTOR_SETS_INFO_KHR"
+      value: 1000545003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PUSH_CONSTANTS_INFO_KHR"
+      value: 1000545004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PUSH_DESCRIPTOR_SET_INFO_KHR"
+      value: 1000545005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PUSH_DESCRIPTOR_SET_WITH_TEMPLATE_INFO_KHR"
+      value: 1000545006
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_MAX_ENUM"
@@ -20228,6 +21480,10 @@ enumeration {
     enumerator {
       name: "VK_SUBPASS_CONTENTS_SECONDARY_COMMAND_BUFFERS"
       value: 1
+    }
+    enumerator {
+      name: "VK_SUBPASS_CONTENTS_INLINE_AND_SECONDARY_COMMAND_BUFFERS_KHR"
+      value: 1000451000
     }
     enumerator {
       name: "VK_SUBPASS_CONTENTS_INLINE_AND_SECONDARY_COMMAND_BUFFERS_EXT"
@@ -20507,6 +21763,13 @@ function {
   parameter_id: 0x1c3dbe5a
 }
 function {
+  id: 0x25d1593d
+  return_type_id: 0x48b5725f
+  parameter_id: 0xd65c0312
+  parameter_id: 0x356c50a3
+  parameter_id: 0x2ee4a1f4
+}
+function {
   id: 0x25d37f53
   return_type_id: 0x48b5725f
   parameter_id: 0xd65c0312
@@ -20534,6 +21797,13 @@ function {
   parameter_id: 0xd65c0312
   parameter_id: 0x360afa3e
   parameter_id: 0x3063ab64
+}
+function {
+  id: 0x25e19aa3
+  return_type_id: 0x48b5725f
+  parameter_id: 0xd65c0312
+  parameter_id: 0x3bb1ae83
+  parameter_id: 0x00353a50
 }
 function {
   id: 0x25efcde4
@@ -20620,6 +21890,14 @@ function {
   parameter_id: 0x8afbb6dd
   parameter_id: 0x0d9f5631
   parameter_id: 0x09503040
+}
+function {
+  id: 0x27289309
+  return_type_id: 0x48b5725f
+  parameter_id: 0xd65c0312
+  parameter_id: 0x8afbb6dd
+  parameter_id: 0x30b146cc
+  parameter_id: 0x00353a50
 }
 function {
   id: 0x2728a766
@@ -20823,6 +22101,13 @@ function {
   parameter_id: 0x0bfae037
 }
 function {
+  id: 0x3848016c
+  return_type_id: 0x48b5725f
+  parameter_id: 0xa2313bfe
+  parameter_id: 0x1c3dbe5a
+  parameter_id: 0xb3a3e4db
+}
+function {
   id: 0x386326be
   return_type_id: 0x48b5725f
   parameter_id: 0xa2313bfe
@@ -20956,6 +22241,12 @@ function {
   parameter_id: 0x388022e8
 }
 function {
+  id: 0x38c02b58
+  return_type_id: 0x48b5725f
+  parameter_id: 0xa2313bfe
+  parameter_id: 0x350d0d1b
+}
+function {
   id: 0x38c07746
   return_type_id: 0x48b5725f
   parameter_id: 0xa2313bfe
@@ -21029,6 +22320,12 @@ function {
   parameter_id: 0x38412c07
 }
 function {
+  id: 0x38d1d95b
+  return_type_id: 0x48b5725f
+  parameter_id: 0xa2313bfe
+  parameter_id: 0x31718dff
+}
+function {
   id: 0x38d99f3b
   return_type_id: 0x48b5725f
   parameter_id: 0xa2313bfe
@@ -21053,6 +22350,12 @@ function {
   parameter_id: 0x3dc0f3f8
 }
 function {
+  id: 0x38e4fad5
+  return_type_id: 0x48b5725f
+  parameter_id: 0xa2313bfe
+  parameter_id: 0x3c396e77
+}
+function {
   id: 0x38ebcca1
   return_type_id: 0x48b5725f
   parameter_id: 0xa2313bfe
@@ -21066,6 +22369,18 @@ function {
   parameter_id: 0x3e16556b
 }
 function {
+  id: 0x38f20a95
+  return_type_id: 0x48b5725f
+  parameter_id: 0xa2313bfe
+  parameter_id: 0x39857e4b
+}
+function {
+  id: 0x38f2884d
+  return_type_id: 0x48b5725f
+  parameter_id: 0xa2313bfe
+  parameter_id: 0x39a5c86e
+}
+function {
   id: 0x38f4441f
   return_type_id: 0x48b5725f
   parameter_id: 0xa2313bfe
@@ -21076,6 +22391,12 @@ function {
   return_type_id: 0x48b5725f
   parameter_id: 0xa2313bfe
   parameter_id: 0x38412c07
+}
+function {
+  id: 0x38fedc2a
+  return_type_id: 0x48b5725f
+  parameter_id: 0xa2313bfe
+  parameter_id: 0x3ab0d191
 }
 function {
   id: 0x3906f1de
@@ -21097,6 +22418,16 @@ function {
   parameter_id: 0xa2313bfe
   parameter_id: 0x4f8607a2
   parameter_id: 0xe2891135
+}
+function {
+  id: 0x39197c0c
+  return_type_id: 0x48b5725f
+  parameter_id: 0xa2313bfe
+  parameter_id: 0x4fae1b2c
+  parameter_id: 0xceb067ef
+  parameter_id: 0x1c3dbe5a
+  parameter_id: 0x1c3dbe5a
+  parameter_id: 0x3b01c8c0
 }
 function {
   id: 0x39197c12
@@ -21258,6 +22589,15 @@ function {
   parameter_id: 0x391f15ea
 }
 function {
+  id: 0x3ac27de0
+  return_type_id: 0x48b5725f
+  parameter_id: 0xa2313bfe
+  parameter_id: 0xb1a3d418
+  parameter_id: 0x47f209ef
+  parameter_id: 0x47f209ef
+  parameter_id: 0x3a5b173c
+}
+function {
   id: 0x3ac31b47
   return_type_id: 0x48b5725f
   parameter_id: 0xa2313bfe
@@ -21313,6 +22653,15 @@ function {
   parameter_id: 0xb1a3d418
   parameter_id: 0x1c3dbe5a
   parameter_id: 0x3e08d64d
+}
+function {
+  id: 0x3b32a250
+  return_type_id: 0x48b5725f
+  parameter_id: 0xa2313bfe
+  parameter_id: 0xc55be50b
+  parameter_id: 0xceb067ef
+  parameter_id: 0x1c3dbe5a
+  parameter_id: 0x391f15ea
 }
 function {
   id: 0x3b3b2930
@@ -21416,6 +22765,13 @@ function {
   parameter_id: 0x37b34b1f
   parameter_id: 0x351a0aad
   parameter_id: 0x1c898f28
+}
+function {
+  id: 0x5451826e
+  return_type_id: 0x052a8da0
+  parameter_id: 0xd65c0312
+  parameter_id: 0x1c3dbe5a
+  parameter_id: 0x370cbbda
 }
 function {
   id: 0x5451ad92
@@ -21527,6 +22883,12 @@ function {
   parameter_id: 0x07128728
 }
 function {
+  id: 0x54c9df7f
+  return_type_id: 0x052a8da0
+  parameter_id: 0xd65c0312
+  parameter_id: 0x395a3191
+}
+function {
   id: 0x54ca6c5d
   return_type_id: 0x052a8da0
   parameter_id: 0xd65c0312
@@ -21568,6 +22930,13 @@ function {
   parameter_id: 0xd65c0312
   parameter_id: 0x3ea6b0a3
   parameter_id: 0x091fc02f
+}
+function {
+  id: 0x54d5b192
+  return_type_id: 0x052a8da0
+  parameter_id: 0xd65c0312
+  parameter_id: 0x3e8a7cc5
+  parameter_id: 0x0cbf60eb
 }
 function {
   id: 0x54d5fa26
@@ -21618,6 +22987,12 @@ function {
   parameter_id: 0x1d055bef
 }
 function {
+  id: 0x54dcdc10
+  return_type_id: 0x052a8da0
+  parameter_id: 0xd65c0312
+  parameter_id: 0x3c1aea77
+}
+function {
   id: 0x54dd4b34
   return_type_id: 0x052a8da0
   parameter_id: 0xd65c0312
@@ -21656,6 +23031,12 @@ function {
   parameter_id: 0x31590eac
   parameter_id: 0x3063ab64
   parameter_id: 0x2816662e
+}
+function {
+  id: 0x54e8f57d
+  return_type_id: 0x052a8da0
+  parameter_id: 0xd65c0312
+  parameter_id: 0x3110b11c
 }
 function {
   id: 0x54e9a18d
@@ -22138,12 +23519,28 @@ elf_symbol {
   full_name: "vkCmdBindDescriptorSets"
 }
 elf_symbol {
+  id: 0x10b531df
+  name: "vkCmdBindDescriptorSets2"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x38f20a95
+  full_name: "vkCmdBindDescriptorSets2"
+}
+elf_symbol {
   id: 0x5e9408b3
   name: "vkCmdBindIndexBuffer"
   is_defined: true
   symbol_type: FUNCTION
   type_id: 0x3ac385d2
   full_name: "vkCmdBindIndexBuffer"
+}
+elf_symbol {
+  id: 0x23a9c37d
+  name: "vkCmdBindIndexBuffer2"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x3ac27de0
+  full_name: "vkCmdBindIndexBuffer2"
 }
 elf_symbol {
   id: 0xe5200a99
@@ -22442,6 +23839,46 @@ elf_symbol {
   full_name: "vkCmdPushConstants"
 }
 elf_symbol {
+  id: 0x3d52f8e8
+  name: "vkCmdPushConstants2"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x38fedc2a
+  full_name: "vkCmdPushConstants2"
+}
+elf_symbol {
+  id: 0x7afed2c7
+  name: "vkCmdPushDescriptorSet"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x39197c0c
+  full_name: "vkCmdPushDescriptorSet"
+}
+elf_symbol {
+  id: 0x20b52751
+  name: "vkCmdPushDescriptorSet2"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x38d1d95b
+  full_name: "vkCmdPushDescriptorSet2"
+}
+elf_symbol {
+  id: 0xc075b15f
+  name: "vkCmdPushDescriptorSetWithTemplate"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x3b32a250
+  full_name: "vkCmdPushDescriptorSetWithTemplate"
+}
+elf_symbol {
+  id: 0xc954ec6b
+  name: "vkCmdPushDescriptorSetWithTemplate2"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x38e4fad5
+  full_name: "vkCmdPushDescriptorSetWithTemplate2"
+}
+elf_symbol {
   id: 0xc295c0f9
   name: "vkCmdResetEvent"
   is_defined: true
@@ -22586,6 +24023,14 @@ elf_symbol {
   full_name: "vkCmdSetFrontFace"
 }
 elf_symbol {
+  id: 0xb9178d59
+  name: "vkCmdSetLineStipple"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x3848016c
+  full_name: "vkCmdSetLineStipple"
+}
+elf_symbol {
   id: 0xf747b09e
   name: "vkCmdSetLineWidth"
   is_defined: true
@@ -22616,6 +24061,22 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x38c07746
   full_name: "vkCmdSetRasterizerDiscardEnable"
+}
+elf_symbol {
+  id: 0x67c51ba4
+  name: "vkCmdSetRenderingAttachmentLocations"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x38f2884d
+  full_name: "vkCmdSetRenderingAttachmentLocations"
+}
+elf_symbol {
+  id: 0x5dc7d311
+  name: "vkCmdSetRenderingInputAttachmentIndices"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x38c02b58
+  full_name: "vkCmdSetRenderingInputAttachmentIndices"
 }
 elf_symbol {
   id: 0xdb11954f
@@ -22728,6 +24189,22 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x3b93c960
   full_name: "vkCmdWriteTimestamp2"
+}
+elf_symbol {
+  id: 0xc4a1a4a4
+  name: "vkCopyImageToMemory"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x54dcdc10
+  full_name: "vkCopyImageToMemory"
+}
+elf_symbol {
+  id: 0x534882ec
+  name: "vkCopyMemoryToImage"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x54c9df7f
+  full_name: "vkCopyMemoryToImage"
 }
 elf_symbol {
   id: 0xc2a37e87
@@ -23346,6 +24823,14 @@ elf_symbol {
   full_name: "vkGetDeviceImageSparseMemoryRequirements"
 }
 elf_symbol {
+  id: 0xd325be6b
+  name: "vkGetDeviceImageSubresourceLayout"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x25e19aa3
+  full_name: "vkGetDeviceImageSubresourceLayout"
+}
+elf_symbol {
   id: 0xa0ffb80b
   name: "vkGetDeviceMemoryCommitment"
   is_defined: true
@@ -23440,6 +24925,14 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x272b93ee
   full_name: "vkGetImageSubresourceLayout"
+}
+elf_symbol {
+  id: 0xcaa70860
+  name: "vkGetImageSubresourceLayout2"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x27289309
+  full_name: "vkGetImageSubresourceLayout2"
 }
 elf_symbol {
   id: 0x1d231e69
@@ -23674,6 +25167,14 @@ elf_symbol {
   full_name: "vkGetRenderAreaGranularity"
 }
 elf_symbol {
+  id: 0x44606cf0
+  name: "vkGetRenderingAreaGranularity"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x25d1593d
+  full_name: "vkGetRenderingAreaGranularity"
+}
+elf_symbol {
   id: 0xe2f00557
   name: "vkGetSemaphoreCounterValue"
   is_defined: true
@@ -23704,6 +25205,14 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x55450538
   full_name: "vkMapMemory"
+}
+elf_symbol {
+  id: 0x12caf935
+  name: "vkMapMemory2"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x54d5b192
+  full_name: "vkMapMemory2"
 }
 elf_symbol {
   id: 0x3ad0374b
@@ -23826,6 +25335,14 @@ elf_symbol {
   full_name: "vkSignalSemaphore"
 }
 elf_symbol {
+  id: 0x86224bd9
+  name: "vkTransitionImageLayout"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x5451826e
+  full_name: "vkTransitionImageLayout"
+}
+elf_symbol {
   id: 0xd69e4b68
   name: "vkTrimCommandPool"
   is_defined: true
@@ -23840,6 +25357,14 @@ elf_symbol {
   symbol_type: FUNCTION
   type_id: 0x24760773
   full_name: "vkUnmapMemory"
+}
+elf_symbol {
+  id: 0xc2320df0
+  name: "vkUnmapMemory2"
+  is_defined: true
+  symbol_type: FUNCTION
+  type_id: 0x54e8f57d
+  full_name: "vkUnmapMemory2"
 }
 elf_symbol {
   id: 0x722ea253
@@ -23890,7 +25415,9 @@ interface {
   symbol_id: 0x628f3482
   symbol_id: 0x04c24ded
   symbol_id: 0xb1c944c1
+  symbol_id: 0x10b531df
   symbol_id: 0x5e9408b3
+  symbol_id: 0x23a9c37d
   symbol_id: 0xe5200a99
   symbol_id: 0x058ac046
   symbol_id: 0x3bc80a0c
@@ -23928,6 +25455,11 @@ interface {
   symbol_id: 0x9300d729
   symbol_id: 0xbd927fa1
   symbol_id: 0x150dfe5e
+  symbol_id: 0x3d52f8e8
+  symbol_id: 0x7afed2c7
+  symbol_id: 0x20b52751
+  symbol_id: 0xc075b15f
+  symbol_id: 0xc954ec6b
   symbol_id: 0xc295c0f9
   symbol_id: 0x6f93c391
   symbol_id: 0x4802fd2a
@@ -23946,10 +25478,13 @@ interface {
   symbol_id: 0xfca0c49e
   symbol_id: 0xeb262904
   symbol_id: 0xb162d9de
+  symbol_id: 0xb9178d59
   symbol_id: 0xf747b09e
   symbol_id: 0x93162eb9
   symbol_id: 0xf6e28e04
   symbol_id: 0x3ac82bc7
+  symbol_id: 0x67c51ba4
+  symbol_id: 0x5dc7d311
   symbol_id: 0xdb11954f
   symbol_id: 0xa114a8c1
   symbol_id: 0x47e1231a
@@ -23964,6 +25499,8 @@ interface {
   symbol_id: 0xca101ebf
   symbol_id: 0x7794700e
   symbol_id: 0x4f2bbc78
+  symbol_id: 0xc4a1a4a4
+  symbol_id: 0x534882ec
   symbol_id: 0xc2a37e87
   symbol_id: 0x6bcf130d
   symbol_id: 0x6ba10f8e
@@ -24041,6 +25578,7 @@ interface {
   symbol_id: 0x567790d7
   symbol_id: 0xfd6b6bf6
   symbol_id: 0x8d8efa10
+  symbol_id: 0xd325be6b
   symbol_id: 0xa0ffb80b
   symbol_id: 0xd772b101
   symbol_id: 0x9126adb8
@@ -24053,6 +25591,7 @@ interface {
   symbol_id: 0xebac67eb
   symbol_id: 0x6c24b80c
   symbol_id: 0x38e77938
+  symbol_id: 0xcaa70860
   symbol_id: 0x1d231e69
   symbol_id: 0x92701b24
   symbol_id: 0xd943cd1d
@@ -24082,10 +25621,12 @@ interface {
   symbol_id: 0x45f643f3
   symbol_id: 0x27ad3bf2
   symbol_id: 0x62be74d3
+  symbol_id: 0x44606cf0
   symbol_id: 0xe2f00557
   symbol_id: 0x99371b35
   symbol_id: 0x38a4d206
   symbol_id: 0x1320d8ad
+  symbol_id: 0x12caf935
   symbol_id: 0x3ad0374b
   symbol_id: 0x93951f47
   symbol_id: 0x41abe2ef
@@ -24101,8 +25642,10 @@ interface {
   symbol_id: 0xa7bf4e6a
   symbol_id: 0x5ad09860
   symbol_id: 0x03699c4e
+  symbol_id: 0x86224bd9
   symbol_id: 0xd69e4b68
   symbol_id: 0xc113093a
+  symbol_id: 0xc2320df0
   symbol_id: 0x722ea253
   symbol_id: 0x1156521e
   symbol_id: 0xd593a701

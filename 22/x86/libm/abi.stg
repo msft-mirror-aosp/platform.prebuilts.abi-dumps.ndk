@@ -1634,24 +1634,18 @@ elf_symbol {
   name: "lrint"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0xa261775c
-  full_name: "lrint"
 }
 elf_symbol {
   id: 0x6903c385
   name: "lrintf"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x85ff2746
-  full_name: "lrintf"
 }
 elf_symbol {
   id: 0xe2802b38
   name: "lrintl"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0xb324f01e
-  full_name: "lrintl"
 }
 elf_symbol {
   id: 0x033647cf

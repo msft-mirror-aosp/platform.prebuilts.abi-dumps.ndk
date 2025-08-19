@@ -1028,16 +1028,16 @@ function {
   parameter_id: 0x62aebfd4
 }
 function {
+  id: 0x1d16e5ec
+  return_type_id: 0x48b5725f
+  parameter_id: 0x3529b00c
+  parameter_id: 0x3e75499e
+  parameter_id: 0xf435685e
+}
+function {
   id: 0x1dd23d90
   return_type_id: 0x48b5725f
   parameter_id: 0x3529b00c
-}
-function {
-  id: 0x1dfb6099
-  return_type_id: 0x48b5725f
-  parameter_id: 0x3529b00c
-  parameter_id: 0x051414e1
-  parameter_id: 0xf435685e
 }
 function {
   id: 0x1e20cf34
@@ -1906,7 +1906,7 @@ elf_symbol {
   name: "AIBinder_Class_setTransactionCodeToFunctionNameMap"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x1dfb6099
+  type_id: 0x1d16e5ec
   full_name: "AIBinder_Class_setTransactionCodeToFunctionNameMap"
 }
 elf_symbol {

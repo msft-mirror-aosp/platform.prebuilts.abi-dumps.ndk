@@ -15732,6 +15732,10 @@ enumeration {
       value: 1000483000
     }
     enumerator {
+      name: "VK_OBJECT_TYPE_DATA_GRAPH_PIPELINE_SESSION_ARM"
+      value: 1000507000
+    }
+    enumerator {
       name: "VK_OBJECT_TYPE_EXTERNAL_COMPUTE_QUEUE_NV"
       value: 1000556000
     }
@@ -15810,6 +15814,10 @@ enumeration {
     enumerator {
       name: "VK_PIPELINE_BIND_POINT_SUBPASS_SHADING_HUAWEI"
       value: 1000369003
+    }
+    enumerator {
+      name: "VK_PIPELINE_BIND_POINT_DATA_GRAPH_ARM"
+      value: 1000507000
     }
     enumerator {
       name: "VK_PIPELINE_BIND_POINT_RAY_TRACING_NV"
@@ -16019,6 +16027,10 @@ enumeration {
     enumerator {
       name: "VK_PRESENT_MODE_SHARED_CONTINUOUS_REFRESH_KHR"
       value: 1000111001
+    }
+    enumerator {
+      name: "VK_PRESENT_MODE_FIFO_LATEST_READY_KHR"
+      value: 1000361000
     }
     enumerator {
       name: "VK_PRESENT_MODE_FIFO_LATEST_READY_EXT"
@@ -16300,6 +16312,10 @@ enumeration {
       value: -13
     }
     enumerator {
+      name: "VK_ERROR_VALIDATION_FAILED"
+      value: -1000011001
+    }
+    enumerator {
       name: "VK_ERROR_OUT_OF_POOL_MEMORY"
       value: -1000069000
     }
@@ -16342,10 +16358,6 @@ enumeration {
     enumerator {
       name: "VK_ERROR_INCOMPATIBLE_DISPLAY_KHR"
       value: -1000003001
-    }
-    enumerator {
-      name: "VK_ERROR_VALIDATION_FAILED_EXT"
-      value: -1000011001
     }
     enumerator {
       name: "VK_ERROR_INVALID_SHADER_NV"
@@ -16418,6 +16430,10 @@ enumeration {
     enumerator {
       name: "VK_ERROR_NOT_ENOUGH_SPACE_KHR"
       value: -1000483000
+    }
+    enumerator {
+      name: "VK_ERROR_VALIDATION_FAILED_EXT"
+      value: -1000011001
     }
     enumerator {
       name: "VK_ERROR_OUT_OF_POOL_MEMORY_KHR"
@@ -19146,42 +19162,6 @@ enumeration {
       value: 1000273000
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_SURFACE_PRESENT_MODE_EXT"
-      value: 1000274000
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_SURFACE_PRESENT_SCALING_CAPABILITIES_EXT"
-      value: 1000274001
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_SURFACE_PRESENT_MODE_COMPATIBILITY_EXT"
-      value: 1000274002
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SWAPCHAIN_MAINTENANCE_1_FEATURES_EXT"
-      value: 1000275000
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_SWAPCHAIN_PRESENT_FENCE_INFO_EXT"
-      value: 1000275001
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_SWAPCHAIN_PRESENT_MODES_CREATE_INFO_EXT"
-      value: 1000275002
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_SWAPCHAIN_PRESENT_MODE_INFO_EXT"
-      value: 1000275003
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_SWAPCHAIN_PRESENT_SCALING_CREATE_INFO_EXT"
-      value: 1000275004
-    }
-    enumerator {
-      name: "VK_STRUCTURE_TYPE_RELEASE_SWAPCHAIN_IMAGES_INFO_EXT"
-      value: 1000275005
-    }
-    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_GENERATED_COMMANDS_PROPERTIES_NV"
       value: 1000277000
     }
@@ -19630,10 +19610,6 @@ enumeration {
       value: 1000356000
     }
     enumerator {
-      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENT_MODE_FIFO_LATEST_READY_FEATURES_EXT"
-      value: 1000361000
-    }
-    enumerator {
       name: "VK_STRUCTURE_TYPE_IMPORT_MEMORY_ZIRCON_HANDLE_INFO_FUCHSIA"
       value: 1000364000
     }
@@ -19768,6 +19744,10 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_MAINTENANCE_1_FEATURES_KHR"
       value: 1000386000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_UNTYPED_POINTERS_FEATURES_KHR"
+      value: 1000387000
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_VIEW_MIN_LOD_FEATURES_EXT"
@@ -20298,6 +20278,42 @@ enumeration {
       value: 1000485001
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_SURFACE_PRESENT_MODE_KHR"
+      value: 1000274000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SURFACE_PRESENT_SCALING_CAPABILITIES_KHR"
+      value: 1000274001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SURFACE_PRESENT_MODE_COMPATIBILITY_KHR"
+      value: 1000274002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SWAPCHAIN_MAINTENANCE_1_FEATURES_KHR"
+      value: 1000275000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SWAPCHAIN_PRESENT_FENCE_INFO_KHR"
+      value: 1000275001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SWAPCHAIN_PRESENT_MODES_CREATE_INFO_KHR"
+      value: 1000275002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SWAPCHAIN_PRESENT_MODE_INFO_KHR"
+      value: 1000275003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SWAPCHAIN_PRESENT_SCALING_CREATE_INFO_KHR"
+      value: 1000275004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_RELEASE_SWAPCHAIN_IMAGES_INFO_KHR"
+      value: 1000275005
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PER_VIEW_VIEWPORTS_FEATURES_QCOM"
       value: 1000488000
     }
@@ -20416,6 +20432,86 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_PROPERTIES_KHR"
       value: 1000506002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_CREATE_INFO_ARM"
+      value: 1000507000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_SESSION_CREATE_INFO_ARM"
+      value: 1000507001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_RESOURCE_INFO_ARM"
+      value: 1000507002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_CONSTANT_ARM"
+      value: 1000507003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_SESSION_MEMORY_REQUIREMENTS_INFO_ARM"
+      value: 1000507004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_BIND_DATA_GRAPH_PIPELINE_SESSION_MEMORY_INFO_ARM"
+      value: 1000507005
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DATA_GRAPH_FEATURES_ARM"
+      value: 1000507006
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_SHADER_MODULE_CREATE_INFO_ARM"
+      value: 1000507007
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_PROPERTY_QUERY_RESULT_ARM"
+      value: 1000507008
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_INFO_ARM"
+      value: 1000507009
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_COMPILER_CONTROL_CREATE_INFO_ARM"
+      value: 1000507010
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_SESSION_BIND_POINT_REQUIREMENTS_INFO_ARM"
+      value: 1000507011
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_SESSION_BIND_POINT_REQUIREMENT_ARM"
+      value: 1000507012
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_IDENTIFIER_CREATE_INFO_ARM"
+      value: 1000507013
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_DISPATCH_INFO_ARM"
+      value: 1000507014
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PROCESSING_ENGINE_CREATE_INFO_ARM"
+      value: 1000507016
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_QUEUE_FAMILY_DATA_GRAPH_PROCESSING_ENGINE_PROPERTIES_ARM"
+      value: 1000507017
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_QUEUE_FAMILY_DATA_GRAPH_PROPERTIES_ARM"
+      value: 1000507018
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_QUEUE_FAMILY_DATA_GRAPH_PROCESSING_ENGINE_INFO_ARM"
+      value: 1000507019
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_DATA_GRAPH_PIPELINE_CONSTANT_TENSOR_SEMI_STRUCTURED_SPARSITY_INFO_ARM"
+      value: 1000507015
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PER_VIEW_RENDER_AREAS_FEATURES_QCOM"
@@ -20640,6 +20736,26 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_DISPLAY_MODE_STEREO_PROPERTIES_NV"
       value: 1000551001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_INTRA_REFRESH_CAPABILITIES_KHR"
+      value: 1000552000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_SESSION_INTRA_REFRESH_CREATE_INFO_KHR"
+      value: 1000552001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_INTRA_REFRESH_INFO_KHR"
+      value: 1000552002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_VIDEO_REFERENCE_INTRA_REFRESH_INFO_KHR"
+      value: 1000552003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VIDEO_ENCODE_INTRA_REFRESH_FEATURES_KHR"
+      value: 1000552004
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_VIDEO_ENCODE_QUANTIZATION_MAP_CAPABILITIES_KHR"
@@ -20914,6 +21030,10 @@ enumeration {
       value: 1000586003
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_SURFACE_CREATE_INFO_OHOS"
+      value: 1000685000
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HDR_VIVID_FEATURES_HUAWEI"
       value: 1000590000
     }
@@ -20962,6 +21082,18 @@ enumeration {
       value: 1000609000
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_LAYERED_FEATURES_VALVE"
+      value: 1000611000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_LAYERED_PROPERTIES_VALVE"
+      value: 1000611001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PIPELINE_FRAGMENT_DENSITY_MAP_LAYERED_CREATE_INFO_VALVE"
+      value: 1000611002
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ROBUSTNESS_2_FEATURES_KHR"
       value: 1000286000
     }
@@ -20988,6 +21120,14 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ZERO_INITIALIZE_DEVICE_MEMORY_FEATURES_EXT"
       value: 1000620000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENT_MODE_FIFO_LATEST_READY_FEATURES_KHR"
+      value: 1000361000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_CACHE_INCREMENTAL_MODE_FEATURES_SEC"
+      value: 1000637000
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES"
@@ -21642,6 +21782,42 @@ enumeration {
       value: 1000271001
     }
     enumerator {
+      name: "VK_STRUCTURE_TYPE_SURFACE_PRESENT_MODE_EXT"
+      value: 1000274000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SURFACE_PRESENT_SCALING_CAPABILITIES_EXT"
+      value: 1000274001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SURFACE_PRESENT_MODE_COMPATIBILITY_EXT"
+      value: 1000274002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SWAPCHAIN_MAINTENANCE_1_FEATURES_EXT"
+      value: 1000275000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SWAPCHAIN_PRESENT_FENCE_INFO_EXT"
+      value: 1000275001
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SWAPCHAIN_PRESENT_MODES_CREATE_INFO_EXT"
+      value: 1000275002
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SWAPCHAIN_PRESENT_MODE_INFO_EXT"
+      value: 1000275003
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_SWAPCHAIN_PRESENT_SCALING_CREATE_INFO_EXT"
+      value: 1000275004
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_RELEASE_SWAPCHAIN_IMAGES_INFO_EXT"
+      value: 1000275005
+    }
+    enumerator {
       name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES_EXT"
       value: 1000276000
     }
@@ -21788,6 +21964,10 @@ enumeration {
     enumerator {
       name: "VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_3_KHR"
       value: 1000360000
+    }
+    enumerator {
+      name: "VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENT_MODE_FIFO_LATEST_READY_FEATURES_EXT"
+      value: 1000361000
     }
     enumerator {
       name: "VK_STRUCTURE_TYPE_PIPELINE_INFO_EXT"

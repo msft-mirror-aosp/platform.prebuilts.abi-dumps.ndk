@@ -1109,15 +1109,15 @@ function {
   parameter_id: 0x316b0244
 }
 function {
-  id: 0x9e93d3e3
-  return_type_id: 0x3e10b518
-  parameter_id: 0x3529b00c
-  parameter_id: 0x676a10c4
-}
-function {
   id: 0x9eda9f8a
   return_type_id: 0x3e10b518
   parameter_id: 0x327a20a5
+}
+function {
+  id: 0x9f4737c9
+  return_type_id: 0x3e10b518
+  parameter_id: 0x327a20a5
+  parameter_id: 0x676a10c4
 }
 function {
   id: 0x9fd4b46b
@@ -1890,7 +1890,7 @@ elf_symbol {
   name: "AIBinder_Class_getFunctionName"
   is_defined: true
   symbol_type: FUNCTION
-  type_id: 0x9e93d3e3
+  type_id: 0x9f4737c9
   full_name: "AIBinder_Class_getFunctionName"
 }
 elf_symbol {

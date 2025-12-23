@@ -394,10 +394,6 @@ enumeration {
       name: "AAUDIO_DEVICE_DOCK_ANALOG"
       value: 31
     }
-    enumerator {
-      name: "AAUDIO_DEVICE_BLE_HEARING_AID"
-      value: 32
-    }
   }
 }
 function {

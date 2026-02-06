@@ -2954,10 +2954,6 @@ enumeration {
       name: "APERF_HINT_AUTO_GPU"
       value: 5
     }
-    enumerator {
-      name: "APERF_HINT_AUDIO_PERFORMANCE"
-      value: 6
-    }
   }
 }
 enumeration {

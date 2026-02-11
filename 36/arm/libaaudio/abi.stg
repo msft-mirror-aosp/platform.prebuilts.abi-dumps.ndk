@@ -398,6 +398,14 @@ enumeration {
       name: "AAUDIO_DEVICE_BLE_HEARING_AID"
       value: 32
     }
+    enumerator {
+      name: "AAUDIO_DEVICE_BLE_CENTRAL"
+      value: 33
+    }
+    enumerator {
+      name: "AAUDIO_DEVICE_BLE_CENTRAL_BROADCAST"
+      value: 34
+    }
   }
 }
 function {
